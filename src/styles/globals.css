@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --color-gold-50: theme("colors.gold.50");
+    --color-gold-100: theme("colors.gold.100");
+    --color-gold-200: theme("colors.gold.200");
+    --color-gold-300: theme("colors.gold.300");
+    --color-gold-400: theme("colors.gold.400");
+    --color-gold-500: theme("colors.gold.500");
+    --color-gold-600: theme("colors.gold.600");
+    --color-gold-700: theme("colors.gold.700");
+    --color-gold-800: theme("colors.gold.800");
+    --color-gold-900: theme("colors.gold.900");
+
+    --color-surface: theme("colors.surface.DEFAULT");
+    --color-surface-paper: theme("colors.surface.paper");
+    --color-surface-elevated: theme("colors.surface.elevated");
+
+    --shimmer-color: var(--color-gold-500);
+    --shimmer-opacity: 0.55;
+}
+
+@layer components {
+
+    /* ===================== */
+    /*    SHARED BASE        */
+    /* ===================== */
+
+    [class*="shimmer-"]::before,
+    [class*="shimmer-"]::after {
+        content: "";
+        position: absolute;
+        opacity: var(--shimmer-opacity);
+        pointer-events: none;
+    }
+
+    /* ===================== */
+    /*    EDGES              */
+    /* ===================== */
+
+    .shimmer-top {
+        position: relative;
+    }
+
+    .shimmer-top::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    .shimmer-bottom {
+        position: relative;
+    }
+
+    .shimmer-bottom::before {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    .shimmer-left {
+        position: relative;
+    }
+
+    .shimmer-left::before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 1px;
+        background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    .shimmer-right {
+        position: relative;
+    }
+
+    .shimmer-right::before {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    /* x: left + right */
+    .shimmer-x {
+        position: relative;
+    }
+
+    .shimmer-x::before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 1px;
+        background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    .shimmer-x::after {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    /* y: top + bottom */
+    .shimmer-y {
+        position: relative;
+    }
+
+    .shimmer-y::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    .shimmer-y::after {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
+    }
+
+    /* ===================== */
+    /*    COLOR INTENSITIES  */
+    /* ===================== */
+        .shimmer-gold-50 {
+            --shimmer-color: var(--color-gold-50);
+        }
+    
+        .shimmer-gold-100 {
+            --shimmer-color: var(--color-gold-100);
+        }
+    
+        .shimmer-gold-200 {
+            --shimmer-color: var(--color-gold-200);
+        }
+    
+        .shimmer-gold-300 {
+            --shimmer-color: var(--color-gold-300);
+        }
+    
+        .shimmer-gold-400 {
+            --shimmer-color: var(--color-gold-400);
+        }
+    
+        .shimmer-gold-500 {
+            --shimmer-color: var(--color-gold-500);
+        }
+    
+        .shimmer-gold-600 {
+            --shimmer-color: var(--color-gold-600);
+        }
+    
+        .shimmer-gold-700 {
+            --shimmer-color: var(--color-gold-700);
+        }
+    
+        .shimmer-gold-800 {
+            --shimmer-color: var(--color-gold-800);
+        }
+    
+        .shimmer-gold-900 {
+            --shimmer-color: var(--color-gold-900);
+        }
+
+    /* ===================== */
+    /*    OPACITY VARIANTS   */
+    /* ===================== */
+
+    .shimmer-subtle {
+        --shimmer-opacity: 0.25;
+    }
+
+    .shimmer-soft {
+        --shimmer-opacity: 0.40;
+    }
+
+    .shimmer-medium {
+        --shimmer-opacity: 0.55;
+    }
+
+    .shimmer-strong {
+        --shimmer-opacity: 0.75;
+    }
+
+    .shimmer-full {
+        --shimmer-opacity: 1;
+    }
+}
+
+html,
+body {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Gold scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f3bd27;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0a820;
+}
