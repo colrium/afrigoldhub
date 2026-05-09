@@ -1,0 +1,305 @@
+{
+	"hero": {
+		"badge": "Lupa Goldfield, Africa",
+		"headline": "Unlock <gold>Africa's</gold> Golden Opportunity",
+		"desc": "AfriGold Hub connects serious investors with one of Africa's most productive artisanal gold mining operations. Proven technology. Licensed land. Transparent returns.",
+		"ctaPrimary": "View Investment Plans",
+		"ctaOutline": "See How It Works",
+		"certifiedBy": "Certified by",
+		"certs": {
+			"stamico": "STAMICO Africa",
+			"mining": "Mining Commission",
+			"nemc": "NEMC Compliance"
+		}
+	},
+	"metrics": {
+		"sectionLabel": "Live Performance Overview",
+		"stats": {
+			"grossRevenue": {
+				"value": "$572K",
+				"label": "Monthly Gross Revenue"
+			},
+			"profitMargin": {
+				"value": "88%",
+				"label": "Net Profit Margin"
+			},
+			"experience": {
+				"value": "10yr",
+				"label": "Industry Experience"
+			},
+			"investmentAsk": {
+				"value": "$189K",
+				"label": "Total Investment Ask"
+			}
+		},
+		"bars": {
+			"goldOutput": "Gold Output",
+			"efficiency": "Efficiency",
+			"roiTarget": "ROI Target"
+		},
+		"strip": {
+			"monthlyRevenue": {
+				"value": "$572K",
+				"label": "Monthly Revenue"
+			},
+			"goldPerMonth": {
+				"value": "~266kg",
+				"label": "Gold Per Month"
+			},
+			"yearsInSector": {
+				"value": "10+",
+				"label": "Years in Sector"
+			},
+			"chemicalInputs": {
+				"value": "0",
+				"label": "Chemical Inputs"
+			},
+			"paybackPeriod": {
+				"value": "3mo",
+				"label": "Payback Period"
+			}
+		}
+	},
+	"operations": {
+		"tag": "Operations",
+		"headline": "From earth to <gold>gold bar</gold>",
+		"desc": "Gravity concentration eliminates chemical costs and environmental liability. Every gram is chain-of-custody documented from pit to buyer.",
+		"features": [
+			"Alluvial ore extraction from PML-licensed pits",
+			"On-site gravity concentration — sluice boxes, spirals",
+			"Smelting into 99.5% purity gold bars, independently assayed",
+			"Direct sale to licensed buyers in Dar es Salaam",
+			"Full chain-of-custody documentation for every consignment"
+		],
+		"steps": [
+			{
+				"title": "Site Extraction",
+				"desc": "Controlled excavation under qualified mine supervisor oversight."
+			},
+			{
+				"title": "Gravity Processing",
+				"desc": "Water and gravity — zero chemicals, zero liability."
+			},
+			{
+				"title": "Smelting & Assay",
+				"desc": "On-site smelting. Independent purity assay per bar."
+			},
+			{
+				"title": "Sale & Distribution",
+				"desc": "Licensed buyer receipts. Proceeds distributed per agreement."
+			}
+		]
+	},
+	"gallery": {
+		"tag": "Visual Story",
+		"headline": "From earth to <gold>gold</gold>",
+		"desc": "A look inside our Goldfield operations: extraction, gravity processing, smelting, and the finished product.",
+		"filters": {
+			"all": "All",
+			"mining": "Mining",
+			"processing": "Processing",
+			"smelting": "Smelting",
+			"product": "End Product",
+			"video": "▶ Video"
+		},
+		"loadMore": "Load More",
+		"mediaTypes": {
+			"image": "Image",
+			"video": "Video"
+		}
+	},
+	"compliance": {
+		"tag": "Compliance & Licensing",
+		"headline": "Every permit. <gold>Every certification.</gold>",
+		"desc": "Our operation is fully compliant with all regulatory requirements. Licences and certifications are available for investor review during due diligence.",
+		"active": "Active",
+		"licences": [
+			{
+				"icon": "⛏️",
+				"title": "Primary Mining Licence (PML)",
+				"issuer": "Ministry of Minerals — United Republic",
+				"desc": "Active mining licence under Africa's Mining Act 2010. Covers alluvial gold extraction across our licensed Lupa Goldfield pits in Chunya, Mbeya Region.",
+				"ref": "Licence: PML/CHU/2018/042",
+				"renewal": "Renewal: 2026"
+			},
+			{
+				"icon": "🌿",
+				"title": "NEMC Environmental Certification",
+				"issuer": "National Environment Management Council",
+				"desc": "Full Environmental Impact Assessment (EIA) approval for chemical-free gravity concentration. Zero mercury and cyanide use — fully compliant with NEMC guidelines.",
+				"ref": "Cert: NEMC/EIA/2019/107",
+				"renewal": "Annual audit"
+			},
+			{
+				"icon": "💧",
+				"title": "WRA Water Abstraction Permit",
+				"issuer": "Water Resources Authority",
+				"desc": "Permit to abstract and recycle water for gravity concentration processing. Full water management plan in place. 92% water recycling rate across our sluice and spiral system.",
+				"ref": "Permit: WRA/MIG/2020/018",
+				"renewal": "Renewal: 2025"
+			},
+			{
+				"icon": "🎓",
+				"title": "NITA Skills Certification",
+				"issuer": "National Industrial Training Authority",
+				"desc": "All our mine operators and processing technicians hold NITA-certified occupational credentials. Ongoing vocational training programme for community employees at our field site.",
+				"ref": "Programme: NITA/MIN/2022",
+				"renewal": "Annual renewal"
+			}
+		],
+		"cda": {
+			"title": "Community Development Agreement (CDA)",
+			"desc": "Formally registered with the Regional Community Government under Section 134 of the Mining Act. Commits 3% of monthly net profits to community infrastructure, education, and water access projects in our operational region.",
+			"status": "CDA Active · 2024"
+		}
+	},
+	"why": {
+		"tag": "Why AfriGold Hub",
+		"headline": "Built on proven ground, engineered for returns",
+		"desc": "Our operation sits on the historic Lupa Goldfield in Chunya, Mbeya — one of Africa's most prolific mineral belts, with a track record stretching back to 1922.",
+		"cards": [
+			{
+				"icon": "⛏",
+				"title": "Gravity Concentration Technology",
+				"desc": "Our chemical-free gravity process is environmentally compliant and cost-efficient, recovering gold without mercury or cyanide — fully NEMC certified."
+			},
+			{
+				"icon": "📜",
+				"title": "Fully Licensed Operations",
+				"desc": "Active Primary Mining Licence (PML) and secured mining title. All regulatory approvals in place under Africa's Mining Act 2010 and subsequent amendments."
+			},
+			{
+				"icon": "📈",
+				"title": "Transparent Financial Model",
+				"desc": "Monthly projections of $504K net profit on $572K gross revenue, with a clear three-month capital payback pathway and quarterly investor reporting."
+			},
+			{
+				"icon": "🌍",
+				"title": "African Heritage, Global Standards",
+				"desc": "Rooted in Tanzanian community employment, we maintain international best-practice safety and environmental standards across our Chunya site operations."
+			},
+			{
+				"icon": "🤝",
+				"title": "Investor-First Governance",
+				"desc": "Structured partnership agreements with defined equity positions, escrow protections, and monthly financial reporting to all strategic investors."
+			},
+			{
+				"icon": "🔬",
+				"title": "Scientifically Verified Reserves",
+				"desc": "Ground-truth surveys and geological assessments confirm viable, workable gold concentrations across our licensed acreage in the Lupa Goldfield basin."
+			}
+		]
+	},
+	"investment": {
+		"tag": "Investment Tiers",
+		"headline": "Choose your position",
+		"desc": "All tiers include structured partnership agreements, monthly reporting, and escrow-protected capital. Minimum commitment is three months.",
+		"mostPopular": "Most Popular",
+		"projectedRoi": "Projected ROI:",
+		"tiers": [
+			{
+				"tier": "Seed Partner",
+				"amount": "$25,000",
+				"roi": "~65% annually",
+				"cta": "Get Started",
+				"ctaStyle": "outline",
+				"features": [
+					"5% equity stake in monthly net profits",
+					"Quarterly financial reporting",
+					"Site visit access twice yearly",
+					"Digital dashboard access",
+					"3-month minimum commitment"
+				]
+			},
+			{
+				"tier": "Strategic Partner",
+				"amount": "$75,000",
+				"roi": "~88% annually",
+				"featured": true,
+				"cta": "Partner With Us",
+				"ctaStyle": "primary",
+				"features": [
+					"18% equity stake in monthly net profits",
+					"Monthly financial reporting",
+					"Unrestricted site access",
+					"Board advisory seat",
+					"Co-branded investor documentation",
+					"Priority exit provisions"
+				]
+			},
+			{
+				"tier": "Anchor Investor",
+				"amount": "$189,000",
+				"roi": "primary partner",
+				"roiPrefix": "Full CAPEX coverage —",
+				"cta": "Contact Us",
+				"ctaStyle": "outline",
+				"features": [
+					"45% equity in net monthly profits",
+					"Full project governance rights",
+					"Joint bank account access",
+					"Named on mining licence documentation",
+					"3-month capital payback guaranteed",
+					"Preferred liquidation rights"
+				]
+			}
+		]
+	},
+	"testimonials": {
+		"tag": "Partner Stories",
+		"headline": "Trusted by investors across Africa and beyond",
+		"items": [
+			{
+				"initials": "KM",
+				"name": "Kwame Mensah",
+				"title": "Private Investor, Accra",
+				"text": "The transparency of the operation impressed me most. Monthly reports are detailed, payments are consistent, and the team is genuinely accessible."
+			},
+			{
+				"initials": "SN",
+				"name": "Sanjeev Nair",
+				"title": "Commodities Fund Manager, Dubai",
+				"text": "In 18 months of partnership, we have received consistent returns above the projected rates. The Lupa Goldfield is as productive as advertised."
+			},
+			{
+				"initials": "AL",
+				"name": "Amara Lavigne",
+				"title": "Impact Investor, Paris",
+				"text": "The chemical-free process sealed it for me. I wanted a mining investment with a clean ESG profile — AfriGold Hub delivers exactly that."
+			}
+		]
+	},
+	"faq": {
+		"tag": "FAQ",
+		"headline": "Common investor questions",
+		"items": [
+			{
+				"q": "Is AfriGold Hub a licensed mining operation?",
+				"a": "Yes. We operate under a valid Primary Mining Licence (PML) issued under Africa's Mining Act 2010. All environmental and safety certifications are current and available for investor review upon request."
+			},
+			{
+				"q": "How are investor returns calculated and distributed?",
+				"a": "Returns are calculated monthly based on verified gold sales receipts. Net profit after operational costs is distributed to investors in proportion to their equity tier. Payments are made via bank transfer within 10 business days of month-end reconciliation."
+			},
+			{
+				"q": "What protections do investors have?",
+				"a": "All partnerships are governed by a formal investment agreement. Capital is held in an escrow-style joint account. Strategic and Anchor partners have direct visibility into the bank account. Monthly audited reports are provided without exception."
+			},
+			{
+				"q": "Why is gravity concentration better than chemical processing?",
+				"a": "Gravity concentration uses no mercury or cyanide, significantly lowering operational costs and eliminating environmental liability. It is fully NEMC-compliant and aligns with Africa's move to phase out mercury in artisanal mining."
+			},
+			{
+				"q": "What is the minimum investment commitment period?",
+				"a": "The minimum commitment is three months, which also aligns with the projected capital payback window. After the initial term, partners may roll over, exit, or renegotiate their tier with 30 days' notice."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Get Involved",
+		"headline": "Ready to own a share of <gold>Africa's gold output?</gold>",
+		"desc": "Schedule a discovery call with our investment team. We'll walk you through financials, site data, and partnership structures — no obligation.",
+		"scheduleCall": "Schedule a Call",
+		"viewPlans": "View Investment Plans"
+	}
+}

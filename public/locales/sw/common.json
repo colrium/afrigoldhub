@@ -6,5 +6,371 @@
 		"notFound": "Page not found",
 		"serverError": "Internal server error",
 		"forbidden": "Access forbidden"
+	},
+	"nav": {
+		"links": {
+			"about": "Kuhusu",
+			"operations": "Operesheni",
+			"gallery": "Matukio",
+			"invest": "Wekeza",
+			"faq": "Maswali"
+		},
+		"learnMore": "Jifunza Zaidi",
+		"partnerWithUs": "Shirikiana Nasi"
+	},
+	"hero": {
+		"badge": "Lupa Goldfield, Afrika",
+		"headline": "Gundua Fursa ya <gold>Dhahabu ya Afrika</gold>",
+		"desc": "AfriGold Hub inaunganisha wawekezaji wa kweli na moja ya shughuli za uchimbaji dhahabu zinazofanya kazi zaidi Afrika. Teknolojia iliyothibitishwa. Ardhi yenye leseni. Mapato ya uwazi.",
+		"ctaPrimary": "Angalia Mipango ya Uwekezaji",
+		"ctaOutline": "Ona Jinsi Inavyofanya Kazi",
+		"certifiedBy": "Imeidhinishwa na",
+		"certs": {
+			"stamico": "STAMICO Afrika",
+			"mining": "Tume ya Madini",
+			"nemc": "Uzingatiaji wa NEMC"
+		}
+	},
+	"metrics": {
+		"sectionLabel": "Muhtasari wa Utendaji wa Sasa",
+		"stats": {
+			"grossRevenue": {
+				"value": "$572K",
+				"label": "Mapato ya Kila Mwezi"
+			},
+			"profitMargin": {
+				"value": "88%",
+				"label": "Asilimia ya Faida Halisi"
+			},
+			"experience": {
+				"value": "10yr",
+				"label": "Uzoefu wa Sekta"
+			},
+			"investmentAsk": {
+				"value": "$189K",
+				"label": "Jumla ya Uwekezaji Unaohitajika"
+			}
+		},
+		"bars": {
+			"goldOutput": "Uzalishaji wa Dhahabu",
+			"efficiency": "Ufanisi",
+			"roiTarget": "Lengo la ROI"
+		},
+		"strip": {
+			"monthlyRevenue": {
+				"value": "$572K",
+				"label": "Mapato ya Kila Mwezi"
+			},
+			"goldPerMonth": {
+				"value": "~266kg",
+				"label": "Dhahabu kwa Mwezi"
+			},
+			"yearsInSector": {
+				"value": "10+",
+				"label": "Miaka katika Sekta"
+			},
+			"chemicalInputs": {
+				"value": "0",
+				"label": "Kemikali Zinazotumiwa"
+			},
+			"paybackPeriod": {
+				"value": "3mo",
+				"label": "Kipindi cha Malipo"
+			}
+		}
+	},
+	"operations": {
+		"tag": "Operesheni",
+		"headline": "Kutoka ardhini hadi <gold>baa la dhahabu</gold>",
+		"desc": "Mkusanyiko wa mvuto hupunguza gharama za kemikali na dhima ya mazingira. Kila gramu imerekodiwa kutoka shimo hadi mnunuzi.",
+		"features": [
+			"Uchimbaji wa madini ya alluvial kutoka mashimo yenye leseni ya PML",
+			"Mtambo wa mkusanyiko wa mvuto wa ndani — visanduku vya sluice, spirals",
+			"Kuyeyusha hadi baa la dhahabu la usafi wa 99.5%, iliyokaguliwa kwa kujitegemea",
+			"Mauzo ya moja kwa moja kwa wanunuzi wenye leseni Dar es Salaam",
+			"Nyaraka kamili za mnyororo wa uhifadhi kwa kila usafirishaji"
+		],
+		"steps": [
+			{
+				"title": "Uchimbaji wa Tovuti",
+				"desc": "Uchimbaji uliodhibitiwa chini ya usimamizi wa msimamizi wa mgodi."
+			},
+			{
+				"title": "Usindikaji wa Mvuto",
+				"desc": "Maji na mvuto — kemikali sifuri, dhima sifuri."
+			},
+			{
+				"title": "Kuyeyusha na Kupima",
+				"desc": "Kuyeyusha ndani ya tovuti. Upimaji wa usafi kwa kila baa."
+			},
+			{
+				"title": "Mauzo na Usambazaji",
+				"desc": "Risiti za wanunuzi wenye leseni. Mapato yanasambazwa kulingana na makubaliano."
+			}
+		]
+	},
+	"gallery": {
+		"tag": "Hadithi ya Picha",
+		"headline": "Kutoka ardhini hadi <gold>dhahabu</gold>",
+		"desc": "Mtazamo wa ndani wa shughuli zetu za Goldfield: uchimbaji, usindikaji wa mvuto, kuyeyusha, na bidhaa ya mwisho.",
+		"filters": {
+			"all": "Zote",
+			"mining": "Uchimbaji",
+			"processing": "Usindikaji",
+			"smelting": "Kuyeyusha",
+			"product": "Bidhaa ya Mwisho",
+			"video": "▶ Video"
+		},
+		"loadMore": "Pakia Zaidi",
+		"mediaTypes": {
+			"image": "Picha",
+			"video": "Video"
+		}
+	},
+	"compliance": {
+		"tag": "Uzingatiaji na Leseni",
+		"headline": "Kila ruhusa. <gold>Kila uthibitisho.</gold>",
+		"desc": "Operesheni yetu inazingatia kikamilifu mahitaji yote ya udhibiti. Leseni na vyeti vinapatikana kwa wawekezaji wakati wa ukaguzi.",
+		"active": "Hai",
+		"licences": [
+			{
+				"icon": "⛏️",
+				"title": "Leseni ya Uchimbaji wa Msingi (PML)",
+				"issuer": "Wizara ya Madini — Jamhuri ya Muungano",
+				"desc": "Leseni ya uchimbaji inayotumika chini ya Sheria ya Madini ya Afrika ya 2010.",
+				"ref": "Leseni: PML/CHU/2018/042",
+				"renewal": "Upya: 2026"
+			},
+			{
+				"icon": "🌿",
+				"title": "Uthibitisho wa Mazingira wa NEMC",
+				"issuer": "Baraza la Kitaifa la Usimamizi wa Mazingira",
+				"desc": "Idhini kamili ya Tathmini ya Athari za Mazingira (EIA) kwa mkusanyiko wa mvuto bila kemikali.",
+				"ref": "Cheti: NEMC/EIA/2019/107",
+				"renewal": "Ukaguzi wa kila mwaka"
+			},
+			{
+				"icon": "💧",
+				"title": "Ruhusa ya Kuchota Maji ya WRA",
+				"issuer": "Mamlaka ya Rasilimali za Maji",
+				"desc": "Ruhusa ya kuchota na kusaga maji kwa usindikaji wa mkusanyiko wa mvuto.",
+				"ref": "Ruhusa: WRA/MIG/2020/018",
+				"renewal": "Upya: 2025"
+			},
+			{
+				"icon": "🎓",
+				"title": "Uthibitisho wa Ujuzi wa NITA",
+				"issuer": "Mamlaka ya Mafunzo ya Viwanda ya Kitaifa",
+				"desc": "Waendeshaji wetu wote wa migodi na mafundi wa usindikaji wana vyeti vya NITA.",
+				"ref": "Programu: NITA/MIN/2022",
+				"renewal": "Upya wa kila mwaka"
+			}
+		],
+		"cda": {
+			"title": "Makubaliano ya Maendeleo ya Jamii (CDA)",
+			"desc": "Imesajiliwa rasmi na Serikali ya Jamii ya Kikanda chini ya Kifungu 134 cha Sheria ya Madini. Inajitolea 3% ya faida halisi ya kila mwezi kwa miundombinu ya jamii.",
+			"status": "CDA Hai · 2024"
+		}
+	},
+	"why": {
+		"tag": "Kwa Nini AfriGold Hub",
+		"headline": "Imejengwa kwenye ardhi iliyothibitishwa, iliyoundwa kwa mapato",
+		"desc": "Operesheni yetu ipo kwenye Lupa Goldfield ya kihistoria huko Chunya, Mbeya — moja ya mikanda ya madini yenye tija zaidi Afrika, yenye rekodi nzuri tangu 1922.",
+		"cards": [
+			{
+				"icon": "⛏",
+				"title": "Teknolojia ya Mkusanyiko wa Mvuto",
+				"desc": "Mchakato wetu bila kemikali unazingatia mazingira na ufanisi wa gharama."
+			},
+			{
+				"icon": "📜",
+				"title": "Operesheni Zenye Leseni Kamili",
+				"desc": "Leseni ya Uchimbaji wa Msingi (PML) inayotumika na haki ya uchimbaji iliyohakikishwa."
+			},
+			{
+				"icon": "📈",
+				"title": "Mfumo wa Fedha wa Uwazi",
+				"desc": "Makadirio ya kila mwezi ya faida halisi ya $504K kwenye mapato ya jumla ya $572K."
+			},
+			{
+				"icon": "🌍",
+				"title": "Urithi wa Afrika, Viwango vya Kimataifa",
+				"desc": "Imekita katika ajira ya jamii ya Tanzania, tunazingatia viwango vya kimataifa vya usalama."
+			},
+			{
+				"icon": "🤝",
+				"title": "Utawala wa Kwanza kwa Mwekezaji",
+				"desc": "Makubaliano ya ushirikiano yaliyoundwa yenye nafasi za hisa zilizofafanuliwa."
+			},
+			{
+				"icon": "🔬",
+				"title": "Akiba Zilizothibitishwa Kisayansi",
+				"desc": "Tafiti za kijiografia zinathibitisha mkusanyiko wa dhahabu unaofaa kwenye ardhi yetu yenye leseni."
+			}
+		]
+	},
+	"investment": {
+		"tag": "Ngazi za Uwekezaji",
+		"headline": "Chagua nafasi yako",
+		"desc": "Ngazi zote zinajumuisha makubaliano ya ushirikiano yaliyoundwa, ripoti za kila mwezi, na mtaji uliohifadhiwa. Ahadi ya chini ni miezi mitatu.",
+		"mostPopular": "Maarufu Zaidi",
+		"projectedRoi": "ROI Inayokadiriwa:",
+		"tiers": [
+			{
+				"tier": "Mshirika wa Mbegu",
+				"amount": "$25,000",
+				"roi": "~65% kwa mwaka",
+				"cta": "Anza",
+				"ctaStyle": "outline",
+				"features": [
+					"Hisa ya 5% katika faida halisi ya kila mwezi",
+					"Ripoti za fedha za kila robo mwaka",
+					"Ufikio wa tovuti mara mbili kwa mwaka",
+					"Ufikio wa dashibodi ya dijitali",
+					"Ahadi ya miezi 3 ya chini"
+				]
+			},
+			{
+				"tier": "Mshirika wa Kimkakati",
+				"amount": "$75,000",
+				"roi": "~88% kwa mwaka",
+				"featured": true,
+				"cta": "Shirikiana Nasi",
+				"ctaStyle": "primary",
+				"features": [
+					"Hisa ya 18% katika faida halisi ya kila mwezi",
+					"Ripoti za fedha za kila mwezi",
+					"Ufikio usio na kikwazo wa tovuti",
+					"Kiti cha ushauri wa bodi",
+					"Nyaraka za mwekezaji zilizo na alama ya pamoja",
+					"Masharti ya kutoka ya kipaumbele"
+				]
+			},
+			{
+				"tier": "Mwekezaji Mkuu",
+				"amount": "$189,000",
+				"roi": "mshirika mkuu",
+				"roiPrefix": "Ufunikaji kamili wa CAPEX —",
+				"cta": "Wasiliana Nasi",
+				"ctaStyle": "outline",
+				"features": [
+					"Hisa ya 45% katika faida halisi ya kila mwezi",
+					"Haki kamili za utawala wa mradi",
+					"Ufikio wa akaunti ya benki ya pamoja",
+					"Imeorodheshwa kwenye nyaraka za leseni ya uchimbaji",
+					"Malipo ya mtaji ya miezi 3 yamehakikishiwa",
+					"Haki za uondoaji wa upendeleo"
+				]
+			}
+		]
+	},
+	"testimonials": {
+		"tag": "Hadithi za Washirika",
+		"headline": "Kuaminiwa na wawekezaji kote Afrika na zaidi ya hapo",
+		"items": [
+			{
+				"initials": "KM",
+				"name": "Kwame Mensah",
+				"title": "Mwekezaji Binafsi, Accra",
+				"text": "Uwazi wa operesheni ulinivutia zaidi. Ripoti za kila mwezi ni za kina, malipo ni ya kawaida, na timu inafikiwa kweli kweli."
+			},
+			{
+				"initials": "SN",
+				"name": "Sanjeev Nair",
+				"title": "Msimamizi wa Mfuko wa Bidhaa, Dubai",
+				"text": "Katika miezi 18 ya ushirikiano, tumepokea mapato ya kawaida zaidi ya viwango vilivyokadiriwa."
+			},
+			{
+				"initials": "AL",
+				"name": "Amara Lavigne",
+				"title": "Mwekezaji wa Athari, Paris",
+				"text": "Mchakato bila kemikali uliniridhisha. Nilitaka uwekezaji wa uchimbaji wenye wasifu safi wa ESG — AfriGold Hub inafanya hivyo."
+			}
+		]
+	},
+	"faq": {
+		"tag": "Maswali",
+		"headline": "Maswali ya kawaida ya wawekezaji",
+		"items": [
+			{
+				"q": "Je, AfriGold Hub ni operesheni ya uchimbaji yenye leseni?",
+				"a": "Ndiyo. Tunafanya kazi chini ya Leseni ya Uchimbaji wa Msingi (PML) iliyotolewa chini ya Sheria ya Madini ya Afrika ya 2010."
+			},
+			{
+				"q": "Mapato ya wawekezaji yanakokotolewaje na kusambazwaje?",
+				"a": "Mapato yanakokotolewa kila mwezi kulingana na risiti za mauzo ya dhahabu zilizothibitishwa."
+			},
+			{
+				"q": "Wawekezaji wana ulinzi gani?",
+				"a": "Ushirikiano wote unasimamiwa na makubaliano rasmi ya uwekezaji. Mtaji unashikiliwa katika akaunti ya pamoja ya aina ya escrow."
+			},
+			{
+				"q": "Kwa nini mkusanyiko wa mvuto ni bora kuliko usindikaji wa kemikali?",
+				"a": "Mkusanyiko wa mvuto hautumii zebaki au sianidi, ukipunguza gharama za uendeshaji na kuondoa dhima ya mazingira."
+			},
+			{
+				"q": "Kipindi cha chini cha ahadi ya uwekezaji ni nini?",
+				"a": "Ahadi ya chini ni miezi mitatu, ambayo pia inakubaliana na dirisha la malipo ya mtaji iliyokadiriwa."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Shiriki",
+		"headline": "Uko tayari kumiliki sehemu ya <gold>uzalishaji wa dhahabu wa Afrika?</gold>",
+		"desc": "Panga simu ya ugunduzi na timu yetu ya uwekezaji. Tutakupeleka kupitia fedha, data ya tovuti, na miundo ya ushirikiano — bila kulazimika.",
+		"scheduleCall": "Panga Simu",
+		"viewPlans": "Angalia Mipango ya Uwekezaji"
+	},
+	"footer": {
+		"tagline": "Jukwaa la uwazi zaidi la uwekezaji wa dhahabu ya sanaa Afrika. Lupa Goldfield, Chunya, Mkoa wa Mbeya.",
+		"columns": {
+			"company": {
+				"heading": "Kampuni",
+				"links": ["Kuhusu Sisi", "Timu Yetu", "Operesheni", "Habari"]
+			},
+			"invest": {
+				"heading": "Wekeza",
+				"links": [
+					"Ngazi za Uwekezaji",
+					"Makubaliano ya Mshirika",
+					"Ufafanuzi wa Hatari",
+					"Ripoti za Fedha"
+				]
+			},
+			"contact": {
+				"heading": "Mawasiliano",
+				"links": [
+					"invest@afrigoldhub.com",
+					"Ofisi ya Dar es Salaam",
+					"Ofisi ya Tovuti ya Chunya",
+					"Panga Simu"
+				]
+			}
+		},
+		"copyright": "© 2025 AfriGold Hub / Richkha Mining and General Traders Ltd. Haki zote zimehifadhiwa.",
+		"legal": {
+			"privacy": "Sera ya Faragha",
+			"terms": "Masharti ya Matumizi",
+			"risk": "Kanusho la Hatari"
+		}
+	},
+	"chat": {
+		"agentNameAI": "AfriGold AI",
+		"agentNameHuman": "Timu ya Msaada",
+		"online": "Mtandaoni",
+		"modeAI": "AI",
+		"modeHuman": "Binadamu",
+		"placeholder": "Uliza swali...",
+		"quickReplies": [
+			"Chaguo za uwekezaji",
+			"Jinsi inavyofanya kazi",
+			"Mapato yanayotarajiwa",
+			"Je, ina leseni"
+		],
+		"welcomeMessage": "Karibu AfriGold Hub. Niulize kuhusu ngazi zetu za uwekezaji, operesheni, au mapato.",
+		"switchedToAI": "Umebadilishwa kwa msaidizi wa AI. Ninaweza kujibu maswali mara moja kuhusu uwekezaji, operesheni, na mapato.",
+		"switchedToHuman": "Sasa umeunganishwa na timu yetu ya msaada wa binadamu. Muda wa majibu unaweza kuwa masaa 1–2 wakati wa masaa ya kazi (EAT).",
+		"humanFallback": "Asante kwa ujumbe wako. Mwanachama wa timu yetu ya uwekezaji atajibu ndani ya masaa 1–2 ya biashara.",
+		"aiFallback": "Swali zuri. Kwa majibu ya kina kuhusu operesheni za AfriGold Hub, tafadhali tuma barua pepe kwa invest@afrigoldhub.com."
 	}
 }

@@ -22,3 +22,9 @@ trim_trailing_whitespace = false
 [Makefile]
 indent_style = tab
 indent_size = 4
+
+[*.{html,svg}]
+indent_style = tab
+indent_size = 4
+prettier_bracket_same_line = false
+prettier_html_whitespace_sensitivity = strict
