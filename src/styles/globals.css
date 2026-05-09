@@ -2,23 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --color-gold-50: theme("colors.gold.50");
-    --color-gold-100: theme("colors.gold.100");
-    --color-gold-200: theme("colors.gold.200");
-    --color-gold-300: theme("colors.gold.300");
-    --color-gold-400: theme("colors.gold.400");
-    --color-gold-500: theme("colors.gold.500");
-    --color-gold-600: theme("colors.gold.600");
-    --color-gold-700: theme("colors.gold.700");
-    --color-gold-800: theme("colors.gold.800");
-    --color-gold-900: theme("colors.gold.900");
-
-    --color-surface: theme("colors.surface.DEFAULT");
-    --color-surface-paper: theme("colors.surface.paper");
-    --color-surface-elevated: theme("colors.surface.elevated");
-
-    --shimmer-color: var(--color-gold-500);
-    --shimmer-opacity: 0.55;
+    --color-gold-50: #fef9e7;
+        --color-gold-100: #fdf0c0;
+        --color-gold-200: #fbe596;
+        --color-gold-300: #f9d96b;
+        --color-gold-400: #f7ce4a;
+        --color-gold-500: #f3bd27;
+        --color-gold-600: #e0a820;
+        --color-gold-700: #c48f18;
+        --color-gold-800: #a87610;
+        --color-gold-900: #7d5508;
+    
+        --color-surface: #1A1A1A;
+        --color-surface-paper: #242424;
+        --color-surface-elevated: #2c2c2c;
+    
+        --shimmer-color: var(--color-gold-500);
+        --shimmer-opacity: 0.55;
 }
 
 @layer components {

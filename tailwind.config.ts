@@ -6,7 +6,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				gold: {
+				primary: {
 					50: "#fef9e7",
 					100: "#fdf0c0",
 					200: "#fbe596",
@@ -30,11 +30,11 @@ const config: Config = {
 				"dark-elevated": "#2c2c2c",
 			},
 			borderColor: {
-				gold: "rgba(243,189,39,0.3)",
-				"gold-subtle": "rgba(243,189,39,0.1)",
+				primary: "rgba(243,189,39,0.3)",
+				"primary-subtle": "rgba(243,189,39,0.1)",
 			},
 			ringColor: {
-				gold: "#f3bd27",
+				primary: "#f3bd27",
 			},
 		},
 	},

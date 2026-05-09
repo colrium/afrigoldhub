@@ -3,33 +3,19 @@ import Link from 'next/link';
 
 export default function ServerError() {
 	return (
-		<Box
-			display="flex"
-			flexDirection="column"
-			alignItems="center"
-			justifyContent="center"
-			minHeight="100vh"
-			gap={2}
-		>
-			<Typography
-				variant="h1"
-				fontWeight="bold"
-			>
-				500
-			</Typography>
-			<Typography
-				variant="h6"
-				color="text.secondary"
-			>
-				Internal server error
-			</Typography>
-			<Button
-				component={Link}
-				href="/"
-				variant="contained"
-			>
-				Go Home
-			</Button>
-		</Box>
+        <div className="flex flex-col items-center justify-center min-h-screen gap-2">
+            <h1 className="text-4xl font-bold">
+                500
+            </h1>
+            <h6 className="text-base text-gray-600">
+                Internal server error
+            </h6>
+            <Link
+                href="/"
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+            >
+                Go Home
+            </Link>
+        </div>
 	);
 }
