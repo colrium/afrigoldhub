@@ -9,7 +9,6 @@ const config: I18nConfig = {
 	fallbackLng: "en",
 	defaultNS: "common",
 	localePath: "./public/locales",
-	
 };
 
 export default config;

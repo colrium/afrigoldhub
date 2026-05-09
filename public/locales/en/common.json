@@ -1,4 +1,28 @@
 {
+    "site": {
+        "title": "AfriGold Hub - Africa's Premier Artisanal Gold Investment Platform",
+        "tagline": "Africa's Premier Artisanal Gold Investment Platform",
+        "description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+    },
+	"welcome": "Welcome",
+	"loading": "Loading...",
+	"goHome": "Go Home",
+	"errors": {
+		"notFound": "Page not found",
+		"serverError": "Internal server error",
+		"forbidden": "Access forbidden"
+	},
+	"nav": {
+		"links": {
+			"about": "About",
+			"operations": "Operations",
+			"gallery": "Gallery",
+			"invest": "Invest",
+			"faq": "FAQ"
+		},
+		"learnMore": "Learn More",
+		"partnerWithUs": "Partner With Us"
+	},
 	"hero": {
 		"badge": "Lupa Goldfield, Africa",
 		"headline": "Unlock <gold>Africa's</gold> Golden Opportunity",
@@ -301,5 +325,57 @@
 		"desc": "Schedule a discovery call with our investment team. We'll walk you through financials, site data, and partnership structures — no obligation.",
 		"scheduleCall": "Schedule a Call",
 		"viewPlans": "View Investment Plans"
+	},
+	"footer": {
+		"tagline": "Africa's most transparent artisanal gold investment platform. Lupa Goldfield, Chunya, Mbeya Region.",
+		"columns": {
+			"company": {
+				"heading": "Company",
+				"links": ["About Us", "Our Team", "Operations", "Newsroom"]
+			},
+			"invest": {
+				"heading": "Invest",
+				"links": [
+					"Investment Tiers",
+					"Partner Agreement",
+					"Risk Disclosure",
+					"Financial Reports"
+				]
+			},
+			"contact": {
+				"heading": "Contact",
+				"links": [
+					"invest@afrigoldhub.com",
+					"Dar es Salaam Office",
+					"Chunya Site Office",
+					"Schedule a Call"
+				]
+			}
+		},
+		"copyright": "© 2025 AfriGold Hub / Richkha Mining and General Traders Ltd. All rights reserved.",
+		"legal": {
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Use",
+			"risk": "Risk Disclaimer"
+		}
+	},
+	"chat": {
+		"agentNameAI": "AfriGold AI",
+		"agentNameHuman": "Support Team",
+		"online": "Online",
+		"modeAI": "AI",
+		"modeHuman": "Human",
+		"placeholder": "Ask a question...",
+		"quickReplies": [
+			"Investment options",
+			"How it works",
+			"Expected returns",
+			"Is it licensed"
+		],
+		"welcomeMessage": "Welcome to AfriGold Hub. Ask me about our investment tiers, operations, or returns.",
+		"switchedToAI": "Switched to AI assistant. I can answer questions instantly about investments, operations, and returns.",
+		"switchedToHuman": "You're now connected to our human support team. Response times may be 1–2 hours during business hours (EAT).",
+		"humanFallback": "Thanks for your message. A member of our investment team will respond within 1–2 business hours (East Africa Time). For urgent queries, email invest@afrigoldhub.com.",
+		"aiFallback": "Great question. For detailed answers about AfriGold Hub's operations or investment terms, please email us at invest@afrigoldhub.com or schedule a discovery call. We respond within 24 hours."
 	}
 }
