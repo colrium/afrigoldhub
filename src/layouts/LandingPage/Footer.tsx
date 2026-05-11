@@ -33,7 +33,6 @@ export default function Footer() {
 						const links = t(`footer.columns.${colKey}.links`, {
 							returnObjects: true,
 						}) as string[];
-						console.log("links", links);
 						return (
 							<div key={colKey}>
 								<h5 className="font-serif text-base text-[#F5F0E8] mb-5">

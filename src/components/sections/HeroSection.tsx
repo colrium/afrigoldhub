@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Trans } from "next-i18next/client";
+
+
 import { useTranslation } from "next-i18next/pages";
 export default function HeroSection() {
 	const { t } = useTranslation("common");
@@ -27,20 +30,17 @@ export default function HeroSection() {
 			<div className="max-w-[1180px] mx-auto px-8 relative z-10 w-full">
 				<div className="grid lg:grid-cols-2 gap-16 items-center">
 					<div>
-						<div className="inline-flex items-center gap-2 bg-[rgba(201,168,76,0.08)] border border-[rgba(201,168,76,0.15)] rounded-full px-4 py-1.5 text-xs text-[#f3bd27] tracking-[0.08em] uppercase mb-7">
-							<span className="w-1.5 h-1.5 bg-[#f3bd27] rounded-full animate-pulse" />
+						<div className="inline-flex items-center gap-2 bg-[rgba(201,168,76,0.08)] border border-[rgba(201,168,76,0.15)] rounded-full px-4 py-1.5 text-xs text-primary tracking-[0.08em] uppercase mb-7">
+							<span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
 							{t("hero.badge")}
 						</div>
 
 						<h1 className="font-serif text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-on-surface">
-							{t("hero.headline", {
-								highlight: (chunks: string) => (
-									<span className="text-blue-400">{chunks}</span>
-								),
-								gold: (chunks: string) => (
-									<span className="text-[#f3bd27] font-bold">{chunks}</span>
-								),
-							})}
+							<Trans
+								i18nKey="hero.headline" // optional -> fallbacks to defaults if not provided
+								defaults="Unlock Africa's <gold>Golden Opportunity</gold>" // optional defaultValue
+								components={{ italic: <i />, gold: <span className="text-primary! font-bold" /> }}
+							/>							
 						</h1>
 
 						<p className="text-base text-[#faf5ec] leading-[1.75] mb-10 max-w-[480px] font-light">
@@ -50,13 +50,13 @@ export default function HeroSection() {
 						<div className="flex gap-4 flex-wrap">
 							<Link
 								href="#invest"
-								className="text-[0.95rem] bg-[#f3bd27] text-black font-medium px-8 py-3.5 rounded hover:bg-[#E5C46A] hover:-translate-y-px hover:shadow-[0_8px_30px_rgba(201,168,76,0.25)] transition-all border border-[#f3bd27]"
+								className="text-[0.95rem] bg-primary text-black font-medium px-8 py-3.5 rounded hover:bg-[#E5C46A] hover:-translate-y-px hover:shadow-[0_8px_30px_rgba(201,168,76,0.25)] transition-all border border-primary"
 							>
 								{t("hero.ctaPrimary")}
 							</Link>
 							<Link
 								href="#operations"
-								className="text-[0.95rem] text-[#f3bd27] font-light px-8 py-3.5 rounded border border-[rgba(201,168,76,0.15)] hover:border-[#f3bd27] hover:bg-[rgba(201,168,76,0.06)] transition-all"
+								className="text-[0.95rem] text-primary font-light px-8 py-3.5 rounded border border-[rgba(201,168,76,0.15)] hover:border-primary hover:bg-[rgba(201,168,76,0.06)] transition-all"
 							>
 								{t("hero.ctaOutline")}
 							</Link>

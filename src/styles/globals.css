@@ -1,29 +1,66 @@
 @import "tailwindcss";
-:root {
-    --color-primary-50: theme("colors.yellow.50");
-        --color-primary-100: theme("colors.yellow.100");
-        --color-primary-200: theme("colors.yellow.200");
-        --color-primary-300: theme("colors.yellow.300");
-        --color-primary-400: theme("colors.yellow.400");
-        --color-primary-500: theme("colors.yellow.500");
-        --color-primary-600: theme("colors.yellow.600");
-        --color-primary-700: theme("colors.yellow.700");
-        --color-primary-800: theme("colors.yellow.800");
-        --color-primary-900: theme("colors.yellow.900");
-
-        --color-surface: #1A1A1A;
-        --color-surface-paper: #242424;
-        --color-surface-elevated: #000000;
+@theme {
+    --color-primary: #f3bd27;
+        --color-primary-light: #f9d96b;
+        --color-primary-dark: #a87610;
     
-        --shimmer-color: var(--color-primary-500);
-        --shimmer-opacity: 0.55;
+        --color-paper: #1A1A1A;
+        --color-mute: #faf5ec;
+    
+        --color-brand-50: #fef9e7;
+        --color-brand-100: #fdf0c0;
+        --color-brand-200: #fbe596;
+        --color-brand-300: #f9d96b;
+        --color-brand-400: #f7ce4a;
+        --color-brand-500: #f3bd27;
+        --color-brand-600: #e0a820;
+        --color-brand-700: #c48f18;
+        --color-brand-800: #a87610;
+        --color-brand-900: #7d5508;
+    
+        --color-surface-50: #f5f5f5;
+        --color-surface-100: #e8e8e8;
+        --color-surface-200: #d1d1d1;
+        --color-surface-300: #b9b9b9;
+        --color-surface-400: #a2a2a2;
+        --color-surface-500: #8a8a8a;
+        --color-surface-600: #727272;
+        --color-surface-700: #5a5a5a;
+        --color-surface-800: #1a1a1a;
+        --color-surface-900: #000000;
+    
+        --color-onSurface-100: #f0e8d8;
+        --color-onSurface-200: #ebe0c8;
+        --color-onSurface-300: #e6d8b8;
+        --color-onSurface-400: #e1d0a8;
+        --color-onSurface-500: #dcc898;
+        --color-onSurface-600: #d7c088;
+        --color-onSurface-700: #c4aca7;
+        --color-onSurface-800: #b19886;
+        --color-onSurface-900: #9e8465;
+    
+        --color-background-dark: #1A1A1A;
+        --color-background-dark-paper: #121212;
+        --color-background-dark-elevated: #2c2c2c;
+    
+        --color-border-primary: rgba(243, 189, 39, 0.3);
+        --color-border-primary-subtle: rgba(243, 189, 39, 0.1);
+    
+        --color-ring-primary: #f3bd27;
+    
+}
+:root {
+	
+
+	--shimmer-color: theme("colors.primary");
+	--shimmer-opacity: 0.55;
 }
 
 body, main {
-    background: var(--color-surface);
+    background:  theme("colors.paper");
 }
 .main-footer {
-    background: var(--color-surface-elevated);
+    background: theme("colors.surface.900");
 }
 
 @layer components {
