@@ -6,13 +6,9 @@ import theme from "@/theme/theme";
 
 import type { AppPropsWithLayout } from "@/types/next";
 import LandingPageLayout from "@/layouts/LandingPage/Layout";
-const withLandingPageLayout = (page: ReactElement) => (
-				<LandingPageLayout>
-					{page}
-				</LandingPageLayout>
-			);
+const withLandingPageLayout = (page: ReactElement) => <LandingPageLayout>{page}</LandingPageLayout>;
 function App({ Component, pageProps }: AppPropsWithLayout) {
-    const renderPageWithLayout = Component.getLayout ?? withLandingPageLayout;
+	const renderPageWithLayout = Component.getLayout ?? withLandingPageLayout;
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />

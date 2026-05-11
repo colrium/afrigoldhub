@@ -1,9 +1,9 @@
 {
-    "site": {
-        "title": "AfriGold Hub - Africa's Premier Artisanal Gold Investment Platform",
-        "tagline": "Africa's Premier Artisanal Gold Investment Platform",
-        "description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
-    },
+	"site": {
+		"title": "AfriGold Hub",
+		"tagline": "Africa's Premier Artisanal Gold Investment Platform",
+		"description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+	},
 	"welcome": "Welcome",
 	"loading": "Loading...",
 	"goHome": "Go Home",
@@ -13,13 +13,11 @@
 		"forbidden": "Access forbidden"
 	},
 	"nav": {
-		"links": {
-			"about": "About",
-			"operations": "Operations",
-			"gallery": "Gallery",
-			"invest": "Invest",
-			"faq": "FAQ"
-		},
+		"about": "About",
+		"operations": "Operations",
+		"gallery": "Gallery",
+		"invest": "Invest",
+		"faq": "FAQ",
 		"learnMore": "Learn More",
 		"partnerWithUs": "Partner With Us"
 	},

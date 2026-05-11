@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "@/components/Link";
-import * as React from "react";
+import Link from "next/link";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
+import MuiLink, { LinkProps as MuiLinkProps } from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -15,135 +14,80 @@ import AdbIcon from "@mui/icons-material/Adb";
 
 import { useTranslation } from "next-i18next/pages";
 import { landingPageNavs } from "@/config/nav";
-const pages = ["Products", "Pricing", "Blog"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+import { useRouter } from "next/router";
 
 
 export default function Navbar() {
-    const { t } = useTranslation("common");
-    const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-	const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+	const router = useRouter();
+	const { t, i18n } = useTranslation("common");
 
-	const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-		setAnchorElNav(event.currentTarget);
-	};
-	const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-		setAnchorElUser(event.currentTarget);
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const onToggleLanguageClick = (newLocale: string) => {
+		const { pathname, asPath, query } = router;
+		router.push({ pathname, query }, asPath, { locale: newLocale });
 	};
 
-	const handleCloseNavMenu = () => {
-		setAnchorElNav(null);
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const clientSideLanguageChange = (newLocale: string) => {
+		i18n.changeLanguage(newLocale);
 	};
 
-	const handleCloseUserMenu = () => {
-		setAnchorElUser(null);
-	};
+	const changeTo = router.locale === "en" ? "de" : "en";
+	// const changeTo = i18n.resolvedLanguage === 'en' ? 'de' : 'en'
 
-
-    return (
+	return (
 		<AppBar position="static">
 			<Container maxWidth="xl">
 				<Toolbar disableGutters>
-					<Link href="#" className="flex items-center gap-2.5">
-						<Image src="/img/logo-three-tone.svg" alt="logo" width={32} height={32} />
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            component="a"
-                            className="hidden md:flex font-serif mr-2 text-[1.3rem] font-bold tracking-[0.04em] text-primary"
-                        >
-                            {t("site.title")}
-                        </Typography>
+					<Link href="/" className="flex items-center gap-2">
+						<Image
+							className="flex md:mr-1"
+							src="/img/logo-three-tone.svg"
+							alt="logo"
+							width={32}
+							height={32}
+						/>
+						{/* <Typography
+							variant="h6"
+							noWrap
+							className=" md:flex font-serif mr-2 text-[1.3rem] font-bold tracking-[0.04em] text-primary mr-2"
+						>
+							{t("site.title")}
+						</Typography> */}
+						<Typography
+							variant="h5"
+							noWrap
+							className="mr-2 flex md:hidden flex-grow font-mono font-bold text-primary-300 tracking-widest text-inherit no-underline"
+						>
+							{t("site.title")}
+						</Typography>
 					</Link>
-					<Image
-						className="xs:hidden md:flex md:mr-1"
-						src="/img/logo-three-tone.svg"
-						alt="logo"
-						width={32}
-						height={32}
-					/>
 
-					<Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-						<IconButton
-							size="large"
-							aria-label="account of current user"
-							aria-controls="menu-appbar"
-							aria-haspopup="true"
-							onClick={handleOpenNavMenu}
-							color="inherit"
-						>
-							<MenuIcon />
-						</IconButton>
-						<Menu
-							id="menu-appbar"
-							anchorEl={anchorElNav}
-							anchorOrigin={{
-								vertical: "bottom",
-								horizontal: "left",
-							}}
-							keepMounted
-							transformOrigin={{
-								vertical: "top",
-								horizontal: "left",
-							}}
-							open={Boolean(anchorElNav)}
-							onClose={handleCloseNavMenu}
-							sx={{ display: { xs: "block", md: "none" } }}
-						>
-							{landingPageNavs.map(
-								({ excludeOnMainNav, labelKey, name, path, linkProps }, i) =>
-									!excludeOnMainNav && (
-										<Link
-											component={MenuItem}
-											href={path ? path : "#"}
-											className={linkProps?.className || "text-center"}
-											passHref
-											{...linkProps}
-											key={`nav-${i}`}
-											onClick={handleCloseNavMenu}
-										>
-											{labelKey ? t(labelKey) : name}
-										</Link>
-									)
-							)}
-						</Menu>
-					</Box>
-					<AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        className="mr-2 flex md:hidden flex-grow font-mono font-bold tracking-widest text-inherit no-underline"
-                    >
-                        LOGO
-                    </Typography>
-					<Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+					<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-center">
 						{landingPageNavs.map(
-							({ excludeOnMainNav, labelKey, name, path, linkProps }, i) =>
+							(
+								{
+									excludeOnMainNav,
+									labelKey,
+									name,
+									path,
+									props: linkProps,
+									Component = MuiLink,
+								},
+								i
+							) =>
 								!excludeOnMainNav && (
-									<Link
-										component={MenuItem}
-										href={path ? path : "#"}
-										className={linkProps?.className || "text-center"}
-										passHref
+									<Component
 										{...linkProps}
+										TypographyClasses={`text-sm mr-4 no-underline font-light tracking-[0.03em] hover:text-primary-500 transition-colors ${linkProps?.className ?? ""}`}
+										replace
+										href={path ? path : "#"}
 										key={`nav-${i}`}
-										onClick={handleCloseNavMenu}
 									>
-										{labelKey ? t(labelKey) : name}
-									</Link>
+										{labelKey ? t(`nav.${labelKey}`) : name}
+									</Component>
 								)
 						)}
-						{pages.map((page) => (
-							<Button
-								key={page}
-								onClick={handleCloseNavMenu}
-								sx={{ my: 2, color: "white", display: "block" }}
-							>
-								{page}
-							</Button>
-						))}
 					</Box>
 					<Box sx={{ flexGrow: 0 }}></Box>
 				</Toolbar>

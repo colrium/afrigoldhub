@@ -5,28 +5,28 @@ interface NavItem {
 	excludeOnMainNav?: boolean;
 	linkProps?: { className: string };
 	labelKey?: string;
-    component?: React.ComponentType<never>;
+    Component?: React.ComponentType<never>;
 	props?: { variant: "outlined" | "contained"; color: string };
 }
 
 export const landingPageNavs: NavItem[] = [
 	{ name: "home", path: "/", excludeOnMainNav: true, linkProps: { className: "text-center" } },
 	{ name: "about", path: "/about", labelKey: "about" },
-	{ name: "contact-us", path: "/contact-us", labelKey: "contact-us" },
+	{ name: "contact-us", path: "/contact-us", labelKey: "contactUs" },
 	{ name: "operations", path: "/operations", labelKey: "operations" },
 	{ name: "gallery", path: "/gallery", labelKey: "gallery" },
 	{
 		name: "learn",
 		path: "/learn",
-		labelKey: "learn-more",
-		component: Button,
+		labelKey: "learnMore",
+		Component: Button,
 		props: { variant: "outlined", color: "primary" },
 	},
 	{
 		name: "invest",
 		path: "/invest",
-		labelKey: "partner-with-us",
-		component: Button,
+		labelKey: "partnerWithUs",
+		Component: Button,
 		props: { variant: "contained", color: "primary" },
 	},
 ];
