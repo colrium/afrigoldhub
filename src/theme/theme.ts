@@ -43,10 +43,19 @@ const theme = createTheme({
 		info: { main: "#29b6f6" },
 	},
 	typography: {
-		fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
-		h1: { color: gold[500], fontWeight: 700 },
-		h2: { color: gold[400], fontWeight: 700 },
-		h3: { color: gold[300], fontWeight: 600 },
+		fontFamily: 'var(--font-manrope), "Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+		h1: { 
+			fontWeight: 700,
+			fontFamily: 'var(--font-montserrat), "Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+		},
+		h2: { 
+			fontWeight: 700,
+			fontFamily: 'var(--font-montserrat), "Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+		},
+		h3: { 
+			fontWeight: 600,
+			fontFamily: 'var(--font-montserrat), "Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+		},
 	},
 	
 });

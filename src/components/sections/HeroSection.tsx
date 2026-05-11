@@ -8,24 +8,7 @@ export default function HeroSection() {
 	const { t } = useTranslation("common");
 	const certs = ["stamico", "mining", "nemc"] as const;
 	return (
-		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">
-			<div
-				className="absolute inset-0"
-				style={{
-					background:
-						"radial-gradient(ellipse 60% 50% at 70% 40%, rgba(201,168,76,0.07) 0%, transparent 70%), radial-gradient(ellipse 40% 60% at 10% 80%, rgba(201,168,76,0.04) 0%, transparent 60%)",
-				}}
-			/>
-			<div
-				className="absolute inset-0"
-				style={{
-					backgroundImage:
-						"linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px)",
-					backgroundSize: "80px 80px",
-					maskImage:
-						"radial-gradient(ellipse 80% 60% at 60% 40%, black 30%, transparent 80%)",
-				}}
-			/>
+		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">		
 
 			<div className="max-w-[1180px] mx-auto px-8 relative z-10 w-full">
 				<div className="grid lg:grid-cols-2 gap-16 items-center">

@@ -33,6 +33,9 @@ export default function Footer() {
 						const links = t(`footer.columns.${colKey}.links`, {
 							returnObjects: true,
 						}) as string[];
+                        if (!Array.isArray(links) || links.length === 0) {
+                            return null; // Skip rendering if links are not available
+                        }
 						return (
 							<div key={colKey}>
 								<h5 className="font-serif text-base text-[#F5F0E8] mb-5">

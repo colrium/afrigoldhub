@@ -27,11 +27,11 @@ const Homepage = (
 
 
   return (
-		<>
+		<div className="relative ">
 			<Head>
 				<title>{t("site.title")}</title>
 			</Head>
-
+			
 			<HeroSection />
 			<div className="p-2 md:p-8">
 				<MetricsSection />
@@ -43,7 +43,7 @@ const Homepage = (
 			<TestimonialsSection />
 			<FaqSection />
 			<CtaBand />
-		</>
+		</div>
   );
 }
 
