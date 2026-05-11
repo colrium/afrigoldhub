@@ -16,7 +16,7 @@ const stripKeys = [
 	"paybackPeriod",
 ] as const;
 export default function MetricsSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	return (
 		<section className="bg-[#0A0A0A] border-t border-[rgba(201,168,76,0.15)] py-28 text-center relative overflow-hidden">
 			<div className="max-w-[1180px] mx-auto px-8">

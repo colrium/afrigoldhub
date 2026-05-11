@@ -57,13 +57,13 @@ export default function Navbar() {
 						<Typography
 							variant="h5"
 							noWrap
-							className="mr-2 flex md:hidden flex-grow font-mono font-bold text-primary-300 tracking-widest text-inherit no-underline"
+							className="mr-2 flex flex-grow font-mono font-bold text-primary-500  text-inherit no-underline"
 						>
 							{t("site.title")}
 						</Typography>
 					</Link>
 
-					<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-center">
+					<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
 						{landingPageNavs.map(
 							(
 								{

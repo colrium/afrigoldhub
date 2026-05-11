@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
 const columnKeys = ["company", "invest", "contact"] as const;
 export default function Footer() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	return (
 		<footer className="bg-[#0A0A0A] border-t border-[rgba(201,168,76,0.15)] pt-16 pb-8">
 			<div className="max-w-[1180px] mx-auto px-8">

@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next/pages";
 export default function ComplianceSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const licences = t("compliance.licences", { returnObjects: true }) as {
 		icon: string;
 		title: string;

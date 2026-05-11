@@ -4,6 +4,7 @@ import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Head from "next/head";
 import { useTranslation, Trans } from 'next-i18next/pages'
 import { serverSideTranslations } from 'next-i18next/pages/serverSideTranslations'
+import { HeroSection, MetricsSection } from "@/components/sections";
 
 
 type Props = {
@@ -34,7 +35,17 @@ const Homepage = (
 		<>
 			<Head>
 				<title>{t("site.title")}</title>
-			</Head>
+          </Head>
+          
+          
+          <HeroSection />
+          <MetricsSection />
+          {/* <WhySection />
+          <OperationsSection />
+          <InvestmentSection />
+          <TestimonialsSection />
+          <FaqSection />
+          <CtaBand /> */}
 		</>
   );
 }

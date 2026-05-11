@@ -7,6 +7,9 @@
 	"welcome": "Welcome",
 	"loading": "Loading...",
 	"goHome": "Go Home",
+    "unlock": "Unlock",
+    "africa": "Africa's",
+    "goldenOpportunity": "Golden Opportunity",
 	"errors": {
 		"notFound": "Page not found",
 		"serverError": "Internal server error",
@@ -14,6 +17,7 @@
 	},
 	"nav": {
 		"about": "About",
+		"contactUs": "Contact Us",
 		"operations": "Operations",
 		"gallery": "Gallery",
 		"invest": "Invest",
@@ -22,9 +26,12 @@
 		"partnerWithUs": "Partner With Us"
 	},
 	"hero": {
-		"badge": "Lupa Goldfield, Africa",
-		"headline": "Unlock <gold>Africa's</gold> Golden Opportunity",
+		"badge": "Goldfield, Africa",
+		"headline": "Unlock Africa's <gold>Golden Opportunity</gold>",
 		"desc": "AfriGold Hub connects serious investors with one of Africa's most productive artisanal gold mining operations. Proven technology. Licensed land. Transparent returns.",
+		"unlock": "Unlock",
+		"africa": "Africa's",
+		"goldenOpportunity": "Golden Opportunity",
 		"ctaPrimary": "View Investment Plans",
 		"ctaOutline": "See How It Works",
 		"certifiedBy": "Certified by",

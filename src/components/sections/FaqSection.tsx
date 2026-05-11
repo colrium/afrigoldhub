@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useTranslation } from "next-i18next/pages";
 type FaqItem = { q: string; a: string };
 export default function FaqSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const [openIndex, setOpenIndex] = useState<number | null>(null);
 
 	const items = t("faq.items", { returnObjects: true }) as FaqItem[];

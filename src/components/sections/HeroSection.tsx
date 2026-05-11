@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
 export default function HeroSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const certs = ["stamico", "mining", "nemc"] as const;
 	return (
 		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">
@@ -34,9 +34,11 @@ export default function HeroSection() {
 
 						<h1 className="font-serif text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-[#F5F0E8]">
 							{t("hero.headline", {
-								gold: (chunks: string) => (
+                                gold: (chunks: string) => {
+                                    console.log("Rendering gold chunk:", chunks);
+                                    return (
 									<em className="text-[#f3bd27] not-italic italic">{chunks}</em>
-								),
+								)},
 							})}
 						</h1>
 
@@ -78,7 +80,7 @@ export default function HeroSection() {
 
 					<div className="hidden lg:flex justify-center items-center max-w-md mx-auto">
 						<Image
-							src="/img/afri-nugget.svg"
+							src="/img/logo-three-tone.svg"
 							alt="gold nugget"
 							width={400}
 							height={400}

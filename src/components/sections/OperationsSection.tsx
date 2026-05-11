@@ -12,7 +12,7 @@ const CheckIcon = () => (
 );
 
 export default function OperationsSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 
 	const features = t("operations.features", { returnObjects: true }) as string[];
 	const steps = t("operations.steps", { returnObjects: true }) as {

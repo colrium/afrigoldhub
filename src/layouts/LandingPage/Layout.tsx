@@ -7,7 +7,7 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
 	return (
 		<Box className="flex flex-col min-h-screen bg-gray-50">
 			<Navbar />
-			<main className="flex-1 p-3">{children}</main>
+			<main className="flex-1 p-3 dark">{children}</main>
 			<Footer />
 		</Box>
 	);

@@ -11,7 +11,7 @@ type Tier = {
 	features: string[];
 };
 export default function InvestmentSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const tiers = t("investment.tiers", { returnObjects: true }) as Tier[];
 	return (
 		<section id="invest" className="bg-[#111111] py-28">

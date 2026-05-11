@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 :root {
     --color-gold-50: #fef9e7;
         --color-gold-100: #fdf0c0;
@@ -19,6 +17,10 @@
     
         --shimmer-color: var(--color-gold-500);
         --shimmer-opacity: 0.55;
+}
+
+body, main {
+    background-color: var(--color-surface);
 }
 
 @layer components {

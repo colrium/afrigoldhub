@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
 export default function CtaBand() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	return (
 		<section className="relative overflow-hidden bg-[#111111] border-t border-[rgba(201,168,76,0.15)] py-28">
 			<div

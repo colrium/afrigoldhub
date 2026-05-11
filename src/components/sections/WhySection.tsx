@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next/pages";
 export default function WhySection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const cards = t("why.cards", { returnObjects: true }) as {
 		icon: string;
 		title: string;

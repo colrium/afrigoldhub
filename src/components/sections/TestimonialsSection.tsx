@@ -7,7 +7,7 @@ type Testimonial = {
 };
 
 export default function TestimonialsSection() {
-	const { t } = useTranslation("home");
+	const { t } = useTranslation("common");
 	const items = t("testimonials.items", { returnObjects: true }) as Testimonial[];
 
 	return (
