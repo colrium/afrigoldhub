@@ -32,13 +32,14 @@ export default function HeroSection() {
 							{t("hero.badge")}
 						</div>
 
-						<h1 className="font-serif text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-[#F5F0E8]">
+						<h1 className="font-serif text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-on-surface">
 							{t("hero.headline", {
-                                gold: (chunks: string) => {
-                                    console.log("Rendering gold chunk:", chunks);
-                                    return (
-									<em className="text-[#f3bd27] not-italic italic">{chunks}</em>
-								)},
+								highlight: (chunks: string) => (
+									<span className="text-blue-400">{chunks}</span>
+								),
+								gold: (chunks: string) => (
+									<span className="text-[#f3bd27] font-bold">{chunks}</span>
+								),
 							})}
 						</h1>
 

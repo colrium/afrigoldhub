@@ -1,26 +1,29 @@
 @import "tailwindcss";
 :root {
-    --color-gold-50: #fef9e7;
-        --color-gold-100: #fdf0c0;
-        --color-gold-200: #fbe596;
-        --color-gold-300: #f9d96b;
-        --color-gold-400: #f7ce4a;
-        --color-gold-500: #f3bd27;
-        --color-gold-600: #e0a820;
-        --color-gold-700: #c48f18;
-        --color-gold-800: #a87610;
-        --color-gold-900: #7d5508;
-    
+    --color-primary-50: theme("colors.yellow.50");
+        --color-primary-100: theme("colors.yellow.100");
+        --color-primary-200: theme("colors.yellow.200");
+        --color-primary-300: theme("colors.yellow.300");
+        --color-primary-400: theme("colors.yellow.400");
+        --color-primary-500: theme("colors.yellow.500");
+        --color-primary-600: theme("colors.yellow.600");
+        --color-primary-700: theme("colors.yellow.700");
+        --color-primary-800: theme("colors.yellow.800");
+        --color-primary-900: theme("colors.yellow.900");
+
         --color-surface: #1A1A1A;
         --color-surface-paper: #242424;
-        --color-surface-elevated: #2c2c2c;
+        --color-surface-elevated: #000000;
     
-        --shimmer-color: var(--color-gold-500);
+        --shimmer-color: var(--color-primary-500);
         --shimmer-opacity: 0.55;
 }
 
 body, main {
-    background-color: var(--color-surface);
+    background: var(--color-surface);
+}
+.main-footer {
+    background: var(--color-surface-elevated);
 }
 
 @layer components {
@@ -135,43 +138,43 @@ body, main {
     /*    COLOR INTENSITIES  */
     /* ===================== */
         .shimmer-gold-50 {
-            --shimmer-color: var(--color-gold-50);
+            --shimmer-color: var(--color-primary-50);
         }
     
         .shimmer-gold-100 {
-            --shimmer-color: var(--color-gold-100);
+            --shimmer-color: var(--color-primary-100);
         }
     
         .shimmer-gold-200 {
-            --shimmer-color: var(--color-gold-200);
+            --shimmer-color: var(--color-primary-200);
         }
     
         .shimmer-gold-300 {
-            --shimmer-color: var(--color-gold-300);
+            --shimmer-color: var(--color-primary-300);
         }
     
         .shimmer-gold-400 {
-            --shimmer-color: var(--color-gold-400);
+            --shimmer-color: var(--color-primary-400);
         }
     
         .shimmer-gold-500 {
-            --shimmer-color: var(--color-gold-500);
+            --shimmer-color: var(--color-primary-500);
         }
     
         .shimmer-gold-600 {
-            --shimmer-color: var(--color-gold-600);
+            --shimmer-color: var(--color-primary-600);
         }
     
         .shimmer-gold-700 {
-            --shimmer-color: var(--color-gold-700);
+            --shimmer-color: var(--color-primary-700);
         }
     
         .shimmer-gold-800 {
-            --shimmer-color: var(--color-gold-800);
+            --shimmer-color: var(--color-primary-800);
         }
     
         .shimmer-gold-900 {
-            --shimmer-color: var(--color-gold-900);
+            --shimmer-color: var(--color-primary-900);
         }
 
     /* ===================== */

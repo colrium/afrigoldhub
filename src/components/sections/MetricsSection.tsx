@@ -18,7 +18,7 @@ const stripKeys = [
 export default function MetricsSection() {
 	const { t } = useTranslation("common");
 	return (
-		<section className="bg-[#0A0A0A] border-t border-[rgba(201,168,76,0.15)] py-28 text-center relative overflow-hidden">
+		<section className="bg-surface-paper rounded py-28 text-center relative overflow-hidden">
 			<div className="max-w-[1180px] mx-auto px-8">
 				<div className="relative bg-[#111111] border border-[rgba(201,168,76,0.15)] rounded-2xl p-10 mx-auto max-w-[720px] mb-20 overflow-hidden">
 					<div

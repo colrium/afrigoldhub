@@ -6,6 +6,7 @@
 	},
 	"welcome": "Welcome",
 	"loading": "Loading...",
+    "changeLanguage": "Change Language",
 	"goHome": "Go Home",
     "unlock": "Unlock",
     "africa": "Africa's",
@@ -382,5 +383,38 @@
 		"switchedToHuman": "You're now connected to our human support team. Response times may be 1–2 hours during business hours (EAT).",
 		"humanFallback": "Thanks for your message. A member of our investment team will respond within 1–2 business hours (East Africa Time). For urgent queries, email invest@afrigoldhub.com.",
 		"aiFallback": "Great question. For detailed answers about AfriGold Hub's operations or investment terms, please email us at invest@afrigoldhub.com or schedule a discovery call. We respond within 24 hours."
+	},
+    "footer": {
+		"description": "This is a non-page component that requires its own namespace",
+		"columns": {
+			"company": {
+				"heading": "Company",
+				"links": ["About Us", "Our Team", "Operations", "Newsroom"]
+			},
+			"invest": {
+				"heading": "Invest",
+				"links": [
+					"Investment Tiers",
+					"Partner Agreement",
+					"Risk Disclosure",
+					"Financial Reports"
+				]
+			},
+			"contact": {
+				"heading": "Contact",
+				"links": [
+					"invest@afrigoldhub.com",
+					"Nairobi Office",
+					"Chunya Site Office",
+					"Schedule a Call"
+				]
+			}
+		},
+		"copyright": "© {{year}} {{organization}} All rights reserved.",
+		"legal": {
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Use",
+			"risk": "Risk Disclaimer"
+		}
 	}
 }
