@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation, Trans } from "next-i18next/pages";
 export default function CtaBand() {
 	const { t } = useTranslation("common");
 	return (
@@ -16,11 +16,13 @@ export default function CtaBand() {
 					{t("cta.tag")}
 				</span>
 				<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-[#F5F0E8] mb-5">
-					{t("cta.headline", {
-						gold: (chunks: string) => (
-							<em className="text-[#f3bd27] not-italic italic">{chunks}</em>
-						),
-					})}
+					<Trans
+						i18nKey="cta.headline"
+						defaults="Ready to own a share of <gold>Africa's gold output?</gold>"
+						components={{
+							gold: <span className="text-primary!   font-bold" />,
+						}}
+					/>
 				</h2>
 				<p className="text-base text-[#faf5ec] font-light leading-[1.75] max-w-[540px] mb-10">
 					{t("cta.desc")}

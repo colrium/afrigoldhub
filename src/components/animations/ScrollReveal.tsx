@@ -57,7 +57,7 @@ function useReveal(margin = "-80px", once = true) {
 	const ref = useRef<HTMLDivElement>(null);
 	const inView = useInView(ref, {
 		once,
-		margin: margin as Parameters<typeof useInView>[1]["margin"],
+		margin: margin || undefined,
 	});
 	return { ref, inView };
 }

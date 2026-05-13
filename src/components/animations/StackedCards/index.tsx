@@ -25,7 +25,7 @@ const StackedCards: React.FC<StackedCardsProps> = ({ cards, startElement, endEle
 	return (
 		<div className="relative flex flex-col" ref={cardsContainer}>
 			{startElement}
-			{cards.map((card, i) => (
+			{cards?.map((card, i) => (
 				<StackedCard
 					key={`p_${i}`}
 					{...card}

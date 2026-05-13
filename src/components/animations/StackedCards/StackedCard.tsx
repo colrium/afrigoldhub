@@ -79,11 +79,11 @@ const StackedCard = ({
 						</span> */}
 					</div>
 
-					<div className="relative hidden md:flex md:w-[50vw] h-full rounded-[25px] overflow-hidden">
-						<motion.div className="w-full h-full" style={{ scale: imageScale }}>
-							<Image fill src={`${src}`} alt={title} className="object-cover" />
-						</motion.div>
-					</div>
+                    {src && <div className="relative hidden md:flex md:w-[50vw] h-full rounded-[25px] overflow-hidden">
+                        <motion.div className="w-full h-full" style={{ scale: imageScale }}>
+                            <Image fill src={`${src}`} alt={title} className="object-cover" />
+                        </motion.div>
+                    </div>}
 				</div>
 			</motion.div>
 		</div>

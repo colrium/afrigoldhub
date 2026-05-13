@@ -2,28 +2,22 @@
 import { Trans, useTranslation } from "next-i18next/pages";
 import { useRef } from "react";
 import { useScroll } from "framer-motion";
-import StackedCard from "@/components/animations/StackedCards/StackedCard";
 import StackedCards from "../animations/StackedCards";
 
 export default function OperationsSection() {
 	const { t } = useTranslation("common");
     const cardsContainer = useRef<HTMLDivElement | null>(null);
-	const { scrollYProgress } = useScroll({
-		target: cardsContainer,
-		offset: ["start start", "end end"],
-	});
-
+    
 	
-	const features = t("operations.features", { returnObjects: true }) as string[];
-	const steps = (t("operations.steps", { returnObjects: true }) as {
+	const steps = (t("operations.steps.items", { returnObjects: true }) as {
 		title: string;
-		short_desc: string;
-		long_desc: string;
+		short_description: string;
+		long_description: string;
 		color: string;
 		image: string;
     }[]).map((step, i) => ({
         title: step.title,
-        description: step.short_desc,
+        description: step.short_description,
         src: step.image,
         url: "",
         color: step.color,
@@ -65,7 +59,7 @@ export default function OperationsSection() {
 									key={`p_${i}`}
 									i={i}
 									title={step.title}
-									description={step.short_desc}
+									description={step.short_description}
 									src={step.image}
 									url={""}
 									color={step.color}
