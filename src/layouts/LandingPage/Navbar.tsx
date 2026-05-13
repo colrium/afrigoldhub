@@ -89,13 +89,14 @@ export default function Navbar() {
 			<AppBar
 				position="sticky"
 				// 'elevation={0}' removes the default shadow for a cleaner look
-				elevation={0}
+                elevation={0}
+                color="transparent"
 				classes={{
 					root: `transition-all duration-300 ${
 						state.isWindowScrolled
-							? "bg-surface! bg-opacity-30! backdrop-blur-lg! border-b shadow-xl border-primary/20"
+							? "bg-surface-800/70! bg-opacity-90! backdrop-blur-lg! border-b shadow-xl border-primary/20"
 							: "bg-surface!"
-					}`,
+                        }`,
 				}}
 				// className={`transition-all duration-300 ${
 				// 	state.isWindowScrolled
@@ -146,9 +147,10 @@ export default function Navbar() {
 									i
 								) =>
 									!excludeOnMainNav && (
-										<Component
+                                        <Component
+                                           color="textPrimary"
 											{...linkProps}
-											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] hover:text-primary-500 transition-colors ${linkProps?.className ?? ""}`}
+											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors ${linkProps?.className ?? ""}`}
 											href={path ? path : "#"}
 											key={`nav-${i}`}
 										>

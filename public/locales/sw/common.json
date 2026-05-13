@@ -1,376 +1,432 @@
 {
+	"site": {
+		"title": "AfriGold Hub",
+		"tagline": "Africa's Premier Artisanal Gold Investment Platform",
+		"description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+	},
 	"welcome": "Welcome",
 	"loading": "Loading...",
+	"changeLanguage": "Change Language",
 	"goHome": "Go Home",
+	"unlock": "Unlock",
+	"africa": "Africa's",
+	"goldenOpportunity": "Golden Opportunity",
 	"errors": {
 		"notFound": "Page not found",
 		"serverError": "Internal server error",
 		"forbidden": "Access forbidden"
 	},
 	"nav": {
-		"links": {
-			"about": "Kuhusu",
-			"operations": "Operesheni",
-			"gallery": "Matukio",
-			"invest": "Wekeza",
-			"faq": "Maswali"
-		},
-		"learnMore": "Jifunza Zaidi",
-		"partnerWithUs": "Shirikiana Nasi"
+		"about": "About",
+		"contactUs": "Contact Us",
+		"operations": "Operations",
+		"gallery": "Gallery",
+		"invest": "Invest",
+		"faq": "FAQ",
+		"learnMore": "Learn More",
+		"partnerWithUs": "Partner With Us"
 	},
 	"hero": {
-		"badge": "Lupa Goldfield, Afrika",
-		"headline": "Gundua Fursa ya <gold>Dhahabu ya Afrika</gold>",
-		"desc": "AfriGold Hub inaunganisha wawekezaji wa kweli na moja ya shughuli za uchimbaji dhahabu zinazofanya kazi zaidi Afrika. Teknolojia iliyothibitishwa. Ardhi yenye leseni. Mapato ya uwazi.",
-		"ctaPrimary": "Angalia Mipango ya Uwekezaji",
-		"ctaOutline": "Ona Jinsi Inavyofanya Kazi",
-		"certifiedBy": "Imeidhinishwa na",
+		"badge": "Goldfield, Africa",
+		"headline": "Unlock Africa's <gold>Golden Opportunity</gold>",
+		"desc": "AfriGold Hub connects serious investors with one of Africa's most productive artisanal gold mining operations. Proven technology. Licensed land. Transparent returns.",
+		"unlock": "Unlock",
+		"africa": "Africa's",
+		"goldenOpportunity": "Golden Opportunity",
+		"ctaPrimary": "View Investment Plans",
+		"ctaOutline": "See How It Works",
+		"certifiedBy": "Certified by",
 		"certs": {
-			"stamico": "STAMICO Afrika",
-			"mining": "Tume ya Madini",
-			"nemc": "Uzingatiaji wa NEMC"
+			"stamico": "STAMICO Africa",
+			"mining": "Mining Commission",
+			"nemc": "NEMC Compliance"
 		}
 	},
 	"metrics": {
-		"sectionLabel": "Muhtasari wa Utendaji wa Sasa",
+		"sectionLabel": "Live Performance Overview",
 		"stats": {
 			"grossRevenue": {
 				"value": "$572K",
-				"label": "Mapato ya Kila Mwezi"
+				"label": "Monthly Gross Revenue"
 			},
 			"profitMargin": {
 				"value": "88%",
-				"label": "Asilimia ya Faida Halisi"
+				"label": "Net Profit Margin"
 			},
 			"experience": {
 				"value": "10yr",
-				"label": "Uzoefu wa Sekta"
+				"label": "Industry Experience"
 			},
 			"investmentAsk": {
 				"value": "$189K",
-				"label": "Jumla ya Uwekezaji Unaohitajika"
+				"label": "Total Investment Ask"
 			}
 		},
 		"bars": {
-			"goldOutput": "Uzalishaji wa Dhahabu",
-			"efficiency": "Ufanisi",
-			"roiTarget": "Lengo la ROI"
+			"goldOutput": "Gold Output",
+			"efficiency": "Efficiency",
+			"roiTarget": "ROI Target"
 		},
 		"strip": {
 			"monthlyRevenue": {
 				"value": "$572K",
-				"label": "Mapato ya Kila Mwezi"
+				"label": "Monthly Revenue"
 			},
 			"goldPerMonth": {
 				"value": "~266kg",
-				"label": "Dhahabu kwa Mwezi"
+				"label": "Gold Per Month"
 			},
 			"yearsInSector": {
 				"value": "10+",
-				"label": "Miaka katika Sekta"
+				"label": "Years in Sector"
 			},
 			"chemicalInputs": {
 				"value": "0",
-				"label": "Kemikali Zinazotumiwa"
+				"label": "Chemical Inputs"
 			},
 			"paybackPeriod": {
 				"value": "3mo",
-				"label": "Kipindi cha Malipo"
+				"label": "Payback Period"
 			}
 		}
 	},
 	"operations": {
-		"tag": "Operesheni",
-		"headline": "Kutoka ardhini hadi <gold>baa la dhahabu</gold>",
-		"desc": "Mkusanyiko wa mvuto hupunguza gharama za kemikali na dhima ya mazingira. Kila gramu imerekodiwa kutoka shimo hadi mnunuzi.",
+		"tag": "Operations",
+		"headline": "From earth to <gold>gold bar</gold>",
+		"desc": "Gravity concentration eliminates chemical costs and environmental liability. Every gram is chain-of-custody documented from pit to buyer.",
 		"features": [
-			"Uchimbaji wa madini ya alluvial kutoka mashimo yenye leseni ya PML",
-			"Mtambo wa mkusanyiko wa mvuto wa ndani — visanduku vya sluice, spirals",
-			"Kuyeyusha hadi baa la dhahabu la usafi wa 99.5%, iliyokaguliwa kwa kujitegemea",
-			"Mauzo ya moja kwa moja kwa wanunuzi wenye leseni Dar es Salaam",
-			"Nyaraka kamili za mnyororo wa uhifadhi kwa kila usafirishaji"
+			"Alluvial ore extraction from PML-licensed pits",
+			"On-site gravity concentration — sluice boxes, spirals",
+			"Smelting into 99.5% purity gold bars, independently assayed",
+			"Direct sale to licensed buyers in Dar es Salaam",
+			"Full chain-of-custody documentation for every consignment"
 		],
 		"steps": [
 			{
-				"title": "Uchimbaji wa Tovuti",
-				"desc": "Uchimbaji uliodhibitiwa chini ya usimamizi wa msimamizi wa mgodi."
+				"title": "Site Extraction",
+				"desc": "Controlled excavation under qualified mine supervisor oversight.",
+				"color": "#664b00",
+				"icon": "site-extraction",
+				"image": "/media/site-extraction.jpg"
 			},
 			{
-				"title": "Usindikaji wa Mvuto",
-				"desc": "Maji na mvuto — kemikali sifuri, dhima sifuri."
+				"title": "Gravity Processing",
+				"desc": "Water and gravity — zero chemicals, zero liability.",
+				"color": "#53400b",
+				"icon": "gravity-processing",
+				"image": "/media/gravity-processing.jpeg"
 			},
 			{
-				"title": "Kuyeyusha na Kupima",
-				"desc": "Kuyeyusha ndani ya tovuti. Upimaji wa usafi kwa kila baa."
+				"title": "Smelting & Assay",
+				"desc": "On-site smelting. Independent purity assay per bar.",
+				"color": "#a18c51",
+				"icon": "smelting",
+				"image": "/media/smelting.jpeg"
 			},
 			{
-				"title": "Mauzo na Usambazaji",
-				"desc": "Risiti za wanunuzi wenye leseni. Mapato yanasambazwa kulingana na makubaliano."
+				"title": "Sale & Distribution",
+				"desc": "Licensed buyer receipts. Proceeds distributed per agreement.",
+				"color": "#372d13",
+				"icon": "sale-distribution",
+				"image": "/media/sale-distribution.jpeg"
 			}
 		]
 	},
 	"gallery": {
-		"tag": "Hadithi ya Picha",
-		"headline": "Kutoka ardhini hadi <gold>dhahabu</gold>",
-		"desc": "Mtazamo wa ndani wa shughuli zetu za Goldfield: uchimbaji, usindikaji wa mvuto, kuyeyusha, na bidhaa ya mwisho.",
+		"tag": "Visual Story",
+		"headline": "From earth to <gold>gold</gold>",
+		"desc": "A look inside our Goldfield operations: extraction, gravity processing, smelting, and the finished product.",
 		"filters": {
-			"all": "Zote",
-			"mining": "Uchimbaji",
-			"processing": "Usindikaji",
-			"smelting": "Kuyeyusha",
-			"product": "Bidhaa ya Mwisho",
+			"all": "All",
+			"mining": "Mining",
+			"processing": "Processing",
+			"smelting": "Smelting",
+			"product": "End Product",
 			"video": "▶ Video"
 		},
-		"loadMore": "Pakia Zaidi",
+		"loadMore": "Load More",
 		"mediaTypes": {
-			"image": "Picha",
+			"image": "Image",
 			"video": "Video"
 		}
 	},
 	"compliance": {
-		"tag": "Uzingatiaji na Leseni",
-		"headline": "Kila ruhusa. <gold>Kila uthibitisho.</gold>",
-		"desc": "Operesheni yetu inazingatia kikamilifu mahitaji yote ya udhibiti. Leseni na vyeti vinapatikana kwa wawekezaji wakati wa ukaguzi.",
-		"active": "Hai",
+		"tag": "Compliance & Licensing",
+		"headline": "Every permit. <gold>Every certification.</gold>",
+		"desc": "Our operation is fully compliant with all regulatory requirements. Licences and certifications are available for investor review during due diligence.",
+		"active": "Active",
 		"licences": [
 			{
 				"icon": "⛏️",
-				"title": "Leseni ya Uchimbaji wa Msingi (PML)",
-				"issuer": "Wizara ya Madini — Jamhuri ya Muungano",
-				"desc": "Leseni ya uchimbaji inayotumika chini ya Sheria ya Madini ya Afrika ya 2010.",
-				"ref": "Leseni: PML/CHU/2018/042",
-				"renewal": "Upya: 2026"
+				"title": "Primary Mining Licence (PML)",
+				"issuer": "Ministry of Minerals — United Republic",
+				"desc": "Active mining licence under Africa's Mining Act 2010. Covers alluvial gold extraction across our licensed Lupa Goldfield pits in Chunya, Mbeya Region.",
+				"ref": "Licence: PML/CHU/2018/042",
+				"renewal": "Renewal: 2026"
 			},
 			{
 				"icon": "🌿",
-				"title": "Uthibitisho wa Mazingira wa NEMC",
-				"issuer": "Baraza la Kitaifa la Usimamizi wa Mazingira",
-				"desc": "Idhini kamili ya Tathmini ya Athari za Mazingira (EIA) kwa mkusanyiko wa mvuto bila kemikali.",
-				"ref": "Cheti: NEMC/EIA/2019/107",
-				"renewal": "Ukaguzi wa kila mwaka"
+				"title": "NEMC Environmental Certification",
+				"issuer": "National Environment Management Council",
+				"desc": "Full Environmental Impact Assessment (EIA) approval for chemical-free gravity concentration. Zero mercury and cyanide use — fully compliant with NEMC guidelines.",
+				"ref": "Cert: NEMC/EIA/2019/107",
+				"renewal": "Annual audit"
 			},
 			{
 				"icon": "💧",
-				"title": "Ruhusa ya Kuchota Maji ya WRA",
-				"issuer": "Mamlaka ya Rasilimali za Maji",
-				"desc": "Ruhusa ya kuchota na kusaga maji kwa usindikaji wa mkusanyiko wa mvuto.",
-				"ref": "Ruhusa: WRA/MIG/2020/018",
-				"renewal": "Upya: 2025"
+				"title": "WRA Water Abstraction Permit",
+				"issuer": "Water Resources Authority",
+				"desc": "Permit to abstract and recycle water for gravity concentration processing. Full water management plan in place. 92% water recycling rate across our sluice and spiral system.",
+				"ref": "Permit: WRA/MIG/2020/018",
+				"renewal": "Renewal: 2025"
 			},
 			{
 				"icon": "🎓",
-				"title": "Uthibitisho wa Ujuzi wa NITA",
-				"issuer": "Mamlaka ya Mafunzo ya Viwanda ya Kitaifa",
-				"desc": "Waendeshaji wetu wote wa migodi na mafundi wa usindikaji wana vyeti vya NITA.",
-				"ref": "Programu: NITA/MIN/2022",
-				"renewal": "Upya wa kila mwaka"
+				"title": "NITA Skills Certification",
+				"issuer": "National Industrial Training Authority",
+				"desc": "All our mine operators and processing technicians hold NITA-certified occupational credentials. Ongoing vocational training programme for community employees at our field site.",
+				"ref": "Programme: NITA/MIN/2022",
+				"renewal": "Annual renewal"
 			}
 		],
 		"cda": {
-			"title": "Makubaliano ya Maendeleo ya Jamii (CDA)",
-			"desc": "Imesajiliwa rasmi na Serikali ya Jamii ya Kikanda chini ya Kifungu 134 cha Sheria ya Madini. Inajitolea 3% ya faida halisi ya kila mwezi kwa miundombinu ya jamii.",
-			"status": "CDA Hai · 2024"
+			"title": "Community Development Agreement (CDA)",
+			"desc": "Formally registered with the Regional Community Government under Section 134 of the Mining Act. Commits 3% of monthly net profits to community infrastructure, education, and water access projects in our operational region.",
+			"status": "CDA Active · 2024"
 		}
 	},
 	"why": {
-		"tag": "Kwa Nini AfriGold Hub",
-		"headline": "Imejengwa kwenye ardhi iliyothibitishwa, iliyoundwa kwa mapato",
-		"desc": "Operesheni yetu ipo kwenye Lupa Goldfield ya kihistoria huko Chunya, Mbeya — moja ya mikanda ya madini yenye tija zaidi Afrika, yenye rekodi nzuri tangu 1922.",
+		"tag": "Why AfriGold Hub",
+		"headline": "Built on proven ground, engineered for returns",
+		"desc": "Our operation sits on the historic Lupa Goldfield in Chunya, Mbeya — one of Africa's most prolific mineral belts, with a track record stretching back to 1922.",
 		"cards": [
 			{
 				"icon": "⛏",
-				"title": "Teknolojia ya Mkusanyiko wa Mvuto",
-				"desc": "Mchakato wetu bila kemikali unazingatia mazingira na ufanisi wa gharama."
+				"title": "Gravity Concentration Technology",
+				"desc": "Our chemical-free gravity process is environmentally compliant and cost-efficient, recovering gold without mercury or cyanide — fully NEMC certified."
 			},
 			{
 				"icon": "📜",
-				"title": "Operesheni Zenye Leseni Kamili",
-				"desc": "Leseni ya Uchimbaji wa Msingi (PML) inayotumika na haki ya uchimbaji iliyohakikishwa."
+				"title": "Fully Licensed Operations",
+				"desc": "Active Primary Mining Licence (PML) and secured mining title. All regulatory approvals in place under Africa's Mining Act 2010 and subsequent amendments."
 			},
 			{
 				"icon": "📈",
-				"title": "Mfumo wa Fedha wa Uwazi",
-				"desc": "Makadirio ya kila mwezi ya faida halisi ya $504K kwenye mapato ya jumla ya $572K."
+				"title": "Transparent Financial Model",
+				"desc": "Monthly projections of $504K net profit on $572K gross revenue, with a clear three-month capital payback pathway and quarterly investor reporting."
 			},
 			{
 				"icon": "🌍",
-				"title": "Urithi wa Afrika, Viwango vya Kimataifa",
-				"desc": "Imekita katika ajira ya jamii ya Tanzania, tunazingatia viwango vya kimataifa vya usalama."
+				"title": "African Heritage, Global Standards",
+				"desc": "Rooted in Tanzanian community employment, we maintain international best-practice safety and environmental standards across our Chunya site operations."
 			},
 			{
 				"icon": "🤝",
-				"title": "Utawala wa Kwanza kwa Mwekezaji",
-				"desc": "Makubaliano ya ushirikiano yaliyoundwa yenye nafasi za hisa zilizofafanuliwa."
+				"title": "Investor-First Governance",
+				"desc": "Structured partnership agreements with defined equity positions, escrow protections, and monthly financial reporting to all strategic investors."
 			},
 			{
 				"icon": "🔬",
-				"title": "Akiba Zilizothibitishwa Kisayansi",
-				"desc": "Tafiti za kijiografia zinathibitisha mkusanyiko wa dhahabu unaofaa kwenye ardhi yetu yenye leseni."
+				"title": "Scientifically Verified Reserves",
+				"desc": "Ground-truth surveys and geological assessments confirm viable, workable gold concentrations across our licensed acreage in the Lupa Goldfield basin."
 			}
 		]
 	},
 	"investment": {
-		"tag": "Ngazi za Uwekezaji",
-		"headline": "Chagua nafasi yako",
-		"desc": "Ngazi zote zinajumuisha makubaliano ya ushirikiano yaliyoundwa, ripoti za kila mwezi, na mtaji uliohifadhiwa. Ahadi ya chini ni miezi mitatu.",
-		"mostPopular": "Maarufu Zaidi",
-		"projectedRoi": "ROI Inayokadiriwa:",
+		"tag": "Investment Tiers",
+		"headline": "Choose your position",
+		"desc": "All tiers include structured partnership agreements, monthly reporting, and escrow-protected capital. Minimum commitment is three months.",
+		"mostPopular": "Most Popular",
+		"projectedRoi": "Projected ROI:",
 		"tiers": [
 			{
-				"tier": "Mshirika wa Mbegu",
+				"tier": "Seed Partner",
 				"amount": "$25,000",
-				"roi": "~65% kwa mwaka",
-				"cta": "Anza",
+				"roi": "~65% annually",
+				"cta": "Get Started",
 				"ctaStyle": "outline",
 				"features": [
-					"Hisa ya 5% katika faida halisi ya kila mwezi",
-					"Ripoti za fedha za kila robo mwaka",
-					"Ufikio wa tovuti mara mbili kwa mwaka",
-					"Ufikio wa dashibodi ya dijitali",
-					"Ahadi ya miezi 3 ya chini"
+					"5% equity stake in monthly net profits",
+					"Quarterly financial reporting",
+					"Site visit access twice yearly",
+					"Digital dashboard access",
+					"3-month minimum commitment"
 				]
 			},
 			{
-				"tier": "Mshirika wa Kimkakati",
+				"tier": "Strategic Partner",
 				"amount": "$75,000",
-				"roi": "~88% kwa mwaka",
+				"roi": "~88% annually",
 				"featured": true,
-				"cta": "Shirikiana Nasi",
+				"cta": "Partner With Us",
 				"ctaStyle": "primary",
 				"features": [
-					"Hisa ya 18% katika faida halisi ya kila mwezi",
-					"Ripoti za fedha za kila mwezi",
-					"Ufikio usio na kikwazo wa tovuti",
-					"Kiti cha ushauri wa bodi",
-					"Nyaraka za mwekezaji zilizo na alama ya pamoja",
-					"Masharti ya kutoka ya kipaumbele"
+					"18% equity stake in monthly net profits",
+					"Monthly financial reporting",
+					"Unrestricted site access",
+					"Board advisory seat",
+					"Co-branded investor documentation",
+					"Priority exit provisions"
 				]
 			},
 			{
-				"tier": "Mwekezaji Mkuu",
+				"tier": "Anchor Investor",
 				"amount": "$189,000",
-				"roi": "mshirika mkuu",
-				"roiPrefix": "Ufunikaji kamili wa CAPEX —",
-				"cta": "Wasiliana Nasi",
+				"roi": "primary partner",
+				"roiPrefix": "Full CAPEX coverage —",
+				"cta": "Contact Us",
 				"ctaStyle": "outline",
 				"features": [
-					"Hisa ya 45% katika faida halisi ya kila mwezi",
-					"Haki kamili za utawala wa mradi",
-					"Ufikio wa akaunti ya benki ya pamoja",
-					"Imeorodheshwa kwenye nyaraka za leseni ya uchimbaji",
-					"Malipo ya mtaji ya miezi 3 yamehakikishiwa",
-					"Haki za uondoaji wa upendeleo"
+					"45% equity in net monthly profits",
+					"Full project governance rights",
+					"Joint bank account access",
+					"Named on mining licence documentation",
+					"3-month capital payback guaranteed",
+					"Preferred liquidation rights"
 				]
 			}
 		]
 	},
 	"testimonials": {
-		"tag": "Hadithi za Washirika",
-		"headline": "Kuaminiwa na wawekezaji kote Afrika na zaidi ya hapo",
+		"tag": "Partner Stories",
+		"headline": "Trusted by investors across Africa and beyond",
 		"items": [
 			{
 				"initials": "KM",
 				"name": "Kwame Mensah",
-				"title": "Mwekezaji Binafsi, Accra",
-				"text": "Uwazi wa operesheni ulinivutia zaidi. Ripoti za kila mwezi ni za kina, malipo ni ya kawaida, na timu inafikiwa kweli kweli."
+				"title": "Private Investor, Accra",
+				"text": "The transparency of the operation impressed me most. Monthly reports are detailed, payments are consistent, and the team is genuinely accessible."
 			},
 			{
 				"initials": "SN",
 				"name": "Sanjeev Nair",
-				"title": "Msimamizi wa Mfuko wa Bidhaa, Dubai",
-				"text": "Katika miezi 18 ya ushirikiano, tumepokea mapato ya kawaida zaidi ya viwango vilivyokadiriwa."
+				"title": "Commodities Fund Manager, Dubai",
+				"text": "In 18 months of partnership, we have received consistent returns above the projected rates. The Lupa Goldfield is as productive as advertised."
 			},
 			{
 				"initials": "AL",
 				"name": "Amara Lavigne",
-				"title": "Mwekezaji wa Athari, Paris",
-				"text": "Mchakato bila kemikali uliniridhisha. Nilitaka uwekezaji wa uchimbaji wenye wasifu safi wa ESG — AfriGold Hub inafanya hivyo."
+				"title": "Impact Investor, Paris",
+				"text": "The chemical-free process sealed it for me. I wanted a mining investment with a clean ESG profile — AfriGold Hub delivers exactly that."
 			}
 		]
 	},
 	"faq": {
-		"tag": "Maswali",
-		"headline": "Maswali ya kawaida ya wawekezaji",
+		"tag": "FAQ",
+		"headline": "Common investor questions",
 		"items": [
 			{
-				"q": "Je, AfriGold Hub ni operesheni ya uchimbaji yenye leseni?",
-				"a": "Ndiyo. Tunafanya kazi chini ya Leseni ya Uchimbaji wa Msingi (PML) iliyotolewa chini ya Sheria ya Madini ya Afrika ya 2010."
+				"q": "Is AfriGold Hub a licensed mining operation?",
+				"a": "Yes. We operate under a valid Primary Mining Licence (PML) issued under Africa's Mining Act 2010. All environmental and safety certifications are current and available for investor review upon request."
 			},
 			{
-				"q": "Mapato ya wawekezaji yanakokotolewaje na kusambazwaje?",
-				"a": "Mapato yanakokotolewa kila mwezi kulingana na risiti za mauzo ya dhahabu zilizothibitishwa."
+				"q": "How are investor returns calculated and distributed?",
+				"a": "Returns are calculated monthly based on verified gold sales receipts. Net profit after operational costs is distributed to investors in proportion to their equity tier. Payments are made via bank transfer within 10 business days of month-end reconciliation."
 			},
 			{
-				"q": "Wawekezaji wana ulinzi gani?",
-				"a": "Ushirikiano wote unasimamiwa na makubaliano rasmi ya uwekezaji. Mtaji unashikiliwa katika akaunti ya pamoja ya aina ya escrow."
+				"q": "What protections do investors have?",
+				"a": "All partnerships are governed by a formal investment agreement. Capital is held in an escrow-style joint account. Strategic and Anchor partners have direct visibility into the bank account. Monthly audited reports are provided without exception."
 			},
 			{
-				"q": "Kwa nini mkusanyiko wa mvuto ni bora kuliko usindikaji wa kemikali?",
-				"a": "Mkusanyiko wa mvuto hautumii zebaki au sianidi, ukipunguza gharama za uendeshaji na kuondoa dhima ya mazingira."
+				"q": "Why is gravity concentration better than chemical processing?",
+				"a": "Gravity concentration uses no mercury or cyanide, significantly lowering operational costs and eliminating environmental liability. It is fully NEMC-compliant and aligns with Africa's move to phase out mercury in artisanal mining."
 			},
 			{
-				"q": "Kipindi cha chini cha ahadi ya uwekezaji ni nini?",
-				"a": "Ahadi ya chini ni miezi mitatu, ambayo pia inakubaliana na dirisha la malipo ya mtaji iliyokadiriwa."
+				"q": "What is the minimum investment commitment period?",
+				"a": "The minimum commitment is three months, which also aligns with the projected capital payback window. After the initial term, partners may roll over, exit, or renegotiate their tier with 30 days' notice."
 			}
 		]
 	},
 	"cta": {
-		"tag": "Shiriki",
-		"headline": "Uko tayari kumiliki sehemu ya <gold>uzalishaji wa dhahabu wa Afrika?</gold>",
-		"desc": "Panga simu ya ugunduzi na timu yetu ya uwekezaji. Tutakupeleka kupitia fedha, data ya tovuti, na miundo ya ushirikiano — bila kulazimika.",
-		"scheduleCall": "Panga Simu",
-		"viewPlans": "Angalia Mipango ya Uwekezaji"
+		"tag": "Get Involved",
+		"headline": "Ready to own a share of <gold>Africa's gold output?</gold>",
+		"desc": "Schedule a discovery call with our investment team. We'll walk you through financials, site data, and partnership structures — no obligation.",
+		"scheduleCall": "Schedule a Call",
+		"viewPlans": "View Investment Plans"
 	},
 	"footer": {
-		"tagline": "Jukwaa la uwazi zaidi la uwekezaji wa dhahabu ya sanaa Afrika. Lupa Goldfield, Chunya, Mkoa wa Mbeya.",
+		"tagline": "Africa's most transparent artisanal gold investment platform. Lupa Goldfield, Chunya, Mbeya Region.",
 		"columns": {
 			"company": {
-				"heading": "Kampuni",
-				"links": ["Kuhusu Sisi", "Timu Yetu", "Operesheni", "Habari"]
+				"heading": "Company",
+				"links": ["About Us", "Our Team", "Operations", "Newsroom"]
 			},
 			"invest": {
-				"heading": "Wekeza",
+				"heading": "Invest",
 				"links": [
-					"Ngazi za Uwekezaji",
-					"Makubaliano ya Mshirika",
-					"Ufafanuzi wa Hatari",
-					"Ripoti za Fedha"
+					"Investment Tiers",
+					"Partner Agreement",
+					"Risk Disclosure",
+					"Financial Reports"
 				]
 			},
 			"contact": {
-				"heading": "Mawasiliano",
+				"heading": "Contact",
 				"links": [
 					"invest@afrigoldhub.com",
-					"Ofisi ya Dar es Salaam",
-					"Ofisi ya Tovuti ya Chunya",
-					"Panga Simu"
+					"Dar es Salaam Office",
+					"Chunya Site Office",
+					"Schedule a Call"
 				]
 			}
 		},
-		"copyright": "© 2025 AfriGold Hub / Richkha Mining and General Traders Ltd. Haki zote zimehifadhiwa.",
+		"copyright": "© 2025 AfriGold Hub / Richkha Mining and General Traders Ltd. All rights reserved.",
 		"legal": {
-			"privacy": "Sera ya Faragha",
-			"terms": "Masharti ya Matumizi",
-			"risk": "Kanusho la Hatari"
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Use",
+			"risk": "Risk Disclaimer"
 		}
 	},
 	"chat": {
 		"agentNameAI": "AfriGold AI",
-		"agentNameHuman": "Timu ya Msaada",
-		"online": "Mtandaoni",
+		"agentNameHuman": "Support Team",
+		"online": "Online",
 		"modeAI": "AI",
-		"modeHuman": "Binadamu",
-		"placeholder": "Uliza swali...",
+		"modeHuman": "Human",
+		"placeholder": "Ask a question...",
 		"quickReplies": [
-			"Chaguo za uwekezaji",
-			"Jinsi inavyofanya kazi",
-			"Mapato yanayotarajiwa",
-			"Je, ina leseni"
+			"Investment options",
+			"How it works",
+			"Expected returns",
+			"Is it licensed"
 		],
-		"welcomeMessage": "Karibu AfriGold Hub. Niulize kuhusu ngazi zetu za uwekezaji, operesheni, au mapato.",
-		"switchedToAI": "Umebadilishwa kwa msaidizi wa AI. Ninaweza kujibu maswali mara moja kuhusu uwekezaji, operesheni, na mapato.",
-		"switchedToHuman": "Sasa umeunganishwa na timu yetu ya msaada wa binadamu. Muda wa majibu unaweza kuwa masaa 1–2 wakati wa masaa ya kazi (EAT).",
-		"humanFallback": "Asante kwa ujumbe wako. Mwanachama wa timu yetu ya uwekezaji atajibu ndani ya masaa 1–2 ya biashara.",
-		"aiFallback": "Swali zuri. Kwa majibu ya kina kuhusu operesheni za AfriGold Hub, tafadhali tuma barua pepe kwa invest@afrigoldhub.com."
+		"welcomeMessage": "Welcome to AfriGold Hub. Ask me about our investment tiers, operations, or returns.",
+		"switchedToAI": "Switched to AI assistant. I can answer questions instantly about investments, operations, and returns.",
+		"switchedToHuman": "You're now connected to our human support team. Response times may be 1–2 hours during business hours (EAT).",
+		"humanFallback": "Thanks for your message. A member of our investment team will respond within 1–2 business hours (East Africa Time). For urgent queries, email invest@afrigoldhub.com.",
+		"aiFallback": "Great question. For detailed answers about AfriGold Hub's operations or investment terms, please email us at invest@afrigoldhub.com or schedule a discovery call. We respond within 24 hours."
+	},
+	"footer": {
+		"description": "This is a non-page component that requires its own namespace",
+		"columns": {
+			"company": {
+				"heading": "Company",
+				"links": ["About Us", "Our Team", "Operations", "Newsroom"]
+			},
+			"invest": {
+				"heading": "Invest",
+				"links": [
+					"Investment Tiers",
+					"Partner Agreement",
+					"Risk Disclosure",
+					"Financial Reports"
+				]
+			},
+			"contact": {
+				"heading": "Contact",
+				"links": [
+					"invest@afrigoldhub.com",
+					"Nairobi Office",
+					"Chunya Site Office",
+					"Schedule a Call"
+				]
+			}
+		},
+		"copyright": "© {{year}} {{organization}} All rights reserved.",
+		"legal": {
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Use",
+			"risk": "Risk Disclaimer"
+		}
 	}
 }

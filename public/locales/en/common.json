@@ -104,19 +104,31 @@
 		"steps": [
 			{
 				"title": "Site Extraction",
-				"desc": "Controlled excavation under qualified mine supervisor oversight."
+				"desc": "Controlled excavation under qualified mine supervisor oversight.",
+                "color": "#664b00",
+                "icon": "site-extraction",
+                "image": "/media/site-extraction.jpeg"
 			},
 			{
 				"title": "Gravity Processing",
-				"desc": "Water and gravity — zero chemicals, zero liability."
+				"desc": "Water and gravity — zero chemicals, zero liability.",
+                "color": "#53400b",
+                "icon": "gravity-processing",
+                "image": "/media/gravity-processing.jpeg"
 			},
 			{
 				"title": "Smelting & Assay",
-				"desc": "On-site smelting. Independent purity assay per bar."
+				"desc": "On-site smelting. Independent purity assay per bar.",
+                "color": "#a18c51",
+                "icon": "smelting",
+                "image": "/media/smelting.jpeg"
 			},
 			{
 				"title": "Sale & Distribution",
-				"desc": "Licensed buyer receipts. Proceeds distributed per agreement."
+				"desc": "Licensed buyer receipts. Proceeds distributed per agreement.",
+                "color": "#372d13",
+                "icon": "sale-distribution",
+                "image": "/media/sale-distribution.jpeg"
 			}
 		]
 	},

@@ -14,6 +14,11 @@ import {
     FaqSection,
     TestimonialsSection,
 } from "@/components/sections";
+import { ParallaxTile } from '@/components/animations/ParallaxTile';
+import ClipReveal from '@/components/animations/ClipReveal';
+import HistoryTimeline from '@/components/sections/HistoryTimeline';
+import Certifications from '@/components/sections/Certifications';
+import MissionVisionValues from '@/components/sections/MissionVisionValues';
 
 
 type Props = {
@@ -31,14 +36,18 @@ const Homepage = (
 			<Head>
 				<title>{t("site.title")}</title>
 			</Head>
-			
+
 			<HeroSection />
+
+			<OperationsSection />
+          <WhySection />
+          <HistoryTimeline />
+          <Certifications />
+          <MissionVisionValues />
 			<div className="p-2 md:p-8">
 				<MetricsSection />
 			</div>
 
-			<WhySection />
-			<OperationsSection />
 			<InvestmentSection />
 			<TestimonialsSection />
 			<FaqSection />

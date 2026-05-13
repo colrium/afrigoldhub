@@ -4,7 +4,7 @@
         --color-primary-light: #f9d96b;
         --color-primary-dark: #a87610;
     
-        --color-paper: #1A1A1A;
+        --color-paper: #0a0a0a;
         --color-mute: #faf5ec;
     
         --color-brand-50: #fef9e7;
@@ -26,7 +26,7 @@
         --color-surface-500: #8a8a8a;
         --color-surface-600: #727272;
         --color-surface-700: #5a5a5a;
-        --color-surface-800: #1a1a1a;
+        --color-surface-800: #0a0a0a;
         --color-surface-900: #000000;
     
         --color-onSurface-100: #f0e8d8;
@@ -50,19 +50,52 @@
     
 }
 :root {
-	
-
 	--shimmer-color: theme("colors.primary");
 	--shimmer-opacity: 0.55;
 }
 
-body, main {
+html {
     background:  theme("colors.paper");
 }
+body {
+    background: theme("colors.paper");
+        background: linear-gradient(to bottom, #000000, #685b1025, #000000a4, #00000056, #dfba1456)
+}
+body::before {
+    content: '';
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #fddc21 75%);
+}
+
+
 .main-footer {
     background: theme("colors.surface.900");
 }
+/* .layout-gradient-bg {
+   
+        background: radial-gradient(at 60% 60%, rgba(212, 173, 0, 0.0281) 0%, rgba(0, 0, 0, 0) 33%);
+        filter: blur(40px);
+} */
+.golden-shine {
+    line-height: 1;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(186, 148, 62, 1) 0%, rgba(236, 172, 32, 1) 20%, rgba(186, 148, 62, 1) 39%, rgba(249, 244, 180, 1) 50%, rgba(186, 148, 62, 1) 60%, rgba(236, 172, 32, 1) 80%, rgba(186, 148, 62, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gold-shine 10s infinite alternate;
+    background-size: 200%;
+    background-position: left;
 
+}
+
+@keyframes gold-shine {
+    to {
+        background-position: right
+    } }
 @layer components {
 
     /* ===================== */
@@ -81,11 +114,11 @@ body, main {
     /*    EDGES              */
     /* ===================== */
 
-    .shimmer-top {
+    .shimmer-top, .shimmer-t {
         position: relative;
     }
 
-    .shimmer-top::before {
+    .shimmer-top, .shimmer-t::before {
         top: 0;
         left: 0;
         right: 0;
@@ -93,11 +126,11 @@ body, main {
         background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-bottom {
+    .shimmer-bottom, .shimmer-b {
         position: relative;
     }
 
-    .shimmer-bottom::before {
+    .shimmer-bottom, .shimmer-b::before {
         bottom: 0;
         left: 0;
         right: 0;
@@ -105,11 +138,11 @@ body, main {
         background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-left {
+    .shimmer-left, .shimmer-l {
         position: relative;
     }
 
-    .shimmer-left::before {
+    .shimmer-left, .shimmer-l::before {
         top: 0;
         bottom: 0;
         left: 0;
@@ -117,11 +150,11 @@ body, main {
         background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-right {
+    .shimmer-right, .shimmer-r {
         position: relative;
     }
 
-    .shimmer-right::before {
+    .shimmer-right, .shimmer-r::before {
         top: 0;
         bottom: 0;
         right: 0;
