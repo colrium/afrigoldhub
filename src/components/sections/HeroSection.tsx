@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Trans } from "next-i18next/client";
 import dynamic from "next/dynamic";
 import { useTranslation } from "next-i18next/pages";
+import { Chip } from "@mui/material";
 
 
 
@@ -20,7 +21,12 @@ const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 
 export default function HeroSection() {
 	const { t } = useTranslation("common");
-	const certs = ["stamico", "mining", "nemc"] as const;
+    const certs = ["stamico", "mining", "nemc"] as const;
+    const certifications = t("certifications.items", { returnObjects: true }) as {
+		env_body: string;
+		licence_body: string;
+		country: string;
+	}[];
 	return (
 		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">
 			<div className="max-w-[1180px] mx-auto px-8 relative z-10 w-full">
@@ -56,18 +62,13 @@ export default function HeroSection() {
 							</Link>
 						</div>
 
-						<div className="mt-12 pt-8 border-t border-primary flex items-center gap-6">
+						<div className="mt-12 pt-8 shimmer-t border-primary flex flex-col items-center gap-6">
 							<span className="text-xs text-onsurface-100 tracking-[0.06em] uppercase whitespace-nowrap">
 								{t("hero.certifiedBy")}
 							</span>
-							<div className="flex gap-6 flex-wrap">
-								{certs.map((cert) => (
-									<span
-										key={cert}
-										className="text-sm text-[#F5F0E8] italic font-serif"
-									>
-										{t(`hero.certs.${cert}`)}
-									</span>
+							<div className="flex gap-2 flex-wrap">
+								{certifications.map((cert, i) => (
+									<Chip key={i} label={cert.env_body} />
 								))}
 							</div>
 						</div>
