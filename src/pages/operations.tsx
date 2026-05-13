@@ -1,51 +1,62 @@
-import Link from 'next/link'
-import type {
-  GetServerSideProps,
-  InferGetServerSidePropsType,
-} from 'next'
-
-import { useTranslation } from 'next-i18next/pages'
-import { serverSideTranslations } from 'next-i18next/pages/serverSideTranslations'
-
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
+import Link from "next/link";
+import { useRouter } from "next/router";
+import type { GetStaticProps, InferGetStaticPropsType } from "next";
+import Head from "next/head";
+import { useTranslation, Trans } from "next-i18next/pages";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import {
+	HeroSection,
+	MetricsSection,
+	WhySection,
+	OperationsSection,
+	CtaBand,
+	InvestmentSection,
+	FaqSection,
+	TestimonialsSection,
+} from "@/components/sections";
+import { ParallaxTile } from "@/components/animations/ParallaxTile";
+import ClipReveal from "@/components/animations/ClipReveal";
+import HistoryTimeline from "@/components/sections/HistoryTimeline";
+import Certifications from "@/components/sections/Certifications";
+import MissionVisionValues from "@/components/sections/MissionVisionValues";
 
 type Props = {
-  // Add custom props here
-}
+	// Add custom props here
+};
 
-const SecondPage = (
-  _props: InferGetServerSidePropsType<typeof getServerSideProps>
-) => {
-  const { t } = useTranslation(['common', 'second-page'])
+const OperationsPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+	const { t } = useTranslation("common");
 
-  return (
-    <>
-      <main>
-        <Header
-          heading={t('second-page:h1')}
-          title={t('second-page:title')}
-        />
-        <Link href="/">
-          <button type="button">
-            {t('second-page:back-to-home')}
-          </button>
-        </Link>
-      </main>
-      <Footer />
-    </>
-  )
-}
+	return (
+		<div className="relative ">
+			<Head>
+				<title>{t("site.title")}</title>
+			</Head>
 
-export const getServerSideProps: GetServerSideProps<Props> = async ({
-  locale,
-}) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? 'en', [
-      'second-page',
-      'footer',
-    ])),
-  },
-})
+			<HeroSection />
 
-export default SecondPage
+			<OperationsSection />
+			<WhySection />
+			<HistoryTimeline />
+			<Certifications />
+			<MissionVisionValues />
+			<div className="p-2 md:p-8">
+				<MetricsSection />
+			</div>
+
+			<InvestmentSection />
+			<TestimonialsSection />
+			<FaqSection />
+			<CtaBand />
+		</div>
+	);
+};
+
+// or getServerSideProps: GetServerSideProps<Props> = async ({ locale })
+export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
+	props: {
+		...(await serverSideTranslations(locale ?? "en", ["common"])),
+	},
+});
+
+export default OperationsPage;

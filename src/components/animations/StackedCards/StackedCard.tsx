@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useTransform, motion, useScroll, MotionValue } from "framer-motion";
 import { useRef } from "react";
+import { Typography } from "@mui/material";
 
 interface StackedCardProps {
 	i: number;
@@ -13,6 +14,9 @@ interface StackedCardProps {
 	progress: MotionValue<number>;
 	range: [number, number];
 	targetScale: number;
+	className?: string;
+    containerRef: React.RefObject<HTMLDivElement|null>;
+    
 }
 
 const StackedCard = ({
@@ -25,11 +29,12 @@ const StackedCard = ({
 	progress,
 	range,
 	targetScale,
+	className,
+	containerRef,
 }: StackedCardProps) => {
-	const container = useRef<HTMLDivElement>(null);
 
 	const { scrollYProgress } = useScroll({
-		target: container,
+		target: containerRef,
 		offset: ["start end", "start start"],
 	});
 
@@ -37,19 +42,21 @@ const StackedCard = ({
 	const scale = useTransform(progress, range, [1, targetScale]);
 
 	return (
-		<div ref={container} className="h-screen flex items-center justify-center sticky top-0">
+		<div
+			className={`h-[80vh] flex items-center justify-center sticky top-0 ${className ?? ""}`}
+		>
 			<motion.div
-				style={{ backgroundColor: color, scale, top: `calc(-5vh + ${i * 25}px)` }}
-				className="flex flex-col relative h-[500px] w-[1000px] rounded-[25px] p-[50px] origin-top"
+				style={{ backgroundColor: color, scale, top: `calc( ${i * 10}px)` }}
+				className="flex flex-col relative lg:min-h-[70vh] w-full rounded-xl p-8 lg:p-[50px] origin-top"
 			>
-				<h2 className="text-center text-[28px] m-0">{title}</h2>
+				<Typography variant="h4" className="text-center text-[28px] m-0">
+					{title}
+				</Typography>
 
-				<div className="flex h-full mt-[50px] gap-[50px]">
-					<div className="w-[40%] relative top-[10%]">
-						<p className="text-base first-letter:text-[28px] first-letter:font-['Title']">
-							{description}
-						</p>
-						<span className="flex items-center gap-[5px]">
+				<div className="flex flex-col lg:flex-row h-[50vh] mt-[20px] gap-[20px] md:mt-[50px] md:gap-[50px]">
+					<div className="lg:w-[40%] relative top-[10%]">
+						<p className="text-base">{description}</p>
+						{/* <span className="flex items-center gap-[5px]">
 							<a
 								href={url}
 								target="_blank"
@@ -69,17 +76,12 @@ const StackedCard = ({
 									fill="black"
 								/>
 							</svg>
-						</span>
+						</span> */}
 					</div>
 
-					<div className="relative w-[60%] h-full rounded-[25px] overflow-hidden">
+					<div className="relative hidden md:flex md:w-[50vw] h-full rounded-[25px] overflow-hidden">
 						<motion.div className="w-full h-full" style={{ scale: imageScale }}>
-							<Image
-								fill
-								src={`/images/${src}`}
-								alt={title}
-								className="object-cover"
-							/>
+							<Image fill src={`${src}`} alt={title} className="object-cover" />
 						</motion.div>
 					</div>
 				</div>

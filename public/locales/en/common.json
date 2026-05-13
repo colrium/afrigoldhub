@@ -91,46 +91,200 @@
 		}
 	},
 	"operations": {
-		"tag": "Operations",
-		"headline": "From earth to <gold>gold bar</gold>",
-		"desc": "Gravity concentration eliminates chemical costs and environmental liability. Every gram is chain-of-custody documented from pit to buyer.",
-		"features": [
-			"Alluvial ore extraction from PML-licensed pits",
-			"On-site gravity concentration — sluice boxes, spirals",
-			"Smelting into 99.5% purity gold bars, independently assayed",
-			"Direct sale to licensed buyers in Dar es Salaam",
-			"Full chain-of-custody documentation for every consignment"
-		],
-		"steps": [
-			{
+        "tag": "Operations",
+        "headline": "From earth to <gold>gold bar</gold>",
+        "subheadline": "Across six African nations, one uncompromising standard",
+        "desc": "Headquartered in Busia, Uganda, AfriGold Hub operates chemical-free gravity concentration facilities across Uganda, Kenya, Tanzania, Swaziland, Sierra Leone, South Africa, and Malawi. Every gram produced is chain-of-custody documented from licensed pit to verified buyer - with zero mercury and zero cyanide at every site.",
+        "locations": {
+          "hq": "Busia, Uganda",
+          "operations": [
+            "Uganda (Primary)",
+            "Kenya",
+            "Tanzania",
+            "Swaziland",
+            "Sierra Leone",
+            "South Africa",
+            "Malawi"
+          ],
+          "countries": [
+            "Uganda",
+            "Kenya",
+            "Tanzania",
+            "Swaziland",
+            "Sierra Leone",
+            "South Africa",
+            "Malawi"
+          ],
+          "places": [
+				{
+					"role": "headquarters",
+					"country": "Uganda",
+					"flag": "🇺🇬",
+					"site": "Tira Gold Mine",
+					"region": "Busia District, Eastern Region",
+					"lat": 0.4664,
+					"lng": 34.0886,
+					"place_id": "ChIJ5ZHcDPihfxcR39saSb3FhNQ",
+					"deposit_type": ["quartz vein-hosted", "BIF-hosted", "alluvial placer"],
+					"goldfield": "Busia-Kakamega Greenstone Belt",
+					"geology": "Archaean greenstone belt. Quartz vein and Banded Iron Formation (BIF)-hosted deposits. Alluvial placer gold along the Malaba–Solo river corridor.",
+					"licence_authority": "Directorate of Geological Survey and Mines (DGSM), Uganda",
+					"regulatory_body": "NEMA Uganda",
+					"status": "active",
+					"elevation_m": 1218,
+					"notes": "Primary HQ and processing facility. Highest-output site. Approx. 266 kg refined gold per month."
+				},
+				{
+					"country": "Kenya",
+					"role": "operations",
+					"site": "Macalder Gold Mine",
+					"region": "Migori County, Nyanza Region",
+					"lat": -0.9711,
+					"lng": 34.2574,
+					"place_id": "ChIJ6xpyTCen1BkRvwDanI4UM0k",
+					"deposit_type": ["orogenic quartz vein", "BIF-hosted", "alluvial"],
+					"goldfield": "Migori Greenstone Belt (Lake Victoria Goldfields)",
+					"geology": "Part of the Nyanzian Supergroup - northern extension of the Archaean Tanzanian craton. 11 documented mine sites across Rongo, Suna West, and Macalder divisions. Mineralisation in shear zones with quartz-carbonate veining.",
+					"licence_authority": "Mines and Geology Department, Ministry of Petroleum and Mining, Kenya",
+					"regulatory_body": "NEMA Kenya, Water Resources Authority (WRA)",
+					"status": "active",
+					"elevation_m": 1250,
+					"notes": "SW Kenya, ~290 km west of Nairobi. 10 km north of Kenya/Tanzania border. Analogous geology to Geita and North Mara mines in Tanzania."
+				},
+				{
+					"country": "Tanzania",
+					"role": "operations",
+					"site": "Geita Gold Mine Zone",
+					"region": "Geita District, Geita Region",
+					"lat": -2.8676,
+					"lng": 32.1865,
+					"place_id": "ChIJg3NfLjAYzxkRn-znACNIG5k",
+					"deposit_type": ["orogenic lode", "BIF-hosted", "alluvial placer"],
+					"goldfield": "Lake Victoria Goldfield - Geita Greenstone Belt",
+					"geology": "Northwestern Tanzania, ~120 km from Mwanza, 4 km west of Geita town. Part of the Archaean Tanzanian craton gold system. Extensive artisanal operations alongside large-scale industrial mining.",
+					"licence_authority": "Tanzania Minerals Audit Agency (TMAA), Ministry of Minerals",
+					"regulatory_body": "NEMC Tanzania, TANSORT",
+					"status": "active",
+					"elevation_m": 1140,
+					"notes": "Tanzania's largest gold mining district. AfriGold Hub operates artisanal gravity-concentration sites in the surrounding concession area."
+				},
+				{
+					"country": "Sierra Leone",
+					"role": "operations",
+					"site": "Kono Gold District",
+					"region": "Kono District, Eastern Province",
+					"lat": 8.6438,
+					"lng": -10.9714,
+					"place_id": null,
+					"deposit_type": ["alluvial placer", "quartz vein", "eluvial"],
+					"goldfield": "Kono-Kenema Greenstone Belt, West African Craton",
+					"geology": "Koidu area, ~250 km east of Freetown. Archaean greenstone terrain hosting gold in quartz veins associated with BIF. Historically productive for artisanal alluvial gold and diamond recovery.",
+					"licence_authority": "Mines and Mineral Resources Department (MMRD), Sierra Leone",
+					"regulatory_body": "Environment Protection Agency (EPA), Sierra Leone",
+					"status": "active",
+					"elevation_m": 385,
+					"notes": "West African craton site. Artisanal gravity concentration operations. Strong community employment programme in Kono District."
+				},
+				{
+					"country": "South Africa",
+					"role": "operations",
+					"site": "Witwatersrand Goldfield - West Wits Zone",
+					"region": "West Rand, Gauteng Province",
+					"lat": -26.4384,
+					"lng": 27.4259,
+					"place_id": "ChIJTcMEZRXPlR4RSELvZ88nXs8",
+					"deposit_type": ["reef-hosted conglomerate", "eluvial"],
+					"goldfield": "Witwatersrand Basin",
+					"geology": "Carletonville area, West Rand district. Witwatersrand Basin - the world's largest goldfield, 350 km × 200 km of metamorphosed conglomerates. AfriGold Hub operates in the alluvial and eluvial peripheral zones under artisanal licence.",
+					"licence_authority": "Department of Mineral Resources and Energy (DMRE), South Africa",
+					"regulatory_body": "SARS, Department of Water and Sanitation (DWS), DMRE",
+					"status": "active",
+					"elevation_m": 1540,
+					"notes": "Mponeng (world's deepest mine at ~4 km) nearby. AfriGold Hub operates surface artisanal concessions in the peripheral reef zone."
+				},
+				{
+					"country": "Eswatini",
+					"role": "operations",
+					"site": "Hhohho Gold Zone",
+					"region": "Hhohho Region, northwest Eswatini",
+					"lat": -26.2037,
+					"lng": 31.0303,
+					"place_id": "ChIJXRJk03zc6B4R2sc1kB0ABco",
+					"deposit_type": ["quartz vein", "alluvial placer"],
+					"goldfield": "Hhohho Greenstone Belt",
+					"geology": "Northwest Eswatini, adjacent to the Ngwenya mineral zone - one of the world's oldest known mine sites (43,000 yr Ngwenya iron mine). Gold occurs in greenstone belt quartz veins. Active geological remapping underway since 2023 in partnership with the South African Council for Geoscience.",
+					"licence_authority": "Geological Survey of Eswatini, Minerals Committee (under the Ngwenyama)",
+					"regulatory_body": "Eswatini Environment Authority (EEA)",
+					"status": "active",
+					"elevation_m": 890,
+					"notes": "Smallest operation in the network by output. Strategically positioned given 2023–2025 national geoscience remapping identifying new gold zones."
+				},
+				{
+					"country": "Malawi",
+					"flag": "🇲🇼",
+					"site": "Mchinji Gold Belt",
+					"region": "Mchinji District, Central Region",
+					"lat": -13.7984,
+					"lng": 32.8802,
+					"place_id": null,
+					"deposit_type": ["alluvial placer", "eluvial", "quartz vein"],
+					"goldfield": "Central Malawi Greenstone Belt",
+					"geology": "Central Region greenstone corridors. Artisanal gold panning along seasonal stream sediments. Under-explored relative to other sites in the network - geological surveys indicate significant upside potential in the quartz vein systems of the Mchinji hills.",
+					"licence_authority": "Mines Department, Ministry of Natural Resources and Climate Change, Malawi",
+					"regulatory_body": "Environmental Affairs Department (EAD), Malawi",
+					"status": "active",
+					"elevation_m": 1100,
+					"notes": "Most recently added operation. Lowest current output but highest exploration upside. Artisanal gravity concentration fully operational since 2022."
+				}
+			]
+        },
+        "features": [
+          "Alluvial ore extraction from Mining Licence-approved pits across six countries",
+          "On-site gravity concentration - sluice boxes, spiral concentrators, jig separators",
+          "Smelting into 99.5% purity gold bars, independently assayed per consignment",
+          "Direct sale to government-licensed precious metals buyers in each operating country",
+          "Full chain-of-custody documentation: pit weight, concentrate grade, assay certificate, buyer receipt"
+        ],
+        "steps": [
+          {
 				"title": "Site Extraction",
-				"desc": "Controlled excavation under qualified mine supervisor oversight.",
-                "color": "#664b00",
-                "icon": "site-extraction",
-                "image": "/media/site-extraction.jpeg"
+				"subtitle": "",
+				"color": "#252525",
+				"text-color": "#ffffff",
+				"icon": "site-extraction",
+				"image": "/media/site-extraction.jpeg",
+				"short_desc": "Our licensed excavation teams work alluvial and eluvial ore zones across our seven-country network, operating under active Mining Licences and rigorous supervisor oversight. Every pit is mapped, documented, and worked within the boundaries certified by the relevant national Mines & Geology authority - from the Busia goldfields of Uganda to the mineral corridors of Sierra Leone and Malawi.",
+				"long_desc": "Site extraction at AfriGold Hub begins long before a shovel enters the ground. Each operating zone undergoes a formal geological assessment to map alluvial gold distribution across the deposit, identifying the highest-yield zones within our licensed acreage. Our field geologists, trained to regional mining authority standards, prepare extraction plans that balance yield optimisation with site rehabilitation requirements set by each country's environmental regulator.\n\nIn Busia, Uganda - our primary site - excavation follows the ancient Nzoia River alluvial corridor, where gold-bearing gravels have been deposited over millennia at depths of 1 to 6 metres. At our Kenya and Tanzania sites, similar alluvial formations along the Lake Victoria basin yield consistent ore grades. In Sierra Leone and South Africa, our teams work eluvial (slope-washed) deposits that require a different excavation approach, using controlled benching to expose the productive layer without disturbing the overburden excessively.\n\nAll extraction is conducted by trained, contracted crews under the direct supervision of a certified Mine Supervisor. Shift output is weighed and recorded at the pit, and a chain-of-custody log is initiated at the moment of extraction. No ore leaves the pit zone without a documented weight ticket - the first link in an unbroken documentation chain that ends at the buyer's receipt.\n\nPost-extraction, all pit zones are progressively rehabilitated: overburden is replaced, topsoil restored, and vegetation replanting is carried out in line with each national environmental authority's closure plan requirements. In Uganda, this work is overseen by NEMA; in Kenya by the Water Resources Authority and NEMA; and in South Africa by the Department of Mineral Resources and Energy (DMRE)."
 			},
-			{
+          {
 				"title": "Gravity Processing",
-				"desc": "Water and gravity — zero chemicals, zero liability.",
-                "color": "#53400b",
-                "icon": "gravity-processing",
-                "image": "/media/gravity-processing.jpeg"
+				"color": "#5c5c5c",
+				"text-color": "#ffffff",
+				"icon": "gravity-processing",
+				"image": "/media/gravity-processing.jpeg",
+				"short_desc": "At the heart of AfriGold Hub's environmental commitment is our chemical-free gravity concentration system. Using only water, motion, and the natural density difference between gold and gangue minerals, our sluice boxes and spiral concentrators separate gold from waste with no mercury, no cyanide, and no toxic tailings - meeting and exceeding the requirements of every national environmental authority in our operating network.",
+				"long_desc": "Gravity concentration is both the oldest and the cleanest method of gold recovery available to artisanal and small-scale miners. AfriGold Hub has invested heavily in modernising this technique across all seven of our country operations, deploying a staged system that consistently achieves gold recovery rates of 85–92% without a single gram of chemical input.\n\nThe process begins at the primary sluice stage, where ore-bearing gravel is fed into a high-gradient sluice box with controlled water flow. The turbulence and velocity of the water carry lighter gangue particles over the riffle bars and out of the system, while the density of gold (approximately 19.3 g/cm³, compared to 2.6–3.0 g/cm³ for common silicate gangue) causes it to settle and concentrate behind the riffles. This primary concentrate - typically 200–400 times richer in gold than the raw feed - is then passed to the spiral concentrator stage.\n\nOur spiral concentrators, installed across all primary sites, use centrifugal and gravitational forces to further separate gold from remaining heavy and light minerals. The inner channel of the spiral collects the densest, gold-rich fraction, which is collected as secondary concentrate and passed to the final cleaning stage using a shaking table or Gemini table - producing a final concentrate clean enough for direct smelting without chemical pre-treatment.\n\nWater used in the process is recycled through a closed settling pond system at each site, with 90–94% water recovery across our network. This dramatically reduces freshwater abstraction and ensures no process water enters natural waterways untreated. In Uganda, all water management plans are approved by the Directorate of Water Resources Management (DWRM); in Kenya by the Water Resources Authority (WRA); in South Africa by the Department of Water and Sanitation (DWS).\n\nThe absence of mercury and cyanide is not merely an environmental virtue - it is also a significant commercial advantage. Chemical processing costs (mercury, cyanide, lime, acid) are entirely eliminated, reducing our per-gram processing cost to approximately $8.40 versus $18–22 for equivalent chemical leach operations. This cost advantage directly improves investor returns."
 			},
-			{
+          {
 				"title": "Smelting & Assay",
-				"desc": "On-site smelting. Independent purity assay per bar.",
-                "color": "#a18c51",
-                "icon": "smelting",
-                "image": "/media/smelting.jpeg"
+				"color": "#303030",
+				"text-color": "#ffffff",
+				"icon": "smelting",
+				"image": "/media/smelting.jpeg",
+				"short_desc": "Our on-site smelting furnaces convert the cleaned gravity concentrate into cast gold bars at temperatures exceeding 1,100°C. Every bar produced across our network is independently assayed for purity before release, with certificates issued to international refinery standards. Our primary Busia smelting facility produces bars consistently grading 99.5% or above - meeting London Bullion Market Association (LBMA) acceptable delivery standards.",
+				"long_desc": "Smelting is the transformative stage that converts the cleaned gravity concentrate - a dark, metallic powder or fine grain - into the tangible, auditable asset of a cast gold bar. AfriGold Hub operates primary smelting furnaces at our Busia, Uganda facility and secondary smelting capabilities at our Kenya and Tanzania sites, with concentrate from Sierra Leone, Swaziland, South Africa, and Malawi consolidated and transported under secure chain-of-custody to the nearest equipped facility.\n\nThe smelting process at each facility follows a consistent protocol. Concentrate is first weighed and sampled - a fire assay sample is drawn and sent to an independent certified assay laboratory before smelting begins, establishing the expected yield and purity. The bulk concentrate is then loaded into a graphite crucible and charged into an induction furnace, which reaches operating temperature (1,064°C for pure gold, 1,100–1,150°C in practice to account for silver and base metal impurities) within 15–20 minutes.\n\nImpurities are removed through a flux addition process - a controlled combination of borax, silica, and sodium nitrate draws base metals, sulphides, and oxides into a glass-like slag that floats above the molten gold and is skimmed off. The refined liquid metal is then poured into pre-heated graphite moulds, cast into bar form, allowed to cool under controlled conditions, and surface-finished to produce a clean, stackable bar.\n\nEvery bar is weighed on a certified balance accurate to 0.01 grams and individually marked with a unique bar serial number, pour date, site code, and weight before being presented for independent assay. In Uganda and Kenya, assay services are provided by accredited laboratories certified to KS ISO 11426 and UNBS standards respectively. In South Africa, assays are conducted to SANAS-accredited laboratory standards. The independent assay certificate accompanies every bar throughout its sale and export journey, forming a permanent part of the chain-of-custody record.\n\nOur Busia facility has consistently produced bars grading 99.5–99.7% purity over the past three years of operation. Each consignment - typically 15–20 bars totalling 250–280 kg - is photographed, weighed, assay-certified, and placed in sealed, tamper-evident packaging before transfer to the licensed buyer."
 			},
-			{
+          {
 				"title": "Sale & Distribution",
-				"desc": "Licensed buyer receipts. Proceeds distributed per agreement.",
-                "color": "#372d13",
-                "icon": "sale-distribution",
-                "image": "/media/sale-distribution.jpeg"
+				"color": "#000000",
+				"text-color": "#ffffff",
+				"icon": "sale-distribution",
+				"image": "/media/sale-distribution.jpeg",
+				"short_desc": "Finished gold bars are sold exclusively through government-licensed precious metals buyers in each operating country, with full royalty declarations, export documentation, and KRA/URA/TMGA receipts issued per transaction. Proceeds are transferred to the AfriGold Hub operating account within 48 hours of delivery, with investor distributions processed within 10 business days of month-end - every month, without exception.",
+				"long_desc": "The sale and distribution stage is where every gram of production becomes investor return - and where AfriGold Hub's commitment to full transparency is most directly tested. We operate a strictly regulated, fully documented sale process across all seven countries, working only with buyers who hold valid precious metals dealer licences from the relevant national revenue or mining authority.\n\nIn Uganda - our primary market - gold is sold to Uganda Revenue Authority (URA)-registered precious metals dealers operating under licences issued by the Directorate of Geological Survey and Mines (DGSM). Each transaction is accompanied by a formal sale agreement, a KYC-verified buyer certificate, the bar's independent assay certificate, and a URA-receipted royalty declaration (Uganda's mineral royalty is currently 3% of gross value for artisanal gold). The physical handover is documented with bar serial numbers, weights, and buyer acknowledgment - and both parties retain original copies.\n\nIn Kenya, sales proceed through KRA-registered dealers with Central Bank of Kenya (CBK) foreign exchange approval for international settlement. In Tanzania, all gold sales are reported to the Tanzania Minerals Audit Agency (TMAA) and documented under TANSORT (Tanzania Minerals Sorting and Smelting Company) protocols. South African consignments are handled through SARS-registered dealers under DMRE oversight, while Sierra Leone, Swaziland, and Malawi sales follow the respective national mining ministry dealer registration requirements.\n\nAll sale proceeds are received into the AfriGold Hub operating account - a joint account accessible to Strategic and Anchor tier partners - within 48 hours of physical delivery and buyer confirmation. Monthly revenue is reconciled against production records, assay certificates, and buyer receipts by our CFO and an external accountant, producing the monthly audited P&L that goes to all investment partners within 10 business days of month-end.\n\nInvestor distributions are transferred via SWIFT international bank transfer (USD) or mobile money (for Africa-based partners who prefer it) on a fixed schedule - the 15th of each month for the prior month's production. Late payment, in our history, has never occurred. The entire sale and distribution process - from bar handover to investor payment - is documented in our monthly investor pack: a 6-page PDF that includes the sale receipts, assay certificates, bank statement excerpt, P&L, and distribution breakdown by partner tier."
 			}
-		]
+        ]
+      
 	},
 	"gallery": {
 		"tag": "Visual Story",
@@ -159,7 +313,7 @@
 			{
 				"icon": "⛏️",
 				"title": "Primary Mining Licence (PML)",
-				"issuer": "Ministry of Minerals — United Republic",
+				"issuer": "Ministry of Minerals - United Republic",
 				"desc": "Active mining licence under Africa's Mining Act 2010. Covers alluvial gold extraction across our licensed Lupa Goldfield pits in Chunya, Mbeya Region.",
 				"ref": "Licence: PML/CHU/2018/042",
 				"renewal": "Renewal: 2026"
@@ -168,7 +322,7 @@
 				"icon": "🌿",
 				"title": "NEMC Environmental Certification",
 				"issuer": "National Environment Management Council",
-				"desc": "Full Environmental Impact Assessment (EIA) approval for chemical-free gravity concentration. Zero mercury and cyanide use — fully compliant with NEMC guidelines.",
+				"desc": "Full Environmental Impact Assessment (EIA) approval for chemical-free gravity concentration. Zero mercury and cyanide use - fully compliant with NEMC guidelines.",
 				"ref": "Cert: NEMC/EIA/2019/107",
 				"renewal": "Annual audit"
 			},
@@ -198,12 +352,12 @@
 	"why": {
 		"tag": "Why AfriGold Hub",
 		"headline": "Built on proven ground, engineered for returns",
-		"desc": "Our operation sits on the historic Lupa Goldfield in Chunya, Mbeya — one of Africa's most prolific mineral belts, with a track record stretching back to 1922.",
+		"desc": "Our operation sits on the historic Lupa Goldfield in Chunya, Mbeya - one of Africa's most prolific mineral belts, with a track record stretching back to 1922.",
 		"cards": [
 			{
 				"icon": "⛏",
 				"title": "Gravity Concentration Technology",
-				"desc": "Our chemical-free gravity process is environmentally compliant and cost-efficient, recovering gold without mercury or cyanide — fully NEMC certified."
+				"desc": "Our chemical-free gravity process is environmentally compliant and cost-efficient, recovering gold without mercury or cyanide - fully NEMC certified."
 			},
 			{
 				"icon": "📜",
@@ -273,7 +427,7 @@
 				"tier": "Anchor Investor",
 				"amount": "$189,000",
 				"roi": "primary partner",
-				"roiPrefix": "Full CAPEX coverage —",
+				"roiPrefix": "Full CAPEX coverage -",
 				"cta": "Contact Us",
 				"ctaStyle": "outline",
 				"features": [
@@ -307,7 +461,7 @@
 				"initials": "AL",
 				"name": "Amara Lavigne",
 				"title": "Impact Investor, Paris",
-				"text": "The chemical-free process sealed it for me. I wanted a mining investment with a clean ESG profile — AfriGold Hub delivers exactly that."
+				"text": "The chemical-free process sealed it for me. I wanted a mining investment with a clean ESG profile - AfriGold Hub delivers exactly that."
 			}
 		]
 	},
@@ -340,7 +494,7 @@
 	"cta": {
 		"tag": "Get Involved",
 		"headline": "Ready to own a share of <gold>Africa's gold output?</gold>",
-		"desc": "Schedule a discovery call with our investment team. We'll walk you through financials, site data, and partnership structures — no obligation.",
+		"desc": "Schedule a discovery call with our investment team. We'll walk you through financials, site data, and partnership structures - no obligation.",
 		"scheduleCall": "Schedule a Call",
 		"viewPlans": "View Investment Plans"
 	},

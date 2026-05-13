@@ -30,7 +30,7 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
 							"radial-gradient(ellipse 60% 50% at 70% 40%, rgba(201,168,76,0.07) 0%, transparent 80%), radial-gradient(ellipse 40% 60% at 10% 80%, rgba(201,168,76,0.025) 0%, transparent 60%)",
 					}}
 				/> */}
-				<div className="layout-gradient-bg fixed inset-0" ref={radialBgRef}></div>
+				<div className="layout-gradient-bg fixed inset-0"></div>
 				<div
 					className="fixed inset-0"
 					style={{
