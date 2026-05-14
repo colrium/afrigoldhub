@@ -12,7 +12,7 @@ interface NavItem {
 export const landingPageNavs: NavItem[] = [
 	{ name: "home", path: "/", excludeOnMainNav: true, linkProps: { className: "text-center" } },
 	{ name: "about", path: "/about", labelKey: "about" },
-	{ name: "contact-us", path: "/contact-us", labelKey: "contactUs" },
+	{ name: "contact-us", path: "/contact", labelKey: "contactUs" },
 	{ name: "operations", path: "/operations", labelKey: "operations" },
 	{ name: "gallery", path: "/gallery", labelKey: "gallery" },
 	{

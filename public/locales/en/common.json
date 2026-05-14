@@ -806,6 +806,75 @@
 			}
 		]
 	},
+	"invest_page": {
+		"meta": {
+			"page_title": "Invest - AfriGold Hub",
+			"meta_description": "Compare AfriGold Hub investment tiers, partner safeguards, monthly reporting, and the process for joining a licensed chemical-free gold production operation.",
+			"og_image": "/media/og-invest.jpg"
+		},
+		"hero": {
+			"tag": "Invest",
+			"headline": "Partner in documented gold production",
+			"description": "Choose a structured investment tier backed by licensed sites, chemical-free processing, audited monthly reporting, and clear partner rights from day one.",
+			"badge": { "text": "Minimum 3-month commitment", "status": "active" },
+			"cta_primary": { "label": "Compare Tiers", "href": "#tiers" },
+			"cta_secondary": { "label": "Request Due Diligence", "href": "/contact?reason=due-diligence" }
+		},
+		"labels": {
+			"equity_share": "Equity share",
+			"annual_target": "Annual target",
+			"custom": "Custom"
+		},
+		"process": {
+			"tag": "How It Works",
+			"headline": "From enquiry to monthly distributions",
+			"description": "A clear partner onboarding path keeps the investment process documented, reviewable, and predictable.",
+			"items": [
+				{
+					"step": 1,
+					"title": "Submit your interest",
+					"description": "Choose a tier or request the due diligence pack so our investment team can qualify your enquiry."
+				},
+				{
+					"step": 2,
+					"title": "Review documents",
+					"description": "Receive licence copies, audited monthly statements, assay examples, sales receipts, and the partner agreement."
+				},
+				{
+					"step": 3,
+					"title": "Execute agreement",
+					"description": "Complete KYC, sign the investment agreement, and fund through the agreed bank transfer route."
+				},
+				{
+					"step": 4,
+					"title": "Track monthly performance",
+					"description": "Receive monthly reports and distributions based on verified net profit and your contracted equity share."
+				}
+			]
+		},
+		"safeguards": {
+			"tag": "Partner Safeguards",
+			"headline": "Built for serious due diligence",
+			"items": [
+				{
+					"title": "Formal investment agreement",
+					"description": "Every tier is governed by a written partnership agreement covering equity share, reporting, term, exit, and distribution terms."
+				},
+				{
+					"title": "Monthly evidence pack",
+					"description": "Partners receive production records, sale receipts, assay certificates, P&L summaries, and distribution calculations."
+				},
+				{
+					"title": "Site access by tier",
+					"description": "Strategic and Anchor partners receive priority site access with operations leadership and finance review sessions."
+				},
+				{
+					"title": "Auditable value chain",
+					"description": "Chain-of-custody documentation follows gold from pit weight ticket through sale and investor distribution."
+				}
+			]
+		}
+	},
 	"testimonials": {
 		"tag": "Partner Stories",
 		"headline": "Trusted by investors across Africa and beyond",
@@ -1091,7 +1160,7 @@
 					"name": "Communications Team",
 					"title": "Media Relations",
 					"email": "press@afrigoldhub.com",
-					"phone": null,
+					"phone": "",
 					"note": "Interview requests, press releases, photography and media access."
 				},
 				{
@@ -1099,7 +1168,7 @@
 					"name": "ESG Team",
 					"title": "Community Development",
 					"email": "community@afrigoldhub.com",
-					"phone": null,
+					"phone": "",
 					"note": "Community development enquiries, NGO partnerships, environmental reporting."
 				}
 			]
