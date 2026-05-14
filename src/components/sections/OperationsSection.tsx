@@ -44,7 +44,7 @@ export default function OperationsSection() {
 							</h2>
 
 							<p className="text-base text-on-surface-200 leading-relaxed font-light mb-7">
-								{t("operations.desc")}
+								{t("operations.description")}
 							</p>
 						</div>
 					}

@@ -18,7 +18,7 @@ import { ParallaxTile } from '@/components/animations/ParallaxTile';
 import ClipReveal from '@/components/animations/ClipReveal';
 import HistoryTimeline from '@/components/sections/HistoryTimeline';
 import Certifications from '@/components/sections/Certifications';
-import MissionVisionValues from '@/components/sections/MissionVisionValues';
+import ComplianceMinimal from "@/components/sections/ComplianceMinimal";
 
 
 type Props = {
@@ -40,10 +40,9 @@ const Homepage = (
 			<HeroSection />
 
 			<OperationsSection />
-          <WhySection />
-          <HistoryTimeline />
-          <Certifications />
-          <MissionVisionValues />
+			<WhySection />
+			<ComplianceMinimal />
+
 			<div className="p-2 md:p-8">
 				<MetricsSection />
 			</div>

@@ -5,16 +5,19 @@ import { SectionTag } from "@/components/SectionTag";
 import { FadeUp } from "@/components/animations/Fade";
 import { Trans, useTranslation } from "next-i18next/pages";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import { Chip } from "@mui/material";
+import Image from "next/image";
 
-export default function Certifications() {
-    const { t } = useTranslation("common");
-    const licences = t("compliance.items", { returnObjects: true }) as {
+export default function ComplianceMinimal() {
+	const { t } = useTranslation("common");
+	const licences = t("compliance.items", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		issuer: string;
 		description: string;
 		ref: string;
 		renewal: string;
+		country_code: string;
 	}[];
 	return (
 		<section className="bg-black py-24">
@@ -33,27 +36,18 @@ export default function Certifications() {
 					<p className="text-sm text-muted font-light">{t("compliance.description")}</p>
 				</div>
 
-				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+				<div className="flex flex-wrap gap-5">
 					{licences.map((licence, idx) => (
 						<FadeUp key={idx} delay={idx * 0.05}>
-							<div className="bg-surface-900 border border-onSurface-100/20 rounded-xl p-7 transition-all duration-300 hover:bg-surface-800">
-								<div className="flex items-start justify-between mb-4">
-									<span className="flex items-center gap-1.5 text-xs text-green-400">
-										<span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
-										{t("active")}
-									</span>
-								</div>
-								<h4 className="font-serif text-lg text-off-white mb-1">
-									{licence.title}
-								</h4>
-								<div className="text-xs text-gold mb-3">{licence.issuer}</div>
-								<p className="text-xs text-muted leading-relaxed font-light">
-									{licence.description}
-								</p>
-								<div className="mt-4 pt-4 border-t border-g10 flex justify-between text-xs">
-									<span className="text-muted">{licence.ref}</span>
-									<span className="text-gold">Renewal: {licence.renewal}</span>
-								</div>
+							<div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-2 uppercase py-1.5 text-xs text-onSurface-100">
+								<Image
+									className="rounded-full"
+									width={14}
+									height={10}
+									src={`/img/flags/${licence.country_code.toLowerCase()}.svg`}
+									alt={licence.country_code}
+								/>
+								{licence.title}
 							</div>
 						</FadeUp>
 					))}

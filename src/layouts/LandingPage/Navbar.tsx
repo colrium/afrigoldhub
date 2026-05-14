@@ -37,8 +37,15 @@ export default function Navbar() {
 		languageMenuAnchor: null | HTMLElement;
 	});
     
+
     
     const localeObj = locales.find((l) => l.code === router.locale) || locales[0];
+
+    const navs = t("shared.nav.links", { returnObjects: true }) as {
+		label: string;
+		href: string;
+		excludeOnMainNav?: boolean;
+	}[];
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const onToggleLanguageClick = (newLocale: string) => {
@@ -47,12 +54,10 @@ export default function Navbar() {
 	};
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	const clientSideLanguageChange = (newLocale: string) => {
+	const clientSideLanguageChange = (newLocale: string) => () => {
 		i18n.changeLanguage(newLocale);
 	};
 
-	const changeTo = router.locale === "en" ? "de" : "en";
-	// const changeTo = i18n.resolvedLanguage === 'en' ? 'de' : 'en'
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -129,7 +134,7 @@ export default function Navbar() {
 						</Link>
 
 						<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
-							{landingPageNavs.map(
+							{/*landingPageNavs.map(
 								(
 									{
 										excludeOnMainNav,
@@ -151,6 +156,19 @@ export default function Navbar() {
 										>
 											{labelKey ? t(`nav.${labelKey}`) : name}
 										</Component>
+									)
+							)*/}
+							{navs.map(
+								({ label, href, excludeOnMainNav }, i) =>
+									!excludeOnMainNav && (
+										<MuiLink
+											color="textPrimary"
+											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
+											href={href}
+											key={`nav-${i}`}
+										>
+											{label}
+										</MuiLink>
 									)
 							)}
 						</Box>
@@ -224,23 +242,19 @@ export default function Navbar() {
 
 					{/* Mobile Navigation Links */}
 					<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-						{landingPageNavs.map(
+						{navs.map(
 							(
 								{
 									excludeOnMainNav,
-									labelKey,
-									name,
-									path,
-									props: linkProps,
-									Component = MuiLink,
+                                    label,
+                                    href
 								},
 								i
 							) =>
 								!excludeOnMainNav && (
-									<Component
-										{...linkProps}
+									<MuiLink
 										key={`mobile-nav-${i}`}
-										href={path ? path : "#"}
+										href={href}
 										onClick={handleDrawerToggle}
 										sx={{
 											py: 1,
@@ -250,10 +264,10 @@ export default function Navbar() {
 												backgroundColor: "rgba(0, 0, 0, 0.05)",
 											},
 										}}
-										className="no-underline"
+										className="no-underline py-1 px-2 hover:bg-primary-light"
 									>
-										{labelKey ? t(`nav.${labelKey}`) : name}
-									</Component>
+										{label}
+									</MuiLink>
 								)
 						)}
 					</Box>

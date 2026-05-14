@@ -5,7 +5,7 @@ export default function ComplianceSection() {
 		icon: string;
 		title: string;
 		issuer: string;
-		desc: string;
+		description: string;
 		ref: string;
 		renewal: string;
 	}[];
@@ -25,7 +25,7 @@ export default function ComplianceSection() {
 					})}
 				</h2>
 				<p className="text-base text-[#faf5ec] font-light leading-relaxed">
-					{t("compliance.desc")}
+					{t("compliance.description")}
 				</p>
 			</div>
 
@@ -47,7 +47,7 @@ export default function ComplianceSection() {
 						<h4 className="font-serif text-lg text-[#F5F0E8] mb-1">{lic.title}</h4>
 						<div className="text-xs text-[#f3bd27] mb-3">{lic.issuer}</div>
 						<p className="text-xs text-[#faf5ec] leading-relaxed font-light">
-							{lic.desc}
+							{lic.description}
 						</p>
 						<div className="mt-4 pt-4 border-t border-[rgba(201,168,76,0.1)] flex justify-between text-xs">
 							<span className="text-[#faf5ec]">{lic.ref}</span>
@@ -66,7 +66,7 @@ export default function ComplianceSection() {
 						{t("compliance.cda.title")}
 					</div>
 					<div className="text-xs text-[#faf5ec] font-light leading-relaxed">
-						{t("compliance.cda.desc")}
+						{t("compliance.cda.description")}
 					</div>
 				</div>
 				<span className="shrink-0 flex items-center gap-1.5 text-xs text-green-400 whitespace-nowrap">

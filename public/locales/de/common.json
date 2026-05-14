@@ -1428,8 +1428,7 @@
 	"shared": {
 		"nav": {
 			"logo_alt": "AfriGold Hub",
-			"links": [
-				{ "label": "About", "href": "/about" },
+			"links": [				
 				{ "label": "Operations", "href": "/operations" },
 				{ "label": "Value Chain", "href": "/value-chain" },
 				{ "label": "Invest", "href": "/invest" },
@@ -1437,6 +1436,7 @@
 				{ "label": "Gallery", "href": "/#gallery" },
 				{ "label": "FAQ", "href": "/#faq" },
 				{ "label": "Contact", "href": "/contact" }
+                { "label": "About", "href": "/about" },
 			],
 			"cta_ghost": { "label": "Learn More", "href": "/#faq" },
 			"cta_primary": { "label": "Partner With Us", "href": "/invest" }

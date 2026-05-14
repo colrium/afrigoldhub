@@ -24,7 +24,7 @@ export default function InvestmentSection() {
 						{t("investment.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light max-w-[560px] mx-auto">
-						{t("investment.desc")}
+						{t("investment.description")}
 					</p>
 				</div>
 

@@ -25,7 +25,7 @@ export default function CtaBand() {
 					/>
 				</h2>
 				<p className="text-base text-[#faf5ec] font-light leading-[1.75] max-w-[540px] mb-10">
-					{t("cta.desc")}
+					{t("cta.description")}
 				</p>
 				<div className="flex gap-4 flex-wrap">
 					<Link

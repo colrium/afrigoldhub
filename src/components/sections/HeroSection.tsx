@@ -11,7 +11,7 @@ const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 	ssr: false,
 	loading: () => (
 		<img
-			className="w-[320px] h-[320px] md:w-[480px] md:h-[420px] lg:w-[520px] lg:h-[520px]"
+			className="w-[320px] h-80 md:w-120 md:h-105 lg:w-130 lg:h-130"
 			style={{ width: 400, height: 400 }}
 			src="/img/earth/placeholder.png"
 			alt="earth"
@@ -21,11 +21,10 @@ const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 
 export default function HeroSection() {
 	const { t } = useTranslation("common");
-    const certs = ["stamico", "mining", "nemc"] as const;
-    const certifications = t("certifications.items", { returnObjects: true }) as {
-		env_body: string;
-		licence_body: string;
-		country: string;
+    const certifications = t("shared.certifications_bar.items", { returnObjects: true }) as {
+		code: string;
+		name: string;
+		note: string;
 	}[];
 	return (
 		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">
@@ -44,7 +43,7 @@ export default function HeroSection() {
 						</h1>
 
 						<p className="text-base text-onsurface-100  leading-[1.75] mb-10 max-w-[480px] font-light">
-							{t("hero.desc")}
+							{t("hero.description")}
 						</p>
 
 						<div className="flex gap-4 flex-wrap">
@@ -68,21 +67,18 @@ export default function HeroSection() {
 							</span>
 							<div className="flex gap-2 flex-wrap">
 								{certifications.map((cert, i) => (
-									<Chip key={i} label={cert.env_body} />
+									<div
+										className="gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-1.5 text-xs text-onSurface-100"
+										key={i}
+									>
+										{cert.code}
+									</div>
 								))}
 							</div>
 						</div>
 					</div>
 
 					<div className=" flex flex-col justify-center items-center max-w-md mx-auto">
-						{/* <BlurReveal blurAmount={8} delay={0.2} duration={1.2}>
-							<Image
-								src="/img/gold-nugget-africa.png"
-								alt="gold nugget"
-								width={400}
-								height={400}
-							/>
-						</BlurReveal> */}
 						<div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-1.5 text-xs text-onSurface-100 tracking-[0.08em] uppercase mb-7">
 							<span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
 							<span>{t("hero.badge")}</span>
