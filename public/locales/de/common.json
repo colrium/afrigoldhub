@@ -537,6 +537,80 @@
 			}
 		]
 	},
+	"about_page": {
+		"meta": {
+			"page_title": "About - AfriGold Hub",
+			"meta_description": "Learn about AfriGold Hub, our leadership, operating principles, governance model, and mission to make African artisanal gold transparent and investable.",
+			"og_image": "/media/og-about.jpg"
+		},
+		"hero": {
+			"tag": "About AfriGold Hub",
+			"headline": "A disciplined gold platform built in the field",
+			"description": "AfriGold Hub brings licensed mining operations, chemical-free gravity processing, investor-grade reporting, and community-first governance into one transparent gold production platform.",
+			"badge": { "text": "Licensed operations across seven African markets", "status": "active" },
+			"cta_primary": { "label": "See Operations", "href": "/operations" },
+			"cta_secondary": { "label": "Meet the Team", "href": "#team" }
+		},
+		"story": {
+			"tag": "Our Story",
+			"headline": "Built for trust, not speculation",
+			"description": "The AfriGold Hub model was shaped by a simple observation: artisanal gold can be highly productive, but it only becomes investable when the operation is licensed, documented, and governed with discipline. We built our platform around that standard.",
+			"paragraphs": [
+				"Our team combines field operators, finance professionals, compliance specialists, and ESG advisors who have worked across East, West, and Southern African mineral corridors.",
+				"Instead of selling exposure to a vague commodity opportunity, we give partners visibility into the actual production chain: where ore is extracted, how it is processed, how bars are assayed, how buyers settle, and how distributions are calculated."
+			],
+			"stats": [
+				{ "value": "7", "label": "Operating countries" },
+				{ "value": "0", "label": "Mercury or cyanide inputs" },
+				{ "value": "10+", "label": "Years sector experience" },
+				{ "value": "30+", "label": "Direct operational jobs" }
+			]
+		},
+		"principles": {
+			"tag": "Operating Principles",
+			"headline": "The standard behind every site",
+			"items": [
+				{ "title": "Document everything", "description": "Every stage produces a record - from pit weight tickets to assay certificates and sale receipts." },
+				{ "title": "Keep processing clean", "description": "Our gravity concentration circuits use water and density separation, eliminating mercury, cyanide, and toxic tailings." },
+				{ "title": "Share the economics", "description": "Partners receive monthly reporting that connects production, sales, costs, net profit, and distribution calculations." },
+				{ "title": "Protect the licence", "description": "Compliance, community agreements, and environmental controls are treated as operating assets, not paperwork." }
+			]
+		},
+		"team": {
+			"tag": "Leadership",
+			"headline": "Operators, finance minds, and compliance discipline",
+			"description": "AfriGold Hub is led by a compact team with direct accountability for production, finance, investor relations, and regulatory integrity.",
+			"items": [
+				{ "initials": "JM", "name": "James Mwangi", "role": "CEO & Co-Founder", "description": "Leads investment partnerships, strategic expansion, and country-level operating relationships across the platform." },
+				{ "initials": "AO", "name": "Amina Ochieng", "role": "COO & Co-Founder", "description": "Oversees site operations, processing discipline, safety systems, and site visit coordination." },
+				{ "initials": "DK", "name": "David Kimani", "role": "Chief Financial Officer", "description": "Manages monthly reconciliation, investor reporting, payment controls, and partner financial documentation." },
+				{ "initials": "GN", "name": "Grace Njoroge", "role": "Head of Legal & Compliance", "description": "Owns licence registers, KYC/AML workflows, environmental documentation, and partner agreements." }
+			]
+		},
+		"governance": {
+			"tag": "Governance",
+			"headline": "Controls that make the operation auditable",
+			"description": "Our governance model is designed around clear records, accountable ownership, and investor access to the documents that matter.",
+			"items": [
+				"Monthly P&L review by finance leadership",
+				"Third-party assay certificates for produced bars",
+				"Central compliance register for licences and permits",
+				"Chain-of-custody logs from extraction through sale",
+				"Structured partner agreements with defined rights",
+				"Site access and document review for qualified partners"
+			]
+		},
+		"timeline": {
+			"tag": "Milestones",
+			"headline": "A platform built step by step",
+			"items": [
+				{ "year": "2013", "title": "Field research begins", "description": "Founding operators begin mapping artisanal gold corridors and testing gravity concentration workflows." },
+				{ "year": "2017", "title": "Clean processing model proven", "description": "Chemical-free processing becomes the operating standard for new sites and partner reporting." },
+				{ "year": "2021", "title": "Multi-country expansion", "description": "The model expands across East, West, and Southern African operating jurisdictions." },
+				{ "year": "2025", "title": "Investor platform formalised", "description": "AfriGold Hub consolidates operations, reporting, compliance, and partner onboarding into one platform." }
+			]
+		}
+	},
 	"investment": {
 		"tag": "Investment Tiers",
 		"headline": "Choose your position",
