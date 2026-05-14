@@ -89,7 +89,7 @@ export default function ChatWidget() {
 							</svg>
 						</div>
 						<div>
-							<strong className="block font-serif text-base text-[#F5F0E8]">
+							<strong className="block font-serif text-base text-onSurface-100">
 								{mode === "ai" ? "AfriGold AI" : "Support Team"}
 							</strong>
 							<span className="flex items-center gap-1 text-xs text-green-400">
@@ -107,7 +107,7 @@ export default function ChatWidget() {
 								onClick={() => switchMode(m)}
 								className={`px-3 py-1 rounded-full text-xs font-medium transition-all ${
 									mode === m
-										? "bg-[#f3bd27] text-black"
+										? "bg-primary text-black"
 										: "text-[#faf5ec] bg-transparent"
 								}`}
 							>
@@ -128,13 +128,13 @@ export default function ChatWidget() {
 							key={i}
 							className={`flex gap-2 items-end ${msg.role === "user" ? "flex-row-reverse" : ""}`}
 						>
-							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-[#f3bd27] font-serif font-bold">
+							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-serif font-bold">
 								{msg.role === "user" ? "You" : mode === "ai" ? "AG" : "ST"}
 							</div>
 							<div
 								className={`max-w-[78%] px-3.5 py-2.5 rounded-2xl text-sm leading-snug ${
 									msg.role === "user"
-										? "bg-[#f3bd27] text-black rounded-br-sm"
+										? "bg-primary text-black rounded-br-sm"
 										: "bg-[#1A1A1A] border border-[rgba(201,168,76,0.08)] text-[rgba(245,240,232,0.85)] rounded-bl-sm"
 								}`}
 							>
@@ -145,14 +145,14 @@ export default function ChatWidget() {
 
 					{typing && (
 						<div className="flex gap-2 items-end">
-							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-[#f3bd27] font-serif font-bold">
+							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-serif font-bold">
 								AG
 							</div>
 							<div className="bg-[#1A1A1A] border border-[rgba(201,168,76,0.08)] px-4 py-3 rounded-2xl rounded-bl-sm flex gap-1 items-center">
 								{[0, 1, 2].map((d) => (
 									<span
 										key={d}
-										className="w-1.5 h-1.5 rounded-full bg-[#f3bd27] opacity-50"
+										className="w-1.5 h-1.5 rounded-full bg-primary opacity-50"
 										style={{
 											animation: `bounce 1.2s ${d * 0.2}s ease-in-out infinite`,
 										}}
@@ -170,7 +170,7 @@ export default function ChatWidget() {
 							<button
 								key={q}
 								onClick={() => handleSend(q)}
-								className="text-xs border border-[rgba(201,168,76,0.15)] text-[#f3bd27] px-3 py-1.5 rounded-full hover:bg-[rgba(201,168,76,0.08)] transition-all"
+								className="text-xs border border-[rgba(201,168,76,0.15)] text-primary px-3 py-1.5 rounded-full hover:bg-[rgba(201,168,76,0.08)] transition-all"
 							>
 								{q}
 							</button>
@@ -185,11 +185,11 @@ export default function ChatWidget() {
 						onChange={(e) => setInput(e.target.value)}
 						onKeyDown={(e) => e.key === "Enter" && handleSend(input)}
 						placeholder="Ask a question..."
-						className="flex-1 bg-transparent text-sm text-[#F5F0E8] placeholder:text-[rgba(201,168,76,0.3)] outline-none"
+						className="flex-1 bg-transparent text-sm text-onSurface-100 placeholder:text-[rgba(201,168,76,0.3)] outline-none"
 					/>
 					<button
 						onClick={() => handleSend(input)}
-						className="w-8 h-8 rounded-full bg-[#f3bd27] flex items-center justify-center shrink-0 hover:bg-[#E5C46A] transition-colors"
+						className="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 hover:bg-[#E5C46A] transition-colors"
 					>
 						<svg width="14" height="14" viewBox="0 0 16 16" fill="none">
 							<path
@@ -206,7 +206,7 @@ export default function ChatWidget() {
 			{/* FAB */}
 			<button
 				onClick={() => setOpen(!open)}
-				className={`relative w-14 h-14 rounded-full bg-[#f3bd27] flex items-center justify-center shadow-[0_4px_20px_rgba(201,168,76,0.4)] hover:shadow-[0_6px_32px_rgba(201,168,76,0.5)] transition-all`}
+				className={`relative w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-[0_4px_20px_rgba(201,168,76,0.4)] hover:shadow-[0_6px_32px_rgba(201,168,76,0.5)] transition-all`}
 			>
 				<span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 bg-green-400 rounded-full border-2 border-[#0A0A0A]" />
 				<svg

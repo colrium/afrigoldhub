@@ -17,10 +17,10 @@ export default function InvestmentSection() {
 		<section id="invest" className="bg-[#111111] py-28">
 			<div className="max-w-[1180px] mx-auto px-8">
 				<div className="text-center mb-16">
-					<span className="inline-block text-xs tracking-[0.14em] uppercase text-[#f3bd27] opacity-80 mb-3">
+					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("investment.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-[#F5F0E8] mb-5">
+					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("investment.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light max-w-[560px] mx-auto">
@@ -35,7 +35,7 @@ export default function InvestmentSection() {
 							className={`relative rounded-2xl p-10 border transition-all
 									hover:-translate-y-1 ${
 										tier.featured
-											? "border-[#f3bd27]"
+											? "border-primary"
 											: "border-[rgba(201,168,76,0.15)] bg-[#0A0A0A]"
 									}`}
 							style={
@@ -48,14 +48,14 @@ export default function InvestmentSection() {
 							}
 						>
 							{tier.featured && (
-								<div className="absolute top-[-1px] right-6 bg-[#f3bd27] text-black text-[0.68rem] font-medium tracking-[0.08em] uppercase px-3 py-1 rounded-b-md">
+								<div className="absolute top-[-1px] right-6 bg-primary text-black text-[0.68rem] font-medium tracking-[0.08em] uppercase px-3 py-1 rounded-b-md">
 									{t("investment.mostPopular")}
 								</div>
 							)}
-							<div className="text-xs tracking-[0.12em] uppercase text-[#f3bd27] mb-5">
+							<div className="text-xs tracking-[0.12em] uppercase text-primary mb-5">
 								{tier.tier}
 							</div>
-							<div className="font-serif text-[2.6rem] font-bold text-[#F5F0E8] leading-none mb-2">
+							<div className="font-serif text-[2.6rem] font-bold text-onSurface-100 leading-none mb-2">
 								{tier.amount}
 							</div>
 							<div className="text-sm text-[#faf5ec] mb-7">
@@ -90,8 +90,8 @@ export default function InvestmentSection() {
 								className={`block w-full text-center py-3.5 rounded text-[0.95rem]
 										tracking-[0.05em] transition-all ${
 											tier.ctaStyle === "primary"
-												? "bg-[#f3bd27] text-black font-medium border border-[#f3bd27] hover:bg-[#E5C46A]"
-												: "text-[#f3bd27] font-light border border-[rgba(201,168,76,0.15)] hover:border-[#f3bd27] hover:bg-[rgba(201,168,76,0.06)]"
+												? "bg-primary text-black font-medium border border-primary hover:bg-[#E5C46A]"
+												: "text-primary font-light border border-[rgba(201,168,76,0.15)] hover:border-primary hover:bg-[rgba(201,168,76,0.06)]"
 										}`}
 							>
 								{tier.cta}

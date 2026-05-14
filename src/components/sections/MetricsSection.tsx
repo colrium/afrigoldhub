@@ -60,7 +60,7 @@ export default function MetricsSection() {
 										}}
 									/>
 								</div>
-								<span className="text-xs text-[#f3bd27] w-9 text-right shrink-0">
+								<span className="text-xs text-primary w-9 text-right shrink-0">
 									{b.value}
 								</span>
 							</div>
@@ -80,7 +80,7 @@ export default function MetricsSection() {
 										: "none",
 							}}
 						>
-							<div className="font-serif text-[2.6rem] font-bold text-[#f3bd27] leading-none">
+							<div className="font-serif text-[2.6rem] font-bold text-primary leading-none">
 								{t(`metrics.strip.${key}.value`)}
 							</div>
 							<div className="text-xs text-[#faf5ec] mt-1.5 tracking-[0.05em] uppercase">

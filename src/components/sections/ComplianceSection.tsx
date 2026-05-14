@@ -14,13 +14,13 @@ export default function ComplianceSection() {
 	<section className="bg-[#111111] py-24">
 		<div className="max-w-6xl mx-auto px-8">
 			<div className="max-w-[600px] mb-16">
-				<span className="inline-block text-xs tracking-[0.14em] uppercase text-[#f3bd27] opacity-80 mb-3">
+				<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 					{t("compliance.tag")}
 				</span>
-				<h2 className="font-serif text-4xl lg:text-5xl tracking-tight text-[#F5F0E8] mb-4">
+				<h2 className="font-serif text-4xl lg:text-5xl tracking-tight text-onSurface-100 mb-4">
 					{t("compliance.headline", {
 						gold: (chunks: string) => (
-							<em className="text-[#f3bd27] not-italic italic">{chunks}</em>
+							<em className="text-primary not-italic italic">{chunks}</em>
 						),
 					})}
 				</h2>
@@ -44,14 +44,14 @@ export default function ComplianceSection() {
 								{t("compliance.active")}
 							</span>
 						</div>
-						<h4 className="font-serif text-lg text-[#F5F0E8] mb-1">{lic.title}</h4>
-						<div className="text-xs text-[#f3bd27] mb-3">{lic.issuer}</div>
+						<h4 className="font-serif text-lg text-onSurface-100 mb-1">{lic.title}</h4>
+						<div className="text-xs text-primary mb-3">{lic.issuer}</div>
 						<p className="text-xs text-[#faf5ec] leading-relaxed font-light">
 							{lic.description}
 						</p>
 						<div className="mt-4 pt-4 border-t border-[rgba(201,168,76,0.1)] flex justify-between text-xs">
 							<span className="text-[#faf5ec]">{lic.ref}</span>
-							<span className="text-[#f3bd27]">{lic.renewal}</span>
+							<span className="text-primary">{lic.renewal}</span>
 						</div>
 					</div>
 				))}
@@ -62,7 +62,7 @@ export default function ComplianceSection() {
 					🏛️
 				</div>
 				<div>
-					<div className="text-sm font-medium text-[#F5F0E8] mb-0.5">
+					<div className="text-sm font-medium text-onSurface-100 mb-0.5">
 						{t("compliance.cda.title")}
 					</div>
 					<div className="text-xs text-[#faf5ec] font-light leading-relaxed">
