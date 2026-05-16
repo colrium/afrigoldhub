@@ -20,6 +20,7 @@
 		"about": "About",
 		"contactUs": "Contact Us",
 		"operations": "Operations",
+		"locations": "Locations",
 		"gallery": "Gallery",
 		"invest": "Invest",
 		"faq": "FAQ",
@@ -1574,6 +1575,7 @@
 			"links": [
 				{ "label": "About", "href": "/about" },
 				{ "label": "Operations", "href": "/operations" },
+				{ "label": "Locations", "href": "/locations" },
 				{ "label": "Value Chain", "href": "/value-chain" },
 				{ "label": "Invest", "href": "/invest" },
 				{ "label": "Market", "href": "/#market" },
@@ -1613,7 +1615,7 @@
 					"links": [
 						{ "label": "Gallery", "href": "/#gallery" },
 						{ "label": "Gold Market", "href": "/#market" },
-						{ "label": "Mine Locations", "href": "/operations#locations" },
+						{ "label": "Mine Locations", "href": "/locations" },
 						{ "label": "Certifications", "href": "/about#certifications" }
 					]
 				},

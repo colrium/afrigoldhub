@@ -30,3 +30,4 @@ export {default as AboutPrinciplesSection} from "./AboutPrinciplesSection";
 export {default as AboutTeamSection} from "./AboutTeamSection";
 export {default as AboutGovernanceSection} from "./AboutGovernanceSection";
 export {default as AboutTimelineSection} from "./AboutTimelineSection";
+export {default as LocationsPageSection} from "./LocationsPageSection";

@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Lenis from "lenis";
 import { useEffect, useRef } from "react";
+import ScrollTop from "./ScrollTop";
 import { useMotionValue, animate } from "framer-motion";
 
 export default function LandingPageLayout({ children }: { children: ReactNode }) {
@@ -20,8 +21,10 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
         }
 	}, []);
 	return (
-		<Box className="flex flex-col min-h-screen">
+		<Box className="flex flex-col min-h-screen relative">
+			<div id="back-to-top-anchor"></div>
 			<Navbar />
+
 			<main className="flex-1 dark">
 				{/* <div
 					className="fixed inset-0"
@@ -42,6 +45,7 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
 					}}
 				/>
 				{children}
+				<ScrollTop querySelector="#back-to-top-anchor" />
 			</main>
 			<Footer />
 		</Box>

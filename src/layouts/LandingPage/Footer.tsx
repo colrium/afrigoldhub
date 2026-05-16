@@ -6,7 +6,7 @@ export default function Footer() {
 	const { t } = useTranslation("common");
 	return (
 		<footer className="main-footer shimmer-t border-primary-500 pt-16 pb-8">
-			<div className="max-w-[1180px] mx-auto px-8">
+			<div className="max-w-295 mx-auto px-8">
 				<div
 					className={`w-full flex flex-col md:grid md:grid-cols-[10fr_30fr] gap-8  pb-12 border-b border-[rgba(201,168,76,0.08)]`}
 				>
@@ -28,7 +28,6 @@ export default function Footer() {
 						</p>
 					</div>
 					<div
-						// className={`grow grid grid-cols-1 md:grid-cols-${columnKeys.length}  gap-4`}
 						className={`grow grid grid-cols-1 md:flex md:justify-between gap-4`}
 					>
 						{columnKeys.map((colKey) => {

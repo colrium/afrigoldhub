@@ -9,18 +9,17 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuItem from "@mui/material/MenuItem";
 import Drawer from "@mui/material/Drawer";
 import CloseIcon from "@mui/icons-material/Close";
-
 import { useTranslation } from "next-i18next/pages";
-import { landingPageNavs } from "@/config/nav";
+
 import { useRouter } from "next/router";
 import useSetState from "@/hooks/useSetState";
 import { locales } from "@/config";
 import { Avatar } from "@mui/material";
+
 
 
 
@@ -105,7 +104,7 @@ export default function Navbar() {
 				}}
 			>
 				<Container maxWidth="xl">
-					<Toolbar disableGutters className={`bg-transparent!`}>
+					<Toolbar disableGutters className={`bg-transparent!`} >
 						{/* Drawer Toggle Button - Visible only on small devices */}
 
 						<IconButton
@@ -134,30 +133,6 @@ export default function Navbar() {
 						</Link>
 
 						<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
-							{/*landingPageNavs.map(
-								(
-									{
-										excludeOnMainNav,
-										labelKey,
-										name,
-										path,
-										props: linkProps,
-										Component = MuiLink,
-									},
-									i
-								) =>
-									!excludeOnMainNav && (
-										<Component
-											color="textPrimary"
-											{...linkProps}
-											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors ${linkProps?.className ?? ""}`}
-											href={path ? path : "#"}
-											key={`nav-${i}`}
-										>
-											{labelKey ? t(`nav.${labelKey}`) : name}
-										</Component>
-									)
-							)*/}
 							{navs.map(
 								({ label, href, excludeOnMainNav }, i) =>
 									!excludeOnMainNav && (
@@ -243,14 +218,7 @@ export default function Navbar() {
 					{/* Mobile Navigation Links */}
 					<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
 						{navs.map(
-							(
-								{
-									excludeOnMainNav,
-                                    label,
-                                    href
-								},
-								i
-							) =>
+							({ excludeOnMainNav, label, href }, i) =>
 								!excludeOnMainNav && (
 									<MuiLink
 										key={`mobile-nav-${i}`}
@@ -271,22 +239,6 @@ export default function Navbar() {
 								)
 						)}
 					</Box>
-
-					{/* Mobile Language Toggle */}
-					{/* <Box sx={{ mt: 3, pt: 2, borderTop: "1px solid rgba(0, 0, 0, 0.1)" }}>
-						<Button
-							onClick={() => {
-								handleLanguageChange(router.locale === "en" ? "de" : "en");
-							}}
-							sx={{
-								textTransform: "none",
-								border: "1px solid currentColor",
-								color: "inherit",
-							}}
-						>
-							Switch to {router.locale === "en" ? "Deutsch" : "English"}
-						</Button>
-					</Box> */}
 				</Box>
 			</Drawer>
 		</>

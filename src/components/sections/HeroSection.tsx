@@ -27,7 +27,7 @@ export default function HeroSection() {
 		note: string;
 	}[];
 	return (
-		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden">
+		<section className="min-h-screen flex items-center relative pt-32 pb-20 overflow-hidden" id="home">
 			<div className="max-w-[1180px] mx-auto px-8 relative z-10 w-full">
 				<div className="flex flex-col flex-col-reverse md:grid lg:grid-cols-2 gap-16 items-center">
 					<div>

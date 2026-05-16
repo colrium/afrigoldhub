@@ -14,6 +14,7 @@ export const landingPageNavs: NavItem[] = [
 	{ name: "about", path: "/about", labelKey: "about" },
 	{ name: "contact-us", path: "/contact", labelKey: "contactUs" },
 	{ name: "operations", path: "/operations", labelKey: "operations" },
+	{ name: "locations", path: "/locations", labelKey: "locations" },
 	{ name: "gallery", path: "/gallery", labelKey: "gallery" },
 	{
 		name: "learn",
