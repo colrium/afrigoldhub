@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
 const columnKeys = ["company", "invest", "resources", "contact"] as const;
+const legalLinks = {
+	privacy: "/privacy-policy",
+	terms: "#",
+	risk: "/risk-disclaimer",
+} as const;
 export default function Footer() {
 	const { t } = useTranslation("common");
 	return (
@@ -77,7 +82,7 @@ export default function Footer() {
 						{(["privacy", "terms", "risk"] as const).map((key) => (
 							<Link
 								key={key}
-								href="#"
+								href={legalLinks[key]}
 								className="text-xs text-[#faf5ec] hover:text-[#E5C46A] transition-colors"
 							>
 								{t(`shared.footer.legal.${key}`)}
