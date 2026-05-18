@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import MuiLink, { LinkProps as MuiLinkProps } from "@mui/material/Link";
+import MuiLink from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -20,8 +20,34 @@ import useSetState from "@/hooks/useSetState";
 import { locales } from "@/config";
 import { Avatar } from "@mui/material";
 
+const localeCodes = locales.map((locale) => locale.code);
 
+function stripLocalePrefix(path: string) {
+	const parts = path.split("/");
+	const maybeLocale = parts[1];
 
+	if (localeCodes.includes(maybeLocale)) {
+		return `/${parts.slice(2).join("/")}` || "/";
+	}
+
+	return path || "/";
+}
+
+function localizePath(path: string, locale: string) {
+	if (!path.startsWith("/") || path.startsWith("//")) {
+		return path;
+	}
+
+	const [pathAndQuery, hash] = path.split("#");
+	const [pathname, query] = pathAndQuery.split("?");
+	const cleanPathname = stripLocalePrefix(pathname);
+	const localizedPathname =
+		cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
+
+	return `${localizedPathname}${query ? `?${query}` : ""}${
+		hash ? `#${hash}` : ""
+	}`;
+}
 
 export default function Navbar() {
 	const router = useRouter();
@@ -40,21 +66,21 @@ export default function Navbar() {
     
     const localeObj = locales.find((l) => l.code === router.locale) || locales[0];
 
-    const navs = t("shared.nav.links", { returnObjects: true }) as {
+	const navs = t("shared.nav.links", { returnObjects: true }) as {
 		label: string;
 		href: string;
 		excludeOnMainNav?: boolean;
 	}[];
 
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	const onToggleLanguageClick = (newLocale: string) => {
-		const { pathname, asPath, query } = router;
-		router.push({ pathname, query }, asPath, { locale: newLocale });
-	};
+	const onToggleLanguageClick = async (newLocale: string) => {
+		if (newLocale === router.locale) {
+			return;
+		}
+		const localizedPath = localizePath(router.asPath, newLocale);
 
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	const clientSideLanguageChange = (newLocale: string) => () => {
-		i18n.changeLanguage(newLocale);
+		document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
+		await i18n.changeLanguage(newLocale);
+		await router.push(localizedPath);
 	};
 
 
@@ -72,7 +98,7 @@ export default function Navbar() {
 	};
 
 	const handleLanguageChange = (newLocale: string) => {
-		onToggleLanguageClick(newLocale);
+		void onToggleLanguageClick(newLocale);
 	};
 
 	const handleLanguageMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
@@ -84,9 +110,11 @@ export default function Navbar() {
 	};
 
 	const handleLanguageSelect = (locale: string) => {
-		handleLanguageChange(locale);
 		handleLanguageMenuClose();
+		handleLanguageChange(locale);
 	};
+
+	const currentLocale = router.locale ?? i18n.language ?? "en";
 
 	return (
 		<>
@@ -137,9 +165,11 @@ export default function Navbar() {
 								({ label, href, excludeOnMainNav }, i) =>
 									!excludeOnMainNav && (
 										<MuiLink
+											component={Link}
 											color="textPrimary"
 											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
-											href={href}
+											href={localizePath(href, currentLocale)}
+											locale={false}
 											key={`nav-${i}`}
 										>
 											{label}
@@ -169,6 +199,7 @@ export default function Navbar() {
 										key={locale.code}
 										onClick={() => handleLanguageSelect(locale.code)}
 										selected={router.locale === locale.code}
+										disabled={router.locale === locale.code}
 									>
 										<Image
 											className="mr-2"
@@ -221,8 +252,10 @@ export default function Navbar() {
 							({ excludeOnMainNav, label, href }, i) =>
 								!excludeOnMainNav && (
 									<MuiLink
+										component={Link}
 										key={`mobile-nav-${i}`}
-										href={href}
+										href={localizePath(href, currentLocale)}
+										locale={false}
 										onClick={handleDrawerToggle}
 										sx={{
 											py: 1,
