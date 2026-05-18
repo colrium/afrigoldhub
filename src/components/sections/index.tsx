@@ -32,3 +32,4 @@ export {default as AboutGovernanceSection} from "./AboutGovernanceSection";
 export {default as AboutTimelineSection} from "./AboutTimelineSection";
 export {default as LocationsPageSection} from "./LocationsPageSection";
 export {default as LegalPageSection} from "./LegalPageSection";
+export {default as ErrorPageSection} from "./ErrorPageSection";
