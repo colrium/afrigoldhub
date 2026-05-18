@@ -15,7 +15,19 @@
 	"errors": {
 		"notFound": "Page not found",
 		"serverError": "Internal server error",
-		"forbidden": "Access forbidden"
+		"forbidden": "Access forbidden",
+		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"statusLabel": "Error {{statusCode}}",
+		"notFoundTitle": "Page not found",
+		"notFoundDescription": "The page you are looking for may have moved, been removed, or never existed. Return home or contact the AfriGold Hub team if you need help finding something specific.",
+		"serverErrorTitle": "Something went wrong",
+		"serverErrorDescription": "The site could not complete this request. Our team has been notified where possible, and you can try again shortly or contact us directly.",
+		"genericTitle": "Unexpected error",
+		"genericDescription": "An unexpected error interrupted this request. Please try again, return home, or contact the AfriGold Hub team for support.",
+		"actions": {
+			"home": "Return Home",
+			"contact": "Contact Support"
+		}
 	},
 	"nav": {
 		"about": "About",

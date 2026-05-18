@@ -72,6 +72,7 @@ export default function Navbar() {
 		excludeOnMainNav?: boolean;
 	}[];
 
+
 	const onToggleLanguageClick = async (newLocale: string) => {
 		if (newLocale === router.locale) {
 			return;

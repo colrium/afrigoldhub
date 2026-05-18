@@ -12,9 +12,21 @@
 	"africa": "Africa's",
 	"goldenOpportunity": "Golden Opportunity",
 	"errors": {
-		"notFound": "Page not found",
-		"serverError": "Internal server error",
-		"forbidden": "Access forbidden"
+		"notFound": "Seite nicht gefunden",
+		"serverError": "Interner Serverfehler",
+		"forbidden": "Zugriff verweigert",
+		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"statusLabel": "Fehler {{statusCode}}",
+		"notFoundTitle": "Seite nicht gefunden",
+		"notFoundDescription": "Die gesuchte Seite wurde moglicherweise verschoben, entfernt oder hat nie existiert. Kehren Sie zur Startseite zuruck oder kontaktieren Sie das AfriGold Hub Team, wenn Sie Hilfe brauchen.",
+		"serverErrorTitle": "Etwas ist schiefgelaufen",
+		"serverErrorDescription": "Die Website konnte diese Anfrage nicht abschliessen. Unser Team wurde nach Moglichkeit informiert. Bitte versuchen Sie es gleich erneut oder kontaktieren Sie uns direkt.",
+		"genericTitle": "Unerwarteter Fehler",
+		"genericDescription": "Ein unerwarteter Fehler hat diese Anfrage unterbrochen. Bitte versuchen Sie es erneut, kehren Sie zur Startseite zuruck oder kontaktieren Sie das AfriGold Hub Team.",
+		"actions": {
+			"home": "Zur Startseite",
+			"contact": "Support kontaktieren"
+		}
 	},
 	"nav": {
 		"about": "About",

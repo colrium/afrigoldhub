@@ -12,9 +12,21 @@
 	"africa": "Africa's",
 	"goldenOpportunity": "Golden Opportunity",
 	"errors": {
-		"notFound": "Page not found",
-		"serverError": "Internal server error",
-		"forbidden": "Access forbidden"
+		"notFound": "Ukurasa haukupatikana",
+		"serverError": "Hitilafu ya ndani ya seva",
+		"forbidden": "Ufikiaji umezuiwa",
+		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"statusLabel": "Hitilafu {{statusCode}}",
+		"notFoundTitle": "Ukurasa haukupatikana",
+		"notFoundDescription": "Ukurasa unaotafuta huenda umehamishwa, umeondolewa, au haukuwahi kuwepo. Rudi nyumbani au wasiliana na timu ya AfriGold Hub ikiwa unahitaji msaada.",
+		"serverErrorTitle": "Kuna tatizo limetokea",
+		"serverErrorDescription": "Tovuti haikuweza kukamilisha ombi hili. Timu yetu imejulishwa inapowezekana. Tafadhali jaribu tena baada ya muda mfupi au wasiliana nasi moja kwa moja.",
+		"genericTitle": "Hitilafu isiyotarajiwa",
+		"genericDescription": "Hitilafu isiyotarajiwa imekatiza ombi hili. Tafadhali jaribu tena, rudi nyumbani, au wasiliana na timu ya AfriGold Hub kwa msaada.",
+		"actions": {
+			"home": "Rudi Nyumbani",
+			"contact": "Wasiliana na Msaada"
+		}
 	},
 	"nav": {
 		"about": "About",
