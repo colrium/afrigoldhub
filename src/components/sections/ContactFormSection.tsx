@@ -72,7 +72,7 @@ export default function ContactFormSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("contact.form.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("contact.form.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">

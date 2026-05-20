@@ -21,7 +21,7 @@ export default function Certifications() {
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
 					<SectionTag className="text-primary">{t("compliance.tag")}</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-4">
+					<h2 className="text-4xl lg:text-5xl tracking-tight mb-4">
 						<Trans
 							i18nKey="compliance.headline"
 							defaults="Every permit. <gold>Every certification.</gold>"
@@ -43,7 +43,7 @@ export default function Certifications() {
 										{t("active")}
 									</span>
 								</div>
-								<h4 className="font-serif text-lg text-off-white mb-1">
+								<h4 className="text-lg text-off-white mb-1">
 									{licence.title}
 								</h4>
 								<div className="text-xs text-gold mb-3">{licence.issuer}</div>

@@ -36,7 +36,7 @@ export default function MetricsSection() {
 								key={key}
 								className="bg-[#1A1A1A] border border-[rgba(201,168,76,0.08)] rounded-xl p-5"
 							>
-								<div className="font-serif text-[1.8rem] font-bold text-[#E5C46A] leading-none mb-1.5">
+								<div className="text-[1.8rem] font-bold text-[#E5C46A] leading-none mb-1.5">
 									{t(`metrics.stats.${key}.value`)}
 								</div>
 								<div className="text-xs text-[#faf5ec]">
@@ -80,7 +80,7 @@ export default function MetricsSection() {
 										: "none",
 							}}
 						>
-							<div className="font-serif text-[2.6rem] font-bold text-primary leading-none">
+							<div className="text-[2.6rem] font-bold text-primary leading-none">
 								{t(`metrics.strip.${key}.value`)}
 							</div>
 							<div className="text-xs text-[#faf5ec] mt-1.5 tracking-[0.05em] uppercase">

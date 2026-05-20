@@ -6,8 +6,9 @@ import theme from "@/theme/theme";
 import { Manrope, Montserrat } from 'next/font/google';
 
 const manrope = Manrope({
-	subsets: ['latin'],
-	variable: '--font-manrope',
+	subsets: ["latin"],
+	variable: "--font-manrope",
+	weight: ["300", "400", "500"],
 });
 
 const montserrat = Montserrat({
@@ -15,13 +16,15 @@ const montserrat = Montserrat({
 	variable: '--font-montserrat',
 });
 
+
+
 import type { AppPropsWithLayout } from "@/types/next";
 import LandingPageLayout from "@/layouts/LandingPage/Layout";
 const withLandingPageLayout = (page: ReactElement) => <LandingPageLayout>{page}</LandingPageLayout>;
 function App({ Component, pageProps }: AppPropsWithLayout) {
 	const renderPageWithLayout = Component.getLayout ?? withLandingPageLayout;
 	return (
-		<div className={`${manrope.variable} ${montserrat.variable}`}>
+		<div className={` ${montserrat.variable} ${manrope.variable}`}>
 			<ThemeProvider theme={theme}>
 				<CssBaseline />
 				{renderPageWithLayout(<Component {...pageProps} />)}

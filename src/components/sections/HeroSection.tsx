@@ -31,7 +31,7 @@ export default function HeroSection() {
 			<div className="max-w-[1180px] mx-auto px-8 relative z-10 w-full">
 				<div className="flex flex-col flex-col-reverse md:grid lg:grid-cols-2 gap-16 items-center">
 					<div>
-						<h1 className="font-serif text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-on-surface">
+						<h1 className="text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-on-surface">
 							<Trans
 								i18nKey="hero.headline" // optional -> fallbacks to defaults if not provided
 								defaults="Unlock Africa's <gold>Golden Opportunity</gold>" // optional defaultValue

@@ -1,0 +1,288 @@
+{
+	"hero": {
+		"tag": "Betrieb",
+		"headline": "Von der Erde zum <gold>Goldbarren</gold>",
+		"subheadline": "In sieben afrikanischen Ländern, ein kompromissloser Standard",
+		"description": "Mit Hauptsitz in Busia, Uganda, betreibt AfriGold Hub chemiefreie Gravitationsaufbereitungsanlagen in Uganda, Kenia, Tansania, Eswatini, Sierra Leone, Südafrika und Malawi. Jedes produzierte Gramm wird von der lizenzierten Grube bis zum verifizierten Käufer lückenlos dokumentiert – mit null Quecksilber und null Cyanid an jedem Standort.",
+		"cta_primary": { "label": "Investitionspläne ansehen", "href": "/invest" },
+		"cta_secondary": { "label": "Unsere Standorte ansehen", "href": "/locations" },
+		"badge": { "text": "7 Länder · 1 Standard", "status": "aktiv" }
+	},
+	"overview": {
+		"tag": "Wie wir arbeiten",
+		"headline": "Ein bewährter Prozess, repliziert auf einem gesamten Kontinent",
+		"description": "Unser Betriebsmodell ist einfach, replizierbar und profitabel. Wir nehmen Schwemm- und Eluvialerz aus lizenzierten Gruben, führen es durch unser Gravitationsaufbereitungssystem – Schwerkraftrinnen, Spiralen und Rütteltische – und schmelzen das Produkt zu unabhängig analysierten Goldbarren. Keine Chemikalien. Keine Abkürzungen. Vollständige Dokumentation in jeder Phase.",
+		"stats": [
+			{ "value": "266 kg", "label": "Monatliche Goldproduktion", "prefix": "~" },
+			{ "value": "88 %", "label": "Nettogewinnmarge", "prefix": "" },
+			{ "value": "0", "label": "Chemische Zusätze", "prefix": "" },
+			{ "value": "7", "label": "Betriebsländer", "prefix": "" },
+			{ "value": "92 %", "label": "Wasserrecyclingquote", "prefix": "" },
+			{ "value": "8,40 $", "label": "Verarbeitungskosten pro Gramm", "prefix": "" }
+		]
+	},
+	"features": {
+		"tag": "Was wir tun",
+		"headline": "End-to-End-Goldproduktion",
+		"items": [
+			{
+				"icon": "pick",
+				"title": "Lizenzierte Grubenförderung",
+				"description": "Das gesamte Erz wird aus bergbaulizenzierten Gruben in sieben Ländern gewonnen, unter Aufsicht zertifizierter Minenaufsicht und mit aktiver Herkunftsdokumentation ab dem ersten Wiegeschein."
+			},
+			{
+				"icon": "droplets",
+				"title": "Chemiefreie Gravitationsaufbereitung",
+				"description": "Schwerkraftrinnen, Spiralkonzentratoren und Rütteltische trennen Gold von Gangart nur mit Wasser und Schwerkraft. Null Quecksilber, null Cyanid, keine chemischen Rückstände im gesamten Netzwerk."
+			},
+			{
+				"icon": "flame",
+				"title": "Schmelzen vor Ort zu 99,5 % Reinheit",
+				"description": "Das gereinigte Konzentrat wird in Induktionsöfen vor Ort geschmolzen und zu nummerierten Goldbarren gegossen. Jeder Barren wird vor der Freigabe unabhängig analysiert – mindestens 99,5 % Reinheit."
+			},
+			{
+				"icon": "file-check",
+				"title": "Herkunftsdokumentation",
+				"description": "Jedes Gramm wird vom Wiegeschein der Grube über den Konzentratgehalt, das Analysezertifikat bis zur Käuferquittung verfolgt – eine lückenlose Dokumentenkette, die allen Investitionspartnern zur Verfügung steht."
+			},
+			{
+				"icon": "handshake",
+				"title": "Verkäufe an lizenzierte Käufer",
+				"description": "Verkauf von Gold ausschließlich über staatlich lizenzierte Edelmetallhändler in jedem Betriebsland mit vollständigen Royalty-Erklärungen und Exportdokumenten pro Transaktion."
+			},
+			{
+				"icon": "landmark",
+				"title": "Länderübergreifende regulatorische Compliance",
+				"description": "Aktive Bergbaulizenzen, Umweltzertifikate und Steuerbehördenregistrierungen in allen sieben Ländern – DGSM Uganda, Mines & Geology Kenia, TMAA Tansania, DMRE Südafrika sowie deren Äquivalente in Sierra Leone, Eswatini und Malawi."
+			}
+		]
+	},
+	"locations": {
+		"hq": "Busia, Uganda",
+		"countries": [
+			"Uganda",
+			"Kenia",
+			"Tansania",
+			"Eswatini",
+			"Sierra Leone",
+			"Südafrika",
+			"Malawi"
+		],
+		"places": [
+			{
+				"role": "headquarters",
+				"country": "Uganda",
+				"flag": "🇺🇬",
+				"site": "Tira Gold Mine",
+				"region": "Distrikt Busia, Ostregion",
+				"lat": 0.4664,
+				"lng": 34.0886,
+				"place_id": "ChIJ5ZHcDPihfxcR39saSb3FhNQ",
+				"deposit_type": ["Quarzgang-gebunden", "BIF-gebunden", "Schwemmgoldseife"],
+				"goldfield": "Busia-Kakamega Greenstone Belt",
+				"geology": "Archäischer Greenstone Belt. Quarzgang- und BIF-gebundene Lagerstätten. Schwemmgoldseifen entlang des Malaba-Solo-Flusskorridors.",
+				"licence_authority": "Direktion für Geologische Untersuchungen und Bergbau (DGSM), Uganda",
+				"regulatory_body": "NEMA Uganda",
+				"status": "aktiv",
+				"elevation_m": 1218,
+				"notes": "Hauptsitz und Hauptverarbeitungsanlage. Standort mit höchstem Ertrag. Ca. 266 kg raffiniertes Gold pro Monat."
+			},
+			{
+				"country": "Kenia",
+				"role": "operations",
+				"site": "Macalder Gold Mine",
+				"region": "Migori County, Nyanza Region",
+				"lat": -0.9711,
+				"lng": 34.2574,
+				"place_id": "ChIJ6xpyTCen1BkRvwDanI4UM0k",
+				"deposit_type": ["orogener Quarzgang", "BIF-gebunden", "alluvial"],
+				"goldfield": "Migori Greenstone Belt (Lake Victoria Goldfields)",
+				"geology": "Teil der Nyanzian-Supergruppe – nördliche Erweiterung des archäischen Tansania-Kratons. 11 dokumentierte Minenstandorte in den Divisionen Rongo, Suna West und Macalder. Mineralisation in Scherzonen mit Quarz-Karbonat-Gängen.",
+				"licence_authority": "Bergbau- und Geologieabteilung, Ministerium für Erdöl und Bergbau, Kenia",
+				"regulatory_body": "NEMA Kenia, Wasserressourcenbehörde (WRA)",
+				"status": "aktiv",
+				"elevation_m": 1250,
+				"notes": "Südwestkenia, ~290 km westlich von Nairobi. 10 km nördlich der Grenze Kenia/Tansania. Analoge Geologie zu den Minen Geita und North Mara in Tansania."
+			},
+			{
+				"country": "Tansania",
+				"role": "operations",
+				"site": "Geita Gold Mine Zone",
+				"region": "Distrikt Geita, Region Geita",
+				"lat": -2.8676,
+				"lng": 32.1865,
+				"place_id": "ChIJg3NfLjAYzxkRn-znACNIG5k",
+				"deposit_type": ["orogener Gang", "BIF-gebunden", "Schwemmgoldseife"],
+				"goldfield": "Lake Victoria Goldfield - Geita Greenstone Belt",
+				"geology": "Nordwesttansania, ~120 km von Mwanza, 4 km westlich der Stadt Geita. Teil des archäischen Tansania-Kraton-Goldsystems. Umfangreiche artisanale Betriebe neben großindustriellem Bergbau.",
+				"licence_authority": "Tansania Minerals Audit Agency (TMAA), Ministerium für Mineralien",
+				"regulatory_body": "NEMC Tansania, TANSORT",
+				"status": "aktiv",
+				"elevation_m": 1140,
+				"notes": "Tansanias größtes Goldbergbaudistrikt. AfriGold Hub betreibt artisanal Gravitationsaufbereitungsstandorte im umliegenden Konzessionsgebiet."
+			},
+			{
+				"country": "Sierra Leone",
+				"role": "operations",
+				"site": "Kono Gold District",
+				"region": "Distrikt Kono, Ostprovinz",
+				"lat": 8.6438,
+				"lng": -10.9714,
+				"place_id": null,
+				"deposit_type": ["Schwemmgoldseife", "Quarzgang", "eluvial"],
+				"goldfield": "Kono-Kenema Greenstone Belt, Westafrikanischer Kraton",
+				"geology": "Gebiet um Koidu, ~250 km östlich von Freetown. Archäisches Greenstone-Terrain mit Gold in Quarzgängen, die mit BIF assoziiert sind. Historisch produktiv für artisanal Schwemmgold und Diamantenabbau.",
+				"licence_authority": "Bergbau- und Mineralressourcenabteilung (MMRD), Sierra Leone",
+				"regulatory_body": "Umweltschutzbehörde (EPA), Sierra Leone",
+				"status": "aktiv",
+				"elevation_m": 385,
+				"notes": "Standort Westafrikanischer Kraton. Artisanal Gravitationsaufbereitungsbetrieb. Starkes Gemeindebeschäftigungsprogramm im Distrikt Kono."
+			},
+			{
+				"country": "Südafrika",
+				"role": "operations",
+				"site": "Witwatersrand Goldfeld - West Wits Zone",
+				"region": "West Rand, Provinz Gauteng",
+				"lat": -26.4384,
+				"lng": 27.4259,
+				"place_id": "ChIJTcMEZRXPlR4RSELvZ88nXs8",
+				"deposit_type": ["riff-gebundenes Konglomerat", "eluvial"],
+				"goldfield": "Witwatersrand-Becken",
+				"geology": "Gebiet um Carletonville, Distrikt West Rand. Witwatersrand-Becken – das größte Goldfeld der Welt, 350 km × 200 km metamorph überprägter Konglomerate. AfriGold Hub betreibt in den alluvialen und eluvialen Peripheriezonen unter artisanaler Lizenz.",
+				"licence_authority": "Ministerium für Mineralressourcen und Energie (DMRE), Südafrika",
+				"regulatory_body": "SARS, Ministerium für Wasser und Sanitärversorgung (DWS), DMRE",
+				"status": "aktiv",
+				"elevation_m": 1540,
+				"notes": "Mponeng (weltweit tiefste Mine bei ~4 km) in der Nähe. AfriGold Hub betreibt oberflächennahe artisanal Konzessionen in der peripheren Riffzone."
+			},
+			{
+				"country": "Eswatini",
+				"role": "operations",
+				"site": "Hhohho Gold Zone",
+				"region": "Region Hhohho, Nordwest-Eswatini",
+				"lat": -26.2037,
+				"lng": 31.0303,
+				"place_id": "ChIJXRJk03zc6B4R2sc1kB0ABco",
+				"deposit_type": ["Quarzgang", "Schwemmgoldseife"],
+				"goldfield": "Hhohho Greenstone Belt",
+				"geology": "Nordwest-Eswatini, angrenzend an die Ngwenya-Mineralzone – eine der ältesten bekannten Minen der Welt (43.000 Jahre alte Ngwenya-Eisenerzmine). Gold kommt in Quarzgängen des Greenstone Belt vor. Aktive geologische Neukartierung seit 2023 in Partnerschaft mit dem South African Council for Geoscience.",
+				"licence_authority": "Geologischer Dienst von Eswatini, Mineralienkomitee (unter dem Ngwenyama)",
+				"regulatory_body": "Eswatini Umweltbehörde (EEA)",
+				"status": "aktiv",
+				"elevation_m": 890,
+				"notes": "Kleinster Betrieb im Netzwerk nach Produktion. Strategisch positioniert aufgrund der nationalen geowissenschaftlichen Neukartierung 2023–2025, die neue Goldzonen identifiziert."
+			},
+			{
+				"country": "Malawi",
+				"flag": "🇲🇼",
+				"site": "Mchinji Gold Belt",
+				"region": "Distrikt Mchinji, Zentralregion",
+				"lat": -13.7984,
+				"lng": 32.8802,
+				"place_id": null,
+				"deposit_type": ["Schwemmgoldseife", "eluvial", "Quarzgang"],
+				"goldfield": "Zentralmalawi Greenstone Belt",
+				"geology": "Greenstone-Korridore der Zentralregion. Artisanal Goldwäsche in saisonalen Flusssedimenten. Im Vergleich zu anderen Standorten im Netzwerk wenig erkundet – geologische Untersuchungen deuten auf ein erhebliches Aufwärtspotenzial in den Quarzgangsystemen der Mchinji-Hügel hin.",
+				"licence_authority": "Bergbauabteilung, Ministerium für natürliche Ressourcen und Klimawandel, Malawi",
+				"regulatory_body": "Abteilung für Umweltangelegenheiten (EAD), Malawi",
+				"status": "aktiv",
+				"elevation_m": 1100,
+				"notes": "Zuletzt hinzugekommener Betrieb. Derzeit niedrigste Produktion, aber höchstes Explorationspotenzial. Artisanal Gravitationsaufbereitung seit 2022 voll betriebsfähig."
+			}
+		]
+	},
+	"steps": {
+		"tag": "Der Prozess",
+		"headline": "Vier Stufen, null Kompromisse",
+		"description": "Jeder Standort in unserem Sieben-Länder-Netzwerk folgt dem gleichen dokumentierten Vier-Stufen-Prozess – von der Förderung bis zur Investorenauszahlung.",
+		"items": [
+			{
+				"id": "site-extraction",
+				"step": 1,
+				"title": "Förderung vor Ort",
+				"color": "#664B00",
+				"accent_color": "#A0763D",
+				"text_color": "#E8D9A0",
+				"icon": "site-extraction",
+				"image": "/media/site-extraction.jpeg",
+				"short_description": "Unsere lizenzierten Förderteams bearbeiten Schwemm- und Eluvialerzzonen in unserem Sieben-Länder-Netzwerk unter aktiven Bergbaulizenzen und strenger Aufsicht. Jede Grube wird kartiert, dokumentiert und innerhalb der von der jeweiligen nationalen Bergbaubehörde zertifizierten Grenzen betrieben – von den Busia-Goldfeldern Ugandas bis zu den Mineralkorridoren Sierra Leones und Malawis.",
+				"long_description": "Die Förderung beginnt bei AfriGold Hub lange bevor ein Spaten den Boden berührt. Jede Betriebszone durchläuft eine formelle geologische Bewertung zur Kartierung der Schwemmgoldverteilung in der Lagerstätte, um die ertragreichsten Zonen innerhalb unserer lizenzierten Flächen zu identifizieren. Unsere Feldgeologen, ausgebildet nach den Standards der regionalen Bergbaubehörden, erstellen Förderpläne, die Ertragsoptimierung mit den von den jeweiligen Umweltbehörden geforderten Rekultivierungsanforderungen in Einklang bringen.\n\nIn Busia, Uganda – unserem Hauptstandort – folgt die Förderung dem alten alluvialen Korridor des Malaba-Flusses, wo sich goldhaltige Schotter über Jahrtausende in Tiefen von 1 bis 6 Metern abgelagert haben. An unseren Standorten in Kenia und Tansania liefern ähnliche Schwemmformationen entlang des Victoriasee-Beckens gleichbleibende Erzgehalte. In Sierra Leone und Südafrika bearbeiten unsere Teams Eluviallagerstätten mittels kontrollierter Böschung, um die produktive Schicht freizulegen, ohne den Abraum übermäßig zu stören.\n\nDie gesamte Förderung wird von geschulten, beauftragten Teams unter direkter Aufsicht eines zertifizierten Minenaufsehers durchgeführt. Die Schichtproduktion wird an der Grube gewogen und aufgezeichnet, und eine Herkunftsdokumentation wird im Moment der Förderung initiiert. Kein Erz verlässt die Grubenzone ohne dokumentierten Wiegeschein – das erste Glied in einer ununterbrochenen Dokumentenkette, die bei der Quittung des Käufers endet.\n\nNach der Förderung werden alle Grubenzonen schrittweise rekultiviert: Abraum wird ersetzt, Oberboden wiederhergestellt und eine Wiederbepflanzung gemäß den Anforderungen des jeweiligen nationalen Umweltamtes durchgeführt.",
+				"key_facts": [
+					"Geologische Bewertung vor jeder neuen Grubenzone",
+					"Zertifizierter Minenaufseher bei jeder Förderschicht anwesend",
+					"Wiegeschein an der Grube – Herkunftsdokumentation beginnt hier",
+					"Schrittweise Grubenrekultivierung als Standard – keine verlassenen offenen Gruben",
+					"Tätig in: Uganda (Hauptstandort), Kenia, Tansania, Sierra Leone, Südafrika, Eswatini, Malawi"
+				],
+				"regulatory_notes": "Überwacht durch DGSM (Uganda), Mines & Geology Dept (Kenia), TMAA (Tansania), MMRD (Sierra Leone), DMRE (Südafrika), Geologischer Dienst von Eswatini, Bergbauabteilung (Malawi)."
+			},
+			{
+				"id": "gravity-processing",
+				"step": 2,
+				"title": "Gravitationsaufbereitung",
+				"color": "#4A5C2A",
+				"accent_color": "#7A9440",
+				"text_color": "#D4E8A0",
+				"icon": "gravity-processing",
+				"image": "/media/gravity-processing.jpeg",
+				"short_description": "Das Herzstück unseres Umweltengagements ist unser chemiefreies Gravitationsaufbereitungssystem. Mit nur Wasser, Bewegung und dem natürlichen Dichteunterschied zwischen Gold und Gangart trennen unsere Schwerkraftrinnen und Spiralkonzentratoren Gold vom Abraum – ohne Quecksilber, ohne Cyanid, ohne giftige Rückstände – und erfüllen die Anforderungen jeder nationalen Umweltbehörde in unserem Netzwerk bei weitem.",
+				"long_description": "Die Gravitationsaufbereitung ist sowohl die älteste als auch die sauberste Methode der Goldgewinnung für artisanal und Kleinbergbau. AfriGold Hub hat erheblich in die Modernisierung dieser Technik an allen sieben Standorten investiert und ein mehrstufiges System implementiert, das konstant Goldrückgewinnungsraten von 85–92 % erreicht – ohne eine einzige Gramm chemische Zusätze.\n\nDer Prozess beginnt in der primären Schwerkraftrinnenstufe, wo das erzbelastete Geröll mit kontrolliertem Wasserfluss in eine hochgradientige Schwerkraftrinne gegeben wird. Die Turbulenz und Geschwindigkeit des Wassers trägt leichtere Gangartpartikel über die Riffelstäbe und aus dem System, während die Dichte von Gold (ca. 19,3 g/cm³ im Vergleich zu 2,6–3,0 g/cm³ für gewöhnliche Silikatgangart) dazu führt, dass es sich hinter den Riffeln absetzt und anreichert.\n\nDieses primäre Konzentrat wird dann zu Spiralkonzentratoren gegeben, die Zentrifugal- und Gravitationskräfte nutzen, um Gold weiter von verbleibenden schweren und leichten Mineralien zu trennen. Die goldreiche Fraktion wird dann auf einem Rütteltisch gereinigt, wodurch ein Endkonzentrat entsteht, das ohne chemische Vorbehandlung direkt verschmolzen werden kann.\n\nDas im Prozess verwendete Wasser wird durch ein geschlossenes Absetzbecken-System an jedem Standort recycelt, mit 90–94 % Wasserwiedergewinnung in unserem Netzwerk. Dies reduziert die Süßwasserentnahme erheblich und stellt sicher, dass kein Prozesswasser unbehandelt in natürliche Wasserwege gelangt.\n\nDas Fehlen von Quecksilber und Cyanid ist nicht nur ein Umweltvorteil – es ist auch ein erheblicher kommerzieller Vorteil. Chemische Verarbeitungskosten entfallen vollständig, was unsere Verarbeitungskosten pro Gramm auf etwa 8,40 $ senkt gegenüber 18–22 $ für vergleichbare chemische Laugungsbetriebe. Dieser Kostenvorteil verbessert direkt die Investorenrenditen.",
+				"key_facts": [
+					"85–92 % Goldrückgewinnungsrate – keine Chemikalien erforderlich",
+					"Dreistufiger Prozess: primäre Schwerkraftrinne → Spiralkonzentrator → Rütteltisch",
+					"90–94 % Wasserrecyclingquote im gesamten Netzwerk",
+					"Verarbeitungskosten: ~8,40 $/Gramm vs. 18–22 $ bei chemischer Laugung",
+					"Null Quecksilber, null Cyanid – NEMA/UVP-konform an allen Standorten"
+				],
+				"regulatory_notes": "Wassermanagementpläne genehmigt durch DWRM (Uganda), WRA (Kenia), DWS (Südafrika) und gleichwertige Stellen in jedem Betriebsland. NEMA/UVP-Zertifikate an allen Standorten aktuell."
+			},
+			{
+				"id": "smelting-assay",
+				"step": 3,
+				"title": "Schmelzen & Analyse",
+				"color": "#8C4A1A",
+				"accent_color": "#C8722A",
+				"text_color": "#F0C898",
+				"icon": "smelting",
+				"image": "/media/smelting.jpeg",
+				"short_description": "Unsere Schmelzöfen vor Ort wandeln das gereinigte Gravitationskonzentrat bei Temperaturen über 1.100 °C in gegossene Goldbarren um. Jeder in unserem Netzwerk produzierte Barren wird vor der Freigabe unabhängig auf Reinheit geprüft, mit Zertifikaten nach internationalen Raffineriestandards. Unsere Hauptschmelzanlage in Busia produziert Barren mit konstant 99,5 % oder mehr – und erfüllt damit die akzeptablen Lieferstandards der London Bullion Market Association (LBMA).",
+				"long_description": "Das Schmelzen ist die transformative Stufe, die das gereinigte Gravitationskonzentrat – ein dunkles, metallisches Pulver oder Feinkorn – in den greifbaren, prüfbaren Wert eines gegossenen Goldbarrens verwandelt. AfriGold Hub betreibt primäre Schmelzöfen in unserer Anlage in Busia, Uganda, sowie sekundäre Schmelzkapazitäten an unseren Standorten in Kenia und Tansania, wobei Konzentrate aus Sierra Leone, Eswatini, Südafrika und Malawi konsolidiert und unter sicherer Herkunftsdokumentation zur nächstgelegenen ausgestatteten Anlage transportiert werden.\n\nDer Schmelzprozess folgt an jeder Anlage einem konsistenten Protokoll. Das Konzentrat wird zuerst gewogen und beprobt – eine Schmelzanalyseprobe wird entnommen und vor Beginn des Schmelzens an ein unabhängiges zertifiziertes Analyse labor geschickt. Das Hauptkonzentrat wird dann in einen Graphittiegel geladen und in einen Induktionsofen gegeben, der innerhalb von 15–20 Minuten die Betriebstemperatur (1.064 °C für reines Gold, in der Praxis 1.100–1.150 °C) erreicht.\n\nVerunreinigungen werden durch einen Flussmittelzusatzprozess entfernt – eine kontrollierte Kombination aus Borax, Kieselsäure und Natriumnitrat zieht Buntmetalle, Sulfide und Oxide in eine glasartige Schlacke, die auf dem geschmolzenen Gold schwimmt und abgeschöpft wird. Das raffinierte flüssige Metall wird dann in vorgeheizte Graphitformen gegossen und zu Barren geformt.\n\nJeder Barren wird auf einer zertifizierten Waage mit einer Genauigkeit von 0,01 Gramm gewogen und mit einer eindeutigen Barren-Seriennummer, Gießdatum, Standortcode und Gewicht versehen, bevor er unabhängig analysiert wird. In Uganda werden Analysedienste von UNBS-akkreditierten Laboren bereitgestellt. In Kenia nach KS ISO 11426 / KEBS-Standards. In Südafrika nach SANAS-akkreditierten Standards.\n\nUnsere Anlage in Busia hat konstant Barren mit 99,5–99,7 % Reinheit produziert. Jede Sendung – typischerweise 15–20 Barren mit einem Gesamtgewicht von 250–280 kg – wird fotografiert, gewogen, analyszertifiziert und vor der Übergabe an den lizenzierten Käufer versiegelt.",
+				"key_facts": [
+					"Induktionsöfen bei 1.100–1.150 °C – konstantes thermisches Profil pro Barren",
+					"Unabhängige Schmelzanalyse vor dem Schmelzen – erwartete Ausbeute im Voraus bekannt",
+					"Flussmittelprozess entfernt alle Buntmetalle und Sulfidverunreinigungen",
+					"Jeder Barren: eindeutige Seriennummer, Gießdatum, Standortcode, zertifiziertes Gewicht",
+					"Mindestreinheit: 99,5 % – in Busia konstant 99,5–99,7 % erreicht"
+				],
+				"regulatory_notes": "Analyseakkreditierung: UNBS (Uganda), KEBS/KS ISO 11426 (Kenia), SANAS (Südafrika). Royalty-Erklärungen werden pro Sendung bei URA, KRA, TMAA, SARS und gleichwertigen Behörden eingereicht."
+			},
+			{
+				"id": "sale-distribution",
+				"step": 4,
+				"title": "Verkauf & Ausschüttung",
+				"color": "#1C1608",
+				"accent_color": "#C9A84C",
+				"text_color": "#E5C46A",
+				"icon": "sale-distribution",
+				"image": "/media/sale-distribution.png",
+				"short_description": "Fertige Goldbarren werden ausschließlich an staatlich lizenzierte Edelmetallkäufer in jedem Betriebsland verkauft, mit vollständigen Royalty-Erklärungen, Exportdokumenten und Steuerbehördenquittungen pro Transaktion. Die Erlöse werden innerhalb von 48 Stunden nach Lieferung auf das Betriebskonto von AfriGold Hub überwiesen, und die Ausschüttungen an Investoren werden innerhalb von 10 Werktagen nach Monatsende bearbeitet – jeden Monat, ausnahmslos.",
+				"long_description": "Die Verkaufs- und Ausschüttungsphase ist der Punkt, an dem jedes Gramm Produktion zur Investorenrendite wird – und wo das Engagement von AfriGold Hub für vollständige Transparenz am direktesten geprüft wird. Wir betreiben einen streng regulierten, vollständig dokumentierten Verkaufsprozess in allen sieben Ländern und arbeiten nur mit Käufern zusammen, die gültige Edelmetallhändlerlizenzen der jeweiligen nationalen Steuer- oder Bergbaubehörde besitzen.\n\nIn Uganda – unserem Hauptmarkt – wird Gold an registrierte Edelmetallhändler der Uganda Revenue Authority (URA) verkauft, die unter Lizenzen der Direktion für Geologische Untersuchungen und Bergbau (DGSM) arbeiten. Jede Transaktion wird von einer formellen Verkaufsvereinbarung, einer KYC-verifizierten Käuferbescheinigung, dem unabhängigen Analysezertifikat des Barrens und einer von der URA quittierten Royalty-Erklärung begleitet. Die ugandische Mineralienroyalty beträgt derzeit 3 % des Bruttowerts für artisanal gewonnenes Gold.\n\nIn Kenia erfolgen Verkäufe über KRA-registrierte Händler mit Devisengenehmigung der Zentralbank von Kenia (CBK) für internationale Abwicklung. In Tansania werden alle Goldverkäufe gemäß TANSORT-Protokollen an die Tanzania Minerals Audit Agency (TMAA) gemeldet. Sendungen in Südafrika werden über SARS-registrierte Händler unter Aufsicht des DMRE abgewickelt.\n\nAlle Verkaufserlöse werden innerhalb von 48 Stunden nach physischer Lieferung und Bestätigung durch den Käufer auf das Betriebskonto von AfriGold Hub überwiesen – ein Gemeinschaftskonto, auf das Partner der Strategic- und Anchor-Stufe Zugriff haben. Der monatliche Umsatz wird von unserem CFO und einem externen Buchhalter abgestimmt, wodurch die monatlich geprüfte Gewinn- und Verlustrechnung erstellt wird, die innerhalb von 10 Werktagen nach Monatsende an alle Investitionspartner geht.\n\nDie Ausschüttungen an Investoren werden per SWIFT-Internationalbanküberweisung (USD) oder Mobile Money nach einem festgelegten Zeitplan überwiesen – am 15. eines jeden Monats für die Produktion des Vormonats. Der gesamte Verkaufs- und Ausschüttungsprozess wird in unserem monatlichen Investorenpaket dokumentiert: einem 6-seitigen PDF mit Verkaufsbelegen, Analysezertifikaten, Kontoauszugsauszügen, Gewinn- und Verlustrechnung sowie einer Aufschlüsselung der Ausschüttung nach Partnerstufe.",
+				"key_facts": [
+					"Verkauf nur an staatlich lizenzierte Edelmetallhändler in jedem Land",
+					"URA/KRA/TMAA/SARS-Royalty-Erklärungen werden pro Transaktion eingereicht",
+					"Erlöse auf dem Betriebskonto innerhalb von 48 Stunden nach Lieferung",
+					"Monatlich geprüfte Gewinn- und Verlustrechnung wird innerhalb von 10 Werktagen geliefert",
+					"Ausschüttungen an Investoren am 15. eines jeden Monats – ausnahmslos"
+				],
+				"regulatory_notes": "Verkäufe quittiert von URA (Uganda), KRA (Kenia), TMAA (Tansania), SARS (Südafrika), NRA (Sierra Leone), ERS (Eswatini), MRA (Malawi). Exportdokumentation wird gemäß den Edelmetallvorschriften des jeweiligen Landes eingereicht."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Mitmachen",
+		"headline": "Investieren Sie in den Betrieb hinter den Zahlen",
+		"description": "Standortbesuche sind für Partner der Strategic- und Anchor-Stufe verfügbar. Vereinbaren Sie ein Kennenlerngespräch, um den Prozess persönlich zu erleben.",
+		"cta_primary": { "label": "Investitionspläne ansehen", "href": "/invest" },
+		"cta_secondary": { "label": "Standortbesuch vereinbaren", "href": "/contact" }
+	}
+}

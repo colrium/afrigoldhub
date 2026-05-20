@@ -89,7 +89,7 @@ export default function ChatWidget() {
 							</svg>
 						</div>
 						<div>
-							<strong className="block font-serif text-base text-onSurface-100">
+							<strong className="block text-base text-onSurface-100">
 								{mode === "ai" ? "AfriGold AI" : "Support Team"}
 							</strong>
 							<span className="flex items-center gap-1 text-xs text-green-400">
@@ -128,7 +128,7 @@ export default function ChatWidget() {
 							key={i}
 							className={`flex gap-2 items-end ${msg.role === "user" ? "flex-row-reverse" : ""}`}
 						>
-							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-serif font-bold">
+							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-bold">
 								{msg.role === "user" ? "You" : mode === "ai" ? "AG" : "ST"}
 							</div>
 							<div
@@ -145,7 +145,7 @@ export default function ChatWidget() {
 
 					{typing && (
 						<div className="flex gap-2 items-end">
-							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-serif font-bold">
+							<div className="w-6 h-6 rounded-full shrink-0 bg-[rgba(201,168,76,0.1)] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-[0.65rem] text-primary font-bold">
 								AG
 							</div>
 							<div className="bg-[#1A1A1A] border border-[rgba(201,168,76,0.08)] px-4 py-3 rounded-2xl rounded-bl-sm flex gap-1 items-center">

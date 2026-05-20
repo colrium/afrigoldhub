@@ -1,0 +1,120 @@
+{
+	"hero": {
+		"tag": "Kuhusu AfriGold Hub",
+		"headline": "Jukwaa la dhahabu lenye nidhamu lililojengwa uwanjani",
+		"description": "AfriGold Hub huleta shughuli za uchimbaji zenye leseni, usindikaji wa mvuto usio na kemikali, ripoti za kiwango cha wawekezaji, na utawala unaoweka jamii kwanza katika jukwaa moja la uwazi la uzalishaji wa dhahabu.",
+		"badge": {
+			"text": "Shughuli zenye leseni katika masoko saba ya Kiafrika",
+			"status": "active"
+		},
+		"cta_primary": { "label": "Angalia Shughuli", "href": "/operations" },
+		"cta_secondary": { "label": "Kutana na Timu", "href": "#team" }
+	},
+	"story": {
+		"tag": "Hadithi Yetu",
+		"headline": "Imejengwa kwa uaminifu, si uvumi",
+		"description": "Muundo wa AfriGold Hub ulichangiwa na uchunguzi rahisi: dhahabu ya usanii inaweza kuwa na tija kubwa, lakini inakuwa ya kuwekezaji tu wakati operesheni inapokuwa na leseni, kumbukumbu, na kutawaliwa kwa nidhamu. Tulijenga jukwaa letu kwa kiwango hicho.",
+		"paragraphs": [
+			"Timu yetu inachanganya waendeshaji wa uwanjani, wataalamu wa fedha, wataalamu wa ufuasi, na washauri wa ESG ambao wamefanya kazi katika korido za madini za Afrika Mashariki, Magharibi, na Kusini.",
+			"Badala ya kuuza ufikiaji wa fursa isiyoeleweka ya bidhaa, tunawapa washirika muonekano katika msururu halisi wa uzalishaji: ambapo madini huchimbwa, jinsi yanavyochakatwa, jinsi baa zinavyopimwa, jinsi wanunuzi wanalipia, na jinsi mgawanyo unavyohesabiwa."
+		],
+		"stats": [
+			{ "value": "7", "label": "Nchi zinazoendesha shughuli" },
+			{ "value": "0", "label": "Matumizi ya zebaki au sianidi" },
+			{ "value": "10+", "label": "Uzoefu wa miaka sekta" },
+			{ "value": "30+", "label": "Ajira za moja kwa moja za uendeshaji" }
+		]
+	},
+	"principles": {
+		"tag": "Kanuni za Uendeshaji",
+		"headline": "Kiwango cha nyuma ya kila tovuti",
+		"items": [
+			{
+				"title": "Hifadhi kila kitu kumbukumbu",
+				"description": "Kila hatua inatoa rekodi - kutoka kwa tiketi za uzito wa shimo hadi vyeti za uchambuzi na risiti za mauzo."
+			},
+			{
+				"title": "Weka usindikaji safi",
+				"description": "Saketi zetu za ukolezi wa mvuto hutumia maji na utengano wa msongamano, kuondoa zebaki, sianidi, na takataka zenye sumu."
+			},
+			{
+				"title": "Shiriki uchumi",
+				"description": "Washirika hupokea ripoti za kila mwezi zinazounganisha uzalishaji, mauzo, gharama, faida halisi, na hesabu za mgawanyo."
+			},
+			{
+				"title": "Linda leseni",
+				"description": "Ufuasi, makubaliano ya jamii, na udhibiti wa mazingira hutendewa kama mali za uendeshaji, si makaratasi."
+			}
+		]
+	},
+	"team": {
+		"tag": "Uongozi",
+		"headline": "Waendeshaji, wataalamu wa fedha, na nidhamu ya ufuasi",
+		"description": "AfriGold Hub inaongozwa na timu ndogo yenye uwajibikaji wa moja kwa moja kwa uzalishaji, fedha, mahusiano ya wawekezaji, na uadilifu wa udhibiti.",
+		"items": [
+			{
+				"initials": "JM",
+				"name": "James Mwangi",
+				"role": "Mkurugenzi Mtendaji na Mwanzilishi Mwenza",
+				"description": "Anaongoza ushirikiano wa uwekezaji, upanuzi wa kimkakati, na mahusiano ya uendeshaji ya kiwango cha nchi katika jukwaa zima."
+			},
+			{
+				"initials": "AO",
+				"name": "Amina Ochieng",
+				"role": "Mkurugenzi wa Uendeshaji na Mwanzilishi Mwenza",
+				"description": "Anasimamia shughuli za tovuti, nidhamu ya usindikaji, mifumo ya usalama, na uratibu wa ziara za tovuti."
+			},
+			{
+				"initials": "DK",
+				"name": "David Kimani",
+				"role": "Afisa Mkuu wa Fedha",
+				"description": "Anasimamia upatanisho wa kila mwezi, ripoti ya wawekezaji, udhibiti wa malipo, na nyaraka za kifedha za washirika."
+			},
+			{
+				"initials": "GN",
+				"name": "Grace Njoroge",
+				"role": "Mkuu wa Sheria na Ufuasi",
+				"description": "Anamiliki rejesta za leseni, michakato ya KYC/AML, nyaraka za mazingira, na makubaliano ya washirika."
+			}
+		]
+	},
+	"governance": {
+		"tag": "Utawala",
+		"headline": "Udhibiti unaofanya operesheni ikaguliwe",
+		"description": "Muundo wetu wa utawala umeundwa kwa kuzingatia rekodi wazi, umiliki wenye uwajibikaji, na ufikiaji wa wawekezaji kwa nyaraka muhimu.",
+		"items": [
+			"Mapitio ya kila mwezi ya Faida na Hasara na uongozi wa fedha",
+			"Vyeti vya uchambuzi wa watu wengine kwa baa zinazozalishwa",
+			"Rejesta kuu ya ufuasi kwa leseni na vibali",
+			"Kumbukumbu za mnyororo wa ulinzi kutoka uchimbaji hadi mauzo",
+			"Mikabala muundo ya washirika yenye haki zilizobainishwa",
+			"Ufikiaji wa tovuti na ukaguzi wa nyaraka kwa washirika waliohitimu"
+		]
+	},
+	"timeline": {
+		"tag": "Hatua kuu",
+		"headline": "Jukwaa lililojengwa hatua kwa hatua",
+		"items": [
+			{
+				"year": "2013",
+				"title": "Utafiti wa uwanjani unaanza",
+				"description": "Waendeshaji waanzilishi wanaanza kuchora ramani za korido za dhahabu za usanii na kujaribu michakato ya ukolezi wa mvuto."
+			},
+			{
+				"year": "2017",
+				"title": "Muundo safi wa usindikaji uthibitishwa",
+				"description": "Usindikaji usio na kemikali unakuwa kiwango cha uendeshaji kwa tovuti mpya na ripoti za washirika."
+			},
+			{
+				"year": "2021",
+				"title": "Upanuzi wa nchi nyingi",
+				"description": "Muundo unapanuka katika maeneo ya uendeshaji ya Afrika Mashariki, Magharibi, na Kusini."
+			},
+			{
+				"year": "2025",
+				"title": "Jukwaa la wawekezaji limerasimishwa",
+				"description": "AfriGold Hub huunganisha shughuli, ripoti, ufuasi, na uandikishaji wa washirika katika jukwaa moja."
+			}
+		]
+	}
+}

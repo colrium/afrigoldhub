@@ -1,0 +1,48 @@
+{
+	"header": "Live-Leistungsübersicht",
+	"stats": {
+		"grossRevenue": {
+			"value": "572.000 $",
+			"label": "Monatlicher Bruttoumsatz"
+		},
+		"profitMargin": {
+			"value": "88 %",
+			"label": "Nettogewinnmarge"
+		},
+		"experience": {
+			"value": "10 J.",
+			"label": "Branchenerfahrung"
+		},
+		"investmentAsk": {
+			"value": "189.000 $",
+			"label": "Gesamte Investitionssumme"
+		}
+	},
+	"bars": {
+		"goldOutput": "Goldproduktion",
+		"efficiency": "Effizienz",
+		"roiTarget": "ROI-Ziel"
+	},
+	"strip": {
+		"monthlyRevenue": {
+			"value": "572.000 $",
+			"label": "Monatlicher Umsatz"
+		},
+		"goldPerMonth": {
+			"value": "~266 kg",
+			"label": "Gold pro Monat"
+		},
+		"yearsInSector": {
+			"value": "10+",
+			"label": "Jahre in der Branche"
+		},
+		"chemicalInputs": {
+			"value": "0",
+			"label": "Chemische Zusätze"
+		},
+		"paybackPeriod": {
+			"value": "3 Mo.",
+			"label": "Amortisationszeit"
+		}
+	}
+}

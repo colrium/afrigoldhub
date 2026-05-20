@@ -1,0 +1,391 @@
+{
+	"hero": {
+		"tag": "Wertschöpfungskette",
+		"headline": "Jedes Glied in der Kette",
+		"headline_highlight": "Kette",
+		"description": "Transparenz ist nur möglich, wenn jede Phase dokumentiert, geprüft und für Partner einsehbar ist. Dies ist die vollständige Wertschöpfungskette von AfriGold Hub – von der geologischen Untersuchung, die eine rentable Lagerstätte identifiziert, bis zur Überweisung, die auf Ihrem Konto eingeht.",
+		"badge": { "text": "Lückenlose Herkunftsdokumentation in jeder Phase", "status": "aktiv" },
+		"cta_primary": { "label": "Investitionspläne ansehen", "href": "/invest#tiers" }
+	},
+	"overview": {
+		"tag": "Unser Modell",
+		"headline": "Upstream, Midstream, Downstream – alles aus einer Hand",
+		"description": "Anders als viele Plattformen für artisanalen Goldbergbau kontrolliert AfriGold Hub die gesamte Wertschöpfungskette intern – von der geologischen Bewertung und Lizenzverwaltung über die Förderung, Verarbeitung, Schmelze, Analyse bis zum Direktverkauf. Diese vertikale Integration eliminiert Zwischenhändlerkosten, reduziert das Risiko von Abflüssen und gibt unseren Investitionspartnern maximale Transparenz über die Marge in jeder Phase.",
+		"pillars": [
+			{
+				"id": "upstream",
+				"label": "Upstream",
+				"color": "#664B00",
+				"stages": [
+					"Geologische Untersuchung",
+					"Lizenzakquise",
+					"Standortvorbereitung",
+					"Förderung"
+				]
+			},
+			{
+				"id": "midstream",
+				"label": "Midstream",
+				"color": "#4A5C2A",
+				"stages": [
+					"Gravitationsaufbereitung",
+					"Konzentratreinigung",
+					"Schmelzen",
+					"Unabhängige Analyse"
+				]
+			},
+			{
+				"id": "downstream",
+				"label": "Downstream",
+				"color": "#1C1608",
+				"stages": [
+					"Verkauf an lizenzierte Käufer",
+					"Royalty-Erklärung",
+					"Erlöseinzug",
+					"Ausschüttung an Investoren"
+				]
+			}
+		]
+	},
+	"stages": {
+		"tag": "Phase für Phase",
+		"headline": "Von der Untersuchung zur Ausschüttung",
+		"description": "Neun dokumentierte Phasen. Jede wird verfolgt, quittiert und monatlich an die Investitionspartner berichtet.",
+		"items": [
+			{
+				"id": "geological-survey",
+				"stage": 1,
+				"phase": "upstream",
+				"title": "Geologische Untersuchung & Reservenbewertung",
+				"color": "#3D2400",
+				"icon": "map",
+				"short_description": "Bevor eine Grube geöffnet wird, führen unsere Feldgeologen Beprobungen der Schwemm- und Eluvialzonen auf der lizenzierten Fläche durch, kartieren die Goldverteilung nach Tiefenzonen und schätzen die abbaubaren Reserven. Die Reservenbewertungen werden dokumentiert und für die Due Diligence der Investoren aufbewahrt.",
+				"long_description": "Jeder neue Betrieb von AfriGold Hub beginnt mit einem strukturierten geologischen Erkundungsprogramm. Unsere Geologen, die in jedem Betriebsland nach nationalen Standards akkreditiert sind, führen systematische Kanalbeprobungen, Grobbeprobungen und Waschprospektionen auf der Zielfläche durch. Die Probenahmeergebnisse werden räumlich kartiert, um die höchstgradigen Zonen innerhalb der Lizenzgrenzen zu identifizieren.\n\nBei Schwemmlagerstätten – dem primären Typ in unseren ostafrikanischen Betrieben – folgt die Beprobung den alten Flussläufen in Tiefen von 0,5–6 m und untersucht den goldführenden Kiesschorizont (die ‚Abbausohle‘) oberhalb des Grundgesteinskontakts. Bei Eluviallagerstätten (hangabwärts verlagertes Material, häufiger in Sierra Leone und Südafrika) erstreckt sich die Beprobung über das Verwitterungsprofil des Hangs.\n\nDas Ergebnis jeder geologischen Untersuchung ist ein Reservenbewertungsbericht – eine dokumentierte Schätzung des Goldgehalts (in Gramm pro Tonne), des abbaubaren Volumens (in Kubikmetern) und der prognostizierten monatlichen Produktion bei geplanten Förderraten. Dieser Bericht bildet die Grundlage des Förderplans und wird den Investitionspartnern im Rahmen des Due-Diligence-Pakets für jede neue Lagerstätte zur Verfügung gestellt.",
+				"value_added": "Eliminiert spekulative Risiken – alle Standorte von AfriGold Hub arbeiten auf der Grundlage untersuchter, gehaltsbestätigter Reserven, bevor das erste Gramm gefördert wird.",
+				"outputs": [
+					"Reservenbewertungsbericht",
+					"Räumliche Gehaltskarte",
+					"Festlegung der Förderzone"
+				],
+				"cost_centre": "Investitionsausgaben vor der Produktion"
+			},
+			{
+				"id": "licence-acquisition",
+				"stage": 2,
+				"phase": "upstream",
+				"title": "Lizenzakquise & regulatorische Einrichtung",
+				"color": "#3D2400",
+				"icon": "file-badge",
+				"short_description": "AfriGold Hub sichert und unterhält aktive Bergbaulizenzen, Umweltverträglichkeitsprüfungs-Zertifikate, Wasserentnahmegenehmigungen und Steuerbehördenregistrierungen in jedem Betriebsland, bevor die Förderung beginnt. Kein Standort wird ohne vollständigen regulatorischen Rahmen betrieben.",
+				"long_description": "Regulatorische Compliance ist für AfriGold Hub keine reine Verwaltungsaufgabe – sie ist das Fundament unseres Investorenangebots. Ohne glaubwürdige, dokumentierte Lizenzen und Umweltzertifikate kann unser Gold nicht legal verkauft werden, und das Kapital der Investoren wäre gefährdet.\n\nUnser Rechtsteam unter der Leitung unserer Leiterin Recht & Compliance verwaltet den gesamten Lizenzlebenszyklus in allen sieben Betriebsländern: Erstantrag, Beauftragung der Umweltverträglichkeitsprüfung, Gemeindekonsultation (falls erforderlich), Lizenzerteilung, jährliche Compliance-Berichterstattung und Verlängerung. Das Team arbeitet in jedem Land mit lokalen spezialisierten Bergbaurechtsanwälten zusammen.\n\nDer regulatorische Rahmen für jeden Standort umfasst: (1) Bergbaulizenz der nationalen Bergbaubehörde; (2) UVP-Zertifikat der nationalen Umweltbehörde; (3) Wasserentnahmegenehmigung (falls zutreffend); (4) Registrierung bei der Steuerbehörde als lizenzierter Edelmetallhändler; und (5) eine Gemeindeentwicklungsvereinbarung (CDA), die bei der zuständigen lokalen Behörde hinterlegt ist. Alle Dokumente werden in unserem zentralen Compliance-Register geführt und sind Investoren auf Anfrage zugänglich.",
+				"value_added": "Volle regulatorische Compliance in sieben Rechtsgebieten bedeutet, dass Gold legal verkauft werden kann und Ausschüttungen an Investoren unterbrechungsfrei international transferiert werden können.",
+				"outputs": [
+					"Bergbaulizenz (ML)",
+					"UVP-Zertifikat",
+					"Wassergenehmigung",
+					"Steuerbehördenregistrierung",
+					"CDA-Hinterlegung"
+				],
+				"cost_centre": "Investitionsausgaben vor der Produktion / laufende Compliance-Betriebskosten"
+			},
+			{
+				"id": "site-preparation",
+				"stage": 3,
+				"phase": "upstream",
+				"title": "Standortvorbereitung & Infrastruktur",
+				"color": "#4A3000",
+				"icon": "hard-hat",
+				"short_description": "Vor Beginn der Förderung wird jeder Standort mit Zufahrtsstraßen, Wasserversorgungs- und Recyclingsystem, Verarbeitungsanlage, Büro, Analysestation und Sicherheitssystemen ausgestattet. Die Standortvorbereitung in Busia dauerte 6 Monate; spätere Standorte wurden mit unserer standardisierten Anlagenspezifikation in 3–4 Monaten in Betrieb genommen.",
+				"long_description": "Die Standortvorbereitung ist die kapitalintensive Phase, die eine untersuchte, lizenzierte Zone in einen produktiven Betrieb verwandelt. AfriGold Hub hat eine standardisierte Infrastrukturspezifikation entwickelt – verfeinert durch sieben Einsätze – die an die lokale Geologie und Logistik jedes Standorts angepasst wird.\n\nDie Kerninfrastruktur an jedem Standort umfasst: (1) Zufahrtsstraße von der nächsten öffentlichen Straße zur Grube und Verarbeitungsanlage; (2) Wasserentnahme- und Recyclingsystem – einschließlich Absetzbecken und Rückförderpumpen, um eine Wasserwiedergewinnung von über 90 % zu erreichen; (3) Primäre Schwerkraftrinnenanlage – modulare Edelstahlrinnen, dimensioniert für den geplanten Durchsatz; (4) Spiralkonzentratorbank; (5) Endreinigungskreislauf (Rütteltisch oder Gemini-Tisch); (6) Sicherer Wiege- und Konzentratlagerbereich; (7) Büro, Sicherheitsstation und Erste-Hilfe-Posten; und (8) Sicherheitszäune und Beleuchtung.\n\nIn unserer Anlage in Busia betreiben wir zusätzlich einen Induktionsschmelzofen vor Ort, eine Probenvorbereitungsstation für die Analyse und einen versiegelten Versandraum für die Lagerung und Übergabe fertiger Barren. Sekundäre Standorte ohne Schmelzinfrastruktur transportieren versiegeltes, gewogenes Konzentrat unter Herkunftsdokumentation zur nächstgelegenen Schmelzanlage.",
+				"value_added": "Die standardisierte Anlagenspezifikation reduziert die Inbetriebnahmezeit, senkt die Investitionsausgaben pro neuem Standort und gewährleistet konsistente Durchsatz- und Rückgewinnungsraten im gesamten Netzwerk.",
+				"outputs": [
+					"Inbetriebgenommene Verarbeitungsanlage",
+					"Wassermanagementsystem",
+					"Sicherheitszertifizierung des Standorts"
+				],
+				"cost_centre": "Investitionsausgaben (CAPEX)"
+			},
+			{
+				"id": "extraction",
+				"stage": 4,
+				"phase": "upstream",
+				"title": "Erzförderung",
+				"color": "#664B00",
+				"icon": "shovel",
+				"short_description": "Lizenzierte Förderteams gewinnen Schwemm- und Eluvialerz aus kartierten Grubenzonen unter der Aufsicht zertifizierter Minenaufsicht. Jede Förderschicht wird gewogen und protokolliert – die Herkunftsdokumentation beginnt an der Grube. Schrittweise Rekultivierung wird durchgeführt, sobald Zonen ausgebeutet sind.",
+				"long_description": "Siehe Betrieb → Standortförderung für vollständige Details. Wichtige Punkte der Wertschöpfungskette: Das Erzgewicht bei der Förderung ist die erste Zahl in der Herkunftsdokumentation, die sich über das Konzentratgewicht, das geschmolzene Barrengewicht und das Verkaufsgewicht erstreckt – jede unerklärte Abweichung in jeder Phase löst eine sofortige Abstimmungsprüfung aus.",
+				"value_added": "Die Wiege- und Protokollierung auf Grubenebene schließt die erste potenzielle Lücke in der Wertschöpfungskette. Es gibt keine Phase, in der Gold das System undokumentiert verlassen kann.",
+				"outputs": [
+					"Schichtwiegemittel",
+					"Eintrag in die Herkunftsdokumentation",
+					"Abzeichnung des Aufsehers"
+				],
+				"cost_centre": "Betriebsausgaben (OPEX) – Arbeit, Kraftstoff, Gerätewartung"
+			},
+			{
+				"id": "gravity-concentration",
+				"stage": 5,
+				"phase": "midstream",
+				"title": "Gravitationsaufbereitung",
+				"color": "#4A5C2A",
+				"icon": "waves",
+				"short_description": "Das erzbelastete Material wird mit ausschließlich Wasser und Schwerkraft durch primäre Schwerkraftrinnen, Spiralkonzentratoren und Rütteltische geleitet. Goldrückgewinnungsraten von 85–92 % werden im gesamten Netzwerk konstant erreicht. Keine Chemikalien – kein Quecksilber, kein Cyanid, keine giftigen Rückstände. Das Endkonzentrat ist 200- bis 400-mal goldreicher als das Rohmaterial.",
+				"long_description": "Siehe Betrieb → Gravitationsaufbereitung für vollständige Details. Wichtige Punkte der Wertschöpfungskette: Das Konzentratgewicht am Ende der Gravitationsstufe ist die zweite dokumentierte Zahl in der Herkunftsdokumentation. Das Konzentrat wird gewogen, in nummerierten Säcken versiegelt und im gesicherten Wiegeraum gelagert. Das Verhältnis von Aufgabemasse zu Konzentratmasse ergibt die Kreislaufrückgewinnungsrate – täglich erfasst und monatlich berichtet.",
+				"value_added": "Null chemische Zusätze senken die Betriebskosten um 10–14 $/Gramm im Vergleich zur chemischen Laugung und erhöhen direkt die für Investorenrenditen verfügbare Marge. Der Vorteil der Umweltkonformität schützt auch die Lizenz vor regulatorischen Risiken.",
+				"outputs": [
+					"Gewogene, versiegelte Konzentratsäcke",
+					"Kreislaufrückgewinnungsprotokoll",
+					"Wasserrecyclingbericht"
+				],
+				"cost_centre": "Betriebsausgaben – Wasser, Wartung, Strom"
+			},
+			{
+				"id": "smelting",
+				"stage": 6,
+				"phase": "midstream",
+				"title": "Schmelzen & Gießen",
+				"color": "#8C4A1A",
+				"icon": "flame",
+				"short_description": "Gereinigtes Gravitationskonzentrat wird in Induktionsöfen bei 1.100–1.150 °C beschickt. Ein Flussmittelzusatzprozess entfernt alle Buntmetall- und Sulfidverunreinigungen. Das raffinierte geschmolzene Gold wird in Graphitformen gegossen und zu nummerierten Barren geformt – jeder gekennzeichnet mit Seriennummer, Gießdatum, Standortcode und Bruttogewicht.",
+				"long_description": "Siehe Betrieb → Schmelzen & Analyse für vollständige Details. Wichtige Punkte der Wertschöpfungskette: Die Barren-Seriennummern sind das primäre Identifikationsmerkmal, das die Herkunftsdokumentation der Produktion mit dem Verkaufsbeleg und dem Investorenbericht verbindet. Jede Barrennummer wird vom Zeitpunkt des Gießens über die Analyse, den Verkauf und die Zahlung protokolliert – und bietet so eine lückenlose Prüfspur von der Grube bis zum Erlös.",
+				"value_added": "Das Schmelzen vor Ort eliminiert die Kosten und das Herkunftsrisiko des Schmelzens außerhalb des Standorts. Jeder Barren wird unter der Kontrolle von AfriGold Hub produziert, nummeriert und analysiert, bevor er unseren Besitz verlässt.",
+				"outputs": [
+					"Nummerierte Goldbarren",
+					"Gießprotokoll",
+					"Versandaufzeichnung der Vor-Analyseprobe"
+				],
+				"cost_centre": "Betriebsausgaben – Ofenstrom, Tiegel, Flussmittelverbrauchsmaterialien"
+			},
+			{
+				"id": "independent-assay",
+				"stage": 7,
+				"phase": "midstream",
+				"title": "Unabhängige Analyse & Zertifizierung",
+				"color": "#7A4E2D",
+				"icon": "microscope",
+				"short_description": "Jeder Barren wird vor dem Verkauf von einem akkreditierten Drittlabor unabhängig auf Reinheit geprüft. Die Analysezertifikate enthalten die Seriennummer des Barrens, Bruttogewicht, Feingewicht und Reinheitsprozentsatz. Die Mindestreinheit beträgt 99,5 % – unsere Anlage in Busia erreicht konstant 99,5–99,7 %. Die Zertifikate begleiten jeden Barren während des Verkaufs und werden in das monatliche Investorenpaket aufgenommen.",
+				"long_description": "Die unabhängige Analyse ist das Qualitätsgate, das das Schmelzprodukt validiert und dem Käufer die zertifizierten Reinheitsdaten liefert, die für die Preisgestaltung erforderlich sind. AfriGold Hub beauftragt alle Analysen bewusst bei Drittlaboren ohne Verbindung zum Unternehmen, um Objektivität zu gewährleisten.\n\nIn Uganda werden Analysen von UNBS-akkreditierten Laboren in Kampala durchgeführt. In Kenia nach KS ISO 11426 / KEBS-Akkreditierungsstandards. In Tansania von TMAA-zugelassenen Analyseanlagen. In Südafrika von SANAS-akkreditierten Laboren.\n\nDer Analyseprozess für jeden Barren umfasst die Schmelzanalyse einer repräsentativen Bohrprobe aus dem Barren (typischerweise 0,2–0,5 g aus drei Stellen), die Kupellation der Probe und die spektrometrische Analyse der resultierenden Perle. Das Zertifikat wird mit der Seriennummer des Barrens, Probennahmedatum, Bruttogewicht, Feingoldgewicht und Reinheit in Tausendstel (z. B. 995 = 99,5 %) ausgestellt. Diese Zertifikate werden in unserem Compliance-Archiv aufbewahrt, und Kopien werden den Investitionspartnern im monatlichen Investorenpaket zur Verfügung gestellt.\n\nAlle Barren, die unter die Schwelle von 99,5 % fallen (was an unserer Anlage in Busia in drei Jahren Betrieb nicht vorgekommen ist), werden vor dem Verkauf in den Ofen zurückgeführt, umgeschmolzen und erneut analysiert.",
+				"value_added": "Die Drittanalyse ohne Unternehmensverbindung bietet eine unabhängige Qualitätskontrolle, die sowohl die Interessen des Käufers als auch das Vertrauen der Investoren in die gemeldeten Produktionszahlen schützt.",
+				"outputs": [
+					"UNBS/KEBS/TMAA-Analysezertifikat pro Barren",
+					"Reinheitsprotokoll",
+					"Compliance-Archivaufzeichnung"
+				],
+				"cost_centre": "Betriebsausgaben – Laborgebühren, ca. 25–40 $ pro Barren"
+			},
+			{
+				"id": "sale",
+				"stage": 8,
+				"phase": "downstream",
+				"title": "Goldverkauf an lizenzierte Käufer",
+				"color": "#2A1F05",
+				"icon": "handshake",
+				"short_description": "Analysierte Barren werden an staatlich lizenzierte Edelmetallkäufer im jeweiligen Betriebsland verkauft. Jeder Verkauf generiert eine formelle Verkaufsvereinbarung, eine KYC-verifizierte Käuferquittung, eine Royalty-Erklärung der nationalen Steuerbehörde und gegebenenfalls eine Exportgenehmigung. Die Verkaufserlöse werden innerhalb von 48 Stunden nach physischer Lieferung auf dem Betriebskonto von AfriGold Hub gutgeschrieben.",
+				"long_description": "Siehe Betrieb → Verkauf & Ausschüttung für vollständige Details. Wichtige Punkte der Wertschöpfungskette: Der Verkaufspreis pro Gramm wird auf der Grundlage des aktuellen XAU/USD-Spotpreises zum Zeitpunkt der Transaktion abzüglich der Käuferspanne berechnet (typischerweise 0,5–1,5 % unter dem Spotpreis für LBMA-taugliche Barren). Der bestätigte Verkaufserlös – abzüglich der Abgaben – ist die Bruttoumsatzzahl, die in der monatlichen Gewinn- und Verlustrechnung verwendet wird, und die Grundlage für die Ausschüttungen an Investoren.",
+				"value_added": "Direktverkauf an lizenzierte Käufer ohne Makler spart 2–4 % an Vermittlungsgebühren pro Transaktion. KYC-verifizierte Käuferbeziehungen schützen die Lizenz auch vor AML-Compliance-Risiken.",
+				"outputs": [
+					"Verkaufsvereinbarung",
+					"Käuferquittung",
+					"Royalty-Erklärung (URA/KRA/TMAA/SARS etc.)",
+					"Exportgenehmigung",
+					"Bestätigte Erlöszahl"
+				],
+				"cost_centre": "Erlös – abzüglich Abgaben (3 % Uganda, 1 % Kenia, 3 % Tansania, variiert nach Land)"
+			},
+			{
+				"id": "investor-distribution",
+				"stage": 9,
+				"phase": "downstream",
+				"title": "Erlösabstimmung & Ausschüttung an Investoren",
+				"color": "#1C1608",
+				"icon": "banknotes",
+				"short_description": "Die monatlichen Einnahmen aller Standorte werden vom CFO und einem externen Buchhalter anhand von Produktionsaufzeichnungen, Analysezertifikaten und Verkaufsbelegen abgestimmt. Eine monatlich geprüfte Gewinn- und Verlustrechnung wird innerhalb von 10 Werktagen nach Monatsende erstellt. Die Ausschüttungen an Investoren werden pro Stufe berechnet und am 15. eines jeden Monats per SWIFT oder Mobile Money überwiesen – ausnahmslos.",
+				"long_description": "Das letzte Glied in der Wertschöpfungskette von AfriGold Hub ist die Überweisung der Investorenrenditen – und es ist das Glied, auf das unser gesamtes Betriebsmodell ausgelegt ist, um es vorhersehbar, dokumentiert und zuverlässig zu machen.\n\nDie monatliche Abstimmung beginnt am 1. eines jeden Monats für die Produktion des Vormonats. Unser CFO konsolidiert alle Standortverkaufsbelege, Royalty-Erklärungen und Betriebskostenrechnungen zu einer einzigen konsolidierten Gewinn- und Verlustrechnung. Ein externer Buchhalter – unabhängig von der AfriGold Hub-Leitung beauftragt – prüft und stempelt die Gewinn- und Verlustrechnung innerhalb von 5 Werktagen. Die endgültige unterzeichnete Gewinn- und Verlustrechnung wird im Investorenportal hochgeladen und allen Partnern per E-Mail zugesandt.\n\nDie Ausschüttungen an Investoren werden aus der Nettogewinnzahl berechnet (Bruttoumsatz minus Betriebskosten, Abgaben und der 3%-Gemeindeentwicklungsabgabe). Jede Stufe erhält ihren vertraglich vereinbarten Gewinnprozentsatz des Nettogewinns. Die Ausschüttungen werden am 10. des Monats über das gemeinsame Betriebskonto initiiert und bis zum 15. auf die Konten der Anleger (SWIFT USD für internationale, Mobile Money für Afrika-ansässige) überwiesen.\n\nAlle Überweisungen werden von einer Überweisungsmitteilung begleitet, die die Berechnung zeigt: Bruttoumsatz pro Standort, Gesamtbetriebskosten, Abgaben, Gemeindeabgabe, Nettogewinn, Gewinnprozentsatz und Bruttoausschüttungsbetrag. Dieses Dokument bildet zusammen mit der Gewinn- und Verlustrechnung, den Verkaufsbelegen und den Analysezertifikaten das monatliche Investorenpaket, das ausnahmslos geliefert wird.",
+				"value_added": "Fester Ausschüttungstermin (15. eines jeden Monats), externe Buchhalterabzeichnung und Zugang zum Gemeinschaftskonto für Strategic- und Anchor-Partner schaffen die investorenschützendste Ausschüttungsstruktur, die im artisanalen Goldsektor verfügbar ist.",
+				"outputs": [
+					"Monatlich geprüfte Gewinn- und Verlustrechnung",
+					"Monatliches Investorenpaket (PDF)",
+					"SWIFT / Mobile Money Überweisung",
+					"Überweisungsmitteilung"
+				],
+				"cost_centre": "Ausschüttung – 100 % des vertraglich vereinbarten Gewinnanteils am monatlichen Nettogewinn"
+			}
+		]
+	},
+	"margin_breakdown": {
+		"tag": "Wo die Marge liegt",
+		"headline": "Vom Umsatz zur Investorenrendite",
+		"description": "Eine transparente Aufschlüsselung, wie aus 572.000 $ monatlichem Bruttoumsatz 504.000 $ Nettogewinn und schließlich Ausschüttungen an Investoren werden.",
+		"line_items": [
+			{
+				"label": "Bruttoumsatz (Goldverkäufe)",
+				"value": 572000,
+				"type": "income",
+				"note": "~266 kg raffiniertes Gold zum aktuellen XAU/USD-Spotpreis abzüglich Käuferspanne"
+			},
+			{
+				"label": "Betriebspersonal",
+				"value": -18000,
+				"type": "opex",
+				"note": "30+ Direktangestellte am Hauptstandort, vertragliche Löhne"
+			},
+			{
+				"label": "Ausrüstung & Wartung",
+				"value": -12000,
+				"type": "opex",
+				"note": "Anlagenwartung, Verbrauchsmaterialien, Kraftstoff, Werkzeuge"
+			},
+			{
+				"label": "Wasser & Versorgungsleistungen",
+				"value": -4000,
+				"type": "opex",
+				"note": "Strom für Schmelzofen, Wasserentnahme und -recycling"
+			},
+			{
+				"label": "Analyse- & Zertifizierungsgebühren",
+				"value": -2000,
+				"type": "opex",
+				"note": "Drittanbieter-Analyse mit ca. 30 $/Barren × ca. 60 Barren/Monat"
+			},
+			{
+				"label": "Transport & Logistik",
+				"value": -3000,
+				"type": "opex",
+				"note": "Konzentrattransport zur Schmelze (Sekundärstandorte), Goldbarrenlieferung"
+			},
+			{
+				"label": "Abgaben (durchschnittlich 3 % des Bruttoumsatzes)",
+				"value": -17000,
+				"type": "regulatory",
+				"note": "Staatliche Mineralienabgaben, eingereicht bei URA/KRA/TMAA nach Maßgabe"
+			},
+			{
+				"label": "Gemeindeentwicklungsabgabe (3 % des Nettogewinns)",
+				"value": -12000,
+				"type": "cda",
+				"note": "CDA-Verpflichtung für die regionale Gemeinschaftsinfrastruktur"
+			},
+			{
+				"label": "Allgemeine & Verwaltungskosten",
+				"value": -1800,
+				"type": "opex",
+				"note": "Bürokosten, Versicherung, Rechtscompliance, Buchhaltung"
+			},
+			{
+				"label": "Nettogewinn",
+				"value": 502200,
+				"type": "profit",
+				"note": "Verfügbar für Ausschüttungen an Investoren gemäß den vertraglichen Beteiligungsstufen"
+			}
+		],
+		"note": "Die Zahlen stellen ungefähre monatliche Durchschnittswerte basierend auf 266 kg Produktion bei einem XAU/USD von 2.150 $/Feinunze dar. Die tatsächlichen Zahlen variieren mit dem Goldspotpreis und der monatlichen Produktion. Die monatliche Gewinn- und Verlustrechnung enthält die verifizierten Ist-Werte."
+	},
+	"transparency": {
+		"tag": "Dokumentation in jeder Phase",
+		"headline": "Die Papierspur, die jeden Partner schützt",
+		"description": "Jede Phase in der Wertschöpfungskette generiert ein bestimmtes Dokument – und jedes Dokument wird aufbewahrt, im monatlichen Investorenpaket referenziert und steht auf Anfrage für das Investoren-Audit zur Verfügung.",
+		"documents": [
+			{
+				"stage": "Geologische Untersuchung",
+				"document": "Reservenbewertungsbericht",
+				"retained_by": "Rechtsarchiv",
+				"available_to": "Investor (auf Anfrage)"
+			},
+			{
+				"stage": "Lizenzakquise",
+				"document": "Bergbaulizenz, UVP-Zertifikat, CDA",
+				"retained_by": "Rechtsarchiv",
+				"available_to": "Investor (auf Anfrage)"
+			},
+			{
+				"stage": "Förderung",
+				"document": "Schichtwiegemittel, Grubenprotokoll",
+				"retained_by": "Betriebsarchiv",
+				"available_to": "Investor (auf Anfrage)"
+			},
+			{
+				"stage": "Gravitationsaufbereitung",
+				"document": "Kreislaufrückgewinnungsprotokoll",
+				"retained_by": "Betriebsarchiv",
+				"available_to": "Investor (auf Anfrage)"
+			},
+			{
+				"stage": "Schmelzen",
+				"document": "Gießprotokoll, Barren-Seriennummernregister",
+				"retained_by": "Betriebsarchiv",
+				"available_to": "Investor (monatliches Paket)"
+			},
+			{
+				"stage": "Unabhängige Analyse",
+				"document": "Analysezertifikat pro Barren",
+				"retained_by": "Compliance-Archiv",
+				"available_to": "Investor (monatliches Paket)"
+			},
+			{
+				"stage": "Verkauf",
+				"document": "Verkaufsvereinbarung, Käuferquittung, Royalty-Erklärung",
+				"retained_by": "Finanzarchiv",
+				"available_to": "Investor (monatliches Paket)"
+			},
+			{
+				"stage": "Erlösabstimmung",
+				"document": "Monatlich geprüfte Gewinn- und Verlustrechnung",
+				"retained_by": "Finanzarchiv",
+				"available_to": "Investor (monatliches Paket)"
+			},
+			{
+				"stage": "Ausschüttung an Investoren",
+				"document": "Überweisungsmitteilung, SWIFT-Bestätigung",
+				"retained_by": "Finanzarchiv",
+				"available_to": "Investor (jede Zahlung)"
+			}
+		]
+	},
+	"esg": {
+		"tag": "ESG in der Wertschöpfungskette",
+		"headline": "Verantwortung integriert, nicht angehängt",
+		"description": "Umweltverantwortung, Gemeinwohlnutzen und faire Beschäftigung sind keine Anhängsel unserer Wertschöpfungskette – sie sind strukturelle Bestandteile. Jede Phase hat definierte ESG-Verpflichtungen, die überwacht, berichtet und zusammen mit der finanziellen Leistung geprüft werden.",
+		"items": [
+			{
+				"phase": "Upstream",
+				"icon": "leaf",
+				"title": "Kein Standort wird ohne saubere UVP eröffnet",
+				"description": "Die Umweltverträglichkeitsprüfung wird abgeschlossen und zertifiziert, bevor eine Grube geöffnet wird. Die UVP ist eine aufschiebende Bedingung, keine Formalität."
+			},
+			{
+				"phase": "Midstream",
+				"icon": "droplets",
+				"title": "Null Chemikalien. 92 % Wasserrecycling.",
+				"description": "Die Gravitationsaufbereitung eliminiert jegliche Quecksilber- und Cyanidverwendung. Unser geschlossenes Wassersystem recycelt an jedem Standort 90–94 % des Prozesswassers – schützt lokale Wasserwege und reduziert den Süßwasserbedarf."
+			},
+			{
+				"phase": "Midstream",
+				"icon": "users",
+				"title": "30+ lokale Arbeitsplätze, formelle Verträge",
+				"description": "Alle operativen Angestellten sind Gemeindebewohner mit formellen schriftlichen Verträgen und nationalen Sozialversicherungsbeiträgen. Keine Kinderarbeit. Gleichstellungspolitik mit dem Ziel 40 % Frauen in nicht-fördernden Rollen."
+			},
+			{
+				"phase": "Downstream",
+				"icon": "building-community",
+				"title": "3 % Gemeindeabgabe auf jede Ausschüttung",
+				"description": "Eine Gemeindeentwicklungsvereinbarung legt 3 % des monatlichen Nettogewinns für die lokale Infrastruktur fest – Wasserzugang, Schuleinrichtungen und Berufsbildung – in jeder Gemeinde, in der wir tätig sind."
+			},
+			{
+				"phase": "Alle Phasen",
+				"icon": "file-check",
+				"title": "Einhaltung des UNEP-Minamata-Übereinkommens",
+				"description": "AfriGold Hub ist ein teilnehmender Betrieb am UNEP-Minamata-Quecksilber-Eliminierungsprogramm – der einzige netzwerkweite chemiefreie artisanal Goldbetrieb in unserer Betriebsregion."
+			}
+		]
+	},
+	"cta": {
+		"tag": "In die Kette investieren",
+		"headline": "Besitzen Sie einen Anteil an jedem Glied",
+		"description": "Wenn Sie in AfriGold Hub investieren, investieren Sie in die gesamte dokumentierte Wertschöpfungskette – keine Rohstoffwette, sondern ein strukturiertes, prüfbares Produktionsgeschäft mit monatlich verifizierten Renditen.",
+		"cta_primary": { "label": "Investitionspläne ansehen", "href": "/invest" },
+		"cta_secondary": {
+			"label": "Due-Diligence-Paket herunterladen",
+			"href": "/contact?reason=due-diligence"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+```json
+{
+	"tag": "Maswali Yanayoulizwa Sana",
+	"headline": "Maswali ya kawaida ya wawekezaji",
+	"items": [
+		{
+			"q": "Je, AfriGold Hub ni operesheni ya uchimbaji madini iliyo na leseni?",
+			"a": "Ndio. Tunafanya kazi chini ya Leseni Halali ya Msingi ya Uchimbaji Madini (PML) iliyotolewa chini ya Sheria ya Madini ya Afrika ya 2010. Vyeti vyote vya mazingira na usalama ni vya sasa na vinapatikana kwa ukaguzi wa wawekezaji kwa ombi."
+		},
+		{
+			"q": "Mapato ya wawekezaji yanakokotolewa na kusambazwaje?",
+			"a": "Mapato yanakokotolewa kila mwezi kulingana na risiti za mauzo ya dhahabu zilizothibitishwa. Faida halisi baada ya gharama za uendeshaji inasambazwa kwa wawekezaji kulingana na kiwango chao cha usawa. Malipo yanafanywa kwa uhamisho wa benki ndani ya siku 10 za kazi baada ya upatanisho wa mwisho wa mwezi."
+		},
+		{
+			"q": "Wawekezaji wana ulinzi gani?",
+			"a": "Ushirikiano wote unatawaliwa na mkataba rasmi wa uwekezaji. Mtaji unahifadhiwa katika akaunti ya pamoja ya aina ya escrow. Washirika wa Kimkakati na Msingi wana mwonekano wa moja kwa moja kwenye akaunti ya benki. Ripoti za kila mwezi zilizokaguliwa hutolewa bila ubaguzi."
+		},
+		{
+			"q": "Kwa nini ukolezi wa mvuto ni bora kuliko usindikaji wa kemikali?",
+			"a": "Ukolezi wa mvuto hautumii zebaki au sianidi, hivyo kupunguza kwa kiasi kikubwa gharama za uendeshaji na kuondoa dhima ya mazingira. Inakidhi kikamilifu kanuni za NEMC na inaambatana na hatua ya Afrika ya kuondoa zebaki katika uchimbaji madini wa usanii."
+		},
+		{
+			"q":"Muda wa chini wa kujitolea kwa uwekezaji ni upi?",
+			"a": "Kujitolea kwa muda wa chini ni miezi mitatu, ambayo pia inalingana na muda unaotarajiwa wa kurejesha mtaji. Baada ya muda wa awali, washirika wanaweza kuendeleza, kuondoka, au kujadili upya kiwango chao kwa notisi ya siku 30."
+		}
+	]
+}
+```

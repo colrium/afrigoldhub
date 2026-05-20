@@ -19,7 +19,7 @@ export default function AboutTeamSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("about_page.team.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("about_page.team.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -30,7 +30,7 @@ export default function AboutTeamSection() {
 					{items.map((member, index) => (
 						<FadeUp key={member.name} delay={index * 0.06}>
 							<article className="h-full rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#0A0A0A] p-6">
-								<div className="w-14 h-14 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-serif text-xl text-primary mb-5">
+								<div className="w-14 h-14 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-xl text-primary mb-5">
 									{member.initials}
 								</div>
 								<div className="text-xs uppercase tracking-[0.14em] text-primary mb-2">

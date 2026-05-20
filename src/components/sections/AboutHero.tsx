@@ -32,7 +32,7 @@ export default function AboutHero() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-4">
 						{t("about_page.hero.tag")}
 					</span>
-					<h1 className="font-serif text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
+					<h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
 						{t("about_page.hero.headline")}
 					</h1>
 					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[690px]">
@@ -75,7 +75,7 @@ export default function AboutHero() {
 										key={key}
 										className="border-t border-[rgba(201,168,76,0.09)] pt-5"
 									>
-										<div className="font-serif text-3xl text-primary leading-none">
+										<div className="text-3xl text-primary leading-none">
 											{t(`metrics.strip.${key}.value`)}
 										</div>
 										<div className="text-xs text-[#faf5ec] mt-2">

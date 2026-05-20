@@ -17,7 +17,7 @@ export default function InvestorProcessSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("invest_page.process.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("invest_page.process.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -30,7 +30,7 @@ export default function InvestorProcessSection() {
 							key={item.step}
 							className="rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#111111] p-6"
 						>
-							<div className="w-11 h-11 rounded-full border border-primary/30 text-primary flex items-center justify-center font-serif text-xl mb-5">
+							<div className="w-11 h-11 rounded-full border border-primary/30 text-primary flex items-center justify-center text-xl mb-5">
 								{item.step}
 							</div>
 							<h3 className="text-onSurface-100 font-medium mb-2">{item.title}</h3>

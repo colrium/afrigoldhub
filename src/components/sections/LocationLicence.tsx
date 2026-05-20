@@ -45,7 +45,7 @@ export default function LocationLicence() {
 									<div className="text-xs text-gold tracking-widest uppercase mb-1">
 										Mining Site
 									</div>
-									<div className="font-serif text-lg text-off-white">
+									<div className="text-lg text-off-white">
 										West African Region
 									</div>
 									<div className="text-xs text-muted mt-1">
@@ -59,7 +59,7 @@ export default function LocationLicence() {
 					{/* Licence Details */}
 					<FadeRight>
 						<SectionTag>Location &amp; Licensing</SectionTag>
-						<h2 className="font-serif text-4xl tracking-tight mb-6">
+						<h2 className="text-4xl tracking-tight mb-6">
 							Rooted in <em className="text-gold not-italic">West African region</em>
 						</h2>
 						<p className="text-base text-muted leading-relaxed font-light mb-8">

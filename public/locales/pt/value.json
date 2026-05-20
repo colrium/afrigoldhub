@@ -1,0 +1,387 @@
+{	
+	"hero": {
+		"tag": "Value Chain",
+		"headline": "Every link in the chain",
+		"headline_highlight": "chain",
+		"description": "Transparency is only possible when every stage is documented, audited, and open to partner scrutiny. This is the complete AfriGold Hub value chain - from the geological survey that identifies a viable deposit to the wire transfer that lands in your account.",
+		"badge": { "text": "Full chain-of-custody at every stage", "status": "active" },
+		"cta_primary": { "label": "View Investment Plans", "href": "/invest" }
+	},
+	"overview": {
+		"tag": "Our Model",
+		"headline": "Upstream, midstream, downstream - all in-house",
+		"description": "Unlike many artisanal gold platforms, AfriGold Hub controls the entire value chain in-house - from geological assessment and licence management through extraction, processing, smelting, assay, and direct sale. This vertical integration eliminates intermediary costs, reduces leakage risk, and gives our investment partners maximum visibility into the margin at every stage.",
+		"pillars": [
+			{
+				"id": "upstream",
+				"label": "Upstream",
+				"color": "#664B00",
+				"stages": [
+					"Geological Survey",
+					"Licence Acquisition",
+					"Site Preparation",
+					"Pit Extraction"
+				]
+			},
+			{
+				"id": "midstream",
+				"label": "Midstream",
+				"color": "#4A5C2A",
+				"stages": [
+					"Gravity Concentration",
+					"Concentrate Cleaning",
+					"Smelting",
+					"Independent Assay"
+				]
+			},
+			{
+				"id": "downstream",
+				"label": "Downstream",
+				"color": "#1C1608",
+				"stages": [
+					"Licensed Buyer Sale",
+					"Royalty Declaration",
+					"Revenue Collection",
+					"Investor Distribution"
+				]
+			}
+		]
+	},
+	"stages": {
+		"tag": "Stage by Stage",
+		"headline": "From survey to distribution",
+		"description": "Nine documented stages. Every one tracked, receipted, and reported to investment partners monthly.",
+		"items": [
+			{
+				"id": "geological-survey",
+				"stage": 1,
+				"phase": "upstream",
+				"title": "Geological Survey & Reserve Assessment",
+				"color": "#3D2400",
+				"icon": "map",
+				"short_description": "Before any pit is opened, our field geologists conduct alluvial and eluvial sampling across the licensed acreage, mapping gold distribution by depth zone and estimating recoverable reserves. Reserve assessments are documented and retained for investor due diligence.",
+				"long_description": "Every new AfriGold Hub operation begins with a structured geological reconnaissance programme. Our geologists, accredited to national standards in each operating country, conduct systematic channel sampling, bulk sampling, and panning surveys across the target acreage. Sample results are mapped spatially to identify the highest-grade zones within the licence boundary.\n\nFor alluvial deposits - the primary type across our East African operations - sampling follows the ancient river channels at depths of 0.5–6m, testing the gold-bearing gravel horizon (the 'pay gravel') above the bedrock contact. For eluvial deposits (slope-washed material, more common in Sierra Leone and South Africa), sampling extends across the hillside weathering profile.\n\nThe output of each geological survey is a Reserve Assessment Report - a documented estimate of gold grade (in grams per tonne), recoverable volume (in cubic metres), and projected monthly output at planned extraction rates. This report forms the basis of the extraction plan and is shared with investment partners as part of the due diligence pack for any new site.",
+				"value_added": "Eliminates speculative risk - all AfriGold Hub sites operate on surveyed, grade-confirmed reserves before the first gram is extracted.",
+				"outputs": [
+					"Reserve Assessment Report",
+					"Spatial grade map",
+					"Extraction zone designation"
+				],
+				"cost_centre": "Pre-production capital expenditure"
+			},
+			{
+				"id": "licence-acquisition",
+				"stage": 2,
+				"phase": "upstream",
+				"title": "Licence Acquisition & Regulatory Setup",
+				"color": "#3D2400",
+				"icon": "file-badge",
+				"short_description": "AfriGold Hub secures and maintains active Mining Licences, Environmental Impact Assessment certificates, water abstraction permits, and revenue authority registrations in every operating jurisdiction before extraction begins. No site operates without a full regulatory stack in place.",
+				"long_description": "Regulatory compliance is not a box-ticking exercise for AfriGold Hub - it is the foundation of our investor proposition. Without credible, documented licences and environmental certificates, our gold cannot be legally sold, and investor capital would be at risk.\n\nOur legal team, led by our Head of Legal & Compliance, manages the full licence lifecycle across all seven operating countries: initial application, environmental impact assessment commissioning, community consultation (where required), licence issuance, annual compliance reporting, and renewal. The team works with local specialist mining lawyers in each jurisdiction.\n\nThe regulatory stack for each site includes: (1) Mining Licence from the national mines authority; (2) Environmental Impact Assessment certificate from the national environmental agency; (3) Water abstraction permit where applicable; (4) Revenue authority registration as a licensed precious metals dealer; and (5) a Community Development Agreement (CDA) filed with the relevant local authority. All documents are maintained in our centralised compliance register and are available to investors on request.",
+				"value_added": "Full regulatory compliance in seven jurisdictions means gold can be sold legally and investor distributions can be transferred internationally without interruption.",
+				"outputs": [
+					"Mining Licence (ML)",
+					"EIA Certificate",
+					"Water Permit",
+					"Revenue Authority Registration",
+					"CDA Filing"
+				],
+				"cost_centre": "Pre-production capital expenditure / ongoing compliance opex"
+			},
+			{
+				"id": "site-preparation",
+				"stage": 3,
+				"phase": "upstream",
+				"title": "Site Preparation & Infrastructure",
+				"color": "#4A3000",
+				"icon": "hard-hat",
+				"short_description": "Before extraction begins, each site is prepared with access roads, water supply and recycling infrastructure, processing plant installation, site office, assay station setup, and safety systems. Site preparation at Busia took 6 months; subsequent sites have been commissioned in 3–4 months using our standardised plant specification.",
+				"long_description": "Site preparation is the capital-intensive phase that converts a surveyed, licensed zone into a productive operation. AfriGold Hub has developed a standardised site infrastructure specification - refined across seven deployments - that is adapted to local geology and logistics at each location.\n\nCore infrastructure at every site includes: (1) Access road from the nearest public road to the pit and processing plant; (2) Water intake and recycling system - including settling ponds and return pumps to achieve 90%+ water recovery; (3) Primary sluice array - modular stainless steel sluice boxes sized to planned throughput; (4) Spiral concentrator bank; (5) Final cleaning circuit (shaking table or Gemini table); (6) Secure weighing and concentrate storage area; (7) Site office, safety station, and first aid post; and (8) Security fencing and lighting.\n\nAt our Busia facility, we additionally operate an on-site induction smelting furnace, assay sample preparation station, and a dispatch secure room for finished bar storage and handover. Secondary sites without smelting infrastructure transport sealed, weighed concentrate under chain-of-custody to the nearest smelting facility.",
+				"value_added": "Standardised plant specification reduces commissioning time, lowers capex per new site, and ensures consistent throughput and recovery rates across the network.",
+				"outputs": [
+					"Commissioned processing plant",
+					"Water management system",
+					"Site safety certification"
+				],
+				"cost_centre": "Capital expenditure (CAPEX)"
+			},
+			{
+				"id": "extraction",
+				"stage": 4,
+				"phase": "upstream",
+				"title": "Ore Extraction",
+				"color": "#664B00",
+				"icon": "shovel",
+				"short_description": "Licensed excavation crews extract alluvial and eluvial ore from mapped pit zones under certified Mine Supervisor oversight. Every extraction shift is weighed and logged - the chain of custody begins at the pit. Progressive rehabilitation is carried out as zones are worked out.",
+				"long_description": "See Operations → Site Extraction for full detail. Key value chain points: ore weight at extraction is the opening figure in the chain-of-custody log that runs through concentrate weight, smelted bar weight, and sale weight - any unexplained variance at any stage triggers an immediate reconciliation review.",
+				"value_added": "Pit-level weighing and logging closes the first potential gap in the value chain. There is no stage at which gold can leave the system undocumented.",
+				"outputs": [
+					"Shift weight tickets",
+					"Chain-of-custody log entry",
+					"Supervisor sign-off"
+				],
+				"cost_centre": "Operating expenditure (OPEX) - labour, fuel, equipment maintenance"
+			},
+			{
+				"id": "gravity-concentration",
+				"stage": 5,
+				"phase": "midstream",
+				"title": "Gravity Concentration",
+				"color": "#4A5C2A",
+				"icon": "waves",
+				"short_description": "Ore-bearing material is fed through primary sluice boxes, spiral concentrators, and shaking tables using only water and gravity. Gold recovery rates of 85–92% are achieved consistently across the network. No chemicals - no mercury, no cyanide, no toxic tailings. The final concentrate is 200–400x richer in gold than the raw feed.",
+				"long_description": "See Operations → Gravity Processing for full detail. Key value chain points: concentrate weight at the end of the gravity stage is the second documented figure in the chain-of-custody log. Concentrate is weighed, sealed in numbered bags, and stored in the secure weighing room. The ratio of feed weight to concentrate weight provides the circuit recovery rate - tracked daily and reported monthly.",
+				"value_added": "Zero chemical input reduces OPEX by $10–14/gram versus chemical leach, directly widening the margin available for investor returns. The environmental compliance advantage also protects the licence from regulatory risk.",
+				"outputs": [
+					"Weighed, sealed concentrate bags",
+					"Circuit recovery rate log",
+					"Water recycling report"
+				],
+				"cost_centre": "Operating expenditure - water, maintenance, power"
+			},
+			{
+				"id": "smelting",
+				"stage": 6,
+				"phase": "midstream",
+				"title": "Smelting & Casting",
+				"color": "#8C4A1A",
+				"icon": "flame",
+				"short_description": "Cleaned gravity concentrate is charged into induction furnaces at 1,100–1,150°C. A flux addition process removes all base metal and sulphide impurities. The refined molten gold is poured into graphite moulds and cast into numbered bars - each marked with serial number, pour date, site code, and gross weight.",
+				"long_description": "See Operations → Smelting & Assay for full detail. Key value chain points: bar serial numbers are the primary identifier that links the production chain-of-custody to the sale receipt and investor report. Every bar number is logged from the moment of casting through assay, sale, and payment - providing an unbroken audit trail from pit to proceeds.",
+				"value_added": "On-site smelting eliminates the cost and chain-of-custody risk of off-site smelting. Every bar is produced, numbered, and assayed under AfriGold Hub control before it leaves our possession.",
+				"outputs": ["Numbered gold bars", "Pour log", "Pre-assay sample dispatch record"],
+				"cost_centre": "Operating expenditure - furnace power, crucibles, flux consumables"
+			},
+			{
+				"id": "independent-assay",
+				"stage": 7,
+				"phase": "midstream",
+				"title": "Independent Assay & Certification",
+				"color": "#7A4E2D",
+				"icon": "microscope",
+				"short_description": "Every bar is independently assayed for purity by an accredited third-party laboratory before sale. Assay certificates state the bar's serial number, gross weight, fine weight, and purity percentage. Minimum purity is 99.5% - our Busia facility consistently achieves 99.5–99.7%. Certificates accompany every bar through sale and are included in the monthly investor pack.",
+				"long_description": "Independent assay is the quality gate that validates the smelting output and provides the buyer with the certified purity data necessary for pricing. AfriGold Hub commissions all assays from third-party laboratories with no affiliation to the company - intentionally - to ensure objectivity.\n\nIn Uganda, assays are conducted by UNBS-accredited laboratories in Kampala. In Kenya, to KS ISO 11426 / KEBS accreditation standards. In Tanzania, by TMAA-approved assay facilities. In South Africa, by SANAS-accredited laboratories.\n\nThe assay process for each bar involves fire assaying a representative drill sample from the bar (typically 0.2–0.5g taken from three locations), cupellation of the sample, and spectrometric analysis of the resulting bead. The certificate is issued with the bar's serial number, sample date, gross weight, fine gold weight, and purity in parts per thousand (e.g., 995 = 99.5%). These certificates are retained in our compliance archive and copies are shared with investment partners in the monthly investor pack.\n\nAll bars that fall below the 99.5% threshold (which has not occurred at our Busia facility in three years of operation) are returned to the furnace for re-smelting and reassay before sale.",
+				"value_added": "Third-party assay with no company affiliation provides an independent quality check that protects both the buyer's interests and investor confidence in the reported production figures.",
+				"outputs": [
+					"UNBS/KEBS/TMAA assay certificate per bar",
+					"Purity log",
+					"Compliance archive record"
+				],
+				"cost_centre": "Operating expenditure - assay laboratory fees, ~$25–40 per bar"
+			},
+			{
+				"id": "sale",
+				"stage": 8,
+				"phase": "downstream",
+				"title": "Gold Sale to Licensed Buyer",
+				"color": "#2A1F05",
+				"icon": "handshake",
+				"short_description": "Assayed bars are sold to government-licensed precious metals buyers in the relevant operating country. Each sale generates a formal sale agreement, KYC-verified buyer receipt, royalty declaration receipt from the national revenue authority, and an export permit where applicable. Sale proceeds are received into the AfriGold Hub operating account within 48 hours of physical delivery.",
+				"long_description": "See Operations → Sale & Distribution for full detail. Key value chain points: the sale price per gram is calculated against the prevailing XAU/USD spot price at the time of transaction, discounted by the buyer's spread (typically 0.5–1.5% below spot for LBMA-grade bars). The confirmed sale proceeds figure - net of royalties - is the gross revenue figure used in the monthly P&L and the basis for investor distributions.",
+				"value_added": "Direct sale to licensed buyers without broker intermediation saves 2–4% in intermediary fees per transaction. KYC-verified buyer relationships also protect the licence from AML compliance risk.",
+				"outputs": [
+					"Sale agreement",
+					"Buyer receipt",
+					"Royalty declaration (URA/KRA/TMAA/SARS etc.)",
+					"Export permit",
+					"Confirmed proceeds figure"
+				],
+				"cost_centre": "Revenue - net of royalties (3% Uganda, 1% Kenya, 3% Tanzania, varies by country)"
+			},
+			{
+				"id": "investor-distribution",
+				"stage": 9,
+				"phase": "downstream",
+				"title": "Revenue Reconciliation & Investor Distribution",
+				"color": "#1C1608",
+				"icon": "banknotes",
+				"short_description": "Monthly revenue from all sites is reconciled by the CFO and an external accountant against production records, assay certificates, and sale receipts. A monthly audited P&L is produced within 10 business days of month-end. Investor distributions are calculated per tier and transferred via SWIFT or mobile money on the 15th of each month - without exception.",
+				"long_description": "The final link in the AfriGold Hub value chain is the transfer of investor returns - and it is the link that our entire operational model is designed to make predictable, documented, and reliable.\n\nMonthly reconciliation begins on the 1st of each month for the prior month's production. Our CFO consolidates all site sale receipts, royalty declarations, and operating cost invoices into a single consolidated P&L. An external accountant - engaged independently of AfriGold Hub management - reviews and stamps the P&L within 5 business days. The final signed P&L is uploaded to the investor portal and distributed by email to all partners.\n\nInvestor distributions are calculated from the net profit figure (gross revenue minus operating costs, royalties, and the 3% community development levy). Each tier receives their contracted equity percentage of net profit. Distributions are initiated via the joint operating account on the 10th of the month and settled to investor accounts (SWIFT USD for international, mobile money for Africa-based) by the 15th.\n\nAll transfers are accompanied by a remittance advice showing the calculation: gross revenue per site, total operating costs, royalties, community levy, net profit, equity percentage, and gross distribution amount. This document, along with the P&L, sale receipts, and assay certificates, forms the monthly investor pack delivered without exception.",
+				"value_added": "Fixed distribution date (15th of each month), external accountant sign-off, and joint account access for Strategic and Anchor partners create the most investor-protective distribution structure available in the artisanal gold sector.",
+				"outputs": [
+					"Monthly audited P&L",
+					"Monthly investor pack (PDF)",
+					"SWIFT / mobile money transfer",
+					"Remittance advice"
+				],
+				"cost_centre": "Distribution - 100% of contracted equity share of net monthly profit"
+			}
+		]
+	},
+	"margin_breakdown": {
+		"tag": "Where the Margin Lives",
+		"headline": "Revenue to investor return",
+		"description": "A transparent breakdown of how $572K gross monthly revenue becomes $504K net profit and, ultimately, investor distributions.",
+		"line_items": [
+			{
+				"label": "Gross Revenue (gold sales)",
+				"value": 572000,
+				"type": "income",
+				"note": "~266 kg refined gold at prevailing XAU/USD spot, less buyer spread"
+			},
+			{
+				"label": "Operating Labour",
+				"value": -18000,
+				"type": "opex",
+				"note": "30+ direct employees across primary site, contracted wages"
+			},
+			{
+				"label": "Equipment & Maintenance",
+				"value": -12000,
+				"type": "opex",
+				"note": "Plant maintenance, consumables, fuel, tools"
+			},
+			{
+				"label": "Water & Utilities",
+				"value": -4000,
+				"type": "opex",
+				"note": "Power for smelting furnace, water abstraction and recycling"
+			},
+			{
+				"label": "Assay & Certification Fees",
+				"value": -2000,
+				"type": "opex",
+				"note": "Third-party assay at ~$30/bar × ~60 bars/month"
+			},
+			{
+				"label": "Transport & Logistics",
+				"value": -3000,
+				"type": "opex",
+				"note": "Concentrate transport to smelter (secondary sites), bullion delivery"
+			},
+			{
+				"label": "Royalties (avg. 3% gross)",
+				"value": -17000,
+				"type": "regulatory",
+				"note": "Government mineral royalties filed with URA/KRA/TMAA as applicable"
+			},
+			{
+				"label": "Community Development Levy (3% net)",
+				"value": -12000,
+				"type": "cda",
+				"note": "CDA commitment to regional community infrastructure"
+			},
+			{
+				"label": "General & Administrative",
+				"value": -1800,
+				"type": "opex",
+				"note": "Office costs, insurance, legal compliance, accounting"
+			},
+			{
+				"label": "Net Profit",
+				"value": 502200,
+				"type": "profit",
+				"note": "Available for investor distribution per contracted equity tiers"
+			}
+		],
+		"note": "Figures represent approximate monthly averages based on 266 kg output at $2,150/troy oz XAU/USD. Actual figures vary with gold spot price and monthly output. See monthly P&L for verified actuals."
+	},
+	"transparency": {
+		"tag": "Documentation at Every Stage",
+		"headline": "The paper trail that protects every partner",
+		"description": "Every stage in the value chain generates a specific document - and every document is retained, referenced in the monthly investor pack, and available for investor audit on request.",
+		"documents": [
+			{
+				"stage": "Geological Survey",
+				"document": "Reserve Assessment Report",
+				"retained_by": "Legal archive",
+				"available_to": "Investor (on request)"
+			},
+			{
+				"stage": "Licence Acquisition",
+				"document": "Mining Licence, EIA Certificate, CDA",
+				"retained_by": "Legal archive",
+				"available_to": "Investor (on request)"
+			},
+			{
+				"stage": "Extraction",
+				"document": "Shift weight tickets, pit log",
+				"retained_by": "Operations archive",
+				"available_to": "Investor (on request)"
+			},
+			{
+				"stage": "Gravity Concentration",
+				"document": "Circuit recovery rate log",
+				"retained_by": "Operations archive",
+				"available_to": "Investor (on request)"
+			},
+			{
+				"stage": "Smelting",
+				"document": "Pour log, bar serial number register",
+				"retained_by": "Operations archive",
+				"available_to": "Investor (monthly pack)"
+			},
+			{
+				"stage": "Independent Assay",
+				"document": "Assay certificate per bar",
+				"retained_by": "Compliance archive",
+				"available_to": "Investor (monthly pack)"
+			},
+			{
+				"stage": "Sale",
+				"document": "Sale agreement, buyer receipt, royalty declaration",
+				"retained_by": "Finance archive",
+				"available_to": "Investor (monthly pack)"
+			},
+			{
+				"stage": "Revenue Reconciliation",
+				"document": "Monthly audited P&L",
+				"retained_by": "Finance archive",
+				"available_to": "Investor (monthly pack)"
+			},
+			{
+				"stage": "Investor Distribution",
+				"document": "Remittance advice, SWIFT confirmation",
+				"retained_by": "Finance archive",
+				"available_to": "Investor (each payment)"
+			}
+		]
+	},
+	"esg": {
+		"tag": "ESG in the Value Chain",
+		"headline": "Responsibility built in, not bolted on",
+		"description": "Environmental stewardship, community benefit, and fair employment are not add-ons to our value chain - they are structural components of it. Each stage has defined ESG obligations that are monitored, reported, and audited alongside financial performance.",
+		"items": [
+			{
+				"phase": "Upstream",
+				"icon": "leaf",
+				"title": "No site opens without a clean EIA",
+				"description": "Environmental Impact Assessment is completed and certified before any pit is opened. The EIA is a condition precedent, not a formality."
+			},
+			{
+				"phase": "Midstream",
+				"icon": "droplets",
+				"title": "Zero chemicals. 92% water recycled.",
+				"description": "Gravity concentration eliminates all mercury and cyanide use. Our closed-loop water system recycles 90–94% of process water at every site - protecting local waterways and reducing freshwater demand."
+			},
+			{
+				"phase": "Midstream",
+				"icon": "users",
+				"title": "30+ local jobs, formal contracts",
+				"description": "All operational employees are community residents on formal written contracts with national social security contributions. No child labour. Gender equity policy targeting 40% women in non-extraction roles."
+			},
+			{
+				"phase": "Downstream",
+				"icon": "building-community",
+				"title": "3% community levy on every distribution",
+				"description": "A Community Development Agreement mandates 3% of monthly net profit to local infrastructure - water access, school facilities, and vocational training - in every community where we operate."
+			},
+			{
+				"phase": "All phases",
+				"icon": "file-check",
+				"title": "UNEP Minamata Convention compliance",
+				"description": "AfriGold Hub is a participating operation in UNEP's Minamata Convention mercury elimination programme - the only network-wide chemical-free artisanal gold operation in our operating region."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Invest in the Chain",
+		"headline": "Own a share of every link",
+		"description": "When you invest in AfriGold Hub, you invest in the entire documented value chain - not a commodity bet, but a structured, auditable production business with monthly verified returns.",
+		"cta_primary": { "label": "View Investment Plans", "href": "/invest" },
+		"cta_secondary": {
+			"label": "Download Due Diligence Pack",
+			"href": "/contact?reason=due-diligence"
+		}
+	}
+}

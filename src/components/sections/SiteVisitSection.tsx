@@ -21,7 +21,7 @@ export default function SiteVisitSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("contact.site_visit.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("contact.site_visit.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light mb-7">
@@ -45,7 +45,7 @@ export default function SiteVisitSection() {
 							key={step.step}
 							className="grid grid-cols-[3.25rem_1fr] gap-5 rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#111111] p-5"
 						>
-							<div className="w-12 h-12 rounded-full border border-primary/30 text-primary flex items-center justify-center font-serif text-xl">
+							<div className="w-12 h-12 rounded-full border border-primary/30 text-primary flex items-center justify-center text-xl">
 								{step.step}
 							</div>
 							<div>

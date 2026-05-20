@@ -1,0 +1,386 @@
+{
+	"hero": {
+		"tag": "Msururu wa Thamani",
+		"headline": "Kila kiungo katika msururu",
+		"headline_highlight": "msururu",
+		"description": "Uwazi unawezekana tu wakati kila hatua ina kumbukumbu, kukaguliwa, na wazi kwa uchunguzi wa mshirika. Huu ndio msururu kamili wa thamani wa AfriGold Hub - kutoka kwa utafiti wa kijiolojia unaotambua amana inayowezekana hadi uhamisho wa fedha unaoingia kwenye akaunti yako.",
+		"badge": { "text": "Mnyororo kamili wa ulinzi katika kila hatua", "status": "active" },
+		"cta_primary": { "label": "Angalia Mipango ya Uwekezaji", "href": "/invest#tiers" }
+	},
+	"overview": {
+		"tag": "Muundo Wetu",
+		"headline": "Juu, kati, chini - yote ndani ya nyumba",
+		"description": "Tofauti na majukwaa mengi ya dhahabu ya usanii, AfriGold Hub inadhibiti msururu mzima wa thamani ndani ya nyumba - kutoka tathmini ya kijiolojia na usimamizi wa leseni hadi uchimbaji, usindikaji, kuyeyusha, uchambuzi, na uuzaji wa moja kwa moja. Muunganisho huu wima huondoa gharama za kati, hupunguza hatari ya uvujaji, na huwapa washirika wetu wa uwekezaji mwonekano wa juu zaidi kwenye kiwango cha faida katika kila hatua.",
+		"pillars": [
+			{
+				"id": "upstream",
+				"label": "Juu (Upstream)",
+				"color": "#664B00",
+				"stages": [
+					"Utafiti wa Kijiolojia",
+					"Upataji wa Leseni",
+					"Maandalizi ya Tovuti",
+					"Uchimbaji Shimo"
+				]
+			},
+			{
+				"id": "midstream",
+				"label": "Kati (Midstream)",
+				"color": "#4A5C2A",
+				"stages": ["Ukolezi wa Mvuto", "Usafishaji wa Ukolezi", "Kuyeyusha", "Upimaji Huru"]
+			},
+			{
+				"id": "downstream",
+				"label": "Chini (Downstream)",
+				"color": "#1C1608",
+				"stages": [
+					"Uuzaji kwa Mnunuzi Mwenye Leseni",
+					"Tamko la Mrabaha",
+					"Mkusanyiko wa Mapato",
+					"Usambazaji kwa Wawekezaji"
+				]
+			}
+		]
+	},
+	"stages": {
+		"tag": "Hatua kwa Hatua",
+		"headline": "Kutoka utafiti hadi usambazaji",
+		"description": "Hatua tisa zilizo na kumbukumbu. Kila moja inafuatiliwa, kupokelewa, na kuripotiwa kwa washirika wa uwekezaji kila mwezi.",
+		"items": [
+			{
+				"id": "geological-survey",
+				"stage": 1,
+				"phase": "upstream",
+				"title": "Utafiti wa Kijiolojia na Tathmini ya Hifadhi",
+				"color": "#3D2400",
+				"icon": "map",
+				"short_description": "Kabla ya shimo lolote kufunguliwa, wanajiolojia wetu wa uwanjani hufanya sampuli za mchanga na eluvial katika ekari zilizopewa leseni, wakipanga ramani ya usambazaji wa dhahabu kwa eneo la kina na kukadiria hifadhi zinazoweza kurejeshwa. Tathmini za hifadhi zimeandikwa na kuhifadhiwa kwa ajili ya utafiti wa kina wa mwekezaji.",
+				"long_description": "Kila operesheni mpya ya AfriGold Hub huanza na mpango uliopangwa wa utambuzi wa kijiolojia. Wanajiolojia wetu, walioidhinishwa kwa viwango vya kitaifa katika kila nchi inayoendesha shughuli, hufanya sampuli za mfereji kwa utaratibu, sampuli za wingi, na tafiti za kurushia kwenye eneo lengwa. Matokeo ya sampuli yanapangwa kwenye ramani ya anga ili kutambua maeneo yenye daraja la juu zaidi ndani ya mpaka wa leseni.\n\nKwa amana za mchanga - aina ya msingi katika shughuli zetu za Afrika Mashariki - sampuli hufuata njia za mito ya kale kwa kina cha mita 0.5–6, ikijaribu safu ya changarawe yenye dhahabu (changarawe ya malipo) juu ya mguso wa mwamba. Kwa amana za eluvial (nyenzo zilizosombwa na mteremko, zinazojulikana zaidi Sierra Leone na Afrika Kusini), sampuli inaenea kwenye wasifu wa hali ya hewa ya mlimani.\n\nMatokeo ya kila utafiti wa kijiolojia ni Ripoti ya Tathmini ya Hifadhi - makadirio yaliyoandikwa ya daraja la dhahabu (kwa gramu kwa tani), ujazo unaoweza kurejeshwa (kwa mita za ujazo), na makadirio ya mazao ya kila mwezi kwa viwango vilivyopangwa vya uchimbaji. Ripoti hii ndiyo msingi wa mpango wa uchimbaji na inashirikiwa na washirika wa uwekezaji kama sehemu ya vifaa vya utafiti wa kina kwa tovuti yoyote mpya.",
+				"value_added": "Huondoa hatari za kubahatisha - tovuti zote za AfriGold Hub zinafanya kazi kwenye hifadhi zilizotafitiwa, zenye daraja lililothibitishwa kabla ya gramu ya kwanza kuchimbwa.",
+				"outputs": [
+					"Ripoti ya Tathmini ya Hifadhi",
+					"Ramani ya daraja la anga",
+					"Uteuzi wa eneo la uchimbaji"
+				],
+				"cost_centre": "Matumizi ya mtaji kabla ya uzalishaji"
+			},
+			{
+				"id": "licence-acquisition",
+				"stage": 2,
+				"phase": "upstream",
+				"title": "Upataji wa Leseni na Mpangilio wa Udhibiti",
+				"color": "#3D2400",
+				"icon": "file-badge",
+				"short_description": "AfriGold Hub hupata na kudumisha Leseni hai za Uchimbaji, vyeti vya Tathmini ya Athari za Mazingira, vibali vya kuchota maji, na usajili wa mamlaka ya mapato katika kila eneo la mamlaka kabla ya uchimbaji kuanza. Hakuna tovuti inayofanya kazi bila mfumo kamili wa udhibiti.",
+				"long_description": "Ufuasi wa udhibiti sio zoezi la kuweka alama kwenye sanduku kwa AfriGold Hub - ni msingi wa pendekezo letu la mwekezaji. Bila leseni zinazoaminika na zenye kumbukumbu na vyeti vya mazingira, dhahabu yetu haiwezi kuuzwa kisheria, na mtaji wa mwekezaji ungekuwa hatarini.\n\nTimu yetu ya sheria, inayoongozwa na Mkuu wetu wa Sheria na Ufuasi, inasimamia mzunguko kamili wa leseni katika nchi zote saba zinazoendesha shughuli: ombi la awali, uanzishaji wa tathmini ya athari za mazingira, mashauriano ya jamii (inapohitajika), utoaji wa leseni, ripoti ya ufuasi ya kila mwaka, na usasishaji. Timu hufanya kazi na wanasheria maalum wa madini wa ndani katika kila eneo la mamlaka.\n\nMfumo wa udhibiti kwa kila tovuti unajumuisha: (1) Leseni ya Uchimbaji kutoka kwa mamlaka ya kitaifa ya madini; (2) Cheti cha Tathmini ya Athari za Mazingira kutoka kwa wakala wa kitaifa wa mazingira; (3) Kibali cha kuchota maji kinapotumika; (4) Usajili wa mamlaka ya mapato kama muuzaji wa madini ya thamani aliyepewa leseni; na (5) Mkataba wa Maendeleo ya Jamii (CDA) uliowasilishwa kwa mamlaka husika ya mtaa. Nyaraka zote zinatunzwa katika rejista yetu kuu ya ufuasi na zinapatikana kwa wawekezaji kwa ombi.",
+				"value_added": "Ufuasi kamili wa udhibiti katika mamlaka saba unamaanisha kuwa dhahabu inaweza kuuzwa kisheria na mgawanyo wa wawekezaji unaweza kuhamishwa kimataifa bila usumbufu.",
+				"outputs": [
+					"Leseni ya Uchimbaji (ML)",
+					"Cheti cha EIA",
+					"Kibali cha Maji",
+					"Usajili wa Mamlaka ya Mapato",
+					"Uwasilishaji wa CDA"
+				],
+				"cost_centre": "Matumizi ya mtaji kabla ya uzalishaji / gharama za uendeshaji za ufuasi zinazoendelea"
+			},
+			{
+				"id": "site-preparation",
+				"stage": 3,
+				"phase": "upstream",
+				"title": "Maandalizi ya Tovuti na Miundombinu",
+				"color": "#4A3000",
+				"icon": "hard-hat",
+				"short_description": "Kabla ya uchimbaji kuanza, kila tovuti hutayarishwa kwa barabara za kufikia, usambazaji wa maji na miundombinu ya kurejesha, uwekaji wa kiwanda cha usindikaji, ofisi ya tovuti, uanzishaji wa kituo cha upimaji, na mifumo ya usalama. Maandalizi ya tovuti huko Busia yalichukua miezi 6; tovuti zilizofuata zimeanza kufanya kazi katika miezi 3–4 kwa kutumia vipimo vyetu vya kawaida vya mtambo.",
+				"long_description": "Maandalizi ya tovuti ni awamu inayotumia mtaji mwingi inayobadilisha eneo lililotafitiwa, lenye leseni kuwa operesheni yenye tija. AfriGold Hub imeunda vipimo vya kawaida vya miundombinu ya tovuti - vilivyoboreshwa katika uwekaji saba - ambavyo vinabadilishwa kulingana na jiolojia ya eneo na vifaa katika kila eneo.\n\nMiundombinu ya msingi katika kila tovuti inajumuisha: (1) Barabara ya kufikia kutoka barabara kuu ya umma hadi shimo na kiwanda cha usindikaji; (2) Mfumo wa kuchota na kurejesha maji - ikijumuisha mabwawa ya kutulia na pampu za kurudi ili kufikia zaidi ya 90% ya urejeshaji wa maji; (3) Safu ya msingi ya mfereji - masanduku ya mfereji ya chuma cha pua yaliyowekwa kwa ukubwa wa kiasi kilichopangwa; (4) Benki ya koni za ond; (5) Mzunguko wa mwisho wa usafishaji (meza ya kutetemeka au meza ya Gemini); (6) Eneo salama la kupimia na kuhifadhi ukolezi; (7) Ofisi ya tovuti, kituo cha usalama, na kituo cha huduma ya kwanza; na (8) Uzio wa usalama na taa.\n\nKatika kituo chetu cha Busia, pia tunaendesha tanuru ya kuyeyusha ya kuvutia kwenye tovuti, kituo cha kuandaa sampuli za upimaji, na chumba salama cha usafirishaji kwa ajili ya kuhifadhi na kukabidhi bati zilizokamilika. Tovuti za sekondari zisizo na miundombinu ya kuyeyusha husafirisha ukolezi uliofungwa, uliopimwa chini ya mnyororo wa ulinzi hadi kituo cha karibu cha kuyeyusha.",
+				"value_added": "Vipimo vya kawaida vya mtambo hupunguza muda wa kuanzisha, hupunguza capex kwa tovuti mpya, na kuhakikisha viwango thabiti vya uwezo wa kusindika na urejeshaji katika mtandao.",
+				"outputs": [
+					"Kiwanda cha usindikaji kilichoanzishwa",
+					"Mfumo wa usimamizi wa maji",
+					"Uthibitishaji wa usalama wa tovuti"
+				],
+				"cost_centre": "Matumizi ya mtaji (CAPEX)"
+			},
+			{
+				"id": "extraction",
+				"stage": 4,
+				"phase": "upstream",
+				"title": "Uchimbaji wa Madini",
+				"color": "#664B00",
+				"icon": "shovel",
+				"short_description": "Timu za uchimbaji zenye leseni huchimba madini ya mchanga na eluvial kutoka maeneo ya shimo yaliyopangwa ramani chini ya usimamizi wa Msimamizi wa Mgodi aliyethibitishwa. Kila zamu ya uchimbaji hupimwa na kurekodiwa - mnyororo wa ulinzi huanza kwenye shimo. Urekebishaji unaoendelea unafanywa maeneo yanapomaliza kazi.",
+				"long_description": "Angalia Shughuli → Uchimbaji Tovuti kwa maelezo kamili. Sehemu kuu za msururu wa thamani: uzito wa madini wakati wa uchimbaji ndio takwimu ya ufunguzi katika logi ya mnyororo wa ulinzi inayopitia uzito wa ukolezi, uzito wa bati iliyoyeyushwa, na uzito wa mauzo - tofauti yoyote isiyoelezewa katika hatua yoyote husababisha mapitio ya upatanisho wa haraka.",
+				"value_added": "Upimaji na urekebishaji wa kiwango cha shimo hufunga pengo la kwanza linalowezekana katika msururu wa thamani. Hakuna hatua ambayo dhahabu inaweza kuondoka kwenye mfumo bila kumbukumbu.",
+				"outputs": [
+					"Tiketi za uzito wa zamu",
+					"Kuingia kwa logi ya mnyororo wa ulinzi",
+					"Sahihi ya msimamizi"
+				],
+				"cost_centre": "Matumizi ya uendeshaji (OPEX) - wafanyikazi, mafuta, matengenezo ya vifaa"
+			},
+			{
+				"id": "gravity-concentration",
+				"stage": 5,
+				"phase": "midstream",
+				"title": "Ukolezi wa Mvuto",
+				"color": "#4A5C2A",
+				"icon": "waves",
+				"short_description": "Nyenzo zenye madini hulishwa kupitia masanduku ya msingi ya mfereji, koni za ond, na meza za kutetemeka kwa kutumia maji na mvuto pekee. Viwango vya urejeshaji dhahabu vya 85–92% hupatikana mara kwa mara katika mtandao. Hakuna kemikali - hakuna zebaki, hakuna sianidi, hakuna takataka zenye sumu. Ukolezi wa mwisho ni mara 200–400 tajiri zaidi katika dhahabu kuliko malisho ghafi.",
+				"long_description": "Angalia Shughuli → Usindikaji wa Mvuto kwa maelezo kamili. Sehemu kuu za msururu wa thamani: uzito wa ukolezi mwishoni mwa hatua ya mvuto ni takwimu ya pili iliyoandikwa katika logi ya mnyororo wa ulinzi. Ukolezi hupimwa, kufungwa kwenye mifuko yenye nambari, na kuhifadhiwa kwenye chumba salama cha kupimia. Uwiano wa uzito wa malisho kwa uzito wa ukolezi hutoa kiwango cha urejeshaji wa mzunguko - kinafuatiliwa kila siku na kuripotiwa kila mwezi.",
+				"value_added": "Kutokuwa na pembejeo za kemikali hupunguza OPEX kwa $10–14/gramu dhidi ya uchimbaji wa kemikali, moja kwa moja kupanua kiwango kinachopatikana kwa mapato ya wawekezaji. Faida ya ufuasi wa mazingira pia inalinda leseni kutokana na hatari za udhibiti.",
+				"outputs": [
+					"Mifuko ya ukolezi iliyopimwa, kufungwa",
+					"Logi ya kiwango cha urejeshaji wa mzunguko",
+					"Ripoti ya urejeshaji wa maji"
+				],
+				"cost_centre": "Matumizi ya uendeshaji - maji, matengenezo, nishati"
+			},
+			{
+				"id": "smelting",
+				"stage": 6,
+				"phase": "midstream",
+				"title": "Kuyeyusha na Kumimina",
+				"color": "#8C4A1A",
+				"icon": "flame",
+				"short_description": "Ukolezi wa mvuto uliosafishwa huekwa kwenye tanuu za kuvutia kwa nyuzi 1,100–1,150. Mchakato wa kuongeza kemikali za kuyeyusha huondoa uchafu wote wa metali za msingi na sulfidi. Dhahabu iliyoyeyuka iliyosafishwa humiminwa kwenye ukungu za grafiti na kumiminwa kuwa bati zenye nambari - kila moja ikiwa na nambari ya mfululizo, tarehe ya kumimina, msimbo wa tovuti, na uzito wa jumla.",
+				"long_description": "Angalia Shughuli → Kuyeyusha na Upimaji kwa maelezo kamili. Sehemu kuu za msururu wa thamani: nambari za mfululizo za bati ndio kitambulisho cha msingi kinachounganisha mnyororo wa ulinzi wa uzalishaji kwenye risiti ya mauzo na ripoti ya mwekezaji. Kila nambari ya bati inawekwa kwenye logi tangu wakati wa kumimina hadi upimaji, uuzaji, na malipo - ikitoa njia ya ukaguzi isiyovunjika kutoka shimo hadi mapato.",
+				"value_added": "Kuyeyusha kwenye tovuti huondoa gharama na hatari ya mnyororo wa ulinzi wa kuyeyusha nje ya tovuti. Kila bati hutolewa, kupewa nambari, na kupimwa chini ya udhibiti wa AfriGold Hub kabla ya kuondoka kwenye milki yetu.",
+				"outputs": [
+					"Bati za dhahabu zenye nambari",
+					"Logi ya kumimina",
+					"Rekodi ya usafirishaji wa sampuli kabla ya upimaji"
+				],
+				"cost_centre": "Matumizi ya uendeshaji - nishati ya tanuru, crucibles, vifaa vya flux"
+			},
+			{
+				"id": "independent-assay",
+				"stage": 7,
+				"phase": "midstream",
+				"title": "Upimaji Huru na Uthibitishaji",
+				"color": "#7A4E2D",
+				"icon": "microscope",
+				"short_description": "Kila bati huchambuliwa kwa usafi kwa kujitegemea na maabara ya tatu iliyoidhinishwa kabla ya kuuzwa. Vyeti vya uchambuzi vinaelezea nambari ya mfululizo ya bati, uzito wa jumla, uzito safi, na asilimia ya usafi. Usafi wa chini ni 99.5% - kituo chetu cha Busia kinachukua hatua mfululizo 99.5–99.7%. Vyeti vinaambatana na kila bati kupitia uuzaji na vinajumuishwa katika kifurushi cha kila mwezi cha mwekezaji.",
+				"long_description": "Upimaji huru ni lango la ubora linalothibitisha matokeo ya kuyeyusha na kumpa mnunuzi data ya usafi iliyothibitishwa muhimu kwa bei. AfriGold Hub hutoa upimaji wote kutoka kwa maabara za tatu zisizo na uhusiano na kampuni - kwa makusudi - ili kuhakikisha usawa.\n\nUganda, upimaji unafanywa na maabara zilizoidhinishwa na UNBS mjini Kampala. Kenya, kwa viwango vya uthibitishaji vya KS ISO 11426 / KEBS. Tanzania, na vifaa vya upimaji vilivyoidhinishwa na TMAA. Afrika Kusini, na maabara zilizoidhinishwa na SANAS.\n\nMchakato wa upimaji kwa kila bati unahusisha kuchomoa sampuli ya uwakilishi kutoka kwa bati (kawaida 0.2–0.5g kuchukuliwa kutoka maeneo matatu), kupepeta sampuli, na uchambuzi wa spectrometric wa chembe inayotokana. Cheti kinatolewa kwa nambari ya mfululizo ya bati, tarehe ya sampuli, uzito wa jumla, uzito safi wa dhahabu, na usafi kwa elfu (kwa mfano, 995 = 99.5%). Vyeti hivi huhifadhiwa kwenye kumbukumbu yetu ya ufuasi na nakala zake zinashirikiwa na washirika wa uwekezaji katika kifurushi cha kila mwezi cha mwekezaji.\n\nBati zote zinazoanguka chini ya kizingiti cha 99.5% (ambacho hakijatokea katika kituo chetu cha Busia katika miaka mitatu ya uendeshaji) zinarejeshwa kwenye tanuru kwa ajili ya kuyeyusha tena na kupimwa tena kabla ya kuuzwa.",
+				"value_added": "Upimaji wa tatu bila uhusiano wa kampuni hutoa ukaguzi huru wa ubora ambao unalinda maslahi ya mnunuzi na imani ya mwekezaji katika takwimu za uzalishaji zilizoripotiwa.",
+				"outputs": [
+					"Cheti cha upimaji cha UNBS/KEBS/TMAA kwa kila bati",
+					"Logi ya usafi",
+					"Rekodi ya kumbukumbu ya ufuasi"
+				],
+				"cost_centre": "Matumizi ya uendeshaji - ada za maabara ya upimaji, ~$25–40 kwa kila bati"
+			},
+			{
+				"id": "sale",
+				"stage": 8,
+				"phase": "downstream",
+				"title": "Uuzaji wa Dhahabu kwa Mnunuzi Mwenye Leseni",
+				"color": "#2A1F05",
+				"icon": "handshake",
+				"short_description": "Bati zilizopimwa zinauzwa kwa wanunuzi wa madini ya thamani wenye leseni za serikali katika nchi husika. Kila uuzaji hutoa makubaliano rasmi ya uuzaji, risiti ya mnunuzi iliyothibitishwa KYC, risiti ya tamko la mrabaha kutoka kwa mamlaka ya kitaifa ya mapato, na kibali cha usafirishaji kinapotumika. Mapato ya uuzaji yanapokelewa katika akaunti ya uendeshaji ya AfriGold Hub ndani ya saa 48 baada ya kuwasilisha bidhaa.",
+				"long_description": "Angalia Shughuli → Mauzo na Usambazaji kwa maelezo kamili. Sehemu kuu za msururu wa thamani: bei ya gramu ya uuzaji inahesabiwa dhidi ya bei ya sasa ya XAU/USD wakati wa shughuli, ikipunguzwa na mwigo wa mnunuzi (kwa kawaida 0.5–1.5% chini ya bei ya soko la hisa kwa bati za kiwango cha LBMA). Takwimu ya mapato ya uuzaji yaliyothibitishwa - baada ya mrahaba - ndio takwimu ya mapato ya jumla inayotumika katika Faida na Hasara ya kila mwezi na msingi wa mgawanyo wa wawekezaji.",
+				"value_added": "Uuzaji wa moja kwa moja kwa wanunuzi wenye leseni bila uingiliaji wa wakala huokoa 2–4% katika ada za wapatanishi kwa kila shughuli. Mahusiano ya mnunuzi yaliyothibitishwa KYC pia yanalinda leseni kutokana na hatari ya ufuasi wa AML.",
+				"outputs": [
+					"Mkataba wa uuzaji",
+					"Risiti ya mnunuzi",
+					"Tamko la mrabaha (URA/KRA/TMAA/SARS n.k.)",
+					"Kibali cha usafirishaji",
+					"Takwimu ya mapato iliyothibitishwa"
+				],
+				"cost_centre": "Mapato - baada ya mrahaba (3% Uganda, 1% Kenya, 3% Tanzania, inatofautiana kwa nchi)"
+			},
+			{
+				"id": "investor-distribution",
+				"stage": 9,
+				"phase": "downstream",
+				"title": "Upatanisho wa Mapato na Usambazaji kwa Wawekezaji",
+				"color": "#1C1608",
+				"icon": "banknotes",
+				"short_description": "Mapato ya kila mwezi kutoka kwa tovuti zote yanapatanishwa na Afisa Mkuu wa Fedha na mhasibu wa nje dhidi ya rekodi za uzalishaji, vyeti vya uchambuzi, na risiti za mauzo. Faida na Hasara iliyokaguliwa ya kila mwezi hutolewa ndani ya siku 10 za kazi baada ya mwisho wa mwezi. Mgawanyo wa wawekezaji unahesabiwa kwa kiwango na kuhamishwa kupitia SWIFT au pesa za simu tarehe 15 ya kila mwezi - bila ubaguzi.",
+				"long_description": "Kiungo cha mwisho katika msururu wa thamani wa AfriGold Hub ni uhamisho wa mapato ya wawekezaji - na ndio kiungo ambacho muundo wetu mzima wa uendeshaji umeundwa kuufanya utabirika, uwe na kumbukumbu, na wa kutegemeka.\n\nUpatanisho wa kila mwezi huanza tarehe 1 ya kila mwezi kwa uzalishaji wa mwezi uliopita. Afisa Mkuu wetu wa Fedha huunganisha risiti zote za mauzo za tovuti, matamko ya mrahaba, na ankara za gharama za uendeshaji kwenye Faida na Hasara moja iliyounganishwa. Mhasibu wa nje - aliyehusishwa kwa kujitegemea na usimamizi wa AfriGold Hub - hukagua na kutia muhuri Faida na Hasara ndani ya siku 5 za kazi. Faida na Hasara ya mwisho iliyotiwa saini inapakiwa kwenye lango la wawekezaji na kusambazwa kwa barua pepe kwa washirika wote.\n\nMgawanyo wa wawekezaji unahesabiwa kutoka kwa takwimu ya faida halisi (mapato ya jumla minus gharama za uendeshaji, mrahaba, na kodi ya maendeleo ya jamii ya 3%). Kila kiwango kinapokea asilimia yao ya usawa iliyokubaliwa kwa mkataba wa faida halisi. Mgawanyo huanzishwa kupitia akaunti ya pamoja ya uendeshaji tarehe 10 ya mwezi na kusuluhishwa kwa akaunti za wawekezaji (SWIFT USD kwa kimataifa, pesa za simu kwa wale walio Afrika) kufikia tarehe 15.\n\nUhamisho wote unaambatana na ushauri wa malipo unaoonyesha hesabu: mapato ya jumla kwa tovuti, jumla ya gharama za uendeshaji, mrahaba, kodi ya jamii, faida halisi, asilimia ya usawa, na kiasi cha jumla cha mgawanyo. Hati hii, pamoja na Faida na Hasara, risiti za mauzo, na vyeti vya uchambuzi, huunda kifurushi cha kila mwezi cha mwekezaji kinachotolewa bila ubaguzi.",
+				"value_added": "Tarehe maalum ya mgawanyo (15 ya kila mwezi), sahihi ya mhasibu wa nje, na ufikiaji wa akaunti ya pamoja kwa washirika wa Kimkakati na Msingi huunda muundo wa mgawanyo unaomlinda mwekezaji zaidi unaopatikana katika sekta ya dhahabu ya usanii.",
+				"outputs": [
+					"Faida na Hasara iliyokaguliwa ya kila mwezi",
+					"Kifurushi cha kila mwezi cha mwekezaji (PDF)",
+					"Uhamisho wa SWIFT / pesa za simu",
+					"Ushauri wa malipo"
+				],
+				"cost_centre": "Usambazaji - 100% ya sehemu ya usawa iliyokubaliwa kwa mkataba ya faida halisi ya kila mwezi"
+			}
+		]
+	},
+	"margin_breakdown": {
+		"tag": "Ambapo Kiwango cha Faida Kiko",
+		"headline": "Mapato hadi mapato ya mwekezaji",
+		"description": "Uchanganuzi wa uwazi wa jinsi $572K ya mapato ya jumla ya kila mwezi inavyokuwa $504K ya faida halisi na, hatimaye, mgawanyo wa wawekezaji.",
+		"line_items": [
+			{
+				"label": "Mapato ya Jumla (mauzo ya dhahabu)",
+				"value": 572000,
+				"type": "income",
+				"note": "~266 kg ya dhahabu iliyosafishwa kwa bei ya sasa ya XAU/USD, toa mwigo wa mnunuzi"
+			},
+			{
+				"label": "Wafanyikazi wa Uendeshaji",
+				"value": -18000,
+				"type": "opex",
+				"note": "Wafanyikazi zaidi ya 30 wa moja kwa moja katika tovuti ya msingi, mishahara ya wakandarasi"
+			},
+			{
+				"label": "Vifaa na Matengenezo",
+				"value": -12000,
+				"type": "opex",
+				"note": "Matengenezo ya mtambo, vifaa vya matumizi, mafuta, zana"
+			},
+			{
+				"label": "Maji na Huduma",
+				"value": -4000,
+				"type": "opex",
+				"note": "Nishati ya tanuru ya kuyeyusha, uchotaji wa maji na urejeshaji"
+			},
+			{
+				"label": "Ada za Upimaji na Uthibitishaji",
+				"value": -2000,
+				"type": "opex",
+				"note": "Upimaji wa tatu kwa ~$30/bati × ~bati 60 kwa mwezi"
+			},
+			{
+				"label": "Usafirishaji na Ugavi",
+				"value": -3000,
+				"type": "opex",
+				"note": "Usafirishaji wa ukolezi kwa kituo cha kuyeyusha (tovuti za sekondari), uwasilishaji wa bati"
+			},
+			{
+				"label": "Mrahaba (wastani 3% ya jumla)",
+				"value": -17000,
+				"type": "regulatory",
+				"note": "Mrahaba wa madini ya serikali uliowasilishwa kwa URA/KRA/TMAA inavyotumika"
+			},
+			{
+				"label": "Kodi ya Maendeleo ya Jamii (3% ya faida halisi)",
+				"value": -12000,
+				"type": "cda",
+				"note": "Ahadi ya CDA kwa miundombinu ya jamii ya kanda"
+			},
+			{
+				"label": "Jumla na Utawala",
+				"value": -1800,
+				"type": "opex",
+				"note": "Gharama za ofisi, bima, ufuasi wa kisheria, uhasibu"
+			},
+			{
+				"label": "Faida Halisi",
+				"value": 502200,
+				"type": "profit",
+				"note": "Inapatikana kwa mgawanyo wa wawekezaji kwa viwango vya usawa vilivyokubaliwa kwa mkataba"
+			}
+		],
+		"note": "Takwimu zinawakilisha wastani wa kila mwezi kulingana na uzalishaji wa kilo 266 kwa $2,150/troy oz XAU/USD. Takwimu halisi hutofautiana na bei ya soko la hisa ya dhahabu na uzalishaji wa kila mwezi. Angalia Faida na Hasara ya kila mwezi kwa halisi zilizothibitishwa."
+	},
+	"transparency": {
+		"tag": "Nyaraka katika Kila Hatua",
+		"headline": "Njia ya kumbukumbu inayomlinda kila mshirika",
+		"description": "Kila hatua katika msururu wa thamani hutoa hati maalum - na kila hati inahifadhiwa, kurejelewa katika kifurushi cha kila mwezi cha mwekezaji, na kupatikana kwa ukaguzi wa mwekezaji kwa ombi.",
+		"documents": [
+			{
+				"stage": "Utafiti wa Kijiolojia",
+				"document": "Ripoti ya Tathmini ya Hifadhi",
+				"retained_by": "Kumbukumbu ya sheria",
+				"available_to": "Mwekezaji (kwa ombi)"
+			},
+			{
+				"stage": "Upataji wa Leseni",
+				"document": "Leseni ya Uchimbaji, Cheti cha EIA, CDA",
+				"retained_by": "Kumbukumbu ya sheria",
+				"available_to": "Mwekezaji (kwa ombi)"
+			},
+			{
+				"stage": "Uchimbaji",
+				"document": "Tiketi za uzito wa zamu, logi ya shimo",
+				"retained_by": "Kumbukumbu ya uendeshaji",
+				"available_to": "Mwekezaji (kwa ombi)"
+			},
+			{
+				"stage": "Ukolezi wa Mvuto",
+				"document": "Logi ya kiwango cha urejeshaji wa mzunguko",
+				"retained_by": "Kumbukumbu ya uendeshaji",
+				"available_to": "Mwekezaji (kwa ombi)"
+			},
+			{
+				"stage": "Kuyeyusha",
+				"document": "Logi ya kumimina, rejesta ya nambari za mfululizo za bati",
+				"retained_by": "Kumbukumbu ya uendeshaji",
+				"available_to": "Mwekezaji (kifurushi cha kila mwezi)"
+			},
+			{
+				"stage": "Upimaji Huru",
+				"document": "Cheti cha upimaji kwa kila bati",
+				"retained_by": "Kumbukumbu ya ufuasi",
+				"available_to": "Mwekezaji (kifurushi cha kila mwezi)"
+			},
+			{
+				"stage": "Uuzaji",
+				"document": "Mkataba wa uuzaji, risiti ya mnunuzi, tamko la mrabaha",
+				"retained_by": "Kumbukumbu ya fedha",
+				"available_to": "Mwekezaji (kifurushi cha kila mwezi)"
+			},
+			{
+				"stage": "Upatanisho wa Mapato",
+				"document": "Faida na Hasara iliyokaguliwa ya kila mwezi",
+				"retained_by": "Kumbukumbu ya fedha",
+				"available_to": "Mwekezaji (kifurushi cha kila mwezi)"
+			},
+			{
+				"stage": "Usambazaji kwa Mwekezaji",
+				"document": "Ushauri wa malipo, uthibitisho wa SWIFT",
+				"retained_by": "Kumbukumbu ya fedha",
+				"available_to": "Mwekezaji (kila malipo)"
+			}
+		]
+	},
+	"esg": {
+		"tag": "ESG katika Msururu wa Thamani",
+		"headline": "Wajibu uliojengwa ndani, sio kubandikwa baadaye",
+		"description": "Utunzaji wa mazingira, manufaa ya jamii, na ajira za haki sio nyongeza kwa msururu wetu wa thamani - ni sehemu za muundo wake. Kila hatua ina majukumu maalum ya ESG ambayo yanafuatiliwa, kuripotiwa, na kukaguliwa pamoja na utendaji wa kifedha.",
+		"items": [
+			{
+				"phase": "Juu (Upstream)",
+				"icon": "leaf",
+				"title": "Hakuna tovuti inayofunguliwa bila EIA safi",
+				"description": "Tathmini ya Athari za Mazingira inakamilishwa na kuthibitishwa kabla ya shimo lolote kufunguliwa. EIA ni sharti la awali, sio utaratibu wa kawaida."
+			},
+			{
+				"phase": "Kati (Midstream)",
+				"icon": "droplets",
+				"title": "Hakuna kemikali. 92% ya maji yanarejeshwa.",
+				"description": "Ukolezi wa mvuto huondoa kabisa matumizi ya zebaki na sianidi. Mfumo wetu wa maji wa kitanzi funge hurejesha 90–94% ya maji ya mchakato katika kila tovuti - kulinda njia za maji za asili na kupunguza mahitaji ya maji safi."
+			},
+			{
+				"phase": "Kati (Midstream)",
+				"icon": "users",
+				"title": "Ajira 30+ za ndani, kandarasi rasmi",
+				"description": "Wafanyikazi wote wa uendeshaji ni wakazi wa jamii kwenye kandarasi rasmi zilizoandikwa na michango ya kitaifa ya hifadhi ya jamii. Hakuna ajira ya watoto. Sera ya usawa wa kijinsia inayolenga 40% ya wanawake katika majukumu yasiyo ya uchimbaji."
+			},
+			{
+				"phase": "Chini (Downstream)",
+				"icon": "building-community",
+				"title": "3% kodi ya jamii kwenye kila mgawanyo",
+				"description": "Mkataba wa Maendeleo ya Jamii unaoamuru 3% ya faida halisi ya kila mwezi kwa miundombinu ya ndani - upatikanaji wa maji, vifaa vya shule, na mafunzo ya ufundi - katika kila jamii tunapoendesha shughuli."
+			},
+			{
+				"phase": "Awamu Zote",
+				"icon": "file-check",
+				"title": "Ufuasi wa Mkataba wa Minamata wa UNEP",
+				"description": "AfriGold Hub ni operesheni shirikishi katika mpango wa kuondoa zebaki wa Mkataba wa Minamata wa UNEP - operesheni pekee ya dhahabu ya usanii isiyo na kemikali katika eneo letu la uendeshaji."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Wekeza katika Msururu",
+		"headline": "Milki sehemu ya kila kiungo",
+		"description": "Unapowekeza katika AfriGold Hub, unawekeza katika msururu mzima wa thamani ulio na kumbukumbu - sio kamari ya bidhaa, lakini biashara ya uzalishaji iliyopangwa, inayoweza kukaguliwa na mapato yaliyothibitishwa kila mwezi.",
+		"cta_primary": { "label": "Angalia Mipango ya Uwekezaji", "href": "/invest" },
+		"cta_secondary": {
+			"label": "Pakua Vifaa vya Utafiti wa Kina",
+			"href": "/contact?reason=due-diligence"
+		}
+	}
+}

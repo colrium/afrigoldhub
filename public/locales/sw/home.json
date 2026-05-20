@@ -1,0 +1,60 @@
+{
+	"hero": {
+		"badge": "Uwanja wa Dhahabu, Afrika",
+		"headline": "Fungua <gold>Fursa ya Dhahabu</gold> ya Afrika",
+		"description": "AfriGold Hub huwaunganisha wawekezaji makini na moja ya shughuli za uchimbaji dhahabu wa usanii zenye tija zaidi barani Afrika. Teknolojia iliyothibitishwa. Ardhi yenye leseni. Mapato ya uwazi.",
+		"unlock": "Fungua",
+		"africa": "Fursa ya",
+		"goldenOpportunity": "Dhahabu ya Afrika",
+		"ctaPrimary": "Angalia Mipango ya Uwekezaji",
+		"ctaOutline": "Angalia Inavyofanya Kazi",
+		"certifiedBy": "Imethibitishwa na"
+	},
+	"certifications_bar": {
+		"label": "Imethibitishwa na Inatii",
+		"status_label": "Zote Zinatumika",
+		"audit_note": "Ukaguzi wa mwisho: 2024",
+		"items": [
+			{
+				"code": "NEMA",
+				"name": "Mamlaka ya Kitaifa ya Usimamizi wa Mazingira",
+				"note": "Cheti cha EIA · Inatumika"
+			},
+			{
+				"code": "KRA",
+				"name": "Mamlaka ya Mapato ya Kenya",
+				"note": "Muuzaji wa Madini ya Thamani"
+			},
+			{
+				"code": "MINES & GEOLOGY",
+				"name": "Idara ya Madini na Jiolojia",
+				"note": "Leseni ya Uchimbaji · ML Inatumika"
+			},
+			{
+				"code": "KEBS",
+				"name": "Shirika la Viwango la Kenya",
+				"note": "Maabara ya Upimaji Imethibitishwa"
+			},
+			{
+				"code": "WRA",
+				"name": "Mamlaka ya Rasilimali za Maji",
+				"note": "Kibali cha Maji · Inatumika"
+			},
+			{
+				"code": "NITA",
+				"name": "Mamlaka ya Kitaifa ya Mafunzo ya Viwandani",
+				"note": "Mafunzo ya Ujuzi Yamethibitishwa"
+			},
+			{
+				"code": "DGSM",
+				"name": "Idara ya Utafiti wa Kijiolojia na Madini",
+				"note": "Leseni ya ML ya Uganda Imesajiliwa"
+			},
+			{
+				"code": "UNBS",
+				"name": "Shirika la Viwango la Kitaifa la Uganda",
+				"note": "Uthibitishaji wa Upimaji · Uganda"
+			}
+		]
+	}
+}

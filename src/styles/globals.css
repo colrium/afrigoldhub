@@ -59,7 +59,8 @@ html {
 }
 body {
     background: theme("colors.paper");
-        background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #dfba1456)
+        background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #dfba1456);
+        font-size: 14px;
 }
 body::before {
     content: '';
@@ -71,7 +72,17 @@ body::before {
         background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #fddc21 75%);
 }
 
-
+h4,
+h5,
+h6, p, body {
+    font-family: var(--font-manrope);
+    font-weight: 300;
+}
+h1,
+h2,
+h3 {
+    font-family: var(--font-montserrat);
+}
 .main-footer {
     background: theme("colors.surface.900");
 }

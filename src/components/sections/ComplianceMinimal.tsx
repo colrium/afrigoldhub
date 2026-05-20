@@ -24,7 +24,7 @@ export default function ComplianceMinimal() {
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
 					<SectionTag className="text-primary">{t("compliance.tag")}</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-4">
+					<h2 className="text-4xl lg:text-5xl tracking-tight mb-4">
 						<Trans
 							i18nKey="compliance.headline"
 							defaults="Every permit. <gold>Every certification.</gold>"

@@ -1,0 +1,292 @@
+{
+	"hero": {
+		"tag": "Shughuli",
+		"headline": "Kutoka ardhini hadi <gold>bati la dhahabu</gold>",
+		"subheadline": "Katika mataifa saba ya Afrika, kiwango kimoja kisichoyumbayumba",
+		"description": "Ikiwa na makao makuu yake mjini Busia, Uganda, AfriGold Hub inaendesha vituo vya usindikaji wa ukolezi wa mvuto visivyo na kemikali kote Uganda, Kenya, Tanzania, Eswatini, Sierra Leone, Afrika Kusini, na Malawi. Kila gramu inayozalishwa ina kumbukumbu za mnyororo wa ulinzi kutoka shimo lenye leseni hadi kwa mnunuzi aliyethibitishwa - bila zebaki na bila sianidi katika kila tovuti.",
+		"cta_primary": { "label": "Angalia Mipango ya Uwekezaji", "href": "/invest" },
+		"cta_secondary": { "label": "Angalia Maeneo Yetu", "href": "/locations" },
+		"badge": { "text": "Nchi 7 · Kiwango 1", "status": "active" }
+	},
+	"overview": {
+		"tag": "Jinsi Tunavyofanya Kazi",
+		"headline": "Mchakato uliothibitishwa, unaorudiwa kote barani",
+		"description": "Muundo wetu wa uendeshaji ni rahisi, unaoweza kurudiwa, na wenye faida. Tunachukua madini ya mchanga na eluvial kutoka mashimo yenye leseni, kuyapitisha katika mfumo wetu wa ukolezi wa mvuto - masanduku ya mifereji, koni za ond, na meza za kutetemeka - na kuyayeyusha matokeo kuwa bati za dhahabu zilizochambuliwa kwa kujitegemea. Hakuna kemikali. Hakuna njia za mkato. Kumbukumbu kamili katika kila hatua.",
+		"stats": [
+			{ "value": "266kg", "label": "Dhahabu inayozalishwa kwa mwezi", "prefix": "~" },
+			{ "value": "88%", "label": "Kiwango cha faida halisi", "prefix": "" },
+			{ "value": "0", "label": "Vichocheo vya kemikali", "prefix": "" },
+			{ "value": "7", "label": "Nchi zinazoendesha shughuli", "prefix": "" },
+			{ "value": "92%", "label": "Kiwango cha kurejesha maji", "prefix": "" },
+			{ "value": "$8.40", "label": "Gharama ya usindikaji kwa gramu", "prefix": "" }
+		]
+	},
+	"features": {
+		"tag": "Tunachofanya",
+		"headline": "Uzalishaji wa dhahabu tangu mwanzo hadi mwisho",
+		"items": [
+			{
+				"icon": "pick",
+				"title": "Uchimbaji katika mashimo yenye leseni",
+				"description": "Madini yote yanachimbwa kutoka mashimo yaliyoidhinishwa na Leseni za Uchimbaji katika nchi saba, chini ya usimamizi wa msimamizi wa mgodi aliyethibitishwa na kumbukumbu za mnyororo wa ulinzi kutoka tiketi ya kwanza ya uzito."
+			},
+			{
+				"icon": "droplets",
+				"title": "Ukolezi wa mvuto usio na kemikali",
+				"description": "Masanduku ya mifereji, koni za ond, na meza za kutetemeka hutenganisha dhahabu kutoka kwa mawe tundu kwa kutumia maji na mvuto pekee. Hakuna zebaki, hakuna sianidi, hakuna takataka za kemikali katika mtandao mzima."
+			},
+			{
+				"icon": "flame",
+				"title": "Kuyeyusha kwenye tovuti hadi usafi wa 99.5%",
+				"description": "Ukolezi uliosafishwa huyeyushwa katika tanuu za kuvutia za umeme kwenye tovuti na kumiminiwa kuwa bati za dhahabu zenye nambari. Kila bati huchambuliwa kwa kujitegemea kabla ya kutolewa - kiwango cha chini cha usafi 99.5%."
+			},
+			{
+				"icon": "file-check",
+				"title": "Kumbukumbu za mnyororo wa ulinzi",
+				"description": "Kila gramu inafuatiliwa kutoka tiketi ya uzito wa shimo kupitia daraja la ukolezi, cheti cha uchambuzi, na risiti ya mnunuzi - mnyororo kamili wa kumbukumbu unaopatikana kwa washirika wote wa uwekezaji."
+			},
+			{
+				"icon": "handshake",
+				"title": "Mauzo kwa wanunuzi wenye leseni",
+				"description": "Dhahabu inauzwa kwa wafanyabiashara wa madini ya thamani wenye leseni za serikali katika kila nchi inayoendesha shughuli, na matamko kamili ya mrabaha na nyaraka za usafirishaji kwa kila shughuli."
+			},
+			{
+				"icon": "landmark",
+				"title": "Ufuasi wa udhibiti wa nchi nyingi",
+				"description": "Leseni hai za uchimbaji, vyeti vya mazingira, na usajili wa mamlaka za mapato katika nchi zote saba - DGSM Uganda, Mines & Geology Kenya, TMAA Tanzania, DMRE Afrika Kusini, na sawa na hizo katika Sierra Leone, Eswatini, na Malawi."
+			}
+		]
+	},
+	"locations": {
+		"hq": "Busia, Uganda",
+		"countries": [
+			"Uganda",
+			"Kenya",
+			"Tanzania",
+			"Uswazi",
+			"Sierra Leone",
+			"Afrika Kusini",
+			"Malawi"
+		],
+		"places": [
+			{
+				"role": "headquarters",
+				"country": "Uganda",
+				"flag": "🇺🇬",
+				"site": "Mgodi wa Dhahabu wa Tira",
+				"region": "Wilaya ya Busia, Mkoa wa Mashariki",
+				"lat": 0.4664,
+				"lng": 34.0886,
+				"place_id": "ChIJ5ZHcDPihfxcR39saSb3FhNQ",
+				"deposit_type": ["wenye mishipa ya quartz", "wenye BIF", "wa mchanga (alluvial)"],
+				"goldfield": "Ukanda wa Kijani wa Busia-Kakamega",
+				"geology": "Ukanda wa kijani wa Archaean. Amana za mishipa ya quartz na BIF. Dhahabu ya mchanga kando ya korido ya mto Malaba–Solo.",
+				"licence_authority": "Idara ya Utafiti wa Kijiolojia na Madini (DGSM), Uganda",
+				"regulatory_body": "NEMA Uganda",
+				"status": "active",
+				"elevation_m": 1218,
+				"notes": "Makao makuu ya msingi na kituo cha usindikaji. Tovuti yenye mazao mengi zaidi. Takriban kilo 266 za dhahabu iliyosafishwa kwa mwezi."
+			},
+			{
+				"country": "Kenya",
+				"role": "operations",
+				"site": "Mgodi wa Dhahabu wa Macalder",
+				"region": "Kaunti ya Migori, Mkoa wa Nyanza",
+				"lat": -0.9711,
+				"lng": 34.2574,
+				"place_id": "ChIJ6xpyTCen1BkRvwDanI4UM0k",
+				"deposit_type": [
+					"mishipa ya quartz ya orogenic",
+					"wenye BIF",
+					"mchanga (alluvial)"
+				],
+				"goldfield": "Ukanda wa Kijani wa Migori (Uwanja wa Dhahabu wa Ziwa Victoria)",
+				"geology": "Sehemu ya Kikundi Kikuu cha Nyanza - upanuzi wa kaskazini wa kratoni ya Tanzania ya Archaean. Maeneo 11 ya mgodi yaliyoandikwa katika migawanyiko ya Rongo, Suna Magharibi, na Macalder. Uwepo wa madini katika kanda za shear yenye mishipa ya quartz-carbonate.",
+				"licence_authority": "Idara ya Madini na Jiolojia, Wizara ya Petroli na Madini, Kenya",
+				"regulatory_body": "NEMA Kenya, Mamlaka ya Rasilimali za Maji (WRA)",
+				"status": "active",
+				"elevation_m": 1250,
+				"notes": "Magharibi mwa Kenya, ~kilomita 290 magharibi mwa Nairobi. Kilomita 10 kaskazini mwa mpaka wa Kenya/Tanzania. Jiolojia sawa na migodi ya Geita na North Mara nchini Tanzania."
+			},
+			{
+				"country": "Tanzania",
+				"role": "operations",
+				"site": "Eneo la Mgodi wa Dhahabu wa Geita",
+				"region": "Wilaya ya Geita, Mkoa wa Geita",
+				"lat": -2.8676,
+				"lng": 32.1865,
+				"place_id": "ChIJg3NfLjAYzxkRn-znACNIG5k",
+				"deposit_type": ["lode ya orogenic", "wenye BIF", "mchanga (alluvial placer)"],
+				"goldfield": "Uwanja wa Dhahabu wa Ziwa Victoria - Ukanda wa Kijani wa Geita",
+				"geology": "Kaskazini-magharibi mwa Tanzania, ~kilomita 120 kutoka Mwanza, kilomita 4 magharibi mwa mji wa Geita. Sehemu ya mfumo wa dhahabu wa kratoni ya Tanzania ya Archaean. Shughuli kubwa za usanii kando na uchimbaji wa viwandani wa kiwango kikubwa.",
+				"licence_authority": "Shirika la Ukaguzi wa Madini la Tanzania (TMAA), Wizara ya Madini",
+				"regulatory_body": "NEMC Tanzania, TANSORT",
+				"status": "active",
+				"elevation_m": 1140,
+				"notes": "Wilaya kubwa zaidi ya uchimbaji dhahabu nchini Tanzania. AfriGold Hub inaendesha tovuti za ukolezi wa mvuto wa usanii katika eneo la mkongojo jirani."
+			},
+			{
+				"country": "Sierra Leone",
+				"role": "operations",
+				"site": "Wilaya ya Dhahabu ya Kono",
+				"region": "Wilaya ya Kono, Mkoa wa Mashariki",
+				"lat": 8.6438,
+				"lng": -10.9714,
+				"place_id": null,
+				"deposit_type": ["mchanga (alluvial placer)", "mishipa ya quartz", "eluvial"],
+				"goldfield": "Ukanda wa Kijani wa Kono-Kenema, Kratoni ya Afrika Magharibi",
+				"geology": "Eneo la Koidu, ~kilomita 250 mashariki mwa Freetown. Mandhari ya kijani ya Archaean yenye dhahabu katika mishipa ya quartz inayohusishwa na BIF. Historia ya uzalishaji kwa dhahabu ya mchanga ya usanii na uchimbaji wa almasi.",
+				"licence_authority": "Idara ya Madini na Rasilimali za Madini (MMRD), Sierra Leone",
+				"regulatory_body": "Shirika la Kulinda Mazingira (EPA), Sierra Leone",
+				"status": "active",
+				"elevation_m": 385,
+				"notes": "Tovuti ya kratoni ya Afrika Magharibi. Shughuli za ukolezi wa mvuto za usanii. Mpango imara wa ajira kwa jamii katika Wilaya ya Kono."
+			},
+			{
+				"country": "Afrika Kusini",
+				"role": "operations",
+				"site": "Uwanja wa Dhahabu wa Witwatersrand - Eneo la West Wits",
+				"region": "West Rand, Mkoa wa Gauteng",
+				"lat": -26.4384,
+				"lng": 27.4259,
+				"place_id": "ChIJTcMEZRXPlR4RSELvZ88nXs8",
+				"deposit_type": ["changarawe yenye miamba", "eluvial"],
+				"goldfield": "Bonni la Witwatersrand",
+				"geology": "Eneo la Carletonville, wilaya ya West Rand. Bonni la Witwatersrand - uwanja mkubwa zaidi wa dhahabu duniani, kilomita 350 × 200 za changarawe zilizobadilishwa. AfriGold Hub inaendesha katika kanda za pembeni za mchanga na eluvial chini ya leseni ya usanii.",
+				"licence_authority": "Wizara ya Rasilimali za Madini na Nishati (DMRE), Afrika Kusini",
+				"regulatory_body": "SARS, Wizara ya Maji na Usafi wa Mazingira (DWS), DMRE",
+				"status": "active",
+				"elevation_m": 1540,
+				"notes": "Mponeng (mgodi wa ndani kabisa duniani kwa ~km 4) uko karibu. AfriGold Hub inaendesha maeneo ya usanii ya uso wa ardhi katika ukanda wa pembeni wa miamba (reef)."
+			},
+			{
+				"country": "Eswatini",
+				"role": "operations",
+				"site": "Eneo la Dhahabu la Hhohho",
+				"region": "Mkoa wa Hhohho, kaskazini-magharibi mwa Eswatini",
+				"lat": -26.2037,
+				"lng": 31.0303,
+				"place_id": "ChIJXRJk03zc6B4R2sc1kB0ABco",
+				"deposit_type": ["mishipa ya quartz", "mchanga (alluvial placer)"],
+				"goldfield": "Ukanda wa Kijani wa Hhohho",
+				"geology": "Kaskazini-magharibi mwa Eswatini, karibu na eneo la madini la Ngwenya - moja ya maeneo ya zamani zaidi ya mgodi duniani kujulikana (mgodi wa chuma wa Ngwenya wa miaka 43,000). Dhahabu hupatikana katika mishipa ya quartz ya ukanda wa kijani. Urekebishaji wa ramani ya kijiolojia unaoendelea tangu 2023 kwa ushirikiano na Baraza la Sayansi ya Dunia la Afrika Kusini.",
+				"licence_authority": "Utafiti wa Kijiolojia wa Eswatini, Kamati ya Madini (chini ya Ngwenyama)",
+				"regulatory_body": "Mamlaka ya Mazingira ya Eswatini (EEA)",
+				"status": "active",
+				"elevation_m": 890,
+				"notes": "Operesheni ndogo zaidi katika mtandao kwa mazao. Imejiweka kimkakati kutokana na urekebishaji wa ramani ya kitaifa ya kijiolojia ya 2023–2025 unaotambua maeneo mapya ya dhahabu."
+			},
+			{
+				"country": "Malawi",
+				"flag": "🇲🇼",
+				"site": "Ukanda wa Dhahabu wa Mchinji",
+				"region": "Wilaya ya Mchinji, Mkoa wa Kati",
+				"lat": -13.7984,
+				"lng": 32.8802,
+				"place_id": null,
+				"deposit_type": ["mchanga (alluvial placer)", "eluvial", "mishipa ya quartz"],
+				"goldfield": "Ukanda wa Kijani wa Malawi ya Kati",
+				"geology": "Korido za kijani za Mkoa wa Kati. Uchimbaji dhahabu wa usanii kando ya mashapo ya misimu ya mto. Haijachunguzwa vizuri ikilinganishwa na tovuti nyingine katika mtandao - tafiti za kijiolojia zinaonyesha uwezekano mkubwa wa msingi katika mifumo ya mishipa ya quartz ya milima ya Mchinji.",
+				"licence_authority": "Idara ya Madini, Wizara ya Maliasili na Mabadiliko ya Tabianchi, Malawi",
+				"regulatory_body": "Idara ya Masuala ya Mazingira (EAD), Malawi",
+				"status": "active",
+				"elevation_m": 1100,
+				"notes": "Operesheni iliyoongezwa hivi karibuni. Mazao ya chini zaidi kwa sasa lakini uwezekano mkubwa wa utafutaji. Ukolezi wa mvuto wa usanii unafanya kazi kikamilifu tangu 2022."
+			}
+		]
+	},
+	"steps": {
+		"tag": "Mchakato",
+		"headline": "Hatua nne, hakuna mikataba",
+		"description": "Kila tovuti katika mtandao wetu wa nchi saba hufuata mchakato mmoja ulioandikwa wa hatua nne - kutoka uchimbaji hadi malipo ya mwekezaji.",
+		"items": [
+			{
+				"id": "site-extraction",
+				"step": 1,
+				"title": "Uchimbaji Tovuti",
+				"color": "#2b230f",
+				"accent_color": "#A0763D",
+				"text_color": "#E8D9A0",
+				"icon": "site-extraction",
+				"image": "/media/site-extraction.jpeg",
+				"short_description": "Timu zetu za uchimbaji zenye leseni hufanya kazi katika maeneo ya madini ya mchanga na eluvial kwenye mtandao wetu wa nchi saba, zikifanya kazi chini ya Leseni hai za Uchimbaji na usimamizi mkali wa wasimamizi. Kila shimo limepangwa ramani, kumbukumbu, na kufanyiwa kazi ndani ya mipaka iliyoidhinishwa na mamlaka husika ya Madini na Jiolojia - kutoka maeneo ya dhahabu ya Busia ya Uganda hadi korido za madini za Sierra Leone na Malawi.",
+				"long_description": "Uchimbaji tovuti katika AfriGold Hub huanza muda mrefu kabla ya jembe kuingia ardhini. Kila eneo la uendeshaji hupitia tathmini rasmi ya kijiolojia ili kuweka ramani ya usambazaji wa dhahabu ya mchanga kwenye eneo la amana, kubainisha maeneo yenye mazao mengi zaidi katika ekari zetu zilizopewa leseni. Wanajiolojia wetu wa uwanjani, waliofunzwa kwa viwango vya mamlaka ya madini ya kikanda, huandaa mipango ya uchimbaji inayosawazisha uboreshaji wa mazao na mahitaji ya urekebishaji wa tovuti yaliyowekwa na mdhibiti wa mazingira wa kila nchi.\n\nBusia, Uganda - tovuti yetu ya msingi - uchimbaji unafuata korido ya kale ya mto Malaba, ambapo changarawe zenye dhahabu zimewekwa kwa milenia kwa kina cha mita 1 hadi 6. Katika tovuti zetu za Kenya na Tanzania, miundo sawa ya mchanga kando ya bonni la Ziwa Victoria hutoa viwango thabiti vya madini. Sierra Leone na Afrika Kusini, timu zetu hufanya kazi kwenye amana za eluvial kwa kutumia benchi zinazodhibitiwa ili kufunua safu yenye tija bila kuvuruga mchango wa juu kupita kiasi.\n\nUchimbaji wote unafanywa na timu za wakandarasi waliofunzwa chini ya usimamizi wa moja kwa moja wa Msimamizi wa Mgodi aliyethibitishwa. Mabadiliko ya zamu hupimwa na kurekodiwa kwenye shimo, na logi ya mnyororo wa ulinzi huanzishwa wakati wa uchimbaji. Hakuna madini yanayoondoka kwenye eneo la shimo bila tiketi ya uzito iliyoandikwa - kiungo cha kwanza katika mnyororo wa kumbukumbu usiovunjika unaoishia kwenye risiti ya mnunuzi.\n\nBaada ya uchimbaji, maeneo yote ya shimo hurekebishwa hatua kwa hatua: mchango unaorejeshwa, udongo wa juu unarudishwa, na upandaji wa mimea unafanywa kwa mujibu wa mahitaji ya mpango wa kufunga wa kila mamlaka ya mazingira ya kitaifa.",
+				"key_facts": [
+					"Tathmini ya kijiolojia kabla ya kila eneo jipya la shimo kufunguliwa",
+					"Msimamizi wa Mgodi aliyethibitishwa yupo kwenye kila zamu ya uchimbaji",
+					"Tiketi ya uzito hutolewa kwenye shimo - mnyororo wa ulinzi huanza hapa",
+					"Urekebishaji wa shimo unaoendelea kwa kiwango - hakuna mashimo wazi yaliyotelekezwa",
+					"Inaendesha shughuli nchini: Uganda (msingi), Kenya, Tanzania, Sierra Leone, Afrika Kusini, Eswatini, Malawi"
+				],
+				"regulatory_notes": "Inasimamiwa na DGSM (Uganda), Idara ya Madini na Jiolojia (Kenya), TMAA (Tanzania), MMRD (Sierra Leone), DMRE (Afrika Kusini), Utafiti wa Kijiolojia wa Eswatini, Idara ya Madini (Malawi)."
+			},
+			{
+				"id": "gravity-processing",
+				"step": 2,
+				"title": "Usindikaji wa Mvuto",
+				"color": "#252e15",
+				"accent_color": "#7A9440",
+				"text_color": "#D4E8A0",
+				"icon": "gravity-processing",
+				"image": "/media/gravity-processing.jpeg",
+				"short_description": "Kiini cha ahadi ya AfriGold Hub kwa mazingira ni mfumo wetu wa ukolezi wa mvuto usio na kemikali. Kwa kutumia maji tu, mwendo, na tofauti ya asili ya msongamano kati ya dhahabu na madini ya mawe tundu, masanduku yetu ya mifereji na koni za ond hutenganisha dhahabu kutoka kwa taka bila zebaki, bila sianidi, na bila takataka zenye sumu - kukidhi na kuzidi mahitaji ya kila mamlaka ya mazingira ya kitaifa katika mtandao wetu wa uendeshaji.",
+				"long_description": "Ukolezi wa mvuto ni mbinu kongwe na safi zaidi ya kurejesha dhahabu inayopatikana kwa wachimbaji wadogo na wa usanii. AfriGold Hub imewekeza kwa kiasi kikubwa katika kisasa cha mbinu hii katika shughuli zote za nchi saba, ikituma mfumo wa hatua ambao mara kwa mara hufikia viwango vya urejeshaji wa dhahabu wa 85–92% bila kutumia hata gramu moja ya kemikali.\n\nMchakato huanza kwenye hatua ya msingi ya mfereji, ambapo changarawe yenye madini hulishwa kwenye sanduku la mfereji la mwinuko mkubwa na mtiririko wa maji unaodhibitiwa. Mtiririko na kasi ya maji hubeba chembe nyepesi za mawe tundu juu ya baa za rifa na nje ya mfumo, huku msongamano wa dhahabu (takriban 19.3 g/cm³, ikilinganishwa na 2.6–3.0 g/cm³ kwa mawe tundu ya kawaida ya silikati) husababisha kukaa na kukolea nyuma ya baa za rifa.\n\nUkolezi huu wa msingi hupitishwa kwa koni za ond, ambazo hutumia nguvu za katikati na za mvuto kutenganisha dhahabu zaidi kutoka kwa madini mazito na mepesi yaliyobaki. Sehemu yenye dhahabu nyingi kisha husafishwa kwenye meza ya kutetemeka, ikitoa ukolezi wa mwisho tayari kwa kuyeyushwa moja kwa moja bila matibabu ya kemikali.\n\nMaji yanayotumika katika mchakato hurejeshwa kwa njia ya mfumo wa bwawa la kutulia lililofungwa katika kila tovuti, kwa kiwango cha urejeshaji wa maji cha 90–94% katika mtandao wetu. Hii inapunguza kwa kiasi kikubwa uchotaji wa maji safi na kuhakikisha hakuna maji ya mchakato yanayoingia kwenye njia za asili za maji bila kutibiwa.\n\nKutokuwepo kwa zebaki na sianidi sio tu sifa ya mazingira - pia ni faida kubwa ya kibiashara. Gharama za usindikaji wa kemikali huondolewa kabisa, kupunguza gharama yetu ya usindikaji kwa gramu hadi takriban $8.40 dhidi ya $18–22 kwa shughuli sawa za kuchimba kemikali. Faida hii ya gharama moja kwa moja inaboresha mapato ya wawekezaji.",
+				"key_facts": [
+					"Kiwango cha urejeshaji dhahabu cha 85–92% - hakuna kemikali zinazohitajika",
+					"Mchakato wa hatua tatu: mfereji wa msingi → koni ya ond → meza ya kutetemeka",
+					"Kiwango cha urejeshaji wa maji cha 90–94% katika mtandao",
+					"Gharama ya usindikaji: ~$8.40/gramu dhidi ya $18–22 kwa uchimbaji wa kemikali",
+					"Hakuna zebaki, hakuna sianidi - inatii NEMA/EIA kwenye tovuti zote"
+				],
+				"regulatory_notes": "Mipango ya usimamizi wa maji imeidhinishwa na DWRM (Uganda), WRA (Kenya), DWS (Afrika Kusini), na vyombo sawa katika kila nchi inayoendesha shughuli. Vyeti vya NEMA/EIA ni vya sasa kwenye tovuti zote."
+			},
+			{
+				"id": "smelting-assay",
+				"step": 3,
+				"title": "Kuyeyusha na Upimaji",
+				"color": "#311b0a",
+				"accent_color": "#C8722A",
+				"text_color": "#F0C898",
+				"icon": "smelting",
+				"image": "/media/smelting.jpeg",
+				"short_description": "Tanuu zetu za kuyeyusha za umeme kwenye tovuti hubadilisha ukolezi wa mvuto uliosafishwa kuwa bati za dhahabu zilizomiminwa kwa joto zaidi ya 1,100°C. Kila bati linalozalishwa katika mtandao wetu huchambuliwa kwa kujitegemea kwa usafi kabla ya kutolewa, na vyeti vinatolewa kwa viwango vya kimataifa vya kusafisha (refinery). Kituo chetu cha msingi cha kuyeyusha cha Busia huzalisha bati zenye usafi wa 99.5% au zaidi mfululizo - kukidhi viwango vya kukubalika vya uwasilishaji vya Chama cha Soko la Dhahabu la London (LBMA).",
+				"long_description": "Kuyeyusha ni hatua ya mabadiliko inayobadilisha ukolezi wa mvuto uliosafishwa - unga mweusi wa metali au chembe laini - kuwa mali inayoonekana na inayoweza kukaguliwa ya bati la dhahabu lililomiminwa. AfriGold Hub inaendesha tanuu za msingi za kuyeyusha katika kituo chetu cha Busia, Uganda na uwezo wa sekondari wa kuyeyusha katika tovuti zetu za Kenya na Tanzania, huku ukolezi kutoka Sierra Leone, Eswatini, Afrika Kusini, na Malawi ukiunganishwa na kusafirishwa chini ya mnyororo salama wa ulinzi hadi kituo kilicho na vifaa karibu.\n\nMchakato wa kuyeyusha katika kila kituo hufuata itifaki thabiti. Ukolezi hupimwa kwanza na sampuli inachukuliwa - sampuli ya upimaji wa moto hutolewa na kupelekwa kwa maabara huru ya uchambuzi iliyoidhinishwa kabla ya kuyeyusha kuanza. Ukolezi mwingi hupakiwa kwenye crucible ya grafiti na kuwekwa kwenye tanuru ya kuvutia, ambayo hufikia joto la uendeshaji (1,064°C kwa dhahabu safi, 1,100–1,150°C kiutendaji) ndani ya dakika 15–20.\n\nUchafu huondolewa kwa mchakato wa kuongeza kemikali za kuyeyusha (flux) - mchanganyiko unaodhibitiwa wa borax, silika, na nitrati ya sodiamu huvuta metali za msingi, sulfidi, na oksidi kwenye slag inayofanana na kioo inayoelea juu ya dhahabu iliyoyeyuka na kukokotwa. Metali iliyosafishwa kioevu huchukuliwa na kumiminwa kwenye ukungu za grafiti zilizochomwa mapema na kumiminwa kuwa bati.\n\nKila bati hupimwa kwa mizani iliyoidhinishwa sahihi kwa gramu 0.01 na kuwekewa alama ya nambari ya kipekee ya bati, tarehe ya kumimina, msimbo wa tovuti, na uzito kabla ya upimaji huru. Uganda, huduma za upimaji hutolewa na maabara zilizoidhinishwa na UNBS. Kenya, kwa viwango vya KS ISO 11426 / KEBS. Afrika Kusini, kwa viwango vilivyoidhinishwa na SANAS.\n\nKituo chetu cha Busia kimetoa bati zenye usafi wa 99.5–99.7% mfululizo. Kila shehena - kwa kawaida bati 15–20 zenye uzito wa kilo 250–280 - hupigwa picha, kupimwa, kuthibitishwa kwa uchambuzi, na kufungwa kabla ya kuhamishiwa kwa mnunuzi aliye na leseni.",
+				"key_facts": [
+					"Tanuu za kuvutia kwa 1,100–1,150°C - mwambaa thabiti wa joto kwa kila bati",
+					"Upimaji wa moto huru kabla ya kuyeyusha - mavuno yanayotarajiwa yanajulikana mapema",
+					"Mchakato wa flux huondoa metali zote za msingi na uchafu wa sulfidi",
+					"Kila bati: nambari ya kipekee ya mfululizo, tarehe ya kumimina, msimbo wa tovuti, uzito ulioidhinishwa",
+					"Usafi wa chini: 99.5% - kufikia 99.5–99.7% Busia mfululizo"
+				],
+				"regulatory_notes": "Uthibitishaji wa upimaji: UNBS (Uganda), KEBS/KS ISO 11426 (Kenya), SANAS (Afrika Kusini). Matamko ya mrabaha yanawasilishwa kwa URA, KRA, TMAA, SARS, na mamlaka sawa kwa kila shehena."
+			},
+			{
+				"id": "sale-distribution",
+				"step": 4,
+				"title": "Mauzo na Usambazaji",
+				"color": "#1C1608",
+				"accent_color": "#C9A84C",
+				"text_color": "#E5C46A",
+				"icon": "sale-distribution",
+				"image": "/media/sale-distribution.png",
+				"short_description": "Bati za dhahabu zilizokamilika zinauzwa kwa wananunuzi wa madini ya thamani wenye leseni za serikali katika kila nchi inayoendesha shughuli, na matamko kamili ya mrabaha, nyaraka za usafirishaji, na risiti za mamlaka ya mapato zinazotolewa kwa kila shughuli. Mapato huhamishiwa kwa akaunti ya uendeshaji ya AfriGold Hub ndani ya saa 48 baada ya kuwasilisha bidhaa, na mgawanyo kwa wawekezaji huchakatwa ndani ya siku 10 za kazi baada ya mwisho wa mwezi - kila mwezi, bila ubaguzi.",
+				"long_description": "Hatua ya mauzo na usambazaji ndipo kila gramu ya uzalishaji inapokuwa mapato ya mwekezaji - na ambapo ahadi ya AfriGold Hub ya uwazi kamili inajaribiwa moja kwa moja zaidi. Tunaendesha mchakato wa mauzo uliodhibitiwa madhubuti, wenye kumbukumbu kamili katika nchi zote saba, tukifanya kazi na wanunuzi tu ambao wana leseni halali za wafanyabiashara wa madini ya thamani kutoka kwa mamlaka husika ya kitaifa ya mapato au madini.\n\nUganda - soko letu la msingi - dhahabu inauzwa kwa wafanyabiashara wa madini ya thamani waliosajiliwa na Mamlaka ya Mapato ya Uganda (URA) wanaofanya kazi chini ya leseni zilizotolewa na Idara ya Utafiti wa Kijiolojia na Madini (DGSM). Kila shughuli inaambatana na makubaliano rasmi ya mauzo, cheti cha mnunuzi kilichothibitishwa KYC, cheti cha uchambuzi huru cha bati, na tamko la mrabaha lililopokelewa na URA. Mrabaha wa madini wa Uganda kwa sasa ni 3% ya thamani ya jumla kwa dhahabu ya usanii.\n\nKenya, mauzo yanaendelea kupitia wafanyabiashara waliosajiliwa na KRA wenye idhini ya Benki Kuu ya Kenya (CBK) ya fedha za kigeni kwa ajili ya malipo ya kimataifa. Tanzania, mauzo yote ya dhahabu yanaripotiwa kwa Shirika la Ukaguzi wa Madini la Tanzania (TMAA) chini ya itifaki za TANSORT. Shehena za Afrika Kusini zinashughulikiwa kupitia wafanyabiashara waliosajiliwa na SARS chini ya usimamizi wa DMRE.\n\nMapato yote ya mauzo yanapokelewa katika akaunti ya uendeshaji ya AfriGold Hub - akaunti ya pamoja inayoweza kufikiwa na washirika wa kiwango cha Kimkakati na Msingi - ndani ya saa 48 baada ya kuwasilisha bidhaa na uthibitisho wa mnunuzi. Mapato ya kila mwezi yanapatanishwa na Afisa wetu Mkuu wa Fedha na mhasibu wa nje, kuzalisha Faida na Hasara iliyokaguliwa ya kila mwezi inayoenda kwa washirika wote wa uwekezaji ndani ya siku 10 za kazi baada ya mwisho wa mwezi.\n\nMgawanyo kwa wawekezaji huhamishwa kwa uhamisho wa benki wa kimataifa wa SWIFT (USD) au pesa za simu kwenye ratiba iliyowekwa - tarehe 15 ya kila mwezi kwa uzalishaji wa mwezi uliopita. Mchakato mzima wa mauzo na usambazaji umeandikwa katika kifurushi chetu cha kila mwezi cha wawekezaji: PDF ya kurasa 6 inayojumuisha risiti za mauzo, vyeti vya uchambuzi, kipande cha taarifa ya benki, Faida na Hasara, na uchanganuzi wa mgawanyo kwa kiwango cha mshirika.",
+				"key_facts": [
+					"Mauzo tu kwa wafanyabiashara wa madini ya thamani walio na leseni za serikali katika kila nchi",
+					"Matamko ya mrabaha ya URA/KRA/TMAA/SARS yanawasilishwa kwa kila shughuli",
+					"Mapato kwenye akaunti ya uendeshaji ndani ya saa 48 baada ya kuwasilisha bidhaa",
+					"Faida na Hasara iliyokaguliwa ya kila mwezi hutolewa ndani ya siku 10 za kazi",
+					"Mgawanyo wa wawekezaji tarehe 15 ya kila mwezi - hakuna ubaguzi"
+				],
+				"regulatory_notes": "Mauzo yanapokelewa na URA (Uganda), KRA (Kenya), TMAA (Tanzania), SARS (Afrika Kusini), NRA (Sierra Leone), ERS (Eswatini), MRA (Malawi). Nyaraka za usafirishaji zinawasilishwa kwa mujibu wa kanuni za madini ya thamani za kila nchi."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Jihusishe",
+		"headline": "Wekeza katika operesheni nyuma ya nambari",
+		"description": "Ziara za tovuti zinapatikana kwa washirika wa kiwango cha Kimkakati na Msingi. Panga simu ya utambuzi kuona mchakato kwa macho yako.",
+		"cta_primary": { "label": "Angalia Mipango ya Uwekezaji", "href": "/invest" },
+		"cta_secondary": { "label": "Panga Ziara ya Tovuti", "href": "/contact" }
+	}
+}

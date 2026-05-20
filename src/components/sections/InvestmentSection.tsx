@@ -20,7 +20,7 @@ export default function InvestmentSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("investment.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("investment.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light max-w-[560px] mx-auto">
@@ -55,7 +55,7 @@ export default function InvestmentSection() {
 							<div className="text-xs tracking-[0.12em] uppercase text-primary mb-5">
 								{tier.tier}
 							</div>
-							<div className="font-serif text-[2.6rem] font-bold text-onSurface-100 leading-none mb-2">
+							<div className="text-[2.6rem] font-bold text-onSurface-100 leading-none mb-2">
 								{tier.amount}
 							</div>
 							<div className="text-sm text-[#faf5ec] mb-7">

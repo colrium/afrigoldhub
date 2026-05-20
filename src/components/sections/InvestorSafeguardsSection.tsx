@@ -19,7 +19,7 @@ export default function InvestorSafeguardsSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("invest_page.safeguards.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
 						{t("invest_page.safeguards.headline")}
 					</h2>
 				</div>

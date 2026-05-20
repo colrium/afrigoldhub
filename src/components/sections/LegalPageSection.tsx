@@ -3,8 +3,8 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import GavelIcon from "@mui/icons-material/Gavel";
 
 type LegalSection = {
-	heading: string;
-	body: string[];
+	title: string;
+	content: string[];
 };
 
 type LegalPageSectionProps = {
@@ -41,7 +41,7 @@ export default function LegalPageSection({
 						<GavelIcon fontSize="small" />
 						{label}
 					</span>
-					<h1 className="font-serif text-[clamp(2.7rem,6vw,5.4rem)] leading-[0.96] tracking-tight text-onSurface-100 max-w-[820px]">
+					<h1 className="text-[clamp(2.7rem,6vw,5.4rem)] leading-[0.96] tracking-tight text-onSurface-100 max-w-[820px]">
 						{title}
 					</h1>
 					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[740px]">
@@ -55,16 +55,16 @@ export default function LegalPageSection({
 				<div className="rounded-lg border border-[rgba(243,189,39,0.16)] bg-[#101010]/90 shimmer-y shimmer-subtle">
 					{sections.map((section, index) => (
 						<article
-							key={section.heading}
+							key={section.title}
 							className={`p-6 md:p-8 ${
 								index > 0 ? "border-t border-[rgba(243,189,39,0.1)]" : ""
 							}`}
 						>
-							<h2 className="font-serif text-2xl md:text-3xl text-onSurface-100">
-								{section.heading}
+							<h2 className="text-2xl md:text-3xl text-onSurface-100">
+								{section.title}
 							</h2>
 							<div className="mt-4 space-y-4">
-								{section.body.map((paragraph) => (
+								{section.content.map((paragraph) => (
 									<p
 										key={paragraph}
 										className="text-sm md:text-base text-[#faf5ec] font-light leading-[1.8]"

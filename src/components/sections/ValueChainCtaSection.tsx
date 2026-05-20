@@ -10,7 +10,7 @@ export default function ValueChainCtaSection() {
 				<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 					{t("value_chain.cta.tag")}
 				</span>
-				<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5 max-w-[720px]">
+				<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5 max-w-[720px]">
 					{t("value_chain.cta.headline")}
 				</h2>
 				<p className="text-base text-[#faf5ec] font-light leading-[1.75] max-w-[620px] mb-9">

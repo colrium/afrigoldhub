@@ -93,7 +93,7 @@ export default function LocationsPageSection() {
 							<PinDropIcon fontSize="small" />
 							Operations Map
 						</span>
-						<h1 className="font-serif text-5xl md:text-7xl leading-none text-onSurface-100 max-w-[780px]">
+						<h1 className="text-5xl md:text-7xl leading-none text-onSurface-100 max-w-[780px]">
 							Seven-country gold operations, mapped site by site.
 						</h1>
 						<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[680px]">
@@ -121,15 +121,15 @@ export default function LocationsPageSection() {
 					<div className="rounded-lg border border-[rgba(243,189,39,0.18)] bg-[#111111]/85 p-6 shimmer-y shimmer-subtle">
 						<div className="grid grid-cols-3 gap-3">
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">{locations.length}</div>
+								<div className="text-3xl text-primary">{locations.length}</div>
 								<div className="text-xs text-[#faf5ec] mt-1">Mine locations</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">{activeSites}</div>
+								<div className="text-3xl text-primary">{activeSites}</div>
 								<div className="text-xs text-[#faf5ec] mt-1">Active sites</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">0</div>
+								<div className="text-3xl text-primary">0</div>
 								<div className="text-xs text-[#faf5ec] mt-1">Chemical inputs</div>
 							</div>
 						</div>
@@ -153,7 +153,7 @@ export default function LocationsPageSection() {
 						<span className="inline-block text-xs uppercase text-primary mb-3">
 							Google Map
 						</span>
-						<h2 className="font-serif text-4xl md:text-5xl text-onSurface-100">
+						<h2 className="text-4xl md:text-5xl text-onSurface-100">
 							Operations and mine locations
 						</h2>
 						<p className="mt-4 text-[#faf5ec] leading-[1.75] font-light">
@@ -221,7 +221,7 @@ export default function LocationsPageSection() {
 											<FactoryIcon fontSize="small" />
 											{selectedLocation.role ?? "operations"}
 										</div>
-										<h3 className="font-serif text-3xl text-onSurface-100">
+										<h3 className="text-3xl text-onSurface-100">
 											{selectedLocation.site}
 										</h3>
 										<p className="mt-3 text-sm text-[#faf5ec] leading-[1.75]">
@@ -285,7 +285,7 @@ export default function LocationsPageSection() {
 							<span className="inline-block text-xs uppercase text-primary mb-3">
 								Field Gallery
 							</span>
-							<h2 className="font-serif text-4xl md:text-5xl text-onSurface-100">
+							<h2 className="text-4xl md:text-5xl text-onSurface-100">
 								Inside the production network
 							</h2>
 							<p className="mt-4 text-[#faf5ec] leading-[1.75] font-light">

@@ -1,0 +1,122 @@
+{
+	"hero": {
+		"tag": "Wekeza",
+		"headline": "Shirikiana katika uzalishaji wa dhahabu ulio na kumbukumbu",
+		"description": "Chagua kiwango cha uwekezaji kilichoundwa kinachoungwa mkono na maeneo yenye leseni, usindikaji usio na kemikali, ripoti za kila mwezi zilizokaguliwa, na haki za wazi za washirika tangu siku ya kwanza.",
+		"badge": { "text": "Kujitolea kwa muda wa chini wa miezi 3", "status": "active" },
+		"cta_primary": { "label": "Linganisha Viwango", "href": "#tiers" },
+		"cta_secondary": {
+			"label": "Omba Utafiti wa Kina",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"labels": {
+		"equity_share": "Sehemu ya hisa",
+		"annual_target": "Lengo la mwaka",
+		"custom": "Maalum"
+	},
+	"tiers": {
+		"tag": "Viwango vya Uwekezaji",
+		"headline": "Chagua nafasi yako",
+		"description": "Viwango vyote vinajumuisha mikataba ya ushirikiano iliyoundwa, ripoti za kila mwezi, na mtaji unaolindwa kwa escrow. Kujitolea kwa muda wa chini ni miezi mitatu.",
+		"mostPopular": "Kinachovuma Zaidi",
+		"projectedRoi": "ROI Inayotarajiwa:",
+		"items": [
+			{
+				"tier": "Mshirika wa Mbegu",
+				"amount": "$25,000",
+				"roi": "~65% kwa mwaka",
+				"cta": "Anza",
+				"ctaStyle": "outline",
+				"features": [
+					"5% ya hisa katika faida ya kila mwezi",
+					"Ripoti za fedha za kila robo mwaka",
+					"Ufikiaji wa ziara ya tovuti mara mbili kwa mwaka",
+					"Ufikiaji wa dashibodi ya kidijitali",
+					"Kujitolea kwa muda wa chini wa miezi 3"
+				]
+			},
+			{
+				"tier": "Mshirika wa Kimkakati",
+				"amount": "$75,000",
+				"roi": "~88% kwa mwaka",
+				"featured": true,
+				"cta": "Shirikiana Nasi",
+				"ctaStyle": "primary",
+				"features": [
+					"18% ya hisa katika faida ya kila mwezi",
+					"Ripoti za fedha za kila mwezi",
+					"Ufikiaji wa tovuti bila vizuizi",
+					"Nafasi ya ushauri wa bodi",
+					"Nyaraka za wawekezaji zenye chapa shirikishi",
+					"Masharti ya kipaumbele ya kutoka"
+				]
+			},
+			{
+				"tier": "Mwekezaji Msingi",
+				"amount": "$189,000",
+				"roi": "mshirika mkuu",
+				"roiPrefix": "Inashughulikia CAPEX kamili -",
+				"cta": "Wasiliana Nasi",
+				"ctaStyle": "outline",
+				"features": [
+					"45% ya hisa katika faida ya kila mwezi",
+					"Haki kamili za utawala wa mradi",
+					"Ufikiaji wa akaunti ya pamoja ya benki",
+					"Kutajwa kwa jina katika nyaraka za leseni ya uchimbaji",
+					"Malipo ya kurudisha mtaji ya miezi 3 yamehakikishiwa",
+					"Haki za upendeleo za ufilisi"
+				]
+			}
+		]
+	},
+	"process": {
+		"tag": "Inavyofanya Kazi",
+		"headline": "Kutoka kwa swali hadi mgawanyo wa kila mwezi",
+		"description": "Njia ya ushirikishaji wa washirika iliyo wazi huhakikisha mchakato wa uwekezaji unakuwa wa kumbukumbu, unaoweza kukaguliwa, na unaotabirika.",
+		"items": [
+			{
+				"step": 1,
+				"title": "Wasilisha nia yako",
+				"description": "Chagua kiwango au omba vifaa vya utafiti wa kina ili timu yetu ya uwekezaji iweze kuhitimu swali lako."
+			},
+			{
+				"step": 2,
+				"title": "Kagua nyaraka",
+				"description": "Pokea nakala za leseni, taarifa za kila mwezi zilizokaguliwa, mifano ya uchambuzi, risiti za mauzo, na mkataba wa mshirika."
+			},
+			{
+				"step": 3,
+				"title": "Tekeleza makubaliano",
+				"description": "Kamilisha KYC, sahihi mkataba wa uwekezaji, na ufadhili kupitia njia iliyokubaliwa ya uhamisho wa benki."
+			},
+			{
+				"step": 4,
+				"title": "Fuatilia utendaji wa kila mwezi",
+				"description": "Pokea ripoti za kila mwezi na mgawanyo kulingana na faida halisi iliyothibitishwa na sehemu yako ya hisa iliyokubaliwa kwa mkataba."
+			}
+		]
+	},
+	"safeguards": {
+		"tag": "Ulinzi wa Mshirika",
+		"headline": "Imeundwa kwa ajili ya utafiti wa kina wa kweli",
+		"items": [
+			{
+				"title": "Mkataba rasmi wa uwekezaji",
+				"description": "Kila kiwango kinatawaliwa na mkataba wa ushirikiano ulioandikwa unaojumuisha sehemu ya hisa, ripoti, muda, kutoka, na masharti ya mgawanyo."
+			},
+			{
+				"title": "Vifaa vya ushahidi vya kila mwezi",
+				"description": "Washirika hupokea rekodi za uzalishaji, risiti za mauzo, vyeti vya uchambuzi, muhtasari wa Faida na Hasara, na hesabu za mgawanyo."
+			},
+			{
+				"title": "Ufikiaji wa tovuti kulingana na kiwango",
+				"description": "Washirika wa Kimkakati na Msingi hupokea ufikiaji wa kipaumbele wa tovuti pamoja na vikao vya ukaguzi na uongozi wa uendeshaji na fedha."
+			},
+			{
+				"title": "Msururu wa thamani unaoweza kukaguliwa",
+				"description": "Nyaraka za mnyororo wa ulinzi hufuata dhahabu kutoka tiketi ya uzito wa shimo hadi kuuzwa na mgawanyo kwa mwekezaji."
+			}
+		]
+	}
+}

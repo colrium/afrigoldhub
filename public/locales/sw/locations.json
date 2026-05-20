@@ -1,0 +1,53 @@
+{
+	"tag": "Ramani ya Shughuli",
+	"headline": "Shughuli za dhahabu katika nchi saba, zimepangwa tovuti kwa tovuti.",
+	"description": "Chunguza maeneo hai ya migodi ya AfriGold Hub, maeneo ya dhahabu ya kikanda, ufikiaji wa udhibiti, na picha za uwanjani kutoka uchimbaji hadi utunzaji wa dhahabu iliyokamilika.",
+	"viewMap": "Angalia Ramani",
+	"viewGallery": "Angalia Nyumba ya Sanaa",
+	"mineLocations": "Maeneo ya Migodi",
+	"activeSites": "Tovuti zinazofanya kazi",
+	"zeroChemicalInputs": "Hakuna pembejeo za kemikali",
+	"map": {
+		"tag": "Ramani ya Google",
+		"headline": "Shughuli na maeneo ya migodi",
+		"description": "Chagua tovuti ili kuleta umakini kwenye ramani na kukagua muktadha wa uendeshaji, uwepo wa madini, na mashirika ya udhibiti yanayohusishwa na kila eneo."
+	},
+	"gallery": {
+		"tag": "Nyumba ya Sanaa ya Uwanjani",
+		"headline": "Ndani ya mtandao wa uzalishaji",
+		"description": "Picha za uendeshaji kutoka uchimbaji, usindikaji wa mvuto, kuyeyusha, na utunzaji wa wanunuzi wenye kumbukumbu.",
+		"ctaPrimary": { "label": "Omba Ziara ya Tovuti", "href": "/contact#site-visit" },
+		"items": [
+			{
+				"src": "/media/site-extraction.jpeg",
+				"title": "Uchimbaji wa shimo lenye leseni",
+				"label": "Uchimbaji",
+				"className": "md:col-span-2 md:row-span-2"
+			},
+			{
+				"src": "/media/gravity-processing.jpeg",
+				"title": "Mzunguko wa usindikaji wa mvuto",
+				"label": "Usindikaji",
+				"className": ""
+			},
+			{
+				"src": "/media/smelting.jpeg",
+				"title": "Kuyeyusha kwenye tovuti",
+				"label": "Kuyeyusha",
+				"className": ""
+			},
+			{
+				"src": "/media/14.jpeg",
+				"title": "Shughuli za uwanjani",
+				"label": "Kazi ya tovuti",
+				"className": ""
+			},
+			{
+				"src": "/media/sale-distribution.jpeg",
+				"title": "Usambazaji wenye kumbukumbu",
+				"label": "Mauzo",
+				"className": ""
+			}
+		]
+	}
+}

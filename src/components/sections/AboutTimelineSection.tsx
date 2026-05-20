@@ -20,7 +20,7 @@ export default function AboutTimelineSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("about_page.timeline.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
 						{t("about_page.timeline.headline")}
 					</h2>
 				</FadeUp>
@@ -30,13 +30,13 @@ export default function AboutTimelineSection() {
 						{items.map((item, index) => (
 							<FadeUp key={`${item.year}-${item.title}`} delay={index * 0.06}>
 								<article className="relative md:pl-20 rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#0A0A0A] p-6">
-									<div className="md:absolute md:left-0 md:top-6 w-12 h-12 rounded-full bg-[#111111] border border-primary/35 text-primary font-serif flex items-center justify-center mb-4 md:mb-0">
+									<div className="md:absolute md:left-0 md:top-6 w-12 h-12 rounded-full bg-[#111111] border border-primary/35 text-primary flex items-center justify-center mb-4 md:mb-0">
 										{index + 1}
 									</div>
 									<div className="text-xs uppercase tracking-[0.14em] text-primary mb-2">
 										{item.year}
 									</div>
-									<h3 className="font-serif text-2xl text-onSurface-100 mb-2">
+									<h3 className="text-2xl text-onSurface-100 mb-2">
 										{item.title}
 									</h3>
 									<p className="text-sm text-[#faf5ec] leading-relaxed">

@@ -17,7 +17,7 @@ export default function ComplianceSection() {
 				<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 					{t("compliance.tag")}
 				</span>
-				<h2 className="font-serif text-4xl lg:text-5xl tracking-tight text-onSurface-100 mb-4">
+				<h2 className="text-4xl lg:text-5xl tracking-tight text-onSurface-100 mb-4">
 					{t("compliance.headline", {
 						gold: (chunks: string) => (
 							<em className="text-primary not-italic italic">{chunks}</em>
@@ -44,7 +44,7 @@ export default function ComplianceSection() {
 								{t("compliance.active")}
 							</span>
 						</div>
-						<h4 className="font-serif text-lg text-onSurface-100 mb-1">{lic.title}</h4>
+						<h4 className="text-lg text-onSurface-100 mb-1">{lic.title}</h4>
 						<div className="text-xs text-primary mb-3">{lic.issuer}</div>
 						<p className="text-xs text-[#faf5ec] leading-relaxed font-light">
 							{lic.description}

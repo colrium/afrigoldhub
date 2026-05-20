@@ -40,7 +40,7 @@ export default function ContactDetailsSection() {
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 							{t("contact.offices.tag")}
 						</span>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
 							{t("contact.offices.headline")}
 						</h2>
 					</div>
@@ -56,7 +56,7 @@ export default function ContactDetailsSection() {
 										<div className="text-xs uppercase tracking-[0.14em] text-primary mb-2">
 											{office.label}
 										</div>
-										<h3 className="font-serif text-2xl text-onSurface-100">
+										<h3 className="text-2xl text-onSurface-100">
 											{office.city}, {office.country}
 										</h3>
 									</div>
@@ -99,7 +99,7 @@ export default function ContactDetailsSection() {
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 							{t("contact.direct_contacts.tag")}
 						</span>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
 							{t("contact.direct_contacts.headline")}
 						</h2>
 					</div>

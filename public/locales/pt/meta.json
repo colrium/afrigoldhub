@@ -1,0 +1,38 @@
+{
+	"site": {
+		"title": "AfriGold Hub",
+		"tagline": "Africa's Premier Artisanal Gold Investment Platform",
+		"description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+	},
+	"pages": {
+		"home": {
+			"title": "Home",
+			"meta_description": "Discover how {{site_title}} connects investors with Africa's most productive artisanal gold mining operations. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+		},
+		"about": {
+			"title": "About",
+			"meta_description": "Learn about {{site_title}}, our leadership, operating principles, governance model, and mission to make African artisanal gold transparent and investable.",
+			"og_image": "/media/og-about.jpg"
+		},
+		"contact": {
+			"page_title": "Contact",
+			"meta_description": "Get in touch with {{site_title}} to learn more about our artisanal gold investment opportunities or to request more information.",
+			"og_image": "/media/og-contact.jpg"
+		},
+		"invest": {
+			"page_title": "Invest",
+			"meta_description": "Compare {{site_title}} investment tiers, partner safeguards, monthly reporting, and the process for joining a licensed chemical-free gold production operation.",
+			"og_image": "/media/og-invest.jpg"
+		},
+		"operations": {
+			"page_title": "Operations",
+			"meta_description": "Learn about {{site_title}}'s licensed chemical-free gold production operations and the transparent investment opportunities they offer.",
+			"og_image": "/media/og-operations.jpg"
+		},
+		"value_chain": {
+			"page_title": "Value Chain ",
+			"meta_description": "Understand the full {{site_title}} gold value chain - from geological survey and licence acquisition through extraction, processing, assay, sale, and investor distribution.",
+			"og_image": "/media/og-value-chain.jpg"
+		}
+	}
+}

@@ -33,7 +33,7 @@ export default function OperationsSection() {
 							<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 								{t("operations.tag")}
 							</span>
-							<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-5 text-on-surface-100">
+							<h2 className="text-4xl lg:text-5xl tracking-tight mb-5 text-on-surface-100">
 								<Trans
 									i18nKey="operations.headline"
 									defaults="From earth to <gold>gold bar</gold>"

@@ -34,7 +34,7 @@ export default function InvestmentTiersPageSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("shared.investment_tiers.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("shared.investment_tiers.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -59,7 +59,7 @@ export default function InvestmentTiersPageSection() {
 							<div className="text-xs tracking-[0.14em] uppercase text-primary mb-5">
 								{tier.label}
 							</div>
-							<div className="font-serif text-5xl text-onSurface-100 leading-none mb-4">
+							<div className="text-5xl text-onSurface-100 leading-none mb-4">
 								{formatMoney(tier.amount, tier.currency)}
 							</div>
 							<div className="grid grid-cols-2 gap-3 mb-7">

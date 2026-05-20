@@ -1,0 +1,26 @@
+{
+	"tag": "FAQ",
+	"headline": "Common investor questions",
+	"items": [
+		{
+			"q": "Is AfriGold Hub a licensed mining operation?",
+			"a": "Yes. We operate under a valid Primary Mining Licence (PML) issued under Africa's Mining Act 2010. All environmental and safety certifications are current and available for investor review upon request."
+		},
+		{
+			"q": "How are investor returns calculated and distributed?",
+			"a": "Returns are calculated monthly based on verified gold sales receipts. Net profit after operational costs is distributed to investors in proportion to their equity tier. Payments are made via bank transfer within 10 business days of month-end reconciliation."
+		},
+		{
+			"q": "What protections do investors have?",
+			"a": "All partnerships are governed by a formal investment agreement. Capital is held in an escrow-style joint account. Strategic and Anchor partners have direct visibility into the bank account. Monthly audited reports are provided without exception."
+		},
+		{
+			"q": "Why is gravity concentration better than chemical processing?",
+			"a": "Gravity concentration uses no mercury or cyanide, significantly lowering operational costs and eliminating environmental liability. It is fully NEMC-compliant and aligns with Africa's move to phase out mercury in artisanal mining."
+		},
+		{
+			"q": "What is the minimum investment commitment period?",
+			"a": "The minimum commitment is three months, which also aligns with the projected capital payback window. After the initial term, partners may roll over, exit, or renegotiate their tier with 30 days' notice."
+		}
+	]
+}

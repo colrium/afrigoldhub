@@ -35,7 +35,7 @@ export default function WhySection() {
 						</span>
 					</FadeUp>
 					<FadeUp delay={0.1}>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 							<Trans
 								i18nKey="why.headline" 
 								defaults="Built on proven ground, <gold>engineered for returns</gold>"
@@ -59,7 +59,7 @@ export default function WhySection() {
 								<div className="m-auto text-[64px] text-primary rounded-full flex items-center justify-center text-xl mb-6">
 									{icons[card.icon]}
 								</div>
-								<h3 className="font-serif text-xl text-onSurface-100 mb-3">
+								<h3 className="text-xl text-onSurface-100 mb-3">
 									{card.title}
 								</h3>
 								<p className="text-sm text-onSurface-100 leading-[1.7] font-light">

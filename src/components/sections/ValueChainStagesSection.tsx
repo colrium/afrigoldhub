@@ -23,7 +23,7 @@ export default function ValueChainStagesSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("value_chain.stages.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("value_chain.stages.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -37,7 +37,7 @@ export default function ValueChainStagesSection() {
 							className="grid lg:grid-cols-[6rem_1fr_0.85fr] gap-6 rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#111111] p-6"
 						>
 							<div
-								className="w-16 h-16 rounded-full flex items-center justify-center font-serif text-2xl text-onSurface-100"
+								className="w-16 h-16 rounded-full flex items-center justify-center text-2xl text-onSurface-100"
 								style={{ backgroundColor: stage.color }}
 							>
 								{stage.stage}
@@ -46,7 +46,7 @@ export default function ValueChainStagesSection() {
 								<div className="text-xs uppercase tracking-[0.14em] text-primary mb-2">
 									{stage.phase}
 								</div>
-								<h3 className="font-serif text-2xl text-onSurface-100 mb-3">
+								<h3 className="text-2xl text-onSurface-100 mb-3">
 									{stage.title}
 								</h3>
 								<p className="text-sm text-[#faf5ec] leading-relaxed mb-4">

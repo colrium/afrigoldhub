@@ -38,7 +38,7 @@ export default function ContactHero() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-4">
 						{t("contact.hero.tag")}
 					</span>
-					<h1 className="font-serif text-[clamp(2.7rem,6vw,5.5rem)] leading-[0.95] tracking-tight text-onSurface-100 max-w-[780px]">
+					<h1 className="text-[clamp(2.7rem,6vw,5.5rem)] leading-[0.95] tracking-tight text-onSurface-100 max-w-[780px]">
 						{t("contact.hero.headline")}
 					</h1>
 					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[650px]">

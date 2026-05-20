@@ -17,37 +17,12 @@ import { useTranslation } from "next-i18next/pages";
 
 import { useRouter } from "next/router";
 import useSetState from "@/hooks/useSetState";
-import { locales } from "@/config";
 import { Avatar } from "@mui/material";
 
-const localeCodes = locales.map((locale) => locale.code);
 
-function stripLocalePrefix(path: string) {
-	const parts = path.split("/");
-	const maybeLocale = parts[1];
 
-	if (localeCodes.includes(maybeLocale)) {
-		return `/${parts.slice(2).join("/")}` || "/";
-	}
 
-	return path || "/";
-}
 
-function localizePath(path: string, locale: string) {
-	if (!path.startsWith("/") || path.startsWith("//")) {
-		return path;
-	}
-
-	const [pathAndQuery, hash] = path.split("#");
-	const [pathname, query] = pathAndQuery.split("?");
-	const cleanPathname = stripLocalePrefix(pathname);
-	const localizedPathname =
-		cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
-
-	return `${localizedPathname}${query ? `?${query}` : ""}${
-		hash ? `#${hash}` : ""
-	}`;
-}
 
 export default function Navbar() {
 	const router = useRouter();
@@ -62,7 +37,12 @@ export default function Navbar() {
 		languageMenuAnchor: null | HTMLElement;
 	});
     
-
+    const locales = t("shared.locales", { returnObjects: true }) as {
+		code: string;
+		label: string;
+		flag: string;
+    }[];
+    const localeCodes = locales.map((locale) => locale.code);
     
     const localeObj = locales.find((l) => l.code === router.locale) || locales[0];
 
@@ -72,7 +52,34 @@ export default function Navbar() {
 		excludeOnMainNav?: boolean;
 	}[];
 
+    const  stripLocalePrefix = (path: string) => {
+		const parts = path.split("/");
+		const maybeLocale = parts[1];
 
+		if (localeCodes.includes(maybeLocale)) {
+			return `/${parts.slice(2).join("/")}` || "/";
+		}
+
+		return path || "/";
+	}
+
+    const  localizePath = (path: string, locale: string) => {
+        if (!path.startsWith("/") || path.startsWith("//")) {
+            return path;
+        }
+    
+        const [pathAndQuery, hash] = path.split("#");
+        const [pathname, query] = pathAndQuery.split("?");
+        const cleanPathname = stripLocalePrefix(pathname);
+        const localizedPathname =
+            cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
+    
+        return `${localizedPathname}${query ? `?${query}` : ""}${
+            hash ? `#${hash}` : ""
+        }`;
+    }
+
+    
 	const onToggleLanguageClick = async (newLocale: string) => {
 		if (newLocale === router.locale) {
 			return;
@@ -168,7 +175,7 @@ export default function Navbar() {
 										<MuiLink
 											component={Link}
 											color="textPrimary"
-											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
+											className={`text-xs mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
 											href={localizePath(href, currentLocale)}
 											locale={false}
 											key={`nav-${i}`}
@@ -186,8 +193,8 @@ export default function Navbar() {
 								onClick={handleLanguageMenuOpen}
 								className="mx-4  cursor-pointer"
 								sx={{ width: 24, height: 24 }}
-								src={localeObj.icon}
-								alt={localeObj.name}
+								src={localeObj.flag}
+								alt={localeObj.label}
 								title={t("changeLanguage")}
 							/>
 							<Menu
@@ -206,10 +213,10 @@ export default function Navbar() {
 											className="mr-2"
 											width={14}
 											height={10}
-											src={locale.icon}
-											alt={locale.name}
+											src={locale.flag}
+											alt={locale.label}
 										/>
-										{locale.name}
+										{locale.label}
 									</MenuItem>
 								))}
 							</Menu>

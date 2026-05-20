@@ -20,7 +20,7 @@ export default function ValueChainOverviewSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("value_chain.overview.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("value_chain.overview.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -36,7 +36,7 @@ export default function ValueChainOverviewSection() {
 								boxShadow: `inset 0 3px 0 ${pillar.color}`,
 							}}
 						>
-							<h3 className="font-serif text-2xl text-onSurface-100 mb-6">
+							<h3 className="text-2xl text-onSurface-100 mb-6">
 								{pillar.label}
 							</h3>
 							<ul className="grid gap-3">

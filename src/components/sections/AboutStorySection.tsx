@@ -20,7 +20,7 @@ export default function AboutStorySection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("about_page.story.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 						{t("about_page.story.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
@@ -39,7 +39,7 @@ export default function AboutStorySection() {
 						{stats.map((stat, index) => (
 							<FadeUp key={stat.label} delay={0.12 + index * 0.05}>
 								<div className="rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#0A0A0A] p-5">
-									<div className="font-serif text-3xl text-primary leading-none">
+									<div className="text-3xl text-primary leading-none">
 										{stat.value}
 									</div>
 									<div className="text-xs text-[#faf5ec] mt-2 uppercase tracking-[0.08em]">

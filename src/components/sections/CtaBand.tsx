@@ -15,7 +15,7 @@ export default function CtaBand() {
 				<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 					{t("cta.tag")}
 				</span>
-				<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+				<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 					<Trans
 						i18nKey="cta.headline"
 						defaults="Ready to own a share of <gold>Africa's gold output?</gold>"

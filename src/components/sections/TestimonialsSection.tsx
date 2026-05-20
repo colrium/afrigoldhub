@@ -17,7 +17,7 @@ export default function TestimonialsSection() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("testimonials.tag")}
 					</span>
-					<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
 						{t("testimonials.headline")}
 					</h2>
 				</div>
@@ -27,14 +27,14 @@ export default function TestimonialsSection() {
 							key={item.name}
 							className="bg-[#111111] border border-[rgba(201,168,76,0.15)] rounded-xl p-8"
 						>
-							<div className="font-serif text-5xl text-primary opacity-60 leading-none mb-5">
+							<div className="text-5xl text-primary opacity-60 leading-none mb-5">
 								&ldquo;
 							</div>
-							<p className="font-serif text-[1.05rem] text-[rgba(245,240,232,0.75)] leading-[1.75] italic mb-6">
+							<p className="text-[1.05rem] text-[rgba(245,240,232,0.75)] leading-[1.75] italic mb-6">
 								{item.text}
 							</p>
 							<div className="flex items-center gap-3">
-								<div className="w-10 h-10 rounded-full bg-[#1A1A1A] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-sm text-primary font-serif font-bold shrink-0">
+								<div className="w-10 h-10 rounded-full bg-[#1A1A1A] border border-[rgba(201,168,76,0.15)] flex items-center justify-center text-sm text-primary font-bold shrink-0">
 									{item.initials}
 								</div>
 								<div>

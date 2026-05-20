@@ -1,0 +1,64 @@
+{
+	"hero": {
+		"tag": "Kanusho la Hatari",
+		"headline": "Taarifa zako, ahadi yetu",
+		"description": "Tumejitolea kulinda taarifa zako za kibinafsi na kuhakikisha uwazi katika jinsi tunavyokusanya, kutumia, na kulinda data yako.",
+		"badge": { "text": "Kujitolea kwa muda wa chini wa miezi 3", "status": "active" },
+		"cta_primary": { "label": "Linganisha Viwango", "href": "/invest#tiers" },
+		"cta_secondary": {
+			"label": "Omba Utafiti wa Kina",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"contact": {
+		"description": "Maswali kuhusu ukurasa huu au jinsi yanavyohusiana na swali lako yanaweza kutumwa kwa timu ya {{site_title}}.",
+		"link": {
+			"label": "Wasiliana na Timu ya Hatari",
+			"href": "/contact?reason=risk"
+		}
+	},
+	"articles": [
+		{
+			"title": "Maelezo ya jumla tu",
+			"content": [
+				"Maudhui kwenye tovuti hii yanatolewa kwa maelezo ya jumla kuhusu AfriGold Hub, muundo wake wa uendeshaji, na mijadala ya ushirikiano unaowezekana. Sio ushauri wa kifedha, kisheria, kodi, uhasibu, biashara ya bidhaa, au uwekezaji.",
+				"Hakuna ukurasa kwenye tovuti hii unaopaswa kuchukuliwa kama ofa ya umma, tasnifu, ombi, dhamana, au pendekezo la kununua, kuuza, kukopesha, kuwekeza, au kuingia katika mpango wowote wa kifedha."
+			]
+		},
+		{
+			"title": "Hatari za uendeshaji na uchimbaji madini",
+			"content": [
+				"Uchimbaji madini na usindikaji wa madini huhusisha hatari za kiutendaji, ikiwa ni pamoja na mabadiliko ya daraja la madini, kukatika kwa vifaa, usumbufu wa hali ya hewa, upatikanaji wa wafanyikazi, ucheleweshaji wa usafirishaji, masuala ya usalama, majukumu ya mazingira, na kutokuwa na uhakika wa kijiolojia wa tovuti.",
+				"Takwimu za uzalishaji zilizopita, makadirio ya mazao, au pambizo za mfano haziwezi kurudiwa. Matokeo halisi yanaweza kutofautiana kwa kiasi kikubwa kutoka kwa makadirio, malengo, au mifano iliyoonyeshwa kwenye tovuti."
+			]
+		},
+		{
+			"title": "Hatari ya soko na ukwasi",
+			"content": [
+				"Bei za dhahabu hubadilika kulingana na hali ya soko la dunia, mienendo ya sarafu, viwango vya riba, matukio ya kijiografia, mwigo wa wanunuzi, na ukwasi wa soko la eneo hilo. Mabadiliko ya bei ya soko la hisa au masharti ya mnunuzi yanaweza kuathiri mapato na mgawanyo.",
+				"Ushirikiano wowote wa kibinafsi au mpango wa kiwango cha tovuti unaweza kuwa usio na ukwasi. Haki za kutoka, vikwazo vya uhamisho, vipindi vya kufungia, na masharti ya urejeshaji hutegemea makubaliano yaliyotiwa saini, si muhtasari wa tovuti."
+			]
+		},
+		{
+			"title": "Hatari za udhibiti na mamlaka",
+			"content": [
+				"Sheria za uchimbaji madini, mazingira, kodi, usafirishaji, madini ya thamani, na uwekezaji zinaweza kubadilika. Usasishaji wa leseni, ukaguzi, mrahaba, ushuru, idhini za usafirishaji, na majukumu ya ufuasi yanaweza kuathiri shughuli au ratiba.",
+				"AfriGold Hub inafanya kazi katika mamlaka nyingi. Washirika wanaotarajiwa wanapaswa kupata ushauri wa kujitegemea kuhusu athari za kisheria, kodi, udhibiti, na kufaa katika nchi yao wenyewe kabla ya kuingia katika mpango wowote."
+			]
+		},
+		{
+			"title": "Hakuna mapato yaliyohakikishiwa",
+			"content": [
+				"Takwimu zozote za mapato, vipindi vya kurudisha mtaji, mifano ya mapato, au pambizo za faida zinazoonyeshwa kwenye tovuti ni za kielelezo isipokuwa zime thibitishwa kwa uwazi katika hati za muamala zilizotiwa saini. Zinategemea hatari za uendeshaji, soko, udhibiti, na mwenzako.",
+				"Unapaswa kuzingatia kushiriki tu baada ya kukagua nyaraka kamili, kuuliza maswali, kuelewa hatari, na kuamua kuwa mpango unafaa kwa hali yako ya kifedha na uwezo wako wa kuvumilia hatari."
+			]
+		},
+		{
+			"title": "Jukumu la utafiti wa kina",
+			"content": [
+				"Washirika wanaotarajiwa wana jukumu la kufanya utafiti wao wenyewe wa kina. Hii inaweza kujumuisha kukagua leseni, idhini za mazingira, rekodi za uzalishaji, nyaraka za uchambuzi, taarifa za fedha, rekodi za wanunuzi, ufikiaji wa tovuti, na ushauri muhimu wa kitaalamu.",
+				"Maudhui ya tovuti yanaweza kusasishwa, kusahihishwa, kupanuliwa, au kuondolewa wakati wowote. Makubaliano yaliyotiwa saini, ufichuzi rasmi, na nyenzo za utafiti wa kina zilizothibitishwa ndizo zinazotawala juu ya taarifa zozote za muhtasari kwenye tovuti hii."
+			]
+		}
+	]
+}

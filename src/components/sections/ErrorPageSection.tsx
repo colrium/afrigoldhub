@@ -34,11 +34,11 @@ export default function ErrorPageSection({
 				</div>
 
 				<div className="mt-8 flex flex-col gap-8 md:flex-row md:items-end md:gap-12">
-					<p className="font-serif text-[clamp(5rem,18vw,13rem)] leading-none text-primary">
+					<p className="text-[clamp(5rem,18vw,13rem)] leading-none text-primary">
 						{statusCode}
 					</p>
 					<div className="max-w-[620px] pb-4">
-						<h1 className="font-serif text-[clamp(2.5rem,6vw,5rem)] leading-[0.96] tracking-tight text-onSurface-100">
+						<h1 className="text-[clamp(2.5rem,6vw,5rem)] leading-[0.96] tracking-tight text-onSurface-100">
 							{title}
 						</h1>
 						<p className="mt-6 text-base font-light leading-[1.8] text-[#faf5ec] md:text-lg">

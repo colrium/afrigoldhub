@@ -24,7 +24,7 @@ export default function Footer() {
 								width={32}
 								height={32}
 							/>
-							<span className="font-serif text-[1.3rem] font-bold tracking-[0.04em] text-primary">
+							<span className="text-[1.3rem] font-bold tracking-[0.04em] text-primary">
 								{t("site.title")}
 							</span>
 						</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
 							}
 							return (
 								<div key={colKey}>
-									<h5 className="font-serif text-base text-primary mb-5">
+									<h5 className="text-base text-primary mb-5">
 										{t(`shared.footer.columns.${colKey}.heading`)}
 									</h5>
 									<ul className="flex flex-col gap-3">

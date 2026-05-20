@@ -34,7 +34,7 @@ export default function AdvisoryBoard() {
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-lg mx-auto mb-16">
 					<SectionTag>Advisory Board</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-4">
+					<h2 className="text-4xl lg:text-5xl tracking-tight mb-4">
 						Guided by <em className="text-gold not-italic">deep sector expertise</em>
 					</h2>
 					<p className="text-sm text-muted font-light">
@@ -47,13 +47,13 @@ export default function AdvisoryBoard() {
 					{advisors.map((advisor, idx) => (
 						<FadeUp key={idx} delay={idx * 0.1}>
 							<div className="bg-black border border-g15 rounded-2xl p-7 transition-all duration-300 hover:translate-y-[-4px] hover:border-gold/35">
-								<div className="w-14 h-14 rounded-full bg-g08 border border-g15 flex items-center justify-center font-serif text-2xl font-bold text-gold mb-5">
+								<div className="w-14 h-14 rounded-full bg-g08 border border-g15 flex items-center justify-center text-2xl font-bold text-gold mb-5">
 									{advisor.initials}
 								</div>
 								<div className="text-xs tracking-widest uppercase text-gold mb-1">
 									{advisor.title}
 								</div>
-								<h4 className="font-serif text-xl text-off-white mb-1">
+								<h4 className="text-xl text-off-white mb-1">
 									{advisor.name}
 								</h4>
 								<p className="text-xs text-muted leading-relaxed font-light">

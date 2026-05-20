@@ -10,12 +10,20 @@ const { esmExternals = false, tsconfigPath } =
 const nextConfig = {
   experimental: {
     esmExternals, // https://nextjs.org/blog/next-11-1#es-modules-support
-  },
-  i18n,
-  reactStrictMode: true,
-  typescript: {
-    tsconfigPath,
-  },
+    },
+    images: {
+        remotePatterns: [
+        	{
+            	protocol: 'https',
+            	hostname: 'cdn.sanity.io',
+        	},
+        ],
+	},
+	i18n,
+	reactStrictMode: true,
+	typescript: {
+    	tsconfigPath,
+	},
 }
 
 module.exports = nextConfig

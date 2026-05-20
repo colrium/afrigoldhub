@@ -1,0 +1,48 @@
+{
+	"site": {
+		"title": "AfriGold Hub",
+		"tagline": "Jukwaa Kuu la Uwekezaji la Dhahabu ya Usanii Barani Afrika",
+		"description": "Wekeza moja kwa moja katika shughuli za uchimbaji dhahabu wa usanii katika bara la Afrika. Mapato ya uwazi, usindikaji usio na kemikali, na shughuli zenye leseni kamili. Jiunge nasi kufungua fursa ya dhahabu ya Afrika."
+	},
+	"pages": {
+		"home": {
+			"title": "Nyumbani",
+			"meta_description": "Gundua jinsi {{site_title}} inavyowaunganisha wawekezaji na shughuli za uchimbaji dhahabu wa usanii zenye tija zaidi barani Afrika. Mapato ya uwazi, usindikaji usio na kemikali, na shughuli zenye leseni kamili. Jiunge nasi kufungua fursa ya dhahabu ya Afrika."
+		},
+		"about": {
+			"title": "Kuhusu",
+			"meta_description": "Jifunze kuhusu {{site_title}}, uongozi wetu, kanuni za uendeshaji, mtindo wa utawala, na dhamira yetu ya kufanya dhahabu ya usanii ya Afrika kuwa ya uwazi na ya kuwekezaji.",
+			"og_image": "/media/og-about.jpg"
+		},
+		"contact": {
+			"page_title": "Wasiliana Nasi",
+			"meta_description": "Wasiliana na timu ya {{site_title}}. Panga simu ya utambuzi, omba vifaa vya utafiti wa kina, au fikia ofisi zetu mjini Busia na Nairobi.",
+			"og_image": "/media/og-contact.jpg"
+		},
+		"invest": {
+			"page_title": "Wekeza",
+			"meta_description": "Linganisha viwango vya uwekezaji vya {{site_title}}, ulinzi wa washirika, ripoti za kila mwezi, na mchakato wa kujiunga na operesheni ya uzalishaji wa dhahabu yenye leseni isiyo na kemikali.",
+			"og_image": "/media/og-invest.jpg"
+		},
+		"locations": {
+			"page_title": "Maeneo",
+			"meta_description": "Chunguza maeneo ya migodi ya AfriGold Hub, tovuti za uendeshaji, ramani za Google, na nyumba ya sanaa ya uwanjani kote Afrika.",
+			"og_image": "/media/og-locations.jpg"
+		},
+		"operations": {
+			"page_title": "Shughuli",
+			"meta_description": "Jifunze kuhusu shughuli za uzalishaji wa dhahabu za {{site_title}} zenye leseni zisizo na kemikali na fursa za uwekezaji wa uwazi zinazozitoa.",
+			"og_image": "/media/og-operations.jpg"
+		},
+		"value_chain": {
+			"page_title": "Msururu wa Thamani",
+			"meta_description": "Elewa msururu mzima wa thamani ya dhahabu wa {{site_title}} - kutoka kwa utafiti wa kijiolojia na upatikanaji wa leseni hadi uchimbaji, usindikaji, uchambuzi, mauzo, na mgawanyo kwa wawekezaji.",
+			"og_image": "/media/og-value-chain.jpg"
+		},
+		"risk_disclaimer": {
+			"page_title": "Kanusho la Hatari",
+			"meta_description": "Kagua hatari kuu zinazohusiana na kuwekeza katika shughuli za uchimbaji dhahabu wa usanii za {{site_title}}.",
+			"og_image": "/media/og-risk-disclaimer.jpg"
+		}
+	}
+}

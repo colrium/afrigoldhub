@@ -1,0 +1,53 @@
+{
+	"tag": "Betriebskarte",
+	"headline": "Goldbetriebe in sieben Ländern, Standort für Standort kartiert.",
+	"description": "Entdecken Sie die aktiven Minenstandorte von AfriGold Hub, die regionalen Goldfelder, die regulatorische Abdeckung sowie Feldaufnahmen von der Förderung bis zur Handhabung des fertigen Goldes.",
+	"viewMap": "Karte anzeigen",
+	"viewGallery": "Galerie anzeigen",
+	"mineLocations": "Minenstandorte",
+	"activeSites": "Aktive Standorte",
+	"zeroChemicalInputs": "Keine chemischen Zusätze",
+	"map": {
+		"tag": "Google Karte",
+		"headline": "Betriebe und Minenstandorte",
+		"description": "Wählen Sie einen Standort aus, um die Karte neu zu fokussieren und die Betriebskontexte, Mineralisationen und die mit jedem Standort verbundenen Aufsichtsbehörden zu prüfen."
+	},
+	"gallery": {
+		"tag": "Feldgalerie",
+		"headline": "Einblick in das Produktionsnetzwerk",
+		"description": "Betriebsaufnahmen von der Förderung, der Gravitationsaufbereitung, dem Schmelzen und der dokumentierten Käuferabwicklung.",
+		"ctaPrimary": { "label": "Standortbesuch anfragen", "href": "/contact#site-visit" },
+		"items": [
+			{
+				"src": "/media/site-extraction.jpeg",
+				"title": "Lizenzierte Grubenförderung",
+				"label": "Bergbau",
+				"className": "md:col-span-2 md:row-span-2"
+			},
+			{
+				"src": "/media/gravity-processing.jpeg",
+				"title": "Gravitationsaufbereitungskreislauf",
+				"label": "Verarbeitung",
+				"className": ""
+			},
+			{
+				"src": "/media/smelting.jpeg",
+				"title": "Schmelzen vor Ort",
+				"label": "Schmelzen",
+				"className": ""
+			},
+			{
+				"src": "/media/14.jpeg",
+				"title": "Feldbetrieb",
+				"label": "Standortarbeit",
+				"className": ""
+			},
+			{
+				"src": "/media/sale-distribution.jpeg",
+				"title": "Dokumentierte Verteilung",
+				"label": "Vertrieb",
+				"className": ""
+			}
+		]
+	}
+}

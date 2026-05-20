@@ -34,7 +34,7 @@ export default function ValueChainHero() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-4">
 						{t("value_chain.hero.tag")}
 					</span>
-					<h1 className="font-serif text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
+					<h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
 						{t("value_chain.hero.headline")}
 					</h1>
 					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[700px]">
@@ -68,7 +68,7 @@ export default function ValueChainHero() {
 								key={pillar.id}
 								className="rounded border border-[rgba(201,168,76,0.12)] p-4 text-center"
 							>
-								<div className="font-serif text-3xl text-primary">{index + 1}</div>
+								<div className="text-3xl text-primary">{index + 1}</div>
 								<div className="text-xs text-[#faf5ec] mt-1">{pillar.label}</div>
 							</div>
 						))}

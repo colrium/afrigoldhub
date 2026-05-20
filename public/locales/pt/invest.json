@@ -1,0 +1,122 @@
+{	
+	"hero": {
+		"tag": "Invest",
+		"headline": "Partner in documented gold production",
+		"description": "Choose a structured investment tier backed by licensed sites, chemical-free processing, audited monthly reporting, and clear partner rights from day one.",
+		"badge": { "text": "Minimum 3-month commitment", "status": "active" },
+		"cta_primary": { "label": "Compare Tiers", "href": "#tiers" },
+		"cta_secondary": {
+			"label": "Request Due Diligence",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"labels": {
+		"equity_share": "Equity share",
+		"annual_target": "Annual target",
+		"custom": "Custom"
+	},
+    "tiers": {
+	"tag": "Investment Tiers",
+	"headline": "Choose your position",
+	"description": "All tiers include structured partnership agreements, monthly reporting, and escrow-protected capital. Minimum commitment is three months.",
+	"mostPopular": "Most Popular",
+	"projectedRoi": "Projected ROI:",
+	"items": [
+		{
+			"tier": "Seed Partner",
+			"amount": "$25,000",
+			"roi": "~65% annually",
+			"cta": "Get Started",
+			"ctaStyle": "outline",
+			"features": [
+				"5% equity stake in monthly net profits",
+				"Quarterly financial reporting",
+				"Site visit access twice yearly",
+				"Digital dashboard access",
+				"3-month minimum commitment"
+			]
+		},
+		{
+			"tier": "Strategic Partner",
+			"amount": "$75,000",
+			"roi": "~88% annually",
+			"featured": true,
+			"cta": "Partner With Us",
+			"ctaStyle": "primary",
+			"features": [
+				"18% equity stake in monthly net profits",
+				"Monthly financial reporting",
+				"Unrestricted site access",
+				"Board advisory seat",
+				"Co-branded investor documentation",
+				"Priority exit provisions"
+			]
+		},
+		{
+			"tier": "Anchor Investor",
+			"amount": "$189,000",
+			"roi": "primary partner",
+			"roiPrefix": "Full CAPEX coverage -",
+			"cta": "Contact Us",
+			"ctaStyle": "outline",
+			"features": [
+				"45% equity in net monthly profits",
+				"Full project governance rights",
+				"Joint bank account access",
+				"Named on mining licence documentation",
+				"3-month capital payback guaranteed",
+				"Preferred liquidation rights"
+			]
+		}
+	]
+},
+	"process": {
+		"tag": "How It Works",
+		"headline": "From enquiry to monthly distributions",
+		"description": "A clear partner onboarding path keeps the investment process documented, reviewable, and predictable.",
+		"items": [
+			{
+				"step": 1,
+				"title": "Submit your interest",
+				"description": "Choose a tier or request the due diligence pack so our investment team can qualify your enquiry."
+			},
+			{
+				"step": 2,
+				"title": "Review documents",
+				"description": "Receive licence copies, audited monthly statements, assay examples, sales receipts, and the partner agreement."
+			},
+			{
+				"step": 3,
+				"title": "Execute agreement",
+				"description": "Complete KYC, sign the investment agreement, and fund through the agreed bank transfer route."
+			},
+			{
+				"step": 4,
+				"title": "Track monthly performance",
+				"description": "Receive monthly reports and distributions based on verified net profit and your contracted equity share."
+			}
+		]
+	},
+	"safeguards": {
+		"tag": "Partner Safeguards",
+		"headline": "Built for serious due diligence",
+		"items": [
+			{
+				"title": "Formal investment agreement",
+				"description": "Every tier is governed by a written partnership agreement covering equity share, reporting, term, exit, and distribution terms."
+			},
+			{
+				"title": "Monthly evidence pack",
+				"description": "Partners receive production records, sale receipts, assay certificates, P&L summaries, and distribution calculations."
+			},
+			{
+				"title": "Site access by tier",
+				"description": "Strategic and Anchor partners receive priority site access with operations leadership and finance review sessions."
+			},
+			{
+				"title": "Auditable value chain",
+				"description": "Chain-of-custody documentation follows gold from pit weight ticket through sale and investor distribution."
+			}
+		]
+	}
+}

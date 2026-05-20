@@ -1,0 +1,60 @@
+{
+	"hero": {
+		"badge": "Goldfeld, Afrika",
+		"headline": "Erschließen Sie sich Afrikas <gold>goldene Chance</gold>",
+		"description": "AfriGold Hub verbindet ernsthafte Investoren mit einem der produktivsten artisanalen Goldbergbaubetriebe Afrikas. Bewährte Technologie. Lizenzierte Flächen. Transparente Renditen.",
+		"unlock": "Erschließen",
+		"africa": "Afrikas",
+		"goldenOpportunity": "goldene Chance",
+		"ctaPrimary": "Investitionspläne ansehen",
+		"ctaOutline": "So funktioniert es",
+		"certifiedBy": "Zertifiziert durch"
+	},
+	"certifications_bar": {
+		"label": "Zertifiziert & konform",
+		"status_label": "Alle aktiv",
+		"audit_note": "Letzte Prüfung: 2024",
+		"items": [
+			{
+				"code": "NEMA",
+				"name": "Nationale Umweltbehörde",
+				"note": "UVP-Zertifikat · Aktiv"
+			},
+			{
+				"code": "KRA",
+				"name": "Kenia Steuerbehörde",
+				"note": "Edelmetallhändler"
+			},
+			{
+				"code": "MINES & GEOLOGY",
+				"name": "Bergbau- und Geologieabteilung",
+				"note": "Bergbaulizenz · ML Aktiv"
+			},
+			{
+				"code": "KEBS",
+				"name": "Kenia Büro für Normen",
+				"note": "Analyselabor zertifiziert"
+			},
+			{
+				"code": "WRA",
+				"name": "Wasserressourcenbehörde",
+				"note": "Wassergenehmigung · Aktiv"
+			},
+			{
+				"code": "NITA",
+				"name": "Nationale Industrieausbildungsbehörde",
+				"note": "Berufsbildung zertifiziert"
+			},
+			{
+				"code": "DGSM",
+				"name": "Direktion für Geologische Untersuchungen und Bergbau",
+				"note": "Uganda ML Registriert"
+			},
+			{
+				"code": "UNBS",
+				"name": "Uganda Nationales Büro für Normen",
+				"note": "Analyse-Akkreditierung · Uganda"
+			}
+		]
+	}
+}
