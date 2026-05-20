@@ -26,7 +26,7 @@ import { Avatar } from "@mui/material";
 
 export default function Navbar() {
 	const router = useRouter();
-	const { t, i18n } = useTranslation("common");
+	const { t, i18n } = useTranslation(["common", "meta"]);
     const [state, setState] = useSetState({
 		drawerOpen: false,
 		isWindowScrolled: false,
@@ -37,16 +37,22 @@ export default function Navbar() {
 		languageMenuAnchor: null | HTMLElement;
 	});
     
-    const locales = t("shared.locales", { returnObjects: true }) as {
+    const locales = t("common:locales", { returnObjects: true }) as {
 		code: string;
 		label: string;
 		flag: string;
     }[];
-    const localeCodes = locales.map((locale) => locale.code);
+    console.log("Available locales:", locales);
+    const localeCodes = Array.isArray(locales)? locales.map((locale) => locale.code) : ['en'];
     
-    const localeObj = locales.find((l) => l.code === router.locale) || locales[0];
+    const localeObj = Array.isArray(locales)
+		? locales.find((l) => l.code === router.locale) : {
+				label: "English",
+				code: "en",
+				flag: "/img/flags/en.svg",
+			};
 
-	const navs = t("shared.nav.links", { returnObjects: true }) as {
+	const navs = t("common:nav.links", { returnObjects: true }) as {
 		label: string;
 		href: string;
 		excludeOnMainNav?: boolean;
@@ -164,12 +170,12 @@ export default function Navbar() {
 								noWrap
 								className="mr-2 flex font-mono font-bold text-primary-500  text-inherit no-underline"
 							>
-								{t("site.title")}
+								{t("meta:site.title")}
 							</Typography>
 						</Link>
 
 						<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
-							{navs.map(
+							{Array.isArray(navs) && navs.map(
 								({ label, href, excludeOnMainNav }, i) =>
 									!excludeOnMainNav && (
 										<MuiLink
@@ -202,7 +208,7 @@ export default function Navbar() {
 								open={Boolean(state.languageMenuAnchor)}
 								onClose={handleLanguageMenuClose}
 							>
-								{locales.map((locale) => (
+								{Array.isArray(locales) && locales.map((locale) => (
 									<MenuItem
 										key={locale.code}
 										onClick={() => handleLanguageSelect(locale.code)}
@@ -256,7 +262,7 @@ export default function Navbar() {
 
 					{/* Mobile Navigation Links */}
 					<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-						{navs.map(
+						{Array.isArray(navs) && navs.map(
 							({ excludeOnMainNav, label, href }, i) =>
 								!excludeOnMainNav && (
 									<MuiLink

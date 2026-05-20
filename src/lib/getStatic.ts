@@ -1,6 +1,5 @@
 import { GetStaticPropsContext } from "next/types";
 import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
-
 import i18nextConfig from "../../next-i18next.config";
 
 export const getI18nPaths = () =>
@@ -23,7 +22,8 @@ export const getI18nProps = async (ctx: GetStaticPropsContext, ns: string[] = ["
 	return props;
 };
 
-export const makeStaticProps =	(ns: string[] = []) =>
+export const makeStaticProps =
+	(ns: string[] = ["common"]) =>
 	async (ctx: GetStaticPropsContext) => ({
 		props: await getI18nProps(ctx, ns),
 	});

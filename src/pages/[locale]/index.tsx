@@ -1,40 +1,38 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import type { GetStaticProps, InferGetStaticPropsType } from 'next'
+import Link from "next/link";
+import { useRouter } from "next/router";
+import type { GetStaticProps, InferGetStaticPropsType } from "next";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
 import Head from "next/head";
-import { useTranslation, Trans } from 'next-i18next/pages'
-import { serverSideTranslations } from 'next-i18next/pages/serverSideTranslations'
+import { useTranslation, Trans } from "next-i18next/pages";
 import {
 	HeroSection,
 	MetricsSection,
 	WhySection,
-    OperationsSection,
-    CtaBand,
+	OperationsSection,
+	CtaBand,
 	InvestmentSection,
-    FaqSection,
-    TestimonialsSection,
+	FaqSection,
+	TestimonialsSection,
 } from "@/components/sections";
-import { ParallaxTile } from '@/components/animations/ParallaxTile';
-import ClipReveal from '@/components/animations/ClipReveal';
-import HistoryTimeline from '@/components/sections/HistoryTimeline';
-import Certifications from '@/components/sections/Certifications';
+import { getStaticPaths, makeStaticProps } from "@/lib/getStatic";
 import ComplianceMinimal from "@/components/sections/ComplianceMinimal";
 
-
 type Props = {
-  // Add custom props here
-}
+	// Add custom props here
+};
 
-const Homepage = (
-  _props: InferGetStaticPropsType<typeof getStaticProps>
-) => {
-  const { t } = useTranslation('common')
-
-
-  return (
+const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+	const { t } = useTranslation(["meta", "home", "common"]);
+    const locales = t("common:locales", { returnObjects: true }) as {
+		code: string;
+		label: string;
+		flag: string;
+	}[];
+	console.log("Available home locales:", locales);
+	return (
 		<div className="relative ">
 			<Head>
-				<title>{t("site.title")}</title>
+				<title>{t("meta:pages.home.title")}</title>
 			</Head>
 
 			<HeroSection />
@@ -52,18 +50,39 @@ const Homepage = (
 			<FaqSection />
 			<CtaBand />
 		</div>
-  );
-}
+	);
+};
 
 // or getServerSideProps: GetServerSideProps<Props> = async ({ locale })
-export const getStaticProps: GetStaticProps<Props> = async ({
-  locale,
-}) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? 'en', [
-      'common',
-    ])),
-  },
-})
+ const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
+	props: {
+		...(await serverSideTranslations(locale ?? "en", [
+			"common",
+			"meta",
+			"home",
+			"faq",
+			"testimonials",
+			"invest",
+			"operations",
+			"why",
+			"compliance",
+			"cta",
+		])),
+	},
+});
 
-export default Homepage
+export default Homepage;
+
+/* const getStaticProps = makeStaticProps([
+	"common",
+	"meta",
+	"home",
+	"faq",
+	"testimonials",
+	"invest",
+	"operations",
+	"why",
+	"compliance",
+	"cta",
+]); */
+export { getStaticPaths,  getStaticProps };
