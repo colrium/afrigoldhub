@@ -28,10 +28,10 @@ const Globe = ({ hideRings=false, showcase=["places"], className }: GlobeProps) 
             }
         }
       }); */
-    const { t } = useTranslation("common");
+    const { t } = useTranslation(["common", "operations"]);
    
     
-    const placesData =( t("operations.locations.places", { returnObjects: true }) as {
+    const placesData =( t("operations:locations.places", { returnObjects: true }) as {
 		role: string;
 		country: string;
 		flag?: string;

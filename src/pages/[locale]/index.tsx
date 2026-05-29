@@ -23,12 +23,7 @@ type Props = {
 
 const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 	const { t } = useTranslation(["meta", "home", "common"]);
-    const locales = t("common:locales", { returnObjects: true }) as {
-		code: string;
-		label: string;
-		flag: string;
-	}[];
-	console.log("Available home locales:", locales);
+   
 	return (
 		<div className="relative ">
 			<Head>
@@ -37,7 +32,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
 			<HeroSection />
 
-			<OperationsSection />
+			{/* <OperationsSection />
 			<WhySection />
 			<ComplianceMinimal />
 
@@ -48,13 +43,13 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 			<InvestmentSection />
 			<TestimonialsSection />
 			<FaqSection />
-			<CtaBand />
+			<CtaBand /> */}
 		</div>
 	);
 };
 
 // or getServerSideProps: GetServerSideProps<Props> = async ({ locale })
- const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
+/* const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
 	props: {
 		...(await serverSideTranslations(locale ?? "en", [
 			"common",
@@ -69,11 +64,11 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 			"cta",
 		])),
 	},
-});
+}); */
 
 export default Homepage;
 
-/* const getStaticProps = makeStaticProps([
+const getStaticProps = makeStaticProps([
 	"common",
 	"meta",
 	"home",
@@ -84,5 +79,5 @@ export default Homepage;
 	"why",
 	"compliance",
 	"cta",
-]); */
+]);
 export { getStaticPaths,  getStaticProps };

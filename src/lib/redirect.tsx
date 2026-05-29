@@ -12,8 +12,7 @@ export const useRedirect = (to?: string) => {
   const target = to || router.asPath
 
   useEffect(() => {
-    const detector = languageDetector as unknown as LanguageDetector
-    const detectedLng = detector.detect()
+    const detectedLng = languageDetector.detect()
     console.log("Detected language:", detectedLng, "target", target, "current route", router.route);
     if (target.startsWith('/' + detectedLng) && router.route === '/404') {
       // prevent endless loop
@@ -21,13 +20,16 @@ export const useRedirect = (to?: string) => {
       return
     }
 
-    detector.cache(detectedLng)
+    
     router.replace('/' + detectedLng + target)
     // eslint-disable-next-line no-undef
-    document.documentElement.lang = detectedLng
+    if (detectedLng && languageDetector?.cache) {       
+        languageDetector.cache(detectedLng);
+        document.documentElement.lang = detectedLng
+    }
     // intentionally no deps on router to mimic previous behavior
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [target])
+  }, [])
 
   return null
 }

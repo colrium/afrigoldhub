@@ -20,8 +20,8 @@ const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 });
 
 export default function HeroSection() {
-	const { t } = useTranslation("common");
-    const certifications = t("shared.certifications_bar.items", { returnObjects: true }) as {
+	const { t } = useTranslation(["common", "home"]);
+    const certifications = t("home:certifications_bar.items", { returnObjects: true }) as {
 		code: string;
 		name: string;
 		note: string;
@@ -33,7 +33,7 @@ export default function HeroSection() {
 					<div>
 						<h1 className="text-[clamp(2.8rem,5vw,4.2rem)] tracking-tight mb-6 text-on-surface">
 							<Trans
-								i18nKey="hero.headline" // optional -> fallbacks to defaults if not provided
+								i18nKey="home:hero.headline" // optional -> fallbacks to defaults if not provided
 								defaults="Unlock Africa's <gold>Golden Opportunity</gold>" // optional defaultValue
 								components={{
 									italic: <i />,
@@ -43,7 +43,7 @@ export default function HeroSection() {
 						</h1>
 
 						<p className="text-base text-onsurface-100  leading-[1.75] mb-10 max-w-[480px] font-light">
-							{t("hero.description")}
+							{t("home:hero.description")}
 						</p>
 
 						<div className="flex gap-4 flex-wrap">
@@ -51,13 +51,13 @@ export default function HeroSection() {
 								href="#invest"
 								className="text-[0.95rem] bg-primary text-black font-medium px-8 py-3.5 rounded hover:bg-[#E5C46A] hover:-translate-y-px hover:shadow-[0_8px_30px_rgba(201,168,76,0.25)] transition-all border border-primary"
 							>
-								{t("hero.ctaPrimary")}
+								{t("home:hero.ctaPrimary")}
 							</Link>
 							<Link
 								href="#operations"
 								className="text-[0.95rem] text-primary font-light px-8 py-3.5 rounded border border-[rgba(201,168,76,0.15)] hover:border-primary hover:bg-[rgba(201,168,76,0.06)] transition-all"
 							>
-								{t("hero.ctaOutline")}
+								{t("home:hero.ctaOutline")}
 							</Link>
 						</div>
 
@@ -81,7 +81,7 @@ export default function HeroSection() {
 					<div className=" flex flex-col justify-center items-center max-w-md mx-auto">
 						<div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-1.5 text-xs text-onSurface-100 tracking-[0.08em] uppercase mb-7">
 							<span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
-							<span>{t("hero.badge")}</span>
+							<span>{t("home:hero.badge")}</span>
 						</div>
 						<HeroGlobe />
 					</div>

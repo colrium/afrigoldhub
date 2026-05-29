@@ -43,14 +43,10 @@ export default function Navbar() {
 		flag: string;
     }[];
     console.log("Available locales:", locales);
-    const localeCodes = Array.isArray(locales)? locales.map((locale) => locale.code) : ['en'];
+    console.log("router:", router);
+    const localeCodes =  locales.map((locale) => locale.code);
     
-    const localeObj = Array.isArray(locales)
-		? locales.find((l) => l.code === router.locale) : {
-				label: "English",
-				code: "en",
-				flag: "/img/flags/en.svg",
-			};
+    const localeObj = locales.find((l) => l.code === router.locale) || locales.find((l) => l.code === i18n.language) || { code: 'en', label: 'English', flag: '/flags/en.svg' };
 
 	const navs = t("common:nav.links", { returnObjects: true }) as {
 		label: string;
