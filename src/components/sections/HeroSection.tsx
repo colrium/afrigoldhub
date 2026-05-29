@@ -63,7 +63,7 @@ export default function HeroSection() {
 
 						<div className="mt-12 pt-8 shimmer-t border-primary flex flex-col items-center gap-6">
 							<span className="text-xs text-onsurface-100 tracking-[0.06em] uppercase whitespace-nowrap">
-								{t("hero.certifiedBy")}
+								{t("home:hero.certifiedBy")}
 							</span>
 							<div className="flex gap-2 flex-wrap">
 								{certifications.map((cert, i) => (

@@ -31,13 +31,14 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
     const router = useRouter();
 
     const renderPageWithLayout = Component.getLayout ?? withLandingPageLayout;
-    const locale = router.query.locale as string;
-    console.log("App component, current locale:", locale, "current route:", router.route);
+    const locale = router.locale as string;
+    // console.log("App component current route:", router);
+    /* console.log("App component current route.locale:", router.locale);
 	useEffect(() => {
 		if (locale && i18n.language !== locale) {
 			// i18n.changeLanguage(locale);
 		}
-	}, [locale]);
+	}, [locale]); */
 	return (
 		<div className={` ${montserrat.variable} ${manrope.variable}`}>
 			<ThemeProvider theme={theme}>

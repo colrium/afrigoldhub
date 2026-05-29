@@ -44,6 +44,7 @@ export default function Navbar() {
     }[];
     console.log("Available locales:", locales);
     console.log("router:", router);
+
     const localeCodes =  locales.map((locale) => locale.code);
     
     const localeObj = locales.find((l) => l.code === router.locale) || locales.find((l) => l.code === i18n.language) || { code: 'en', label: 'English', flag: '/flags/en.svg' };
@@ -142,9 +143,7 @@ export default function Navbar() {
 				}}
 			>
 				<Container maxWidth="xl">
-					<Toolbar disableGutters className={`bg-transparent!`} >
-						{/* Drawer Toggle Button - Visible only on small devices */}
-
+					<Toolbar disableGutters className={`bg-transparent!`}>
 						<IconButton
 							onClick={handleDrawerToggle}
 							classes={{ root: "md:hidden! mr-4!" }}
@@ -170,26 +169,26 @@ export default function Navbar() {
 							</Typography>
 						</Link>
 
-						<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
-							{Array.isArray(navs) && navs.map(
-								({ label, href, excludeOnMainNav }, i) =>
-									!excludeOnMainNav && (
-										<MuiLink
-											component={Link}
-											color="textPrimary"
-											className={`text-xs mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
-											href={localizePath(href, currentLocale)}
-											locale={false}
-											key={`nav-${i}`}
-										>
-											{label}
-										</MuiLink>
-									)
-							)}
+						<Box className="hidden md:flex flex-1 md:grow md:gap-4 md:items-center md:justify-end">
+							{Array.isArray(navs) &&
+								navs.map(
+									({ label, href, excludeOnMainNav }, i) =>
+										!excludeOnMainNav && (
+											<MuiLink
+												component={Link}
+												color="textPrimary"
+												className={`text-xs mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
+												href={localizePath(href, currentLocale)}
+												locale={false}
+												key={`nav-${i}`}
+											>
+												{label}
+											</MuiLink>
+										)
+								)}
 						</Box>
 
-						{/* Language Toggle - Visible on all devices */}
-						<Box className="md:hidden flex-grow" />
+						<Box className="md:hidden grow" />
 						<Box className="flex items-center gap-2">
 							<Avatar
 								onClick={handleLanguageMenuOpen}
@@ -197,30 +196,31 @@ export default function Navbar() {
 								sx={{ width: 24, height: 24 }}
 								src={localeObj.flag}
 								alt={localeObj.label}
-								title={t("changeLanguage")}
+								title={t("common:misc.changeLanguage")}
 							/>
 							<Menu
 								anchorEl={state.languageMenuAnchor}
 								open={Boolean(state.languageMenuAnchor)}
 								onClose={handleLanguageMenuClose}
 							>
-								{Array.isArray(locales) && locales.map((locale) => (
-									<MenuItem
-										key={locale.code}
-										onClick={() => handleLanguageSelect(locale.code)}
-										selected={router.locale === locale.code}
-										disabled={router.locale === locale.code}
-									>
-										<Image
-											className="mr-2"
-											width={14}
-											height={10}
-											src={locale.flag}
-											alt={locale.label}
-										/>
-										{locale.label}
-									</MenuItem>
-								))}
+								{Array.isArray(locales) &&
+									locales.map((locale) => (
+										<MenuItem
+											key={locale.code}
+											onClick={() => handleLanguageSelect(locale.code)}
+											selected={router.locale === locale.code}
+											disabled={router.locale === locale.code}
+										>
+											<Image
+												className="mr-2"
+												width={14}
+												height={10}
+												src={locale.flag}
+												alt={locale.label}
+											/>
+											{locale.label}
+										</MenuItem>
+									))}
 							</Menu>
 						</Box>
 					</Toolbar>
@@ -258,29 +258,30 @@ export default function Navbar() {
 
 					{/* Mobile Navigation Links */}
 					<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-						{Array.isArray(navs) && navs.map(
-							({ excludeOnMainNav, label, href }, i) =>
-								!excludeOnMainNav && (
-									<MuiLink
-										component={Link}
-										key={`mobile-nav-${i}`}
-										href={localizePath(href, currentLocale)}
-										locale={false}
-										onClick={handleDrawerToggle}
-										sx={{
-											py: 1,
-											px: 2,
-											borderRadius: 1,
-											"&:hover": {
-												backgroundColor: "rgba(0, 0, 0, 0.05)",
-											},
-										}}
-										className="no-underline py-1 px-2 hover:bg-primary-light"
-									>
-										{label}
-									</MuiLink>
-								)
-						)}
+						{Array.isArray(navs) &&
+							navs.map(
+								({ excludeOnMainNav, label, href }, i) =>
+									!excludeOnMainNav && (
+										<MuiLink
+											component={Link}
+											key={`mobile-nav-${i}`}
+											href={localizePath(href, currentLocale)}
+											locale={false}
+											onClick={handleDrawerToggle}
+											sx={{
+												py: 1,
+												px: 2,
+												borderRadius: 1,
+												"&:hover": {
+													backgroundColor: "rgba(0, 0, 0, 0.05)",
+												},
+											}}
+											className="no-underline py-1 px-2 hover:bg-primary-light"
+										>
+											{label}
+										</MuiLink>
+									)
+							)}
 					</Box>
 				</Box>
 			</Drawer>
