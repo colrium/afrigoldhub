@@ -2,6 +2,6 @@
 export default Redirect; */
 
 // to keep this root page with the defaultLocale
-import Page, { getStaticProps } from "./[locale]/contact";
+import Page, { getServerSideProps } from "./[locale]/contact";
 export default Page;
-export { getStaticProps };
+export { getServerSideProps };

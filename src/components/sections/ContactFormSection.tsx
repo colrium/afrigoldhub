@@ -20,11 +20,11 @@ type ReasonState = {
 };
 
 function inputClassName() {
-	return "w-full rounded bg-[#0A0A0A] border border-[rgba(201,168,76,0.14)] px-4 py-3 text-sm text-onSurface-100 outline-none transition focus:border-primary placeholder:text-[#faf5ec]/35";
+	return "w-full rounded bg-surface border border-[rgba(201,168,76,0.14)] px-4 py-3 text-sm text-onSurface-100 outline-none transition focus:border-primary placeholder:text-[#faf5ec]/35";
 }
 
 export default function ContactFormSection() {
-	const { t } = useTranslation("common");
+	const { t } = useTranslation([  "contact", "operations" ]);
 	const router = useRouter();
 	const [state, setState] = useState<ReasonState>({
 		reason: "",
@@ -32,18 +32,18 @@ export default function ContactFormSection() {
 		sent: false,
 	});
 
-	const reasons = t("contact.contact_reasons.options", {
+	const reasons = t("contact:contact_reasons.options", {
 		returnObjects: true,
 	}) as Option[];
-	const fields = t("contact.form.fields", { returnObjects: true }) as Record<
+	const fields = t("contact:form.fields", { returnObjects: true }) as Record<
 		string,
 		Field
 	>;
-	const operationCountries = t("operations.locations.countries", {
+	const operationCountries = t("operations:locations.countries", {
 		returnObjects: true,
 	}) as string[];
 	const officeCountries = (
-		t("contact.offices.items", { returnObjects: true }) as { country: string }[]
+		t("contact:offices.items", { returnObjects: true }) as { country: string }[]
 	).map((office) => office.country);
 	const countries = Array.from(new Set([...operationCountries, ...officeCountries]));
 
@@ -70,21 +70,21 @@ export default function ContactFormSection() {
 			<div className="max-w-[1180px] mx-auto px-8 grid lg:grid-cols-[0.75fr_1.25fr] gap-12">
 				<div>
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-						{t("contact.form.tag")}
+						{t("contact:form.tag")}
 					</span>
 					<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
-						{t("contact.form.headline")}
+						{t("contact:form.headline")}
 					</h2>
 					<p className="text-base text-[#faf5ec] leading-[1.75] font-light">
-						{t("contact.form.description")}
+						{t("contact:form.description")}
 					</p>
 					{state.sent && (
 						<div className="mt-8 rounded-lg border border-primary/30 bg-primary/10 p-5">
 							<div className="text-primary font-medium">
-								{t("contact.form.success_heading")}
+								{t("contact:form.success_heading")}
 							</div>
 							<p className="text-sm text-[#faf5ec] mt-2 leading-relaxed">
-								{t("contact.form.success_body")}
+								{t("contact:form.success_body")}
 							</p>
 						</div>
 					)}
@@ -233,7 +233,7 @@ export default function ContactFormSection() {
 						type="submit"
 						className="inline-flex items-center justify-center gap-2 bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all"
 					>
-						{t("contact.form.submit_label")}
+						{t("contact:form.submit_label")}
 						<SendIcon fontSize="small" />
 					</button>
 				</form>

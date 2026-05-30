@@ -1,6 +1,6 @@
 import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import PageHead from "@/components/Head";
 import { LegalPageSection } from "@/components/sections";
 
 type Props = {
@@ -52,18 +52,10 @@ const sections = [
 	},
 ];
 
-const RiskDisclaimerPage = (
-	_props: InferGetStaticPropsType<typeof getStaticProps>
-) => {
+const RiskDisclaimerPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 	return (
 		<div className="relative">
-			<Head>
-				<title>Risk Disclaimer - AfriGold Hub</title>
-				<meta
-					name="description"
-					content="Read the AfriGold Hub risk disclaimer covering mining operations, market exposure, regulatory risk, due diligence, and return uncertainty."
-				/>
-			</Head>
+			<PageHead pageName="risk_disclaimer" />
 			<LegalPageSection
 				label="Risk"
 				title="Risk Disclaimer"
@@ -79,7 +71,7 @@ const RiskDisclaimerPage = (
 
 export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
 	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
+		...(await serverSideTranslations(locale ?? "en", ["common", "meta"])),
 	},
 });
 

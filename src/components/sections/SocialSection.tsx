@@ -20,21 +20,21 @@ function SocialIcon({ icon }: { icon: string }) {
 }
 
 export default function SocialSection() {
-	const { t } = useTranslation("common");
-	const channels = t("contact.social.channels", {
+	const { t } = useTranslation([ "contact" ]);
+	const channels = t("contact:social.channels", {
 		returnObjects: true,
 	}) as SocialChannel[];
 
 	return (
-		<section className="bg-[#0A0A0A] py-20">
+		<section className="py-20">
 			<div className="max-w-[1180px] mx-auto px-8">
 				<div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-10">
 					<div>
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-							{t("contact.social.tag")}
+							{t("contact:social.tag")}
 						</span>
 						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
-							{t("contact.social.headline")}
+							{t("contact:social.headline")}
 						</h2>
 					</div>
 				</div>
@@ -45,13 +45,13 @@ export default function SocialSection() {
 							href={channel.url}
 							target="_blank"
 							rel="noreferrer"
-							className="rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#111111] p-5 text-onSurface-100 hover:border-primary hover:text-primary transition-colors"
+							className="rounded-lg border border-surface-900/50 bg-surface-900 p-5 text-onSurface-100 hover:border-primary hover:text-primary transition-colors"
 						>
 							<div className="mb-5 text-primary">
 								<SocialIcon icon={channel.icon} />
 							</div>
 							<div className="font-medium">{channel.platform}</div>
-							<div className="text-sm text-[#faf5ec] mt-1">{channel.handle}</div>
+							<div className="text-sm text-onSurface-100 mt-1">{channel.handle}</div>
 						</Link>
 					))}
 				</div>

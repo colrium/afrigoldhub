@@ -1,32 +1,40 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import Head from "next/head";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import type { GetServerSideProps, NextPage } from "next";
 import { LocationsPageSection, CtaBand } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
+import PageHead from "@/components/Head";
 
-type Props = {
+type PageProps = {
 	// Add custom props here
 };
 
-const LocationsPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+const LocationsPage: NextPage<PageProps> = () => {
 	return (
 		<div className="relative">
-			<Head>
-				<title>Locations - AfriGold Hub</title>
-				<meta
-					name="description"
-					content="Explore AfriGold Hub mine locations, operations sites, Google Maps coverage, and field gallery across Africa."
-				/>
-			</Head>
+			<PageHead pageName="locations" />
 			<LocationsPageSection />
 			<CtaBand />
 		</div>
 	);
 };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
-	},
-});
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, [
+		"common",
+		"meta",
+		"operations",
+		"metrics",
+		"why",
+		"history",
+		"value",
+		"invest",
+		"compliance",
+		"cta",
+		"testimonials",
+		"faq",
+	]);
 
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
 export default LocationsPage;

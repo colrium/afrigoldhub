@@ -11,19 +11,19 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 
 type MineLocation = {
 	role?: string;
-	country: string;
-	site: string;
-	region: string;
-	lat: number;
-	lng: number;
+	country?: string;
+	site?: string;
+	region?: string;
+	lat?: number;
+	lng?: number;
 	deposit_type?: string[];
-	goldfield: string;
-	geology: string;
-	licence_authority: string;
-	regulatory_body: string;
-	status: string;
+	goldfield?: string;
+	geology?: string;
+	licence_authority?: string;
+	regulatory_body?: string;
+	status?: string;
 	elevation_m?: number;
-	notes: string;
+	notes?: string;
 };
 
 const galleryItems = [
@@ -65,20 +65,20 @@ function googleMapSrc(location: MineLocation) {
 }
 
 export default function LocationsPageSection() {
-	const { t } = useTranslation("common");
-	const locations = t("operations.locations.places", {
+	const { t } = useTranslation(["operations"]);
+	const locations = t("operations:locations.places", {
 		returnObjects: true,
 	}) as MineLocation[];
 	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	const selectedLocation = locations[selectedIndex] ?? locations[0];
 	const activeSites = useMemo(
-		() => locations.filter((location) => location.status === "active").length,
+		() => Array.isArray(locations) ? locations.filter((location) => location.status === "active") : [],
 		[locations]
 	);
 
 	return (
-		<div className="relative overflow-hidden bg-[#050505]">
+		<div className="relative overflow-hidden bg-surface-900">
 			<section className="relative pt-24 pb-16 md:pt-32 md:pb-24">
 				<div
 					className="absolute inset-0 pointer-events-none"
@@ -96,7 +96,7 @@ export default function LocationsPageSection() {
 						<h1 className="text-5xl md:text-7xl leading-none text-onSurface-100 max-w-[780px]">
 							Seven-country gold operations, mapped site by site.
 						</h1>
-						<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[680px]">
+						<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[680px]">
 							Explore AfriGold Hub&apos;s active mine locations, regional goldfields,
 							regulatory coverage, and field imagery from extraction through finished
 							gold handling.
@@ -104,7 +104,7 @@ export default function LocationsPageSection() {
 						<div className="mt-9 flex flex-wrap gap-3">
 							<a
 								href="#map"
-								className="inline-flex items-center gap-2 text-[0.95rem] bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all"
+								className="inline-flex items-center gap-2 text-[0.95rem] bg-primary text-surface font-medium px-7 py-3.5 rounded border border-primary hover:bg-primary transition-all"
 							>
 								View Map
 								<MapIcon fontSize="small" />
@@ -125,7 +125,7 @@ export default function LocationsPageSection() {
 								<div className="text-xs text-[#faf5ec] mt-1">Mine locations</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl text-primary">{activeSites}</div>
+								<div className="text-3xl text-primary">{activeSites.length}</div>
 								<div className="text-xs text-[#faf5ec] mt-1">Active sites</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">

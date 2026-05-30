@@ -2,6 +2,6 @@
 export default Redirect; */
 
 // to keep this root page with the defaultLocale
-import Page, { getStaticProps } from "./[locale]/value-chain";
+import Page, { getServerSideProps } from "./[locale]/value-chain";
 export default Page;
-export { getStaticProps };
+export { getServerSideProps };

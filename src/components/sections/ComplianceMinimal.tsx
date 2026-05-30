@@ -9,8 +9,8 @@ import { Chip } from "@mui/material";
 import Image from "next/image";
 
 export default function ComplianceMinimal() {
-	const { t } = useTranslation("common");
-	const licences = t("compliance.items", { returnObjects: true }) as {
+	const { t } = useTranslation(["common", "compliance"]);
+	const licences = t("compliance:items", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		issuer: string;
@@ -23,17 +23,17 @@ export default function ComplianceMinimal() {
 		<section className="bg-black py-24">
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
-					<SectionTag className="text-primary">{t("compliance.tag")}</SectionTag>
+					<SectionTag className="text-primary">{t("compliance:tag")}</SectionTag>
 					<h2 className="text-4xl lg:text-5xl tracking-tight mb-4">
 						<Trans
-							i18nKey="compliance.headline"
+							i18nKey="compliance:headline"
 							defaults="Every permit. <gold>Every certification.</gold>"
 							components={{
 								gold: <span className="text-primary!   font-bold" />,
 							}}
 						/>
 					</h2>
-					<p className="text-sm text-muted font-light">{t("compliance.description")}</p>
+					<p className="text-sm text-muted font-light">{t("compliance:description")}</p>
 				</div>
 
 				<div className="flex flex-wrap gap-5">
@@ -57,22 +57,22 @@ export default function ComplianceMinimal() {
 				<FadeUp>
 					<div className="mt-5 bg-surface-700 rounded-xl p-12 flex flex-col md:flex-row items-center justify-center gap-5">
 						<div>
-							<div className="w-[132px] h-[132px]  bg-surface-800 text-[72px] text-onSurface-100 rounded-full flex items-center justify-center ">
+							<div className="w-33 h-33  bg-surface-800 text-[72px] text-onSurface-100 rounded-full flex items-center justify-center ">
 								<AccountBalanceIcon fontSize="inherit" />
 							</div>
 						</div>
 
 						<div>
 							<div className="text-xl font-medium text-off-white mb-0.5">
-								{t("compliance.cda.title")}
+								{t("compliance:cda.title")}
 							</div>
 							<div className="text-xs text-muted font-light leading-relaxed">
-								{t("compliance.cda.description")}
+								{t("compliance:cda.description")}
 							</div>
 						</div>
 						<span className="shrink-0 flex items-center gap-1.5 text-xs text-green-400 whitespace-nowrap">
 							<span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
-							{t("compliance.cda.status")}
+							{t("compliance:cda.status")}
 						</span>
 					</div>
 				</FadeUp>

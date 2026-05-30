@@ -23,8 +23,11 @@
 	"projectedRoi": "Projected ROI:",
 	"items": [
 		{
+            "id": "seed-partner",
 			"tier": "Seed Partner",
-			"amount": "$25,000",
+			"amount": 25000,
+            "currency": "USD",
+            "roiPrefix": "Estimated -",
 			"roi": "~65% annually",
 			"cta": "Get Started",
 			"ctaStyle": "outline",
@@ -37,8 +40,12 @@
 			]
 		},
 		{
+			"id": "strategic-partner",
+
 			"tier": "Strategic Partner",
-			"amount": "$75,000",
+			"amount": 75000,
+			"currency": "USD",
+            "roiPrefix": "Estimated -",
 			"roi": "~88% annually",
 			"featured": true,
 			"cta": "Partner With Us",
@@ -53,8 +60,11 @@
 			]
 		},
 		{
+			"id": "anchor-investor",
+
 			"tier": "Anchor Investor",
-			"amount": "$189,000",
+			"amount": 189000,
+			"currency": "USD",
 			"roi": "primary partner",
 			"roiPrefix": "Full CAPEX coverage -",
 			"cta": "Contact Us",

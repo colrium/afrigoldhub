@@ -55,34 +55,28 @@ export default function Navbar() {
 		excludeOnMainNav?: boolean;
 	}[];
 
-    const  stripLocalePrefix = (path: string) => {
-		const parts = path.split("/");
-		const maybeLocale = parts[1];
+const stripLocalePrefix = (path: string) => {
+		const localePattern = new RegExp(`^/(${localeCodes.join("|")})(?:/|$)`);
+		const strippedPath = path.replace(localePattern, "/");
+		return strippedPath === "" ? "/" : strippedPath;
+	};
 
-		if (localeCodes.includes(maybeLocale)) {
-			return `/${parts.slice(2).join("/")}` || "/";
+	const localizePath = (path: string, locale: string) => {
+		if (!path.startsWith("/") || path.startsWith("//")) {
+			return path;
 		}
 
-		return path || "/";
-	}
+		const [pathAndQuery, hash] = path.split("#");
+		const [pathname, query] = pathAndQuery.split("?");
+		const cleanPathname = stripLocalePrefix(pathname);
+		const localizedPathname =
+			cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
 
-    const  localizePath = (path: string, locale: string) => {
-        if (!path.startsWith("/") || path.startsWith("//")) {
-            return path;
-        }
-    
-        const [pathAndQuery, hash] = path.split("#");
-        const [pathname, query] = pathAndQuery.split("?");
-        const cleanPathname = stripLocalePrefix(pathname);
-        const localizedPathname =
-            cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
-    
-        return `${localizedPathname}${query ? `?${query}` : ""}${
-            hash ? `#${hash}` : ""
-        }`;
-    }
+		return `${localizedPathname}${query ? `?${query}` : ""}${
+			hash ? `#${hash}` : ""
+		}`;
+	};
 
-    
 	const onToggleLanguageClick = async (newLocale: string) => {
 		if (newLocale === router.locale) {
 			return;
@@ -91,7 +85,7 @@ export default function Navbar() {
 
 		document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
 		await i18n.changeLanguage(newLocale);
-		await router.push(localizedPath);
+		await router.replace(localizedPath, undefined, { locale: false });
 	};
 
 

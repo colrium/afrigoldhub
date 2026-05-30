@@ -1,5 +1,4 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import type { GetServerSideProps, NextPage } from "next";
 import {
 	ContactDetailsSection,
 	ContactFaqSection,
@@ -9,14 +8,17 @@ import {
 	SiteVisitSection,
 	SocialSection,
 } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
+import PageHead from "@/components/Head";
 
-type Props = {
+type PageProps = {
 	// Add custom props here
 };
 
-const ContactPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+const ContactPage: NextPage<PageProps> = () => {
 	return (
 		<div className="relative">
+			<PageHead pageName="contact" />
 			<ContactHero />
 			<ContactFormSection />
 			<ContactDetailsSection />
@@ -28,10 +30,19 @@ const ContactPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => 
 	);
 };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
-	},
-});
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, [
+		"common",
+		"meta",
+		"contact",
+		"value",
+		"invest",
+		"cta",
+	]);
+
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
 
 export default ContactPage;

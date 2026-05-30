@@ -19,8 +19,8 @@ const icons = {
 };
 
 export default function WhySection() {
-	const { t } = useTranslation("common");
-	const cards = t("why.cards", { returnObjects: true }) as {
+	const { t } = useTranslation([  "common", "why"]);
+	const cards = t("why:cards", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		description: string;
@@ -31,13 +31,13 @@ export default function WhySection() {
 				<div className="max-w-150 mb-16">
 					<FadeUp delay={0.1}>
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-							{t("why.tag")}
+							{t("why:tag")}
 						</span>
 					</FadeUp>
 					<FadeUp delay={0.1}>
 						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 							<Trans
-								i18nKey="why.headline" 
+								i18nKey="why:headline" 
 								defaults="Built on proven ground, <gold>engineered for returns</gold>"
 								components={{
 									gold: <span className="text-primary!" />,
@@ -47,7 +47,7 @@ export default function WhySection() {
 					</FadeUp>
 					<FadeUp delay={0.2}>
 						<p className="text-base text-onSurface-100 leading-[1.75] font-light max-w-[560px]">
-							{t("why.description")}
+							{t("why:description")}
 						</p>
 					</FadeUp>
 				</div>

@@ -1,5 +1,5 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import type { GetServerSideProps, NextPage } from "next";
+import PageHead from "@/components/Head";
 import {
 	AboutGovernanceSection,
 	AboutHero,
@@ -10,14 +10,16 @@ import {
 	ComplianceMinimal,
 	CtaBand,
 } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
 
-type Props = {
+type PageProps = {
 	// Add custom props here
 };
 
-const AboutPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+const AboutPage: NextPage<PageProps> = () => {
 	return (
 		<div className="relative">
+			<PageHead pageName="about" />
 			<AboutHero />
 			<AboutStorySection />
 			<AboutPrinciplesSection />
@@ -29,11 +31,22 @@ const AboutPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 		</div>
 	);
 };
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, [
+		"common",
+		"meta",
+		"about",
+		"contact",
+		"value",
+		"invest",
+		"cta",
+		"metrics",
+		"compliance",
+	]);
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
-	},
-});
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
 
 export default AboutPage;

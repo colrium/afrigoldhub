@@ -1,5 +1,5 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import type { GetServerSideProps, NextPage } from "next";
+import PageHead from "@/components/Head";
 import {
 	ValueChainCtaSection,
 	ValueChainEsgSection,
@@ -9,14 +9,16 @@ import {
 	ValueChainStagesSection,
 	ValueChainTransparencySection,
 } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
 
-type Props = {
+type PageProps = {
 	// Add custom props here
 };
 
-const ValueChainPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
+const ValueChainPage: NextPage<PageProps> = () => {
 	return (
 		<div className="relative">
+			<PageHead pageName="value_chain" />
 			<ValueChainHero />
 			<ValueChainOverviewSection />
 			<ValueChainStagesSection />
@@ -28,10 +30,25 @@ const ValueChainPage = (_props: InferGetStaticPropsType<typeof getStaticProps>) 
 	);
 };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
-	},
-});
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, [
+		"common",
+		"meta",
+		"operations",
+		"metrics",
+		"why",
+		"history",
+		"value",
+		"invest",
+		"compliance",
+		"cta",
+		"testimonials",
+		"faq",
+	]);
+
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
 
 export default ValueChainPage;

@@ -17,7 +17,7 @@ export const useRedirect = (to?: string) => {
     if (target.startsWith('/' + detectedLng) && router.route === '/404') {
       // prevent endless loop
       router.replace('/' + detectedLng + router.route)
-      return
+        return;
     }
 
     
@@ -36,7 +36,7 @@ export const useRedirect = (to?: string) => {
 
 export const Redirect: React.FC = () => {
   useRedirect()
-  return null
+  return <></>
 }
 
 export const getRedirect = (to?: string) => () => {
