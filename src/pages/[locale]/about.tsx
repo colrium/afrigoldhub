@@ -1,0 +1,52 @@
+import type { GetServerSideProps, NextPage } from "next";
+import PageHead from "@/components/Head";
+import {
+	AboutGovernanceSection,
+	AboutHero,
+	AboutPrinciplesSection,
+	AboutStorySection,
+	AboutTeamSection,
+	AboutTimelineSection,
+	ComplianceMinimal,
+	CtaBand,
+} from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
+
+type PageProps = {
+	// Add custom props here
+};
+
+const AboutPage: NextPage<PageProps> = () => {
+	return (
+		<div className="relative">
+			<PageHead pageName="about" />
+			<AboutHero />
+			<AboutStorySection />
+			<AboutPrinciplesSection />
+			<AboutTeamSection />
+			<AboutGovernanceSection />
+			<AboutTimelineSection />
+			<ComplianceMinimal />
+			<CtaBand />
+		</div>
+	);
+};
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, [
+		"common",
+		"meta",
+		"about",
+		"contact",
+		"value",
+		"invest",
+		"cta",
+		"metrics",
+		"compliance",
+	]);
+
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
+
+export default AboutPage;

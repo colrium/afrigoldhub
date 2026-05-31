@@ -1,0 +1,48 @@
+{
+	"header": "Aperçu des performances en temps réel",
+	"stats": {
+		"grossRevenue": {
+			"value": "572 k$",
+			"label": "Revenu brut mensuel"
+		},
+		"profitMargin": {
+			"value": "88 %",
+			"label": "Marge bénéficiaire nette"
+		},
+		"experience": {
+			"value": "10 ans",
+			"label": "Expérience sectorielle"
+		},
+		"investmentAsk": {
+			"value": "189 k$",
+			"label": "Montant total d’investissement requis"
+		}
+	},
+	"bars": {
+		"goldOutput": "Production d’or",
+		"efficiency": "Efficacité",
+		"roiTarget": "Objectif de ROI"
+	},
+	"strip": {
+		"monthlyRevenue": {
+			"value": "572 k$",
+			"label": "Revenu mensuel"
+		},
+		"goldPerMonth": {
+			"value": "~266 kg",
+			"label": "Or par mois"
+		},
+		"yearsInSector": {
+			"value": "10+",
+			"label": "Années dans le secteur"
+		},
+		"chemicalInputs": {
+			"value": "0",
+			"label": "Intrants chimiques"
+		},
+		"paybackPeriod": {
+			"value": "3 mois",
+			"label": "Délai de récupération"
+		}
+	}
+}

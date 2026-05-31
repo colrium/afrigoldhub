@@ -1,0 +1,75 @@
+{
+	"misc": {
+		"label": "Confidentialité",
+		"title": "Politique de confidentialité",
+		"description": "Cette politique explique comment {{site_title}} traite les informations soumises via notre site Web, nos formulaires de contact, les demandes d’investisseurs et les demandes de visite de site.",
+		"lastUpdatedLabel": "Dernière mise à jour",
+		"lastUpdated": "16 mai 2026",
+		"contactLabel": "Contacter l’équipe confidentialité",
+		"contactLink": "/contact?reason=privacy",
+		"note": "Cette page est conçue comme un avis de confidentialité pratique pour le site Web et doit être examinée avec un conseil qualifié pour les exigences légales spécifiques à chaque juridiction avant d’être traitée comme une politique légale définitive. Toute question concernant cette page ou son application à votre demande peut être envoyée à l’équipe {{site_title}}."
+	},
+	"hero": {
+		"tag": "Politique de confidentialité",
+		"headline": "Vos informations, notre engagement",
+		"description": "Nous nous engageons à protéger vos informations personnelles et à garantir la transparence sur la manière dont nous collectons, utilisons et protégeons vos données.",
+		"badge": { "text": "Engagement minimum de 3 mois", "status": "active" },
+		"cta_primary": { "label": "Comparer les niveaux", "href": "/invest#tiers" },
+		"cta_secondary": {
+			"label": "Demander une due diligence",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"contact": {
+		"description": "Toute question concernant cette page ou son application à votre demande peut être envoyée à l’équipe AfriGold Hub.",
+		"link": {
+			"label": "Contacter l’équipe confidentialité",
+			"href": "/contact?reason=privacy"
+		}
+	},
+	"articles": [
+		{
+			"title": "Informations que nous collectons",
+			"content": [
+				"Nous collectons les informations que vous choisissez de fournir lorsque vous soumettez une demande, demandez des documents destinés aux investisseurs, planifiez une visite de site ou contactez AfriGold Hub. Cela peut inclure votre nom, votre adresse e-mail, votre numéro de téléphone, votre pays, votre organisation, votre intérêt pour l’investissement et le contenu de votre message.",
+
+				"Nous pouvons également collecter des informations techniques de base à partir de votre navigateur ou appareil, telles que les pages visitées, la localisation approximative, les liens de référence et les habitudes d’utilisation, afin de nous aider à maintenir la fiabilité du site Web et à améliorer l’expérience."
+			]
+		},
+		{
+			"title": "Comment nous utilisons vos informations",
+			"content": [
+				"Nous utilisons les informations soumises pour répondre aux demandes, préparer des informations pertinentes pour les investisseurs ou les opérations, organiser des appels ou des visites de site, et maintenir la communication avec les partenaires potentiels.",
+				"Nous pouvons utiliser les données d’utilisation du site Web pour surveiller les performances du site, nous protéger contre les abus, comprendre la demande pour notre contenu, et améliorer la navigation, les formulaires et le contenu des pages."
+			]
+		},
+		{
+			"title": "Partage et divulgation",
+			"content": [
+				"Nous ne vendons pas d’informations personnelles. Nous pouvons partager des informations avec des prestataires de services, des conseillers professionnels, des partenaires de conformité ou des membres de l’équipe opérationnelle lorsque cela est raisonnablement nécessaire pour répondre à votre demande ou faire fonctionner le site Web.",
+				"Nous pouvons divulguer des informations si la loi, un règlement, une ordonnance judiciaire ou une demande légitime d’une autorité compétente l’exige, ou si la divulgation est nécessaire pour protéger nos droits, nos utilisateurs, nos opérations ou nos partenaires."
+			]
+		},
+		{
+			"title": "Conservation et sécurité",
+			"content": [
+				"Nous conservons les informations personnelles uniquement aussi longtemps que raisonnablement nécessaire aux fins décrites sur cette page, y compris le traitement des demandes, la gestion des relations avec les investisseurs, la conformité légale, la prévention des litiges et la tenue de registres commerciaux.",
+				"Nous utilisons des mesures de protection administratives, techniques et organisationnelles conçues pour protéger les informations. Aucun site Web ou méthode de transmission n’est totalement sécurisé. Les utilisateurs ne doivent donc pas envoyer de documents confidentiels, financiers ou d’identité sensible via les formulaires généraux du site Web, sauf si cela est spécifiquement demandé via un canal approuvé."
+			]
+		},
+		{
+			"title": "Vos choix et vos droits",
+			"content": [
+				"Vous pouvez nous demander de mettre à jour, corriger ou supprimer les informations que vous avez soumises, sous réserve des exigences légales, réglementaires, de sécurité et de conservation légitime des activités.",
+				"Vous pouvez également refuser les communications non essentielles en nous contactant. Des messages transactionnels, de conformité ou liés à une demande peuvent encore être envoyés lorsque cela est nécessaire pour traiter une demande active."
+			]
+		},
+		{
+			"title": "Opérations internationales",
+			"content": [
+				"AfriGold Hub opère dans plusieurs juridictions africaines et peut traiter des demandes d’utilisateurs d’autres pays. Les informations peuvent donc être traitées dans un pays différent du vôtre, sous réserve de contrôles opérationnels et de conformité appropriés.",
+				"Cette page est conçue comme un avis de confidentialité pratique pour le site Web et doit être examinée avec un conseil qualifié pour les exigences légales spécifiques à chaque juridiction avant d’être traitée comme une politique légale définitive."
+			]
+		}
+	]
+}

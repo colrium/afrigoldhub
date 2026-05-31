@@ -1,0 +1,188 @@
+{
+	"hero": {
+		"tag": "Investieren",
+		"headline": "Partner in dokumentierter Goldproduktion",
+		"description": "Wählen Sie eine strukturierte Investment-Stufe, gestützt auf lizenzierte Standorte, chemiefreie Verarbeitung, geprüfte monatliche Berichte und klare Partnerrechte vom ersten Tag an.",
+		"badge": { "text": "Mindestlaufzeit 3 Monate", "status": "aktiv" },
+		"cta_primary": { "label": "Möglichkeiten ansehen", "href": "#opportunities" },
+		"cta_secondary": {
+			"label": "Due Diligence anfordern",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"labels": {
+		"equity_share": "Gewinnbeteiligung",
+		"annual_target": "Jahresziel",
+		"custom": "Individuell"
+	},
+	"opportunities": {
+		"tag": "Investitionsmöglichkeiten",
+		"headline": "Mehr als Goldinvestments",
+		"description": "Die Pipeline reicht nun von Edelmetall-Aggregation bis zu Ernährungssicherheit und Agribusiness. Jede Route wird als eigenes Investmentgespräch mit Betriebsmodell, Kapitalverwendung und Due-Diligence-Paket behandelt.",
+		"labels": {
+			"capital_use": "Kapitalverwendung",
+			"investor_fit": "Geeignet für"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Busia-Goldaggregation",
+				"category": "Gold und Handel",
+				"description": "Betriebskapital für dokumentierte Goldbeschaffung, Aggregation, Verarbeitungsunterstützung und konformen Weiterverkauf über das Busia-Netzwerk.",
+				"capital_use": "Kauflikuidität, Aggregationslogistik, Prüfung, Raffinationskoordination und Transaktionsdokumentation.",
+				"investor_fit": "Investoren, die eine kürzere Kapitalrotation im bestehenden Gold-Wertschöpfungsnetz suchen.",
+				"highlights": [
+					"Auf dokumentierte Kauf- und Verkaufsunterlagen ausgerichtet",
+					"Kann mit der bestehenden Gold-Investment-Stufenstruktur kombiniert werden",
+					"Für häufiges Reporting und disziplinierte Kapitalrotation konzipiert"
+				],
+				"cta": "Goldaggregation besprechen"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Kommerzielle Ziegenhaltung",
+				"category": "Livestock-Agribusiness",
+				"description": "Eine Viehwirtschaftsroute mit Fokus auf Zucht, Mast, tierärztliche Kontrollen, Fütterungssysteme und strukturierte Abnahme.",
+				"capital_use": "Zuchttiere, Ställe, Futter, Veterinärprogramme, Arbeitskräfte, Wassersysteme und Marktvorbereitung.",
+				"investor_fit": "Partner, die eine sachwertgestützte Agribusiness-Möglichkeit mit gestuftem Produktionszyklus suchen.",
+				"highlights": [
+					"Fokus auf Herdenaufbau, Tiergesundheit und Verkaufsreife",
+					"Geeignet für phasenweise Kapitalbereitstellung und operative Meilensteine",
+					"Unterstützt ländliche Beschäftigung und lokale Proteinversorgung"
+				],
+				"cta": "Ziegenhaltung besprechen"
+			},
+			{
+				"id": "horticulture",
+				"title": "Gartenbau-Agribusiness",
+				"category": "Pflanzenproduktion",
+				"description": "Eine Pflanzenproduktionsroute mit Landvorbereitung, Bewässerung, Betriebsmitteln, Erntehandling und käufergebundener Distribution.",
+				"capital_use": "Bewässerung, Saatgut und Setzlinge, Bodenvorbereitung, Pflanzenschutz, Arbeitskräfte, Erntehandling und Logistik.",
+				"investor_fit": "Investoren mit Interesse an Lebensmittelproduktion, Exportpotenzial und wiederkehrenden Agrarzyklen.",
+				"highlights": [
+					"Anbaukalender und messbare Feldmeilensteine",
+					"Schwerpunkt auf Bewässerung, Inputkontrolle und Erntequalität",
+					"Für lokale und regionale Lebensmittelnachfrage ausgelegt"
+				],
+				"cta": "Gartenbau besprechen"
+			}
+		]
+	},
+	"tiers": {
+		"tag": "Investment-Stufen",
+		"headline": "Wählen Sie Ihre Position",
+		"description": "Alle Stufen umfassen strukturierte Partnerschaftsvereinbarungen, monatliche Berichterstattung und treuhandgeschütztes Kapital. Die Mindestlaufzeit beträgt drei Monate.",
+		"mostPopular": "Am beliebtesten",
+		"projectedRoi": "Prognostizierte Rendite:",
+		"items": [
+			{
+				"id": "seed-partner",
+				"label": "Seed Partner",
+				"amount": 25000,
+				"currency": "USD",
+				"equity_pct": 5,
+				"roi_annual_pct": 65,
+				"roi": "~65 % jährlich",
+				"cta": "Loslegen",
+				"ctaStyle": "outline",
+				"features": [
+					"5 % Gewinnbeteiligung am monatlichen Nettogewinn",
+					"Quartalsweise Finanzberichte",
+					"Zugang zu Standortbesuchen zweimal jährlich",
+					"Zugang zum digitalen Dashboard",
+					"Mindestlaufzeit 3 Monate"
+				]
+			},
+			{
+				"id": "strategic-partner",
+				"label": "Strategic Partner",
+				"amount": 75000,
+				"currency": "USD",
+				"equity_pct": 18,
+				"roi_annual_pct": 88,
+				"roi": "~88 % jährlich",
+				"featured": true,
+				"badge": "Am beliebtesten",
+				"cta": "Partner werden",
+				"ctaStyle": "primary",
+				"features": [
+					"18 % Gewinnbeteiligung am monatlichen Nettogewinn",
+					"Monatliche Finanzberichte",
+					"Uneingeschränkter Standortzugang",
+					"Beiratssitz (beratend)",
+					"Co-branding der Investorendokumentation",
+					"Prioritäre Ausstiegsregelungen"
+				]
+			},
+			{
+				"id": "anchor-investor",
+				"label": "Anchor Investor",
+				"amount": 189000,
+				"currency": "USD",
+				"equity_pct": 45,
+				"roi_annual_pct": null,
+				"roi": "primärer Partner",
+				"roiPrefix": "Volle CAPEX-Abdeckung -",
+				"cta": "Kontaktieren Sie uns",
+				"ctaStyle": "outline",
+				"features": [
+					"45 % Gewinnbeteiligung am monatlichen Nettogewinn",
+					"Volle Projekt-Governance-Rechte",
+					"Zugang zum Gemeinschaftsbankkonto",
+					"Nennung in der Bergbaulizenzdokumentation",
+					"3-monatige Kapitalrückzahlung garantiert",
+					"Bevorzugte Liquidationsrechte"
+				]
+			}
+		]
+	},
+	"process": {
+		"tag": "So funktioniert es",
+		"headline": "Von der Anfrage bis zu den monatlichen Ausschüttungen",
+		"description": "Ein klarer Partner-Onboarding-Prozess sorgt dafür, dass der Investitionsablauf dokumentiert, nachvollziehbar und berechenbar bleibt.",
+		"items": [
+			{
+				"step": 1,
+				"title": "Ihr Interesse einreichen",
+				"description": "Wählen Sie eine Stufe oder fordern Sie das Due-Diligence-Paket an, damit unser Investmentteam Ihre Anfrage qualifizieren kann."
+			},
+			{
+				"step": 2,
+				"title": "Dokumente prüfen",
+				"description": "Erhalten Sie Lizenzkopien, geprüfte monatliche Abrechnungen, Analysebeispiele, Verkaufsbelege und die Partnervereinbarung."
+			},
+			{
+				"step": 3,
+				"title": "Vereinbarung unterzeichnen",
+				"description": "Führen Sie die KYC-Prüfung durch, unterzeichnen Sie die Investitionsvereinbarung und leisten Sie die Einzahlung über den vereinbarten Banktransferweg."
+			},
+			{
+				"step": 4,
+				"title": "Monatliche Performance verfolgen",
+				"description": "Erhalten Sie monatliche Berichte und Ausschüttungen auf der Grundlage des verifizierten Nettogewinns und Ihres vertraglich vereinbarten Gewinnanteils."
+			}
+		]
+	},
+	"safeguards": {
+		"tag": "Partnerschutzmechanismen",
+		"headline": "Entwickelt für eine gründliche Due Diligence",
+		"items": [
+			{
+				"title": "Formelle Investitionsvereinbarung",
+				"description": "Jede Stufe unterliegt einer schriftlichen Partnerschaftsvereinbarung, die Gewinnbeteiligung, Berichterstattung, Laufzeit, Ausstieg und Ausschüttungsbedingungen regelt."
+			},
+			{
+				"title": "Monatlicher Nachweispaket",
+				"description": "Partner erhalten Produktionsaufzeichnungen, Verkaufsbelege, Analysezertifikate, Gewinn- und Verlustübersichten sowie Ausschüttungsberechnungen."
+			},
+			{
+				"title": "Standortzugang nach Stufe",
+				"description": "Strategic- und Anchor-Partner erhalten priorisierten Standortzugang mit Sitzungen bei der Betriebsleitung und Finanzprüfungen."
+			},
+			{
+				"title": "Prüfbare Wertschöpfungskette",
+				"description": "Die Herkunftsdokumentation begleitet das Gold vom Wiegeschein der Grube über den Verkauf bis hin zur Investorenausschüttung."
+			}
+		]
+	}
+}

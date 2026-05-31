@@ -1,0 +1,37 @@
+{
+	"tag": "Warum AfriGold Hub?",
+	"headline": "Auf bewährtem Grund gebaut, <gold>auf Rendite ausgelegt</gold>",
+	"description": "Unser Betrieb liegt auf dem historischen Lupa-Goldfeld in Chunya, Mbeya – einem der produktivsten Mineralgürtel Afrikas mit einer Erfolgsbilanz, die bis ins Jahr 1922 zurückreicht.",
+	"cards": [
+		{
+			"icon": "anchor",
+			"title": "Gravitationsaufbereitungstechnologie",
+			"description": "Unser chemiefreier Gravitationsprozess ist umweltkonform und kosteneffizient, gewinnt Gold ohne Quecksilber oder Cyanid – vollständig NEMC-zertifiziert."
+		},
+		{
+			"icon": "license",
+			"title": "Voll lizenzierte Betriebe",
+			"description": "Aktive primäre Bergbaulizenz (PML) und gesichertes Bergbaurecht. Alle behördlichen Genehmigungen gemäß dem Mining Act 2010 und späteren Änderungen liegen vor."
+		},
+		{
+			"icon": "finance",
+			"title": "Transparentes Finanzmodell",
+			"description": "Monatliche Prognosen von 504.000 $ Nettogewinn bei 572.000 $ Bruttoumsatz, mit einem klaren dreimonatigen Kapitalrückzahlungsweg und vierteljährlicher Berichterstattung an Investoren."
+		},
+		{
+			"icon": "globe",
+			"title": "Afrikanisches Erbe, globale Standards",
+			"description": "Verwurzelt in der Beschäftigung der tansanischen Gemeinschaft, halten wir internationale Best-Practice-Sicherheits- und Umweltstandards in unseren Betriebsabläufen am Standort Chunya ein."
+		},
+		{
+			"icon": "investor",
+			"title": "Investorenorientierte Unternehmensführung",
+			"description": "Strukturierte Partnerschaftsvereinbarungen mit definierten Beteiligungen, Treuhandschutz und monatlicher Finanzberichterstattung an alle strategischen Investoren."
+		},
+		{
+			"icon": "science",
+			"title": "Wissenschaftlich verifizierte Reserven",
+			"description": "Vor-Ort-Untersuchungen und geologische Bewertungen bestätigen tragfähige, nutzbare Goldkonzentrationen auf unserer lizenzierten Fläche im Lupa-Goldfeldbecken."
+		}
+	]
+}

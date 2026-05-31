@@ -1,0 +1,60 @@
+{
+	"hero": {
+		"badge": "Goldfield, Afrique",
+		"headline": "Saisissez <gold>l’opportunité aurifère</gold> de l’Afrique",
+		"description": "AfriGold Hub connecte les investisseurs sérieux à l’une des exploitations minières aurifères artisanales les plus productives d’Afrique. Technologie éprouvée. Terrain sous licence. Rendements transparents.",
+		"unlock": "Saisissez",
+		"africa": "l’opportunité aurifère",
+		"goldenOpportunity": "de l’Afrique",
+		"ctaPrimary": "Voir les plans d’investissement",
+		"ctaOutline": "Voir comment ça fonctionne",
+		"certifiedBy": "Certifié par"
+	},
+	"certifications_bar": {
+		"label": "Certifié & conforme",
+		"status_label": "Tous actifs",
+		"audit_note": "Dernier audit : 2024",
+		"items": [
+			{
+				"code": "NEMA",
+				"name": "Autorité nationale de gestion de l’environnement",
+				"note": "Certificat EIA · Actif"
+			},
+			{
+				"code": "KRA",
+				"name": "Autorité fiscale kényane",
+				"note": "Négociant en métaux précieux"
+			},
+			{
+				"code": "MINES & GEOLOGY",
+				"name": "Département des mines et de la géologie",
+				"note": "Permis minier · ML actif"
+			},
+			{
+				"code": "KEBS",
+				"name": "Bureau kényan des normes",
+				"note": "Laboratoire d’analyse certifié"
+			},
+			{
+				"code": "WRA",
+				"name": "Autorité des ressources en eau",
+				"note": "Permis d’eau · Actif"
+			},
+			{
+				"code": "NITA",
+				"name": "Autorité nationale de formation industrielle",
+				"note": "Certification de formation professionnelle"
+			},
+			{
+				"code": "DGSM",
+				"name": "Direction des études géologiques et des mines",
+				"note": "Permis minier Ouganda · Enregistré"
+			},
+			{
+				"code": "UNBS",
+				"name": "Bureau ougandais des normes",
+				"note": "Accréditation d’analyse · Ouganda"
+			}
+		]
+	}
+}

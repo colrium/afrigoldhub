@@ -1,27 +1,16 @@
-import Head from "next/head";
 import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 
 export default function ValueChainHero() {
-	const { t } = useTranslation("common");
-	const pillars = t("value_chain.overview.pillars", {
+	const { t } = useTranslation(["value"]);
+	const pillars = t("value:overview.pillars", {
 		returnObjects: true,
 	}) as { id: string; label: string }[];
 
 	return (
 		<section className="relative overflow-hidden bg-[#0A0A0A] pt-24 pb-20 md:pt-32 md:pb-28">
-			<Head>
-				<title>{t("value_chain.meta.page_title")}</title>
-				<meta name="description" content={t("value_chain.meta.meta_description")} />
-				<meta property="og:title" content={t("value_chain.meta.page_title")} />
-				<meta
-					property="og:description"
-					content={t("value_chain.meta.meta_description")}
-				/>
-				<meta property="og:image" content={t("value_chain.meta.og_image")} />
-			</Head>
 			<div
 				className="absolute inset-0 pointer-events-none"
 				style={{
@@ -32,20 +21,20 @@ export default function ValueChainHero() {
 			<div className="relative z-10 max-w-[1180px] mx-auto px-8 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
 				<div>
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-4">
-						{t("value_chain.hero.tag")}
+						{t("value:hero.tag")}
 					</span>
-					<h1 className="font-serif text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
-						{t("value_chain.hero.headline")}
+					<h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
+						{t("value:hero.headline")}
 					</h1>
-					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[700px]">
-						{t("value_chain.hero.description")}
+					<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[700px]">
+						{t("value:hero.description")}
 					</p>
 					<div className="mt-10">
 						<Link
-							href={t("value_chain.hero.cta_primary.href")}
+							href={t("value:hero.cta_primary.href")}
 							className="inline-flex items-center gap-2 text-[0.95rem] bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all"
 						>
-							{t("value_chain.hero.cta_primary.label")}
+							{t("value:hero.cta_primary.label")}
 							<ArrowForwardIcon fontSize="small" />
 						</Link>
 					</div>
@@ -55,10 +44,10 @@ export default function ValueChainHero() {
 						<AccountTreeIcon className="text-primary" />
 						<div>
 							<div className="text-xs uppercase tracking-[0.14em] text-primary">
-								{t("value_chain.hero.badge.status")}
+								{t("value:hero.badge.status")}
 							</div>
 							<div className="text-onSurface-100 font-medium">
-								{t("value_chain.hero.badge.text")}
+								{t("value:hero.badge.text")}
 							</div>
 						</div>
 					</div>
@@ -68,8 +57,8 @@ export default function ValueChainHero() {
 								key={pillar.id}
 								className="rounded border border-[rgba(201,168,76,0.12)] p-4 text-center"
 							>
-								<div className="font-serif text-3xl text-primary">{index + 1}</div>
-								<div className="text-xs text-[#faf5ec] mt-1">{pillar.label}</div>
+								<div className="text-3xl text-primary">{index + 1}</div>
+								<div className="text-xs text-onSurface-100 mt-1">{pillar.label}</div>
 							</div>
 						))}
 					</div>

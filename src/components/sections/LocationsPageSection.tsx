@@ -11,19 +11,19 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 
 type MineLocation = {
 	role?: string;
-	country: string;
-	site: string;
-	region: string;
-	lat: number;
-	lng: number;
+	country?: string;
+	site?: string;
+	region?: string;
+	lat?: number;
+	lng?: number;
 	deposit_type?: string[];
-	goldfield: string;
-	geology: string;
-	licence_authority: string;
-	regulatory_body: string;
-	status: string;
+	goldfield?: string;
+	geology?: string;
+	licence_authority?: string;
+	regulatory_body?: string;
+	status?: string;
 	elevation_m?: number;
-	notes: string;
+	notes?: string;
 };
 
 const galleryItems = [
@@ -65,20 +65,20 @@ function googleMapSrc(location: MineLocation) {
 }
 
 export default function LocationsPageSection() {
-	const { t } = useTranslation("common");
-	const locations = t("operations.locations.places", {
+	const { t } = useTranslation(["operations", "locations"]);
+	const locations = t("operations:locations.places", {
 		returnObjects: true,
 	}) as MineLocation[];
 	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	const selectedLocation = locations[selectedIndex] ?? locations[0];
 	const activeSites = useMemo(
-		() => locations.filter((location) => location.status === "active").length,
+		() => Array.isArray(locations) ? locations.filter((location) => location.status === "active") : [],
 		[locations]
 	);
 
 	return (
-		<div className="relative overflow-hidden bg-[#050505]">
+		<div className="relative overflow-hidden bg-surface-900">
 			<section className="relative pt-24 pb-16 md:pt-32 md:pb-24">
 				<div
 					className="absolute inset-0 pointer-events-none"
@@ -91,29 +91,27 @@ export default function LocationsPageSection() {
 					<div>
 						<span className="inline-flex items-center gap-2 text-xs uppercase text-primary mb-4">
 							<PinDropIcon fontSize="small" />
-							Operations Map
+							{t("locations:tag")}
 						</span>
-						<h1 className="font-serif text-5xl md:text-7xl leading-none text-onSurface-100 max-w-[780px]">
-							Seven-country gold operations, mapped site by site.
+						<h1 className="text-5xl md:text-7xl leading-none text-onSurface-100 max-w-[780px]">
+							{t("locations:headline")}
 						</h1>
-						<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[680px]">
-							Explore AfriGold Hub&apos;s active mine locations, regional goldfields,
-							regulatory coverage, and field imagery from extraction through finished
-							gold handling.
+						<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[680px]">
+							{t("locations:description")}
 						</p>
 						<div className="mt-9 flex flex-wrap gap-3">
 							<a
 								href="#map"
-								className="inline-flex items-center gap-2 text-[0.95rem] bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all"
+								className="inline-flex items-center gap-2 text-[0.95rem] bg-primary text-surface-900 font-medium px-7 py-3.5 rounded border border-primary hover:bg-primary transition-all"
 							>
-								View Map
+								{t("locations:viewMap")}
 								<MapIcon fontSize="small" />
 							</a>
 							<a
 								href="#gallery"
-								className="inline-flex items-center text-[0.95rem] text-primary font-light px-7 py-3.5 rounded border border-[rgba(201,168,76,0.18)] hover:border-primary hover:bg-[rgba(201,168,76,0.06)] transition-all"
+								className="inline-flex items-center text-[0.95rem] text-primary font-light px-7 py-3.5 rounded border border-primary/20 hover:border-primary hover:bg-primary/10 transition-all"
 							>
-								View Gallery
+								{t("locations:viewGallery")}
 							</a>
 						</div>
 					</div>
@@ -121,16 +119,20 @@ export default function LocationsPageSection() {
 					<div className="rounded-lg border border-[rgba(243,189,39,0.18)] bg-[#111111]/85 p-6 shimmer-y shimmer-subtle">
 						<div className="grid grid-cols-3 gap-3">
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">{locations.length}</div>
-								<div className="text-xs text-[#faf5ec] mt-1">Mine locations</div>
+								<div className="text-3xl text-primary">{locations.length}</div>
+								<div className="text-xs text-onSurface-100 mt-1">
+									{t("locations:mineLocations")}
+								</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">{activeSites}</div>
-								<div className="text-xs text-[#faf5ec] mt-1">Active sites</div>
+								<div className="text-3xl text-primary">{activeSites.length}</div>
+								<div className="text-xs text-onSurface-100 mt-1">{t("locations:activeSites")}</div>
 							</div>
 							<div className="rounded border border-[rgba(243,189,39,0.12)] p-4">
-								<div className="text-3xl font-serif text-primary">0</div>
-								<div className="text-xs text-[#faf5ec] mt-1">Chemical inputs</div>
+								<div className="text-3xl text-primary">0</div>
+								<div className="text-xs text-onSurface-100 mt-1">
+									{t("locations:zeroChemicalInputs")}
+								</div>
 							</div>
 						</div>
 						<div className="mt-6 rounded-lg overflow-hidden border border-primary/15 bg-black">
@@ -151,14 +153,13 @@ export default function LocationsPageSection() {
 				<div className="max-w-[1180px] mx-auto px-6 md:px-8">
 					<div className="mb-9 max-w-[760px]">
 						<span className="inline-block text-xs uppercase text-primary mb-3">
-							Google Map
+                        {t("locations:map.tag")}
 						</span>
-						<h2 className="font-serif text-4xl md:text-5xl text-onSurface-100">
-							Operations and mine locations
+						<h2 className="text-4xl md:text-5xl text-onSurface-100">
+                        {t("locations:map.headline")}
 						</h2>
-						<p className="mt-4 text-[#faf5ec] leading-[1.75] font-light">
-							Select a site to refocus the map and review the operating context,
-							mineralisation, and regulatory bodies attached to each location.
+						<p className="mt-4 text-onSurface-100 leading-[1.75] font-light">
+                        {t("locations:map.description")}
 						</p>
 					</div>
 
@@ -175,7 +176,7 @@ export default function LocationsPageSection() {
 										className={`text-left rounded-lg border p-4 transition-all ${
 											isSelected
 												? "border-primary bg-primary/10"
-												: "border-[rgba(243,189,39,0.12)] bg-[#101010] hover:border-primary/50"
+												: "border-primary/10 bg-surface-900 hover:border-primary/50"
 										}`}
 									>
 										<div className="flex items-start justify-between gap-3">
@@ -191,7 +192,7 @@ export default function LocationsPageSection() {
 												{location.status}
 											</span>
 										</div>
-										<p className="mt-3 text-sm text-[#faf5ec] leading-relaxed">
+										<p className="mt-3 text-sm text-onSurface-100 leading-relaxed">
 											{location.region}
 										</p>
 									</button>
@@ -199,8 +200,8 @@ export default function LocationsPageSection() {
 							})}
 						</div>
 
-						<div className="rounded-lg border border-[rgba(243,189,39,0.18)] bg-[#0b0b0b] overflow-hidden shimmer-y shimmer-subtle">
-							<div className="relative h-[360px] md:h-[520px] bg-black">
+						<div className="rounded-lg border border-primary/15 bg-surface-900 overflow-hidden shimmer-y shimmer-subtle">
+							<div className="relative h-[360px] md:h-[520px] bg-surface-900/80">
 								{selectedLocation && (
 									<iframe
 										title={`${selectedLocation.site} Google Map`}
@@ -221,10 +222,10 @@ export default function LocationsPageSection() {
 											<FactoryIcon fontSize="small" />
 											{selectedLocation.role ?? "operations"}
 										</div>
-										<h3 className="font-serif text-3xl text-onSurface-100">
+										<h3 className="text-3xl text-onSurface-100">
 											{selectedLocation.site}
 										</h3>
-										<p className="mt-3 text-sm text-[#faf5ec] leading-[1.75]">
+										<p className="mt-3 text-sm text-onSurface-100 leading-[1.75]">
 											{selectedLocation.notes}
 										</p>
 										<div className="mt-5 flex flex-wrap gap-2">
@@ -243,7 +244,7 @@ export default function LocationsPageSection() {
 										<div className="rounded border border-primary/15 p-4">
 											<div className="flex items-center gap-2 text-primary text-xs uppercase">
 												<LandscapeIcon fontSize="small" />
-												Goldfield
+												{t("locations:goldfield")}
 											</div>
 											<p className="mt-2 text-sm text-onSurface-100">
 												{selectedLocation.goldfield}
@@ -257,7 +258,7 @@ export default function LocationsPageSection() {
 											<p className="mt-2 text-sm text-onSurface-100">
 												{selectedLocation.licence_authority}
 											</p>
-											<p className="mt-1 text-xs text-[#faf5ec]">
+											<p className="mt-1 text-xs text-onSurface-100">
 												{selectedLocation.regulatory_body}
 											</p>
 										</div>
@@ -285,10 +286,10 @@ export default function LocationsPageSection() {
 							<span className="inline-block text-xs uppercase text-primary mb-3">
 								Field Gallery
 							</span>
-							<h2 className="font-serif text-4xl md:text-5xl text-onSurface-100">
+							<h2 className="text-4xl md:text-5xl text-onSurface-100">
 								Inside the production network
 							</h2>
-							<p className="mt-4 text-[#faf5ec] leading-[1.75] font-light">
+							<p className="mt-4 text-onSurface-100 leading-[1.75] font-light">
 								Operational imagery from extraction, gravity processing, smelting,
 								and documented buyer handling.
 							</p>
@@ -317,7 +318,9 @@ export default function LocationsPageSection() {
 								/>
 								<div className="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent" />
 								<div className="absolute left-4 right-4 bottom-4">
-									<div className="text-xs uppercase text-primary mb-1">{item.label}</div>
+									<div className="text-xs uppercase text-primary mb-1">
+										{item.label}
+									</div>
 									<h3 className="text-onSurface-100 font-medium">{item.title}</h3>
 								</div>
 							</article>

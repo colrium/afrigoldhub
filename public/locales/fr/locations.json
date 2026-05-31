@@ -1,0 +1,54 @@
+{
+	"tag": "Carte des opérations",
+	"headline": "Opérations aurifères dans sept pays, cartographiées site par site.",
+	"description": "Explorez les emplacements miniers actifs d'AfriGold Hub, les goldfields régionaux, la couverture réglementaire et les images de terrain, de l'extraction à la manutention de l'or fini.",
+	"viewMap": "Voir la carte",
+	"viewGallery": "Voir la galerie",
+	"mineLocations": "Sites miniers",
+	"activeSites": "Sites actifs",
+	"zeroChemicalInputs": "Zéro intrant chimique",
+    "goldfield": "Goldfield",
+	"map": {
+		"tag": "Google Map",
+		"headline": "Opérations et sites miniers",
+		"description": "Sélectionnez un site pour recentrer la carte et consulter le contexte opérationnel, la minéralisation et les organismes de réglementation associés à chaque emplacement."
+	},
+	"gallery": {
+		"tag": "Galerie terrain",
+		"headline": "Au cœur du réseau de production",
+		"description": "Imagerie opérationnelle de l'extraction, du traitement gravimétrique, de la fusion et de la manutention documentée auprès des acheteurs.",
+		"ctaPrimary": { "label": "Demander une visite de site", "href": "/contact#site-visit" },
+		"items": [
+			{
+				"src": "/media/site-extraction.jpeg",
+				"title": "Extraction sous licence",
+				"label": "Extraction",
+				"className": "md:col-span-2 md:row-span-2"
+			},
+			{
+				"src": "/media/gravity-processing.jpeg",
+				"title": "Circuit de traitement gravimétrique",
+				"label": "Traitement",
+				"className": ""
+			},
+			{
+				"src": "/media/smelting.jpeg",
+				"title": "Fusion sur site",
+				"label": "Fusion",
+				"className": ""
+			},
+			{
+				"src": "/media/14.jpeg",
+				"title": "Opérations terrain",
+				"label": "Travaux sur site",
+				"className": ""
+			},
+			{
+				"src": "/media/sale-distribution.jpeg",
+				"title": "Distribution documentée",
+				"label": "Ventes",
+				"className": ""
+			}
+		]
+	}
+}

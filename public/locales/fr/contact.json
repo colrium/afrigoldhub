@@ -1,0 +1,344 @@
+{
+	"hero": {
+		"tag": "Contactez-nous",
+		"headline": "Parlons de votre investissement",
+		"description": "Que vous exploriez l’agrégation d’or, l’élevage commercial de chèvres, l’agro-industrie horticole, la due diligence ou une visite de site, notre équipe répond à chaque demande sérieuse dans les 24 heures.",
+		"badge": { "text": "Réponse sous 24 heures", "status": "active" }
+	},
+	"opportunities": {
+		"tag": "Choisissez une voie",
+		"headline": "Acheminez votre demande vers la bonne équipe",
+		"description": "Sélectionnez l’opportunité qui correspond à votre mandat. Le formulaire de contact enregistrera votre domaine d’intérêt afin que les relations investisseurs puissent vous envoyer les bons documents et les prochaines étapes."
+	},
+	"offices": {
+		"tag": "Nos bureaux",
+		"headline": "Où nous trouver",
+		"items": [
+			{
+				"id": "hq-busia",
+				"label": "Siège social et site principal",
+				"city": "Busia",
+				"country": "Ouganda",
+				"flag": "🇺🇬",
+				"address_lines": [
+					"AfriGold Hub Ltd",
+					"Plot 14, Mining Road",
+					"Busia Town, Busia District",
+					"Région orientale, Ouganda"
+				],
+				"lat": 0.4664,
+				"lng": 34.0886,
+				"phone": "+256 700 000 001",
+				"email": "busia@afrigoldhub.com",
+				"hours": "Lun–Ven 08:00–17:00 EAT",
+				"type": "hq",
+				"note": "Principale installation de fusion et centre de visites pour investisseurs. Un préavis est requis pour l’accès au site."
+			},
+			{
+				"id": "regional-nairobi",
+				"label": "Bureau régional Afrique de l’Est",
+				"city": "Nairobi",
+				"country": "Kenya",
+				"flag": "🇰🇪",
+				"address_lines": [
+					"AfriGold Hub Regional Office",
+					"Upper Hill, Kilimani",
+					"Nairobi, Kenya"
+				],
+				"lat": -1.2921,
+				"lng": 36.8219,
+				"phone": "+254 700 000 002",
+				"email": "nairobi@afrigoldhub.com",
+				"hours": "Lun–Ven 08:30–17:30 EAT",
+				"type": "regional",
+				"note": "Pôle de relations investisseurs, juridique et administratif financier pour l’Afrique de l’Est."
+			},
+			{
+				"id": "west-africa-freetown",
+				"label": "Bureau Afrique de l’Ouest",
+				"city": "Freetown",
+				"country": "Sierra Leone",
+				"flag": "🇸🇱",
+				"address_lines": [
+					"AfriGold Hub West Africa",
+					"Wilberforce, Freetown",
+					"Sierra Leone"
+				],
+				"lat": 8.4657,
+				"lng": -13.2317,
+				"phone": "+232 76 000 003",
+				"email": "westafrica@afrigoldhub.com",
+				"hours": "Lun–Ven 08:00–17:00 GMT",
+				"type": "regional",
+				"note": "Gère les opérations en Sierra Leone et les relations avec les partenaires ouest-africains."
+			},
+			{
+				"id": "southern-africa-johannesburg",
+				"label": "Bureau Afrique australe",
+				"city": "Johannesburg",
+				"country": "Afrique du Sud",
+				"flag": "🇿🇦",
+				"address_lines": [
+					"AfriGold Hub Southern Africa",
+					"Sandton, Johannesburg",
+					"Gauteng, Afrique du Sud"
+				],
+				"lat": -26.1076,
+				"lng": 28.0567,
+				"phone": "+27 11 000 0004",
+				"email": "southernafrica@afrigoldhub.com",
+				"hours": "Lun–Ven 08:00–17:00 SAST",
+				"type": "regional",
+				"note": "Couvre les opérations en Afrique du Sud, à Eswatini et au Malawi."
+			}
+		]
+	},
+	"contact_reasons": {
+		"label": "En quoi pouvons-nous vous aider ?",
+		"options": [
+			{ "value": "investment-enquiry", "label": "Demande d’investissement" },
+			{ "value": "due-diligence", "label": "Demander le dossier de due diligence" },
+			{ "value": "site-visit", "label": "Planifier une visite de site" },
+			{ "value": "partnership", "label": "Proposition commerciale / partenariat" },
+			{ "value": "press-media", "label": "Demande presse / médias" },
+			{ "value": "compliance-legal", "label": "Conformité / juridique" },
+			{ "value": "community", "label": "Communauté et ESG" },
+			{ "value": "careers", "label": "Carrières et emploi" },
+			{ "value": "other", "label": "Autre" }
+		]
+	},
+	"form": {
+		"tag": "Envoyer un message",
+		"headline": "Lancez la conversation",
+		"description": "Remplissez le formulaire et le bon membre de notre équipe vous répondra dans un jour ouvrable.",
+		"fields": {
+			"first_name": {
+				"label": "Prénom",
+				"placeholder": "James",
+				"required": true,
+				"type": "text"
+			},
+			"last_name": {
+				"label": "Nom de famille",
+				"placeholder": "Mwangi",
+				"required": true,
+				"type": "text"
+			},
+			"email": {
+				"label": "Adresse e-mail",
+				"placeholder": "vous@exemple.com",
+				"required": true,
+				"type": "email"
+			},
+			"phone": {
+				"label": "Numéro de téléphone",
+				"placeholder": "+256 700 000 000",
+				"required": false,
+				"type": "tel"
+			},
+			"country": {
+				"label": "Pays",
+				"placeholder": "Sélectionnez votre pays",
+				"required": true,
+				"type": "select"
+			},
+			"reason": {
+				"label": "Motif du contact",
+				"placeholder": "Sélectionnez un motif",
+				"required": true,
+				"type": "select"
+			},
+			"opportunity": {
+				"label": "Opportunité qui vous intéresse",
+				"placeholder": "Sélectionnez une opportunité",
+				"required": false,
+				"type": "select",
+				"options": [
+					{ "value": "gold-aggregation", "label": "Agrégation d’or à Busia" },
+					{ "value": "goat-farming", "label": "Élevage commercial de chèvres" },
+					{ "value": "horticulture", "label": "Agro-industrie horticole" },
+					{ "value": "multi-sector", "label": "Opportunités multiples" },
+					{ "value": "unsure", "label": "Pas encore sûr" }
+				]
+			},
+			"investor_tier": {
+				"label": "Niveau d’investissement or qui vous intéresse",
+				"placeholder": "Sélectionnez un niveau",
+				"required": false,
+				"type": "select",
+				"show_when": { "field": "reason", "value": "investment-enquiry" },
+				"options": [
+					{ "value": "seed-partner", "label": "Seed Partner - 25 000 $" },
+					{ "value": "strategic-partner", "label": "Strategic Partner - 75 000 $" },
+					{ "value": "anchor-investor", "label": "Anchor Investor - 189 000 $" },
+					{ "value": "unsure", "label": "Pas encore sûr" }
+				]
+			},
+			"message": {
+				"label": "Message",
+				"placeholder": "Dites-nous en plus sur votre demande…",
+				"required": true,
+				"type": "textarea",
+				"rows": 5
+			},
+			"consent": {
+				"label": "Je consens à ce qu’AfriGold Hub stocke et utilise ces données pour répondre à ma demande, conformément à la politique de confidentialité.",
+				"required": true,
+				"type": "checkbox"
+			},
+			"newsletter": {
+				"label": "M’abonner à la lettre d’information mensuelle destinée aux investisseurs",
+				"required": false,
+				"type": "checkbox"
+			}
+		},
+		"submit_label": "Envoyer le message",
+		"success_heading": "Message reçu",
+		"success_body": "Merci de nous avoir contactés. Un membre de notre équipe répondra à votre demande dans un jour ouvrable.",
+		"error_body": "Une erreur s’est produite lors de l’envoi de votre message. Veuillez réessayer ou nous envoyer un e-mail directement à invest@afrigoldhub.com."
+	},
+	"direct_contacts": {
+		"tag": "Contacts directs",
+		"headline": "Contactez la bonne personne",
+		"items": [
+			{
+				"department": "Investissements et partenariats",
+				"name": "James Mwangi",
+				"title": "PDG et co-fondateur",
+				"email": "invest@afrigoldhub.com",
+				"phone": "+256 700 000 001",
+				"note": "Demandes d’investissement, propositions de partenariat, discussions avec les investisseurs principaux (anchor)."
+			},
+			{
+				"department": "Relations investisseurs et finance",
+				"name": "David Kimani",
+				"title": "Directeur financier",
+				"email": "finance@afrigoldhub.com",
+				"phone": "+256 700 000 005",
+				"note": "Rapports mensuels, dossiers de due diligence, états financiers, questions relatives aux paiements."
+			},
+			{
+				"department": "Opérations et visites de site",
+				"name": "Amina Ochieng",
+				"title": "COO et co-fondatrice",
+				"email": "operations@afrigoldhub.com",
+				"phone": "+256 700 000 006",
+				"note": "Coordination des visites de site, mises à jour opérationnelles, questions techniques sur le traitement."
+			},
+			{
+				"department": "Juridique et conformité",
+				"name": "Grace Njoroge",
+				"title": "Responsable juridique et conformité",
+				"email": "legal@afrigoldhub.com",
+				"phone": "+254 700 000 007",
+				"note": "Accords d’investissement, conformité réglementaire, documentation KYC/AML."
+			},
+			{
+				"department": "Presse et médias",
+				"name": "Équipe communication",
+				"title": "Relations médias",
+				"email": "press@afrigoldhub.com",
+				"phone": "",
+				"note": "Demandes d’interview, communiqués de presse, photographies et accès aux médias."
+			},
+			{
+				"department": "Communauté et ESG",
+				"name": "Équipe ESG",
+				"title": "Développement communautaire",
+				"email": "community@afrigoldhub.com",
+				"phone": "",
+				"note": "Demandes liées au développement communautaire, partenariats avec ONG, rapports environnementaux."
+			}
+		]
+	},
+	"site_visit": {
+		"tag": "Visites de site",
+		"headline": "Voir l’opération par vous-même",
+		"description": "Les investisseurs de niveaux Strategic et Anchor sont invités à visiter notre site principal de Busia, en Ouganda. La visite comprend une présentation complète du processus – extraction, concentration gravimétrique, fusion et analyse – ainsi qu’une réunion avec notre équipe de direction opérationnelle.",
+		"process_steps": [
+			{
+				"step": 1,
+				"title": "Soumettre une demande",
+				"description": "Utilisez le formulaire de contact ci-dessus en sélectionnant « Planifier une visite de site ». Indiquez votre fenêtre de déplacement souhaitée (préavis minimum de 2 semaines requis)."
+			},
+			{
+				"step": 2,
+				"title": "Briefing préalable",
+				"description": "Notre équipe opérationnelle vous enverra un document de briefing sur la sécurité du site et un itinéraire 5 jours ouvrables avant votre visite."
+			},
+			{
+				"step": 3,
+				"title": "Arrivée à Busia",
+				"description": "Busia se trouve à 4–5 heures de route de l’aéroport international d’Entebbe (EBB), ou à 30 minutes de vol vers la piste d’atterrissage de Tororo. Un transfert depuis l’aéroport peut être organisé."
+			},
+			{
+				"step": 4,
+				"title": "Visite complète du site",
+				"description": "Visite guidée d’une demi-journée des fosses d’extraction, de l’usine de traitement, du four de fusion et du poste d’analyse. Une séance complète de questions-réponses avec l’équipe du site est incluse."
+			},
+			{
+				"step": 5,
+				"title": "Compte rendu aux investisseurs",
+				"description": "Réunion post-visite avec le PDG et le directeur financier couvrant les aspects financiers, la documentation et les prochaines étapes pour formaliser votre investissement."
+			}
+		],
+		"note": "Les visites de site sont disponibles du lundi au vendredi uniquement. Niveau d’investissement minimum pour l’accès au site : Strategic Partner (75 000 $).",
+		"cta": { "label": "Demander une visite de site", "href": "#contact-form" }
+	},
+	"faq": {
+		"tag": "Réponses rapides",
+		"headline": "Questions fréquentes sur le contact",
+		"items": [
+			{
+				"question": "Dans quels délais répondez-vous à ma demande ?",
+				"answer": "Toutes les demandes soumises via le formulaire de contact reçoivent une réponse du membre concerné de notre équipe dans un jour ouvrable (du lundi au vendredi, 08:00–17:00 EAT). Les demandes d’investissement sont prioritaires et reçoivent généralement une réponse dans les 4 heures pendant les heures ouvrables."
+			},
+			{
+				"question": "Que contient le dossier de due diligence ?",
+				"answer": "Le dossier de due diligence d’AfriGold Hub comprend : les 6 derniers mois d’états mensuels des comptes audités, les reçus de vente d’or et reçus KRA/URA, les certificats d’analyse KEBS/UNBS des trois derniers envois, les copies des permis miniers en cours, les copies des certificats NEMA/EIA en cours, l’accord d’investissement partenaire standard et une présentation générale du site. Soumis sur demande uniquement aux demandes vérifiées."
+			},
+			{
+				"question": "Puis-je visiter le site avant de m’engager dans un investissement ?",
+				"answer": "Oui. Les visites de site sont disponibles pour les prospects de niveaux Strategic et Anchor avec un préavis minimum de 2 semaines. Nous prenons en charge les frais logistiques internes d’Entebbe à Busia pour les prospects investisseurs sérieux. Les voyages internationaux sont à la charge du visiteur."
+			},
+			{
+				"question": "Êtes-vous ouverts aux investissements hors d’Afrique ?",
+				"answer": "Oui. Nous avons des partenaires investisseurs actifs des Émirats arabes unis, d’Europe et d’Asie. Les virements internationaux SWIFT (USD) sont pris en charge. Tous les partenariats sont régis par le droit ougandais dans le cadre d’un accord d’investissement formel, avec une clause d’arbitrage international optionnelle disponible sur demande."
+			},
+			{
+				"question": "Je représente un fonds / un family office. Existe-t-il un ticket d’entrée minimum au-delà de 189 000 $ ?",
+				"answer": "Oui. Nous pouvons accueillir des placements institutionnels plus importants au-delà du niveau Anchor publié, sur une base personnalisée. Veuillez contacter notre PDG directement à invest@afrigoldhub.com pour une discussion confidentielle."
+			}
+		]
+	},
+	"social": {
+		"tag": "Suivez-nous",
+		"headline": "Restez connectés",
+		"channels": [
+			{
+				"platform": "LinkedIn",
+				"handle": "AfriGold Hub",
+				"url": "https://linkedin.com/company/afrigoldhub",
+				"icon": "linkedin"
+			},
+			{
+				"platform": "X / Twitter",
+				"handle": "@afrigoldhub",
+				"url": "https://x.com/afrigoldhub",
+				"icon": "twitter"
+			},
+			{
+				"platform": "Instagram",
+				"handle": "@afrigoldhub",
+				"url": "https://instagram.com/afrigoldhub",
+				"icon": "instagram"
+			},
+			{
+				"platform": "YouTube",
+				"handle": "AfriGold Hub",
+				"url": "https://youtube.com/@afrigoldhub",
+				"icon": "youtube"
+			}
+		]
+	}
+}

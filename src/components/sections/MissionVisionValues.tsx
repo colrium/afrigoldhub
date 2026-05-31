@@ -49,7 +49,7 @@ export default function MissionVisionValues() {
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
 					<SectionTag>What Drives Us</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight">
+					<h2 className="text-4xl lg:text-5xl tracking-tight">
 						Mission, Vision &amp; <em className="text-gold not-italic">Values</em>
 					</h2>
 				</div>
@@ -60,7 +60,7 @@ export default function MissionVisionValues() {
 						<div className="text-xs tracking-widest uppercase text-gold mb-4">
 							Our Mission
 						</div>
-						<h3 className="font-serif text-2xl text-off-white mb-4">
+						<h3 className="text-2xl text-off-white mb-4">
 							To make African artisanal gold accessible, profitable, and trustworthy
 							for investors worldwide.
 						</h3>
@@ -75,7 +75,7 @@ export default function MissionVisionValues() {
 						<div className="text-xs tracking-widest uppercase text-gold mb-4">
 							Our Vision
 						</div>
-						<h3 className="font-serif text-2xl text-off-white mb-4">
+						<h3 className="text-2xl text-off-white mb-4">
 							To become East Africa's leading transparent gold investment platform by
 							2030.
 						</h3>
@@ -94,7 +94,7 @@ export default function MissionVisionValues() {
 						<FadeUp key={idx} delay={idx * 0.05}>
 							<div className="bg-black2 border border-g15 rounded-xl p-7 transition-all duration-300 hover:bg-[#1A1A1A] hover:border-gold/30 cursor-default">
 								<div className="text-2xl mb-4">{value.icon}</div>
-								<h4 className="font-serif text-lg text-off-white mb-2">
+								<h4 className="text-lg text-off-white mb-2">
 									{value.title}
 								</h4>
 								<p className="text-sm text-muted leading-relaxed font-light">

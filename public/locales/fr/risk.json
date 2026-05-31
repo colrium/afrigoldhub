@@ -1,0 +1,64 @@
+{
+	"hero": {
+		"tag": "Avertissement sur les risques",
+		"headline": "Vos informations, notre engagement",
+		"description": "Nous nous engageons à protéger vos informations personnelles et à garantir la transparence dans la manière dont nous collectons, utilisons et protégeons vos données.",
+		"badge": { "text": "Engagement minimum de 3 mois", "status": "active" },
+		"cta_primary": { "label": "Comparer les niveaux", "href": "/invest#tiers" },
+		"cta_secondary": {
+			"label": "Demander la due diligence",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"contact": {
+		"description": "Toute question concernant cette page ou son application à votre demande peut être envoyée à l’équipe {{site_title}}.",
+		"link": {
+			"label": "Contacter l’équipe Risques",
+			"href": "/contact?reason=risk"
+		}
+	},
+	"articles": [
+		{
+			"title": "Informations générales uniquement",
+			"content": [
+				"Le contenu de ce site web est fourni à titre d’information générale sur AfriGold Hub, son modèle opérationnel et les discussions potentielles de partenariat. Il ne constitue pas un conseil financier, juridique, fiscal, comptable, lié au négoce de matières premières ou d’investissement.",
+				"Aucune page de ce site web ne doit être traitée comme une offre publique, un prospectus, une sollicitation, une garantie ou une recommandation d’achat, de vente, de prêt, d’investissement ou de conclusion d’un quelconque arrangement financier."
+			]
+		},
+		{
+			"title": "Risques opérationnels et miniers",
+			"content": [
+				"L’exploitation minière et le traitement des minerais comportent des risques opérationnels, notamment des changements dans la teneur du minerai, des temps d’arrêt des équipements, des perturbations météorologiques, la disponibilité de la main-d’œuvre, des retards de transport, des problèmes de sécurité, des obligations environnementales et une incertitude géologique propre au site.",
+				"Les chiffres de production passés, la production projetée ou les marges indicatives peuvent ne pas se reproduire. Les résultats réels peuvent varier considérablement par rapport aux estimations, objectifs ou exemples présentés sur le site web."
+			]
+		},
+		{
+			"title": "Risques de marché et de liquidité",
+			"content": [
+				"Les prix de l’or fluctuent en fonction des conditions du marché mondial, des mouvements de devises, des taux d’intérêt, des événements géopolitiques, des spreads acheteurs et de la liquidité du marché local. Les changements dans le prix spot ou les conditions des acheteurs peuvent affecter les revenus et les distributions.",
+				"Tout partenariat privé ou accord au niveau du site peut être illiquide. Les droits de sortie, les restrictions de transfert, les périodes de blocage et les conditions de remboursement dépendent de l’accord signé, et non des résumés du site web."
+			]
+		},
+		{
+			"title": "Risques réglementaires et juridictionnels",
+			"content": [
+				"Les règles relatives à l’exploitation minière, à l’environnement, à la fiscalité, à l’exportation, aux métaux précieux et à l’investissement peuvent changer. Les renouvellements de permis, les inspections, les redevances, les droits, les approbations d’exportation et les obligations de conformité peuvent affecter les opérations ou les calendriers.",
+				"AfriGold Hub opère dans de multiples juridictions. Les partenaires potentiels devraient obtenir des conseils indépendants sur les implications juridiques, fiscales, réglementaires et d’adéquation dans leur propre pays avant de conclure un quelconque accord."
+			]
+		},
+		{
+			"title": "Absence de rendements garantis",
+			"content": [
+				"Tous les chiffres de rendement, délais de récupération, exemples de revenus ou marges bénéficiaires présentés sur le site web sont indicatifs, sauf confirmation expresse dans les documents de transaction signés. Ils sont soumis aux risques opérationnels, de marché, réglementaires et de contrepartie.",
+				"Vous ne devriez envisager de participer qu’après avoir examiné la documentation complète, posé des questions, compris les risques et déterminé que l’arrangement convient à votre situation financière et à votre tolérance au risque."
+			]
+		},
+		{
+			"title": "Responsabilité de la due diligence",
+			"content": [
+				"Les partenaires potentiels sont responsables de la réalisation de leur propre due diligence. Cela peut inclure l’examen des licences, des approbations environnementales, des registres de production, de la documentation d’analyse, des états financiers, des registres des acheteurs, de l’accès au site et des conseils professionnels pertinents.",
+				"Le contenu du site web peut être mis à jour, corrigé, développé ou retiré à tout moment. Les accords signés, les divulgations formelles et les documents de due diligence vérifiés priment sur toute information sommaire figurant sur ce site web."
+			]
+		}
+	]
+}

@@ -63,7 +63,7 @@ export default function HistoryTimeline() {
 			<div className="max-w-5xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-20">
 					<SectionTag>Our Journey</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight">
+					<h2 className="text-4xl lg:text-5xl tracking-tight">
 						A decade on the{" "}
 						<em className="text-gold not-italic">West African Goldfields</em>
 					</h2>
@@ -87,7 +87,7 @@ export default function HistoryTimeline() {
 												<div className="text-xs tracking-widest uppercase text-gold mb-2">
 													{event.year}
 												</div>
-												<h4 className="font-serif text-xl text-off-white mb-2">
+												<h4 className="text-xl text-off-white mb-2">
 													{event.title}
 												</h4>
 												<p className="text-sm text-muted leading-relaxed font-light">
@@ -108,7 +108,7 @@ export default function HistoryTimeline() {
 												<div className="text-xs tracking-widest uppercase text-gold mb-2">
 													{event.year}
 												</div>
-												<h4 className="font-serif text-xl text-off-white mb-2">
+												<h4 className="text-xl text-off-white mb-2">
 													{event.title}
 												</h4>
 												<p className="text-sm text-muted leading-relaxed font-light">
@@ -133,7 +133,7 @@ export default function HistoryTimeline() {
 											2025 — Now
 										</span>
 									</div>
-									<h4 className="font-serif text-xl text-off-white mb-2">
+									<h4 className="text-xl text-off-white mb-2">
 										~266 kg / month. Seeking anchor partners.
 									</h4>
 									<p className="text-sm text-muted leading-relaxed font-light">

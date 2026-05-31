@@ -1,80 +1,123 @@
 @import "tailwindcss";
+
 @theme {
     --color-primary: #f3bd27;
-        --color-primary-light: #f9d96b;
-        --color-primary-dark: #a87610;
-    
-        --color-paper: #0a0a0a;
-        --color-muted: #f5f5f5;
-    
-        --color-brand-50: #fef9e7;
-        --color-brand-100: #fdf0c0;
-        --color-brand-200: #fbe596;
-        --color-brand-300: #f9d96b;
-        --color-brand-400: #f7ce4a;
-        --color-brand-500: #f3bd27;
-        --color-brand-600: #e0a820;
-        --color-brand-700: #c48f18;
-        --color-brand-800: #a87610;
-        --color-brand-900: #7d5508;
-    
-        --color-surface-50: #f5f5f5;
-        --color-surface-100: #e8e8e8;
-        --color-surface-200: #d1d1d1;
-        --color-surface-300: #4d4d4d;
-        --color-surface-400: #404040;
-        --color-surface-500: #292929;
-        --color-surface-600: #1a1a1a;
-        --color-surface-700: #242424;
-        --color-surface-800: #121212;
-        --color-surface-900: #000000;
-    
-        --color-onSurface-100: #f0e8d8;
-        --color-onSurface-200: #ebe0c8;
-        --color-onSurface-300: #e6d8b8;
-        --color-onSurface-400: #e1d0a8;
-        --color-onSurface-500: #dcc898;
-        --color-onSurface-600: #d7c088;
-        --color-onSurface-700: #c4aca7;
-        --color-onSurface-800: #b19886;
-        --color-onSurface-900: #9e8465;
-    
-        --color-background-dark: #1A1A1A;
-        --color-background-dark-paper: #121212;
-        --color-background-dark-elevated: #2c2c2c;
-    
-        --color-border-primary: rgba(243, 189, 39, 0.3);
-        --color-border-primary-subtle: rgba(243, 189, 39, 0.1);
-    
-        --color-ring-primary: #f3bd27;
-    
+    --color-primary-light: #f9d96b;
+    --color-primary-dark: #a87610;
+
+    --color-paper: #0a0a0a;
+    --color-muted: #f5f5f5;
+
+    --color-brand-50: #fef9e7;
+    --color-brand-100: #fdf0c0;
+    --color-brand-200: #fbe596;
+    --color-brand-300: #f9d96b;
+    --color-brand-400: #f7ce4a;
+    --color-brand-500: #f3bd27;
+    --color-brand-600: #e0a820;
+    --color-brand-700: #c48f18;
+    --color-brand-800: #a87610;
+    --color-brand-900: #7d5508;
+
+    --color-surface-50: #f5f5f5;
+    --color-surface-100: #e8e8e8;
+    --color-surface-200: #d1d1d1;
+    --color-surface-300: #4d4d4d;
+    --color-surface-400: #404040;
+    --color-surface-500: #292929;
+    --color-surface-600: #1a1a1a;
+    --color-surface-700: #242424;
+    --color-surface-800: #121212;
+    --color-surface-900: #000000;
+
+    --color-onSurface-100: #f0e8d8;
+    --color-onSurface-200: #ebe0c8;
+    --color-onSurface-300: #e6d8b8;
+    --color-onSurface-400: #e1d0a8;
+    --color-onSurface-500: #dcc898;
+    --color-onSurface-600: #d7c088;
+    --color-onSurface-700: #c4aca7;
+    --color-onSurface-800: #b19886;
+    --color-onSurface-900: #9e8465;
+
+    --color-background-dark: #1A1A1A;
+    --color-background-dark-paper: #121212;
+    --color-background-dark-elevated: #2c2c2c;
+
+    --color-border-primary: rgba(243, 189, 39, 0.3);
+    --color-border-primary-subtle: rgba(243, 189, 39, 0.1);
+
+    --color-ring-primary: #f3bd27;
+
 }
+
 :root {
-	--shimmer-color: theme("colors.primary");
-	--shimmer-opacity: 0.55;
+    --shimmer-color: theme("colors.primary");
+    --shimmer-opacity: 0.55;
 }
 
 html {
-    background:  theme("colors.paper");
-}
-body {
     background: theme("colors.paper");
-        background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #dfba1456)
-}
-body::before {
-    content: '';
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        z-index: -1;
-        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #fddc21 75%);
 }
 
+body {
+    background: theme("colors.paper");
+    background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #1f1a03ea);
+    font-size: 14px;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #443c0d4d 75%);
+}
+
+@-webkit-keyframes autofill {
+
+    0%,
+    100% {
+        color: var(--color-onSurface-900);
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-delay: 1s;
+    /* Safari support - any positive time runs instantly */
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+select option {
+    margin: 40px;
+    background: var(--color-surface-900);
+    color: var(--color-onSurface-100);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+h4,
+h5,
+h6,
+p,
+body {
+    font-family: var(--font-manrope);
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-montserrat);
+}
 
 .main-footer {
     background: theme("colors.surface.900");
 }
+
 /* .layout-gradient-bg {
    
         background: radial-gradient(at 60% 60%, rgba(212, 173, 0, 0.0281) 0%, rgba(0, 0, 0, 0) 33%);
@@ -95,7 +138,9 @@ body::before {
 @keyframes gold-shine {
     to {
         background-position: right
-    } }
+    }
+}
+
 @layer components {
 
     /* ===================== */
@@ -114,11 +159,13 @@ body::before {
     /*    EDGES              */
     /* ===================== */
 
-    .shimmer-top, .shimmer-t {
+    .shimmer-top,
+    .shimmer-t {
         position: relative;
     }
 
-    .shimmer-top, .shimmer-t::before {
+    .shimmer-top,
+    .shimmer-t::before {
         top: 0;
         left: 0;
         right: 0;
@@ -126,11 +173,13 @@ body::before {
         background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-bottom, .shimmer-b {
+    .shimmer-bottom,
+    .shimmer-b {
         position: relative;
     }
 
-    .shimmer-bottom, .shimmer-b::before {
+    .shimmer-bottom,
+    .shimmer-b::before {
         bottom: 0;
         left: 0;
         right: 0;
@@ -138,11 +187,13 @@ body::before {
         background: linear-gradient(90deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-left, .shimmer-l {
+    .shimmer-left,
+    .shimmer-l {
         position: relative;
     }
 
-    .shimmer-left, .shimmer-l::before {
+    .shimmer-left,
+    .shimmer-l::before {
         top: 0;
         bottom: 0;
         left: 0;
@@ -150,11 +201,13 @@ body::before {
         background: linear-gradient(180deg, transparent, var(--shimmer-color), transparent);
     }
 
-    .shimmer-right, .shimmer-r {
+    .shimmer-right,
+    .shimmer-r {
         position: relative;
     }
 
-    .shimmer-right, .shimmer-r::before {
+    .shimmer-right,
+    .shimmer-r::before {
         top: 0;
         bottom: 0;
         right: 0;
@@ -207,45 +260,45 @@ body::before {
     /* ===================== */
     /*    COLOR INTENSITIES  */
     /* ===================== */
-        .shimmer-gold-50 {
-            --shimmer-color: var(--color-primary-50);
-        }
-    
-        .shimmer-gold-100 {
-            --shimmer-color: var(--color-primary-100);
-        }
-    
-        .shimmer-gold-200 {
-            --shimmer-color: var(--color-primary-200);
-        }
-    
-        .shimmer-gold-300 {
-            --shimmer-color: var(--color-primary-300);
-        }
-    
-        .shimmer-gold-400 {
-            --shimmer-color: var(--color-primary-400);
-        }
-    
-        .shimmer-gold-500 {
-            --shimmer-color: var(--color-primary-500);
-        }
-    
-        .shimmer-gold-600 {
-            --shimmer-color: var(--color-primary-600);
-        }
-    
-        .shimmer-gold-700 {
-            --shimmer-color: var(--color-primary-700);
-        }
-    
-        .shimmer-gold-800 {
-            --shimmer-color: var(--color-primary-800);
-        }
-    
-        .shimmer-gold-900 {
-            --shimmer-color: var(--color-primary-900);
-        }
+    .shimmer-gold-50 {
+        --shimmer-color: var(--color-primary-50);
+    }
+
+    .shimmer-gold-100 {
+        --shimmer-color: var(--color-primary-100);
+    }
+
+    .shimmer-gold-200 {
+        --shimmer-color: var(--color-primary-200);
+    }
+
+    .shimmer-gold-300 {
+        --shimmer-color: var(--color-primary-300);
+    }
+
+    .shimmer-gold-400 {
+        --shimmer-color: var(--color-primary-400);
+    }
+
+    .shimmer-gold-500 {
+        --shimmer-color: var(--color-primary-500);
+    }
+
+    .shimmer-gold-600 {
+        --shimmer-color: var(--color-primary-600);
+    }
+
+    .shimmer-gold-700 {
+        --shimmer-color: var(--color-primary-700);
+    }
+
+    .shimmer-gold-800 {
+        --shimmer-color: var(--color-primary-800);
+    }
+
+    .shimmer-gold-900 {
+        --shimmer-color: var(--color-primary-900);
+    }
 
     /* ===================== */
     /*    OPACITY VARIANTS   */
@@ -272,14 +325,13 @@ body::before {
     }
 }
 
-html,
+/* html,
 body {
     background-color: #1a1a1a;
     color: #f5f5f5;
     min-height: 100vh;
 }
 
-/* Gold scrollbar */
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -295,4 +347,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #e0a820;
-}
+} */

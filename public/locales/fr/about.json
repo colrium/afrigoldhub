@@ -1,0 +1,120 @@
+{
+	"hero": {
+		"tag": "À propos d'AfriGold Hub",
+		"headline": "Une plateforme aurifère rigoureuse, bâtie sur le terrain",
+		"description": "AfriGold Hub réunit des opérations minières sous licence, un traitement gravimétrique sans produits chimiques, des rapports dignes d’investisseurs et une gouvernance axée sur la communauté, le tout sur une seule plateforme transparente de production aurifère.",
+		"badge": {
+			"text": "Opérations sous licence dans sept marchés africains",
+			"status": "active"
+		},
+		"cta_primary": { "label": "Voir les opérations", "href": "/operations" },
+		"cta_secondary": { "label": "Rencontrer l’équipe", "href": "#team" }
+	},
+	"story": {
+		"tag": "Notre histoire",
+		"headline": "Construit pour la confiance, pas pour la spéculation",
+		"description": "Le modèle d’AfriGold Hub est né d’un constat simple : l’or artisanal peut être très productif, mais il ne devient investissable que lorsque l’exploitation est sous licence, documentée et gouvernée avec rigueur. Nous avons bâti notre plateforme autour de cette exigence.",
+		"paragraphs": [
+			"Notre équipe combine des opérateurs de terrain, des professionnels de la finance, des spécialistes de la conformité et des conseillers ESG qui ont travaillé dans les couloirs miniers d’Afrique de l’Est, de l’Ouest et de l’Austral.",
+			"Au lieu de vendre une exposition à une opportunité sur une matière première vague, nous donnons aux partenaires une visibilité sur la chaîne de production réelle : où le minerai est extrait, comment il est traité, comment les lingots sont analysés, comment les acheteurs règlent et comment les distributions sont calculées."
+		],
+		"stats": [
+			{ "value": "7", "label": "Pays d’exploitation" },
+			{ "value": "0", "label": "Utilisation de mercure ou de cyanure" },
+			{ "value": "10+", "label": "Années d’expérience sectorielle" },
+			{ "value": "30+", "label": "Emplois opérationnels directs" }
+		]
+	},
+	"principles": {
+		"tag": "Principes opérationnels",
+		"headline": "La norme derrière chaque site",
+		"items": [
+			{
+				"title": "Tout documenter",
+				"description": "Chaque étape produit un enregistrement — des bordereaux de pesée du minerai aux certificats d’analyse et reçus de vente."
+			},
+			{
+				"title": "Un traitement propre",
+				"description": "Nos circuits de concentration gravimétrique utilisent l’eau et la séparation par densité, éliminant mercure, cyanure et résidus toxiques."
+			},
+			{
+				"title": "Partager la valeur économique",
+				"description": "Les partenaires reçoivent un rapport mensuel reliant production, ventes, coûts, bénéfice net et calcul des distributions."
+			},
+			{
+				"title": "Protéger la licence",
+				"description": "La conformité, les accords communautaires et les contrôles environnementaux sont traités comme des actifs opérationnels, pas comme de la paperasse."
+			}
+		]
+	},
+	"team": {
+		"tag": "Direction",
+		"headline": "Opérateurs, experts financiers et rigueur réglementaire",
+		"description": "AfriGold Hub est dirigé par une équipe restreinte, directement responsable de la production, des finances, des relations investisseurs et de l’intégrité réglementaire.",
+		"items": [
+			{
+				"initials": "JM",
+				"name": "James Mwangi",
+				"role": "PDG & Co-fondateur",
+				"description": "Dirige les partenariats d’investissement, l’expansion stratégique et les relations opérationnelles au niveau national sur l’ensemble de la plateforme."
+			},
+			{
+				"initials": "AO",
+				"name": "Amina Ochieng",
+				"role": "COO & Co-fondatrice",
+				"description": "Supervise les opérations sur site, la discipline de traitement, les systèmes de sécurité et la coordination des visites de site."
+			},
+			{
+				"initials": "DK",
+				"name": "David Kimani",
+				"role": "Directeur financier",
+				"description": "Gère la réconciliation mensuelle, les rapports aux investisseurs, les contrôles de paiement et la documentation financière des partenaires."
+			},
+			{
+				"initials": "GN",
+				"name": "Grace Njoroge",
+				"role": "Responsable juridique et conformité",
+				"description": "Détient les registres des licences, les processus KYC/AML, la documentation environnementale et les accords avec les partenaires."
+			}
+		]
+	},
+	"governance": {
+		"tag": "Gouvernance",
+		"headline": "Des contrôles pour une opération vérifiable",
+		"description": "Notre modèle de gouvernance repose sur des enregistrements clairs, une responsabilité définie et un accès des investisseurs aux documents essentiels.",
+		"items": [
+			"Examen mensuel du P&L par la direction financière",
+			"Certificats d’analyse tiers pour les lingots produits",
+			"Registre central de conformité pour licences et permis",
+			"Registres de traçabilité de l’extraction à la vente",
+			"Accords structurés avec les partenaires et droits définis",
+			"Accès au site et revue documentaire pour les partenaires qualifiés"
+		]
+	},
+	"timeline": {
+		"tag": "Étapes clés",
+		"headline": "Une plateforme construite étape par étape",
+		"items": [
+			{
+				"year": "2013",
+				"title": "Début de la recherche terrain",
+				"description": "Les opérateurs fondateurs commencent à cartographier les corridors aurifères artisanaux et à tester les processus de concentration gravimétrique."
+			},
+			{
+				"year": "2017",
+				"title": "Modèle de traitement propre prouvé",
+				"description": "Le traitement sans produits chimiques devient la norme opérationnelle pour les nouveaux sites et les rapports aux partenaires."
+			},
+			{
+				"year": "2021",
+				"title": "Expansion multi-pays",
+				"description": "Le modèle s’étend aux juridictions d’exploitation d’Afrique de l’Est, de l’Ouest et de l’Austral."
+			},
+			{
+				"year": "2025",
+				"title": "Formalisation de la plateforme investisseur",
+				"description": "AfriGold Hub regroupe les opérations, les rapports, la conformité et l’intégration des partenaires sur une seule plateforme."
+			}
+		]
+	}
+}

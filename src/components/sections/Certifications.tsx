@@ -7,8 +7,8 @@ import { Trans, useTranslation } from "next-i18next/pages";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 export default function Certifications() {
-    const { t } = useTranslation("common");
-    const licences = t("compliance.items", { returnObjects: true }) as {
+    const { t } = useTranslation(["common", "compliance"]);
+    const licences = t("compliance:items", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		issuer: string;
@@ -20,17 +20,17 @@ export default function Certifications() {
 		<section className="bg-black py-24">
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
-					<SectionTag className="text-primary">{t("compliance.tag")}</SectionTag>
-					<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-4">
+					<SectionTag className="text-primary">{t("compliance:tag")}</SectionTag>
+					<h2 className="text-4xl lg:text-5xl tracking-tight mb-4">
 						<Trans
-							i18nKey="compliance.headline"
+							i18nKey="compliance:headline"
 							defaults="Every permit. <gold>Every certification.</gold>"
 							components={{
 								gold: <span className="text-primary!   font-bold" />,
 							}}
 						/>
 					</h2>
-					<p className="text-sm text-muted font-light">{t("compliance.description")}</p>
+					<p className="text-sm text-muted font-light">{t("compliance:description")}</p>
 				</div>
 
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -40,10 +40,10 @@ export default function Certifications() {
 								<div className="flex items-start justify-between mb-4">
 									<span className="flex items-center gap-1.5 text-xs text-green-400">
 										<span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
-										{t("active")}
+										{t("common:misc.active")}
 									</span>
 								</div>
-								<h4 className="font-serif text-lg text-off-white mb-1">
+								<h4 className="text-lg text-off-white mb-1">
 									{licence.title}
 								</h4>
 								<div className="text-xs text-gold mb-3">{licence.issuer}</div>
@@ -70,15 +70,15 @@ export default function Certifications() {
 
 						<div>
 							<div className="text-xl font-medium text-off-white mb-0.5">
-								{t("compliance.cda.title")}
+								{t("compliance:cda.title")}
 							</div>
 							<div className="text-xs text-muted font-light leading-relaxed">
-								{t("compliance.cda.description")}
+								{t("compliance:cda.description")}
 							</div>
 						</div>
 						<span className="shrink-0 flex items-center gap-1.5 text-xs text-green-400 whitespace-nowrap">
 							<span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
-							{t("compliance.cda.status")}
+							{t("compliance:cda.status")}
 						</span>
 					</div>
 				</FadeUp>

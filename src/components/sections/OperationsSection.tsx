@@ -1,15 +1,14 @@
 
-import { Trans, useTranslation } from "next-i18next/pages";
+import { useTranslation } from "next-i18next/pages";
 import { useRef } from "react";
-import { useScroll } from "framer-motion";
 import StackedCards from "../animations/StackedCards";
 
 export default function OperationsSection() {
-	const { t } = useTranslation("common");
+	const { t } = useTranslation([  "common", "operations"]);
     const cardsContainer = useRef<HTMLDivElement | null>(null);
     
 	
-	const steps = (t("operations.steps.items", { returnObjects: true }) as {
+	const steps = (t("operations:steps.items", { returnObjects: true }) as {
 		title: string;
 		short_description: string;
 		long_description: string;
@@ -31,20 +30,13 @@ export default function OperationsSection() {
 					startElement={
 						<div className="text-center max-w-2xl mx-auto">
 							<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-								{t("operations.tag")}
+								{t("operations:steps.tag")}
 							</span>
-							<h2 className="font-serif text-4xl lg:text-5xl tracking-tight mb-5 text-on-surface-100">
-								<Trans
-									i18nKey="operations.headline"
-									defaults="From earth to <gold>gold bar</gold>"
-									components={{
-										gold: <span className="text-primary!   font-bold" />,
-									}}
-								/>
+							<h2 className="text-4xl lg:text-5xl tracking-tight mb-5 text-on-surface-100">
+								{t("operations:steps.headline")}
 							</h2>
-
-							<p className="text-base text-on-surface-200 leading-relaxed font-light mb-7">
-								{t("operations.description")}
+							<p className="text-sm text-on-surface-200 leading-relaxed font-light mb-7">
+								{t("operations:steps.description")}
 							</p>
 						</div>
 					}

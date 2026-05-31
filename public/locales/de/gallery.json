@@ -1,0 +1,18 @@
+{
+	"tag": "Bildergeschichte",
+	"headline": "Von der Erde zum <gold>Gold</gold>",
+	"description": "Ein Blick in unsere Goldfield-Betriebe: Gewinnung, Gravitationsaufbereitung, Schmelzen und das fertige Produkt.",
+	"filters": {
+		"all": "Alle",
+		"mining": "Bergbau",
+		"processing": "Verarbeitung",
+		"smelting": "Schmelzen",
+		"product": "Endprodukt",
+		"video": "▶ Video"
+	},
+	"loadMore": "Mehr laden",
+	"mediaTypes": {
+		"image": "Bild",
+		"video": "Video"
+	}
+}

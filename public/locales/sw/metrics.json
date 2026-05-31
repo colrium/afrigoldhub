@@ -1,0 +1,48 @@
+{
+	"header": "Muhtasari wa Utendaji wa Moja kwa Moja",
+	"stats": {
+		"grossRevenue": {
+			"value": "$572K",
+			"label": "Mapato ya Jumla ya Mwezi"
+		},
+		"profitMargin": {
+			"value": "88%",
+			"label": "Kiwango cha Faida Halisi"
+		},
+		"experience": {
+			"value": "miaka 10",
+			"label": "Uzoefu wa Sekta"
+		},
+		"investmentAsk": {
+			"value": "$189K",
+			"label": "Jumla ya Uwekezaji Unaohitajika"
+		}
+	},
+	"bars": {
+		"goldOutput": "Uzalishaji wa Dhahabu",
+		"efficiency": "Ufanisi",
+		"roiTarget": "Lengo la ROI"
+	},
+	"strip": {
+		"monthlyRevenue": {
+			"value": "$572K",
+			"label": "Mapato ya Mwezi"
+		},
+		"goldPerMonth": {
+			"value": "~266kg",
+			"label": "Dhahabu kwa Mwezi"
+		},
+		"yearsInSector": {
+			"value": "10+",
+			"label": "Miaka Sekta"
+		},
+		"chemicalInputs": {
+			"value": "0",
+			"label": "Vichocheo vya Kemikali"
+		},
+		"paybackPeriod": {
+			"value": "miezi 3",
+			"label": "Muda wa Kurudisha Mtaji"
+		}
+	}
+}

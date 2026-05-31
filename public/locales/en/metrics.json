@@ -1,0 +1,48 @@
+{
+	"header": "Live Performance Overview",
+	"stats": {
+		"grossRevenue": {
+			"value": "$572K",
+			"label": "Monthly Gross Revenue"
+		},
+		"profitMargin": {
+			"value": "88%",
+			"label": "Net Profit Margin"
+		},
+		"experience": {
+			"value": "10yr",
+			"label": "Industry Experience"
+		},
+		"investmentAsk": {
+			"value": "$189K",
+			"label": "Total Investment Ask"
+		}
+	},
+	"bars": {
+		"goldOutput": "Gold Output",
+		"efficiency": "Efficiency",
+		"roiTarget": "ROI Target"
+	},
+	"strip": {
+		"monthlyRevenue": {
+			"value": "$572K",
+			"label": "Monthly Revenue"
+		},
+		"goldPerMonth": {
+			"value": "~266kg",
+			"label": "Gold Per Month"
+		},
+		"yearsInSector": {
+			"value": "10+",
+			"label": "Years in Sector"
+		},
+		"chemicalInputs": {
+			"value": "0",
+			"label": "Chemical Inputs"
+		},
+		"paybackPeriod": {
+			"value": "3mo",
+			"label": "Payback Period"
+		}
+	}
+}

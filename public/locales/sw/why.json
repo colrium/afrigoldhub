@@ -1,0 +1,37 @@
+{
+	"tag": "Kwa nini AfriGold Hub?",
+	"headline": "Imejengwa kwenye ardhi iliyothibitishwa, <gold>imeundwa kwa ajili ya mapato</gold>",
+	"description": "Operesheni yetu iko kwenye Uwanja wa Dhahabu wa Lupa wenye historia katika Chunya, Mbeya - moja ya mikanda yenye madini mengi zaidi barani Afrika, yenye rekodi ya kufuatilia hadi 1922.",
+	"cards": [
+		{
+			"icon": "anchor",
+			"title": "Teknolojia ya Ukolezi wa Mvuto",
+			"description": "Mchakato wetu wa mvuto usio na kemikali unatii mazingira na una gharama nafuu, ukirejesha dhahabu bila zebaki au sianidi - umeidhinishwa kikamilifu na NEMC."
+		},
+		{
+			"icon": "license",
+			"title": "Shughuli Zenye Leseni Kamili",
+			"description": "Leseni hai ya Msingi ya Uchimbaji Madini (PML) na hati miliki ya uchimbaji iliyolindwa. Idhini zote za udhibiti zipo chini ya Sheria ya Madini ya Afrika ya 2010 na marekebisho yake."
+		},
+		{
+			"icon": "finance",
+			"title": "Muundo wa Kifedha wa Uwazi",
+			"description": "Makadirio ya kila mwezi ya $504K ya faida halisi kwa $572K ya mapato ya jumla, na njia wazi ya kurudisha mtaji wa miezi mitatu na ripoti za wawekezaji za kila robo mwaka."
+		},
+		{
+			"icon": "globe",
+			"title": "Urithi wa Kiafrika, Viwango vya Kimataifa",
+			"description": "Tukiwa na mizizi katika ajira za jamii za Tanzania, tunadumisha viwango vya kimataifa vya mbinu bora za usalama na mazingira katika shughuli zetu za tovuti ya Chunya."
+		},
+		{
+			"icon": "investor",
+			"title": "Utawala wa Mwekezaji Kwanza",
+			"description": "Mikataba ya ushirikiano iliyoundwa na nafasi za usawa zilizobainishwa, ulinzi wa escrow, na ripoti za kila mwezi za kifedha kwa wawekezaji wote wa kimkakati."
+		},
+		{
+			"icon": "science",
+			"title": "Hifadhi Zilizothibitishwa Kisayansi",
+			"description": "Tafiti za ukweli wa ardhi na tathmini za kijiolojia zinathibitisha viwango vya dhahabu vinavyowezekana na vinavyofanya kazi katika ekari zetu zilizopewa leseni katika bonni la Uwanja wa Dhahabu wa Lupa."
+		}
+	]
+}

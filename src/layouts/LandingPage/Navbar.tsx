@@ -17,41 +17,16 @@ import { useTranslation } from "next-i18next/pages";
 
 import { useRouter } from "next/router";
 import useSetState from "@/hooks/useSetState";
-import { locales } from "@/config";
 import { Avatar } from "@mui/material";
 
-const localeCodes = locales.map((locale) => locale.code);
 
-function stripLocalePrefix(path: string) {
-	const parts = path.split("/");
-	const maybeLocale = parts[1];
 
-	if (localeCodes.includes(maybeLocale)) {
-		return `/${parts.slice(2).join("/")}` || "/";
-	}
 
-	return path || "/";
-}
 
-function localizePath(path: string, locale: string) {
-	if (!path.startsWith("/") || path.startsWith("//")) {
-		return path;
-	}
-
-	const [pathAndQuery, hash] = path.split("#");
-	const [pathname, query] = pathAndQuery.split("?");
-	const cleanPathname = stripLocalePrefix(pathname);
-	const localizedPathname =
-		cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
-
-	return `${localizedPathname}${query ? `?${query}` : ""}${
-		hash ? `#${hash}` : ""
-	}`;
-}
 
 export default function Navbar() {
 	const router = useRouter();
-	const { t, i18n } = useTranslation("common");
+	const { t, i18n } = useTranslation(["common", "meta"]);
     const [state, setState] = useSetState({
 		drawerOpen: false,
 		isWindowScrolled: false,
@@ -62,16 +37,43 @@ export default function Navbar() {
 		languageMenuAnchor: null | HTMLElement;
 	});
     
+    const locales = t("common:locales", { returnObjects: true }) as {
+		code: string;
+		label: string;
+		flag: string;
+    }[];
 
+    const localeCodes =  locales.map((locale) => locale.code);
     
-    const localeObj = locales.find((l) => l.code === router.locale) || locales[0];
+    const localeObj = locales.find((l) => l.code === router.locale) || locales.find((l) => l.code === i18n.language) || { code: 'en', label: 'English', flag: '/flags/en.svg' };
 
-	const navs = t("shared.nav.links", { returnObjects: true }) as {
+	const navs = t("common:nav.links", { returnObjects: true }) as {
 		label: string;
 		href: string;
 		excludeOnMainNav?: boolean;
 	}[];
 
+const stripLocalePrefix = (path: string) => {
+		const localePattern = new RegExp(`^/(${localeCodes.join("|")})(?:/|$)`);
+		const strippedPath = path.replace(localePattern, "/");
+		return strippedPath === "" ? "/" : strippedPath;
+	};
+
+	const localizePath = (path: string, locale: string) => {
+		if (!path.startsWith("/") || path.startsWith("//")) {
+			return path;
+		}
+
+		const [pathAndQuery, hash] = path.split("#");
+		const [pathname, query] = pathAndQuery.split("?");
+		const cleanPathname = stripLocalePrefix(pathname);
+		const localizedPathname =
+			cleanPathname === "/" ? `/${locale}` : `/${locale}${cleanPathname}`;
+
+		return `${localizedPathname}${query ? `?${query}` : ""}${
+			hash ? `#${hash}` : ""
+		}`;
+	};
 
 	const onToggleLanguageClick = async (newLocale: string) => {
 		if (newLocale === router.locale) {
@@ -81,7 +83,7 @@ export default function Navbar() {
 
 		document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
 		await i18n.changeLanguage(newLocale);
-		await router.push(localizedPath);
+		await router.replace(localizedPath, undefined, { locale: false });
 	};
 
 
@@ -133,12 +135,10 @@ export default function Navbar() {
 				}}
 			>
 				<Container maxWidth="xl">
-					<Toolbar disableGutters className={`bg-transparent!`} >
-						{/* Drawer Toggle Button - Visible only on small devices */}
-
+					<Toolbar disableGutters className={`bg-transparent!`}>
 						<IconButton
 							onClick={handleDrawerToggle}
-							classes={{ root: "md:hidden! mr-4!" }}
+							classes={{ root: "lg:hidden! mr-4!" }}
 							sx={{ color: "inherit" }}
 						>
 							<MenuIcon />
@@ -146,7 +146,7 @@ export default function Navbar() {
 
 						<Link href="/" className="flex items-center gap-2">
 							<Image
-								className="hidden md:flex md:mr-1"
+								className="hidden lg:flex lg:mr-1"
 								src="/img/logo-three-tone.svg"
 								alt="logo"
 								width={32}
@@ -157,61 +157,62 @@ export default function Navbar() {
 								noWrap
 								className="mr-2 flex font-mono font-bold text-primary-500  text-inherit no-underline"
 							>
-								{t("site.title")}
+								{t("meta:site.title")}
 							</Typography>
 						</Link>
 
-						<Box className="hidden md:flex flex-1 md:flex-grow md:gap-4 md:items-center md:justify-end">
-							{navs.map(
-								({ label, href, excludeOnMainNav }, i) =>
-									!excludeOnMainNav && (
-										<MuiLink
-											component={Link}
-											color="textPrimary"
-											className={`text-sm mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
-											href={localizePath(href, currentLocale)}
-											locale={false}
-											key={`nav-${i}`}
-										>
-											{label}
-										</MuiLink>
-									)
-							)}
+						<Box className="hidden lg:flex flex-1 lg:grow lg:gap-4 lg:items-center lg:justify-end">
+							{Array.isArray(navs) &&
+								navs.map(
+									({ label, href, excludeOnMainNav }, i) =>
+										!excludeOnMainNav && (
+											<MuiLink
+												component={Link}
+												color="textPrimary"
+												className={`text-xs mr-4 no-underline! font-light tracking-[0.03em] text-onSurface-100  hover:text-primary-500 transition-colors`}
+												href={localizePath(href, currentLocale)}
+												locale={false}
+												key={`nav-${i}`}
+											>
+												{label}
+											</MuiLink>
+										)
+								)}
 						</Box>
 
-						{/* Language Toggle - Visible on all devices */}
-						<Box className="md:hidden flex-grow" />
+						<Box className="lg:hidden grow" />
 						<Box className="flex items-center gap-2">
 							<Avatar
 								onClick={handleLanguageMenuOpen}
 								className="mx-4  cursor-pointer"
 								sx={{ width: 24, height: 24 }}
-								src={localeObj.icon}
-								alt={localeObj.name}
-								title={t("changeLanguage")}
+								src={localeObj.flag}
+								alt={localeObj.label}
+								title={t("common:misc.changeLanguage")}
 							/>
 							<Menu
 								anchorEl={state.languageMenuAnchor}
 								open={Boolean(state.languageMenuAnchor)}
 								onClose={handleLanguageMenuClose}
 							>
-								{locales.map((locale) => (
-									<MenuItem
-										key={locale.code}
-										onClick={() => handleLanguageSelect(locale.code)}
-										selected={router.locale === locale.code}
-										disabled={router.locale === locale.code}
-									>
-										<Image
-											className="mr-2"
-											width={14}
-											height={10}
-											src={locale.icon}
-											alt={locale.name}
-										/>
-										{locale.name}
-									</MenuItem>
-								))}
+								{Array.isArray(locales) &&
+									locales.map((locale) => (
+										<MenuItem
+											key={locale.code}
+											onClick={() => handleLanguageSelect(locale.code)}
+											selected={router.locale === locale.code}
+											disabled={router.locale === locale.code}
+										>
+											<Image
+												className="mr-2"
+												width={14}
+												height={10}
+												src={locale.flag}
+												alt={locale.label}
+											/>
+											{locale.label}
+										</MenuItem>
+									))}
 							</Menu>
 						</Box>
 					</Toolbar>
@@ -222,7 +223,7 @@ export default function Navbar() {
 			<Drawer
 				anchor="left"
 				open={state.drawerOpen}
-				className="block md:hidden"
+				className="block lg:hidden"
 				onClose={handleDrawerToggle}
 				classes={{
 					paper: "bg-surface-900/70! bg-opacity-90! backdrop-blur-lg! border-b shadow-xl",
@@ -249,29 +250,30 @@ export default function Navbar() {
 
 					{/* Mobile Navigation Links */}
 					<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-						{navs.map(
-							({ excludeOnMainNav, label, href }, i) =>
-								!excludeOnMainNav && (
-									<MuiLink
-										component={Link}
-										key={`mobile-nav-${i}`}
-										href={localizePath(href, currentLocale)}
-										locale={false}
-										onClick={handleDrawerToggle}
-										sx={{
-											py: 1,
-											px: 2,
-											borderRadius: 1,
-											"&:hover": {
-												backgroundColor: "rgba(0, 0, 0, 0.05)",
-											},
-										}}
-										className="no-underline py-1 px-2 hover:bg-primary-light"
-									>
-										{label}
-									</MuiLink>
-								)
-						)}
+						{Array.isArray(navs) &&
+							navs.map(
+								({ excludeOnMainNav, label, href }, i) =>
+									!excludeOnMainNav && (
+										<MuiLink
+											component={Link}
+											key={`mobile-nav-${i}`}
+											href={localizePath(href, currentLocale)}
+											locale={false}
+											onClick={handleDrawerToggle}
+											sx={{
+												py: 1,
+												px: 2,
+												borderRadius: 1,
+												"&:hover": {
+													backgroundColor: "rgba(0, 0, 0, 0.05)",
+												},
+											}}
+											className="no-underline py-1 px-2 hover:bg-primary-light"
+										>
+											{label}
+										</MuiLink>
+									)
+							)}
 					</Box>
 				</Box>
 			</Drawer>

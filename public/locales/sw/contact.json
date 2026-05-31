@@ -1,0 +1,344 @@
+{
+	"hero": {
+		"tag": "Wasiliana Nasi",
+		"headline": "Tuongee kuhusu uwekezaji wako",
+		"description": "Iwe unachunguza ukusanyaji wa dhahabu, ufugaji wa mbuzi wa kibiashara, kilimo cha bustani, uhakiki wa kina, au ziara ya tovuti, timu yetu hujibu kila swali la dhati ndani ya saa 24.",
+		"badge": { "text": "Jibu ndani ya saa 24", "status": "active" }
+	},
+	"opportunities": {
+		"tag": "Chagua Njia",
+		"headline": "Elekeza ombi lako kwa timu sahihi",
+		"description": "Chagua fursa inayofaa mpango wako. Fomu ya mawasiliano itanasa eneo unalopendelea ili mahusiano ya wawekezaji yatume nyaraka na hatua zinazofaa."
+	},
+	"offices": {
+		"tag": "Ofisi Zetu",
+		"headline": "Tutafute",
+		"items": [
+			{
+				"id": "hq-busia",
+				"label": "Makao Makuu na Tovuti ya Msingi",
+				"city": "Busia",
+				"country": "Uganda",
+				"flag": "🇺🇬",
+				"address_lines": [
+					"AfriGold Hub Ltd",
+					"Njia ya 14, Barabara ya Madini",
+					"Mji wa Busia, Wilaya ya Busia",
+					"Mkoa wa Mashariki, Uganda"
+				],
+				"lat": 0.4664,
+				"lng": 34.0886,
+				"phone": "+256 700 000 001",
+				"email": "busia@afrigoldhub.com",
+				"hours": "Jumatatu–Ijumaa 08:00–17:00 EAT",
+				"type": "hq",
+				"note": "Kituo kikuu cha kuyeyusha na kituo cha ziara za wawekezaji. Taarifa ya mapema inahitajika kwa ufikiaji wa tovuti."
+			},
+			{
+				"id": "regional-nairobi",
+				"label": "Ofisi ya Kanda ya Afrika Mashariki",
+				"city": "Nairobi",
+				"country": "Kenya",
+				"flag": "🇰🇪",
+				"address_lines": [
+					"AfriGold Hub Ofisi ya Kanda",
+					"Upper Hill, Kilimani",
+					"Nairobi, Kenya"
+				],
+				"lat": -1.2921,
+				"lng": 36.8219,
+				"phone": "+254 700 000 002",
+				"email": "nairobi@afrigoldhub.com",
+				"hours": "Jumatatu–Ijumaa 08:30–17:30 EAT",
+				"type": "regional",
+				"note": "Kituo cha mahusiano ya wawekezaji, sheria, na usimamizi wa fedha kwa Afrika Mashariki."
+			},
+			{
+				"id": "west-africa-freetown",
+				"label": "Ofisi ya Afrika Magharibi",
+				"city": "Freetown",
+				"country": "Sierra Leone",
+				"flag": "🇸🇱",
+				"address_lines": [
+					"AfriGold Hub Afrika Magharibi",
+					"Wilberforce, Freetown",
+					"Sierra Leone"
+				],
+				"lat": 8.4657,
+				"lng": -13.2317,
+				"phone": "+232 76 000 003",
+				"email": "westafrica@afrigoldhub.com",
+				"hours": "Jumatatu–Ijumaa 08:00–17:00 GMT",
+				"type": "regional",
+				"note": "Inasimamia shughuli za Sierra Leone na mahusiano ya washirika wa Afrika Magharibi."
+			},
+			{
+				"id": "southern-africa-johannesburg",
+				"label": "Ofisi ya Afrika Kusini",
+				"city": "Johannesburg",
+				"country": "Afrika Kusini",
+				"flag": "🇿🇦",
+				"address_lines": [
+					"AfriGold Hub Afrika Kusini",
+					"Sandton, Johannesburg",
+					"Gauteng, Afrika Kusini"
+				],
+				"lat": -26.1076,
+				"lng": 28.0567,
+				"phone": "+27 11 000 0004",
+				"email": "southernafrica@afrigoldhub.com",
+				"hours": "Jumatatu–Ijumaa 08:00–17:00 SAST",
+				"type": "regional",
+				"note": "Inashughulikia shughuli za Afrika Kusini, Eswatini, na Malawi."
+			}
+		]
+	},
+	"contact_reasons": {
+		"label": "Tunaweza kusaidia na nini?",
+		"options": [
+			{ "value": "investment-enquiry", "label": "Swali la uwekezaji" },
+			{ "value": "due-diligence", "label": "Omba vifaa vya utafiti wa kina" },
+			{ "value": "site-visit", "label": "Panga ziara ya tovuti" },
+			{ "value": "partnership", "label": "Pendekezo la biashara / ushirikiano" },
+			{ "value": "press-media", "label": "Swali la vyombo vya habari" },
+			{ "value": "compliance-legal", "label": "Ufuasi / sheria" },
+			{ "value": "community", "label": "Jamii na ESG" },
+			{ "value": "careers", "label": "Kazi na ajira" },
+			{ "value": "other", "label": "Nyingine" }
+		]
+	},
+	"form": {
+		"tag": "Tuma Ujumbe",
+		"headline": "Anza mazungumzo",
+		"description": "Jaza fomu na mwanachama sahihi wa timu yetu atajibu ndani ya siku moja ya kazi.",
+		"fields": {
+			"first_name": {
+				"label": "Jina la kwanza",
+				"placeholder": "James",
+				"required": true,
+				"type": "text"
+			},
+			"last_name": {
+				"label": "Jina la mwisho",
+				"placeholder": "Mwangi",
+				"required": true,
+				"type": "text"
+			},
+			"email": {
+				"label": "Barua pepe",
+				"placeholder": "wewe@mfano.com",
+				"required": true,
+				"type": "email"
+			},
+			"phone": {
+				"label": "Nambari ya simu",
+				"placeholder": "+256 700 000 000",
+				"required": false,
+				"type": "tel"
+			},
+			"country": {
+				"label": "Nchi",
+				"placeholder": "Chagua nchi yako",
+				"required": true,
+				"type": "select"
+			},
+			"reason": {
+				"label": "Sababu ya kuwasiliana",
+				"placeholder": "Chagua sababu",
+				"required": true,
+				"type": "select"
+			},
+			"opportunity": {
+				"label": "Fursa unayopendelea",
+				"placeholder": "Chagua fursa",
+				"required": false,
+				"type": "select",
+				"options": [
+					{ "value": "gold-aggregation", "label": "Ukusanyaji wa dhahabu Busia" },
+					{ "value": "goat-farming", "label": "Ufugaji wa mbuzi wa kibiashara" },
+					{ "value": "horticulture", "label": "Kilimo biashara cha bustani" },
+					{ "value": "multi-sector", "label": "Fursa kadhaa" },
+					{ "value": "unsure", "label": "Bado sina hakika" }
+				]
+			},
+			"investor_tier": {
+				"label": "Daraja la uwekezaji wa dhahabu",
+				"placeholder": "Chagua kiwango",
+				"required": false,
+				"type": "select",
+				"show_when": { "field": "reason", "value": "investment-enquiry" },
+				"options": [
+					{ "value": "seed-partner", "label": "Mshirika wa Mbegu - $25,000" },
+					{ "value": "strategic-partner", "label": "Mshirika wa Kimkakati - $75,000" },
+					{ "value": "anchor-investor", "label": "Mwekezaji Msingi - $189,000" },
+					{ "value": "unsure", "label": "Bado sina hakika" }
+				]
+			},
+			"message": {
+				"label": "Ujumbe",
+				"placeholder": "Tuambie zaidi kuhusu swali lako…",
+				"required": true,
+				"type": "textarea",
+				"rows": 5
+			},
+			"consent": {
+				"label": "Ninakubali AfriGold Hub kuhifadhi na kutumia data hii kujibu swali langu, kwa mujibu wa Sera ya Faragha.",
+				"required": true,
+				"type": "checkbox"
+			},
+			"newsletter": {
+				"label": "Nisajili kwa muhtasari wa kila mwezi wa wawekezaji",
+				"required": false,
+				"type": "checkbox"
+			}
+		},
+		"submit_label": "Tuma Ujumbe",
+		"success_heading": "Ujumbe umepokelewa",
+		"success_body": "Asante kwa kuwasiliana nasi. Mwanachama wa timu yetu atajibu swali lako ndani ya siku moja ya kazi.",
+		"error_body": "Hitilafu imetokea wakati wa kutuma ujumbe wako. Tafadhali jaribu tena au tutumie barua pepe moja kwa moja kwa invest@afrigoldhub.com."
+	},
+	"direct_contacts": {
+		"tag": "Mawasiliano ya Moja kwa Moja",
+		"headline": "Wasiliana na mtu sahihi",
+		"items": [
+			{
+				"department": "Uwekezaji na Ushirikiano",
+				"name": "James Mwangi",
+				"title": "Mkurugenzi Mtendaji na Mwanzilishi Mwenza",
+				"email": "invest@afrigoldhub.com",
+				"phone": "+256 700 000 001",
+				"note": "Maswali ya uwekezaji, mapendekezo ya ushirikiano, majadiliano ya wawekezaji wasaidizi."
+			},
+			{
+				"department": "Mahusiano ya Wawekezaji na Fedha",
+				"name": "David Kimani",
+				"title": "Afisa Mkuu wa Fedha",
+				"email": "finance@afrigoldhub.com",
+				"phone": "+256 700 000 005",
+				"note": "Ripoti za kila mwezi, vifaa vya utafiti wa kina, taarifa za kifedha, maswali ya malipo."
+			},
+			{
+				"department": "Uendeshaji na Ziara za Tovuti",
+				"name": "Amina Ochieng",
+				"title": "Mkurugenzi wa Uendeshaji na Mwanzilishi Mwenza",
+				"email": "operations@afrigoldhub.com",
+				"phone": "+256 700 000 006",
+				"note": "Uratibu wa ziara za tovuti, sasisho za uendeshaji, maswali ya kiufundi ya usindikaji."
+			},
+			{
+				"department": "Sheria na Ufuasi",
+				"name": "Grace Njoroge",
+				"title": "Mkuu wa Sheria na Ufuasi",
+				"email": "legal@afrigoldhub.com",
+				"phone": "+254 700 000 007",
+				"note": "Mikataba ya uwekezaji, ufuasi wa udhibiti, nyaraka za KYC/AML."
+			},
+			{
+				"department": "Vyombo vya Habari",
+				"name": "Timu ya Mawasiliano",
+				"title": "Mahusiano ya Vyombo vya Habari",
+				"email": "press@afrigoldhub.com",
+				"phone": "",
+				"note": "Maombi ya mahojiano, taarifa kwa vyombo vya habari, picha na ufikiaji wa media."
+			},
+			{
+				"department": "Jamii na ESG",
+				"name": "Timu ya ESG",
+				"title": "Maendeleo ya Jamii",
+				"email": "community@afrigoldhub.com",
+				"phone": "",
+				"note": "Maswali ya maendeleo ya jamii, ushirikiano na NGO, ripoti za mazingira."
+			}
+		]
+	},
+	"site_visit": {
+		"tag": "Ziara za Tovuti",
+		"headline": "Jionee mwenyewe operesheni",
+		"description": "Wawekezaji wa kiwango cha Kimkakati na Msingi wanakaribishwa kutembelea kituo chetu cha msingi cha Busia, Uganda. Ziara ya tovuti inajumuisha mwongozo kamili wa mchakato - uchimbaji, ukolezi wa mvuto, kuyeyusha, na upimaji - pamoja na mkutano na timu yetu ya uongozi wa uendeshaji.",
+		"process_steps": [
+			{
+				"step": 1,
+				"title": "Wasilisha ombi",
+				"description": "Tumia fomu ya mawasiliano hapo juu ukichagua 'Panga ziara ya tovuti'. Jumuisha dirisha lako la kusafiri unalopendelea (angalau wiki 2 za taarifa inahitajika)."
+			},
+			{
+				"step": 2,
+				"title": "Muhtasari wa kabla ya ziara",
+				"description": "Timu yetu ya uendeshaji itatuma hati ya muhtasari wa usalama wa tovuti na ratiba ya safari siku 5 za kazi kabla ya ziara yako."
+			},
+			{
+				"step": 3,
+				"title": "Fika Busia",
+				"description": "Busia ni umbali wa saa 4–5 kwa gari kutoka Uwanja wa Ndege wa Kimataifa wa Entebbe (EBB), au safari ya ndege ya dakika 30 hadi Uwanja wa Ndege wa Tororo. Usafiri wa kupelekwa uwanjani unaweza kupangwa."
+			},
+			{
+				"step": 4,
+				"title": "Ziara kamili ya tovuti",
+				"description": "Ziara ya nusu siku iliyoongozwa ya mashimo ya uchimbaji, kiwanda cha usindikaji, tanuru ya kuyeyusha, na kituo cha upimaji. Maswali na majibu kamili na timu ya tovuti imejumuishwa."
+			},
+			{
+				"step": 5,
+				"title": "Muhtasari wa mwekezaji",
+				"description": "Mkutano wa baada ya ziara na Mkurugenzi Mtendaji na Afisa Mkuu wa Fedha unaojumuisha fedha, nyaraka, na hatua zinazofuata za kurasimisha uwekezaji wako."
+			}
+		],
+		"note": "Ziara za tovuti zinapatikana Jumatatu–Ijumaa pekee. Kiwango cha chini cha uwekezaji kwa ufikiaji wa tovuti: Mshirika wa Kimkakati ($75,000).",
+		"cta": { "label": "Omba Ziara ya Tovuti", "href": "#contact-form" }
+	},
+	"faq": {
+		"tag": "Majibu ya Haraka",
+		"headline": "Maswali ya kawaida ya mawasiliano",
+		"items": [
+			{
+				"question": "Nitaweza kupata jibu kwa haraka kiasi gani kwa swali langu?",
+				"answer": "Maswali yote yanayowasilishwa kupitia fomu ya mawasiliano yanapokea jibu kutoka kwa mwanachama husika wa timu ndani ya siku moja ya kazi (Jumatatu–Ijumaa, 08:00–17:00 EAT). Maswali ya uwekezaji yanapewa kipaumbele na kwa kawaida yanajibiwa ndani ya saa 4 wakati wa saa za kazi."
+			},
+			{
+				"question": "Vifaa vya utafiti wa kina vina nini?",
+				"answer": "Vifaa vya utafiti wa kina vya AfriGold Hub vinajumuisha: taarifa za kukaguliwa za Faida na Hasara za miezi 6 iliyopita, risiti za mauzo ya dhahabu na risiti za KRA/URA, vyeti vya upimaji vya KEBS/UNBS kwa shehena tatu zilizopita, nakala za sasa za Leseni ya Uchimbaji Madini, nakala za sasa za cheti cha NEMA/EIA, Mkataba wa Kawaida wa Ushirikiano wa Uwekezaji, na muhtasari wa wasilisho la tovuti. Hutumwa kwa ombi kwa maswali yaliyothibitishwa pekee."
+			},
+			{
+				"question": "Naweza kutembelea tovuti kabla ya kujitolea kwa uwekezaji?",
+				"answer": "Ndio. Ziara za tovuti zinapatikana kwa wanaotarajiwa wa kiwango cha Kimkakati na Msingi kwa angalau wiki 2 za taarifa. Tunagharamia gharama ya vifaa vya usafiri ndani ya nchi kutoka Entebbe hadi Busia kwa wanaotarajiwa wa uwekezaji makini. Usafiri wa kimataifa ni kwa gharama ya mgeni."
+			},
+			{
+				"question": "Je, mko wazi kwa uwekezaji kutoka nje ya Afrika?",
+				"answer": "Ndio. Tuna washirika wa uwekezaji hai kutoka UAE, Ulaya, na Asia. Uhamisho wa kimataifa wa SWIFT (USD) unaungwa mkono. Ushirikiano wote unatawaliwa na sheria za Uganda chini ya mkataba rasmi wa uwekezaji, na kifungu cha usuluhishi wa kimataifa cha hiari kinapatikana kwa ombi."
+			},
+			{
+				"question": "Ninawakilisha mfuko / ofisi ya familia. Je, kuna kiwango cha chini cha uwekezaji zaidi ya $189K?",
+				"answer": "Ndio. Tunachukua uwekaji mkubwa wa kitaasisi zaidi ya kiwango kilichotangazwa cha Msingi kwa misingi maalum. Tafadhali wasiliana na Mkurugenzi wetu Mtendaji moja kwa moja kwa invest@afrigoldhub.com kwa mazungumzo ya siri."
+			}
+		]
+	},
+	"social": {
+		"tag": "Tufuate",
+		"headline": "Kaa Ukiwa Umeunganishwa",
+		"channels": [
+			{
+				"platform": "LinkedIn",
+				"handle": "AfriGold Hub",
+				"url": "https://linkedin.com/company/afrigoldhub",
+				"icon": "linkedin"
+			},
+			{
+				"platform": "X / Twitter",
+				"handle": "@afrigoldhub",
+				"url": "https://x.com/afrigoldhub",
+				"icon": "twitter"
+			},
+			{
+				"platform": "Instagram",
+				"handle": "@afrigoldhub",
+				"url": "https://instagram.com/afrigoldhub",
+				"icon": "instagram"
+			},
+			{
+				"platform": "YouTube",
+				"handle": "AfriGold Hub",
+				"url": "https://youtube.com/@afrigoldhub",
+				"icon": "youtube"
+			}
+		]
+	}
+}

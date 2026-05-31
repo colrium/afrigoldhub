@@ -1,0 +1,60 @@
+{
+	"hero": {
+		"badge": "Goldfield, Africa",
+		"headline": "Unlock Africa's <gold>Golden Opportunity</gold>",
+		"description": "AfriGold Hub connects serious investors with one of Africa's most productive artisanal gold mining operations. Proven technology. Licensed land. Transparent returns.",
+		"unlock": "Unlock",
+		"africa": "Africa's",
+		"goldenOpportunity": "Golden Opportunity",
+		"ctaPrimary": "View Investment Plans",
+		"ctaOutline": "See How It Works",
+		"certifiedBy": "Certified by"
+	},
+	"certifications_bar": {
+		"label": "Certified & Compliant",
+		"status_label": "All Active",
+		"audit_note": "Last audit: 2024",
+		"items": [
+			{
+				"code": "NEMA",
+				"name": "National Environment Management Authority",
+				"note": "EIA Certificate · Active"
+			},
+			{
+				"code": "KRA",
+				"name": "Kenya Revenue Authority",
+				"note": "Precious Metals Dealer"
+			},
+			{
+				"code": "MINES & GEOLOGY",
+				"name": "Mines & Geology Department",
+				"note": "Mining Licence · ML Active"
+			},
+			{
+				"code": "KEBS",
+				"name": "Kenya Bureau of Standards",
+				"note": "Assay Lab Certified"
+			},
+			{
+				"code": "WRA",
+				"name": "Water Resources Authority",
+				"note": "Water Permit · Active"
+			},
+			{
+				"code": "NITA",
+				"name": "National Industrial Training Authority",
+				"note": "Skills Training Certified"
+			},
+			{
+				"code": "DGSM",
+				"name": "Directorate of Geological Survey and Mines",
+				"note": "Uganda ML Registered"
+			},
+			{
+				"code": "UNBS",
+				"name": "Uganda National Bureau of Standards",
+				"note": "Assay Accreditation · Uganda"
+			}
+		]
+	}
+}

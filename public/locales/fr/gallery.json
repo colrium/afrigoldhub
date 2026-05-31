@@ -1,0 +1,18 @@
+{
+	"tag": "Récit visuel",
+	"headline": "De la terre à <gold>l’or</gold>",
+	"description": "Un aperçu de nos opérations sur le Goldfield : extraction, traitement gravimétrique, fusion et produit fini.",
+	"filters": {
+		"all": "Tout",
+		"mining": "Extraction",
+		"processing": "Traitement",
+		"smelting": "Fusion",
+		"product": "Produit fini",
+		"video": "▶ Vidéo"
+	},
+	"loadMore": "Charger plus",
+	"mediaTypes": {
+		"image": "Image",
+		"video": "Vidéo"
+	}
+}

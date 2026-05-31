@@ -1,0 +1,58 @@
+{
+    "site": {
+        "title": "AfriGold Hub",
+        "tagline": "Africa's leading platform for investment in artisanal gold mining",
+        "description": "Invest directly in artisanal gold mining on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Be part of unlocking Africa's golden opportunity."
+    },
+    "pages": {
+        "home": {
+            "title": "Home",
+            "meta_description": "Learn how {{site_title}} connects investors with Africa's most productive artisanal gold mining operations. Transparent returns, chemical-free processing, and fully licensed operations. Be part of unlocking Africa's golden opportunity."
+        },
+        "about": {
+            "title": "About Us",
+            "meta_description": "Learn more about {{site_title}}, our leadership, operating principles, governance model, and our mission to make African artisanal gold transparent and investable.",
+            "og_image": "/media/og-about.jpg"
+        },
+        "contact": {
+            "page_title": "Contact",
+            "meta_description": "Get in touch with the {{site_title}} team. Schedule an introductory call, request a due diligence package, or reach our offices in Busia and Nairobi.",
+            "og_image": "/media/og-contact.jpg"
+        },
+        "invest": {
+            "page_title": "Invest",
+            "meta_description": "Compare the investment tiers of {{site_title}}, the partner protection mechanisms, monthly reporting, and the process for joining a licensed, chemical-free gold production operation.",
+            "og_image": "/media/og-invest.jpg"
+        },
+        "locations": {
+            "page_title": "Locations",
+            "meta_description": "Discover the mine sites, operations, Google Maps coverage, and field gallery of AfriGold Hub across Africa.",
+            "og_image": "/media/og-locations.jpg"
+        },
+        "operations": {
+            "page_title": "Operations",
+            "meta_description": "Learn more about the licensed, chemical-free gold production operations of {{site_title}} and the transparent investment opportunities they offer.",
+            "og_image": "/media/og-operations.jpg"
+        },
+        "value_chain": {
+            "page_title": "Value Chain",
+            "meta_description": "Understand the entire gold value chain of {{site_title}} – from geological exploration and licensing to extraction, processing, analysis, sales, and investor payouts.",
+            "og_image": "/media/og-value-chain.jpg"
+        },
+        "risk_disclaimer": {
+            "page_title": "Risk Disclaimer",
+            "meta_description": "Learn about the key risks of investing in the artisanal gold mining operations of {{site_title}}.",
+            "og_image": "/media/og-risk-disclaimer.jpg"
+        },
+        "privacy_policy": {
+            "page_title": "Privacy Policy",
+            "meta_description": "Learn about how {{site_title}} handles information submitted through our website, contact forms, investor enquiries, and site-visit requests.",
+            "og_image": "/media/og-privacy.jpg"
+        },
+        "terms_of_use": {
+            "page_title": "Terms of Use",
+            "meta_description": "Review the terms of use for {{site_title}}'s website and services.",
+            "og_image": "/media/og-terms.jpg"
+        }
+    }
+}

@@ -1,0 +1,302 @@
+{
+	"hero": {
+		"tag": "Opérations",
+		"headline": "De la terre à <gold>la barre d’or</gold>",
+		"subheadline": "Sur sept nations africaines, une norme sans compromis",
+		"description": "Basé à Busia, en Ouganda, AfriGold Hub exploite des installations de concentration gravimétrique sans produits chimiques à travers l’Ouganda, le Kenya, la Tanzanie, l’Eswatini, la Sierra Leone, l’Afrique du Sud et le Malawi. Chaque gramme produit est documenté par une chaîne de traçabilité, de la mine sous licence à l’acheteur vérifié - avec zéro mercure et zéro cyanure sur chaque site.",
+		"cta_primary": { "label": "Voir les plans d’investissement", "href": "/invest" },
+		"cta_secondary": { "label": "Voir nos sites", "href": "/locations" },
+		"badge": { "text": "7 pays · 1 norme", "status": "active" }
+	},
+	"overview": {
+		"tag": "Notre méthode",
+		"headline": "Un processus éprouvé, reproduit sur un continent",
+		"description": "Notre modèle opérationnel est simple, reproductible et rentable. Nous extrayons le minerai alluvial et éluvial de mines sous licence, le traitons via notre système de concentration gravimétrique - sluices, spirales et tables vibrantes - et fondons le concentré en barres d’or analysées indépendamment. Pas de produits chimiques. Pas de raccourcis. Une documentation complète à chaque étape.",
+		"stats": [
+			{ "value": "266 kg", "label": "Or produit par mois", "prefix": "~" },
+			{ "value": "88 %", "label": "Marge bénéficiaire nette", "prefix": "" },
+			{ "value": "0", "label": "Intrants chimiques", "prefix": "" },
+			{ "value": "7", "label": "Pays d’exploitation", "prefix": "" },
+			{ "value": "92 %", "label": "Taux de recyclage de l’eau", "prefix": "" },
+			{ "value": "8,40 $", "label": "Coût de traitement par gramme", "prefix": "" }
+		]
+	},
+	"features": {
+		"tag": "Notre activité",
+		"headline": "Production aurifère de bout en bout",
+		"items": [
+			{
+				"icon": "pick",
+				"title": "Extraction sous licence",
+				"description": "Tout le minerai provient de fosses approuvées par les permis miniers dans sept pays, sous la supervision de chefs de mine certifiés et avec un enregistrement actif de la chaîne de traçabilité dès le premier ticket de pesée."
+			},
+			{
+				"icon": "droplets",
+				"title": "Concentration gravimétrique sans produits chimiques",
+				"description": "Les sluices, concentrateurs à spirale et tables vibrantes séparent l’or de la gangue en utilisant uniquement de l’eau et la gravité. Zéro mercure, zéro cyanure, zéro résidu chimique sur l’ensemble du réseau."
+			},
+			{
+				"icon": "flame",
+				"title": "Fusion sur site jusqu’à 99,5 % de pureté",
+				"description": "Le concentré nettoyé est fondu dans des fours à induction sur site et coulé en barres d’or numérotées. Chaque barre est analysée indépendamment avant sa libération - pureté minimale de 99,5 %."
+			},
+			{
+				"icon": "file-check",
+				"title": "Documentation de la chaîne de traçabilité",
+				"description": "Chaque gramme est suivi depuis le ticket de pesée du minerai jusqu’à la teneur du concentré, au certificat d’analyse et au reçu de l’acheteur - une chaîne documentaire complète accessible à tous les partenaires d’investissement."
+			},
+			{
+				"icon": "handshake",
+				"title": "Ventes à des acheteurs agréés",
+				"description": "Or vendu exclusivement à des négociants en métaux précieux agréés par l’État dans chaque pays d’exploitation, avec déclarations complètes des redevances et documentation à l’exportation par transaction."
+			},
+			{
+				"icon": "landmark",
+				"title": "Conformité réglementaire multi-pays",
+				"description": "Permis miniers actifs, certificats environnementaux et enregistrements fiscaux dans les sept pays - DGSM Ouganda, Mines & Geology Kenya, TMAA Tanzanie, DMRE Afrique du Sud, et équivalents en Sierra Leone, Eswatini et Malawi."
+			}
+		]
+	},
+	"locations": {
+		"hq": "Busia, Ouganda",
+		"countries": [
+			"Ouganda",
+			"Kenya",
+			"Tanzanie",
+			"Eswatini",
+			"Sierra Leone",
+			"Afrique du Sud",
+			"Malawi"
+		],
+		"places": [
+			{
+				"role": "headquarters",
+				"country": "Ouganda",
+				"flag": "🇺🇬",
+				"site": "Tira Gold Mine",
+				"region": "District de Busia, région orientale",
+				"lat": 0.4664,
+				"lng": 34.0886,
+				"place_id": "ChIJ5ZHcDPihfxcR39saSb3FhNQ",
+				"deposit_type": ["filons de quartz", "minéralisation dans BIF", "placer alluvial"],
+				"goldfield": "Ceinture de roches vertes de Busia-Kakamega",
+				"geology": "Ceinture de roches vertes archéenne. Gisements dans les filons de quartz et les formations de fer rubanées (BIF). Or alluvial le long du corridor de la rivière Malaba-Solo.",
+				"licence_authority": "Direction des études géologiques et des mines (DGSM), Ouganda",
+				"regulatory_body": "NEMA Ouganda",
+				"status": "active",
+				"elevation_m": 1218,
+				"notes": "Siège social et installation de traitement principale. Site avec la plus forte production. Environ 266 kg d’or raffiné par mois."
+			},
+			{
+				"country": "Kenya",
+				"role": "operations",
+				"site": "Macalder Gold Mine",
+				"region": "Comté de Migori, région de Nyanza",
+				"lat": -0.9711,
+				"lng": 34.2574,
+				"place_id": "ChIJ6xpyTCen1BkRvwDanI4UM0k",
+				"deposit_type": [
+					"filons de quartz orogéniques",
+					"minéralisation dans BIF",
+					"alluvial"
+				],
+				"goldfield": "Ceinture de roches vertes de Migori (champs aurifères du lac Victoria)",
+				"geology": "Partie du Supergroupe de Nyanza - extension nord du craton tanzanien archéen. 11 sites miniers documentés. Minéralisation dans des zones de cisaillement avec veines de quartz-carbonate.",
+				"licence_authority": "Département des mines et de la géologie, Kenya",
+				"regulatory_body": "NEMA Kenya, Autorité des ressources en eau (WRA)",
+				"status": "active",
+				"elevation_m": 1250,
+				"notes": "Sud-ouest du Kenya, à 290 km à l’ouest de Nairobi. Géologie analogue aux mines de Geita et North Mara en Tanzanie."
+			},
+			{
+				"country": "Tanzanie",
+				"role": "operations",
+				"site": "Zone minière de Geita",
+				"region": "District de Geita, région de Geita",
+				"lat": -2.8676,
+				"lng": 32.1865,
+				"place_id": "ChIJg3NfLjAYzxkRn-znACNIG5k",
+				"deposit_type": [
+					"filon lode orogénique",
+					"minéralisation dans BIF",
+					"placer alluvial"
+				],
+				"goldfield": "Champ aurifère du lac Victoria - Ceinture de roches vertes de Geita",
+				"geology": "Nord-ouest de la Tanzanie. Partie du système aurifère du craton tanzanien archéen.",
+				"licence_authority": "Agence tanzanienne d’audit minier (TMAA), ministère des Mines",
+				"regulatory_body": "NEMC Tanzanie, TANSORT",
+				"status": "active",
+				"elevation_m": 1140,
+				"notes": "Principal district aurifère de Tanzanie."
+			},
+			{
+				"country": "Sierra Leone",
+				"role": "operations",
+				"site": "District aurifère de Kono",
+				"region": "District de Kono, province de l’Est",
+				"lat": 8.6438,
+				"lng": -10.9714,
+				"place_id": null,
+				"deposit_type": ["placer alluvial", "filons de quartz", "éluvial"],
+				"goldfield": "Ceinture de roches vertes de Kono-Kenema, Craton ouest-africain",
+				"geology": "Zone de Koidu. Terrain de roches vertes archéen.",
+				"licence_authority": "Département des mines et des ressources minérales (MMRD), Sierra Leone",
+				"regulatory_body": "Agence de protection de l’environnement (EPA), Sierra Leone",
+				"status": "active",
+				"elevation_m": 385,
+				"notes": "Site du craton ouest-africain."
+			},
+			{
+				"country": "Afrique du Sud",
+				"role": "operations",
+				"site": "Champ aurifère du Witwatersrand - Zone West Wits",
+				"region": "West Rand, province du Gauteng",
+				"lat": -26.4384,
+				"lng": 27.4259,
+				"place_id": "ChIJTcMEZRXPlR4RSELvZ88nXs8",
+				"deposit_type": ["conglomérats de récif", "éluvial"],
+				"goldfield": "Bassin du Witwatersrand",
+				"geology": "Zone de Carletonville. Le plus grand champ aurifère du monde.",
+				"licence_authority": "Département des ressources minérales et de l’énergie (DMRE), Afrique du Sud",
+				"regulatory_body": "SARS, Département de l’eau et de l’assainissement (DWS), DMRE",
+				"status": "active",
+				"elevation_m": 1540,
+				"notes": "AfriGold Hub opère des concessions artisanales de surface dans la zone périphérique des récifs."
+			},
+			{
+				"country": "Eswatini",
+				"role": "operations",
+				"site": "Zone aurifère de Hhohho",
+				"region": "Région de Hhohho, nord-ouest de l’Eswatini",
+				"lat": -26.2037,
+				"lng": 31.0303,
+				"place_id": "ChIJXRJk03zc6B4R2sc1kB0ABco",
+				"deposit_type": ["filons de quartz", "placer alluvial"],
+				"goldfield": "Ceinture de roches vertes de Hhohho",
+				"geology": "Zone minérale de Ngwenya. Or dans les filons de quartz des roches vertes.",
+				"licence_authority": "Service géologique d’Eswatini",
+				"regulatory_body": "Autorité environnementale d’Eswatini (EEA)",
+				"status": "active",
+				"elevation_m": 890,
+				"notes": "Opération la plus récente identifiant de nouvelles zones aurifères."
+			},
+			{
+				"country": "Malawi",
+				"flag": "🇲🇼",
+				"site": "Ceinture aurifère de Mchinji",
+				"region": "District de Mchinji, région centrale",
+				"lat": -13.7984,
+				"lng": 32.8802,
+				"place_id": null,
+				"deposit_type": ["placer alluvial", "éluvial", "filons de quartz"],
+				"goldfield": "Ceinture de roches vertes du centre du Malawi",
+				"geology": "Corridors de roches vertes. Orpaillage artisanal dans les sédiments des ruisseaux saisonniers.",
+				"licence_authority": "Département des mines, Malawi",
+				"regulatory_body": "Département des affaires environnementales (EAD), Malawi",
+				"status": "active",
+				"elevation_m": 1100,
+				"notes": "Opération ajoutée le plus récemment. Potentiel d’exploration à la hausse."
+			}
+		]
+	},
+	"network": {
+		"tag": "Réseau opérationnel",
+		"headline": "Sept pays, une même norme opérationnelle",
+		"description": "Chaque site applique la même discipline en matière de documentation, d’environnement et de vérification des acheteurs, tout en s’adaptant à la géologie et aux exigences de licence locales.",
+		"goldfield_label": "Champ aurifère",
+		"cta": { "label": "Explorer tous les sites", "href": "/locations" }
+	},
+	"steps": {
+		"tag": "Le processus",
+		"headline": "Quatre étapes, zéro compromis",
+		"description": "Chaque site de notre réseau de sept pays suit le même processus documenté en quatre étapes - de l’extraction au paiement aux investisseurs.",
+		"items": [
+			{
+				"id": "site-extraction",
+				"step": 1,
+				"title": "Extraction",
+				"color": "#664B00",
+				"accent_color": "#A0763D",
+				"text_color": "#E8D9A0",
+				"icon": "site-extraction",
+				"image": "/media/site-extraction.jpeg",
+				"short_description": "Nos équipes d’excavation sous licence travaillent les zones de minerai alluvial et éluvial sur notre réseau de sept pays, sous des permis miniers actifs et une supervision rigoureuse. Chaque fosse est cartographiée, documentée et exploitée dans les limites certifiées par l’autorité nationale des mines.",
+				"long_description": "L’extraction chez AfriGold Hub commence bien avant qu’une pelle ne touche le sol. Chaque zone fait l’objet d’une évaluation géologique formelle pour cartographier la distribution de l’or alluvial et identifier les zones les plus productives. Nos géologues de terrain préparent des plans d’extraction qui équilibrent l’optimisation du rendement avec les exigences de réhabilitation du site.\n\nÀ Busia, en Ouganda, l’excavation suit l’ancien corridor alluvial de la rivière Malaba. Au Kenya et en Tanzanie, les formations alluviales similaires le long du bassin du lac Victoria produisent des teneurs constantes. En Sierra Leone et en Afrique du Sud, nos équipes travaillent les gisements éluviaux.\n\nToute l’extraction est effectuée par des équipes formées sous la supervision directe d’un chef de mine certifié. La production est pesée et enregistrée à la fosse, et un registre de traçabilité est initié au moment de l’extraction.\n\nAprès l’extraction, toutes les zones sont progressivement réhabilitées.",
+				"key_facts": [
+					"Évaluation géologique avant l’ouverture de chaque nouvelle zone",
+					"Chef de mine certifié présent à chaque équipe",
+					"Ticket de pesée à la fosse - la traçabilité commence ici",
+					"Réhabilitation progressive des fosses",
+					"Opérations en Ouganda, Kenya, Tanzanie, Sierra Leone, Afrique du Sud, Eswatini, Malawi"
+				],
+				"regulatory_notes": "Supervisé par la DGSM (Ouganda), Mines & Geology Dept (Kenya), TMAA (Tanzanie), MMRD (Sierra Leone), DMRE (Afrique du Sud), Service géologique d’Eswatini, Département des mines (Malawi)."
+			},
+			{
+				"id": "gravity-processing",
+				"step": 2,
+				"title": "Traitement gravimétrique",
+				"color": "#4A5C2A",
+				"accent_color": "#7A9440",
+				"text_color": "#D4E8A0",
+				"icon": "gravity-processing",
+				"image": "/media/gravity-processing.jpeg",
+				"short_description": "Au cœur de l’engagement environnemental d’AfriGold Hub se trouve notre système de concentration gravimétrique sans produits chimiques. Utilisant uniquement l’eau, le mouvement et la différence de densité naturelle entre l’or et la gangue, nos systèmes séparent l’or sans mercure, sans cyanure et sans résidus toxiques.",
+				"long_description": "La concentration gravimétrique est à la fois la méthode la plus ancienne et la plus propre de récupération de l’or. AfriGold Hub a investi dans la modernisation de cette technique sur nos sept sites, déployant un système à étapes qui atteint des taux de récupération de 85 à 92 % sans aucun intrant chimique.\n\nLe processus commence par le sluice primaire. Le concentré primaire passe ensuite dans des concentrateurs à spirale, puis sur une table vibrante.\n\nL’eau utilisée dans le processus est recyclée via un système de bassins de décantation fermés, avec un taux de recyclage de 90 à 94 %. L’absence de mercure et de cyanure réduit notre coût de traitement à environ 8,40 $ par gramme.",
+				"key_facts": [
+					"Taux de récupération de 85–92 % - sans produits chimiques",
+					"Processus en trois étapes : sluice primaire → concentrateur à spirale → table vibrante",
+					"Taux de recyclage de l’eau de 90–94 %",
+					"Coût de traitement : ~8,40 $/g contre 18–22 $ pour la lixiviation chimique",
+					"Zéro mercure, zéro cyanure - conforme à la réglementation sur tous les sites"
+				],
+				"regulatory_notes": "Plans de gestion de l’eau approuvés par les autorités compétentes dans chaque pays. Certificats EIA en cours sur tous les sites."
+			},
+			{
+				"id": "smelting-assay",
+				"step": 3,
+				"title": "Fusion et analyse",
+				"color": "#8C4A1A",
+				"accent_color": "#C8722A",
+				"text_color": "#F0C898",
+				"icon": "smelting",
+				"image": "/media/smelting.jpeg",
+				"short_description": "Nos fours de fusion sur site transforment le concentré gravimétrique nettoyé en barres d’or coulées. Chaque barre produite est analysée indépendamment pour sa pureté avant sa libération. Notre installation principale de Busia produit régulièrement des barres d’une pureté de 99,5 % ou plus.",
+				"long_description": "La fusion transforme le concentré en barre d’or. Le concentré est d’abord pesé et échantillonné. Le concentré en vrac est chargé dans un creuset en graphite placé dans un four à induction. Les impuretés sont éliminées par un flux. Le métal liquide raffiné est coulé dans des moules en graphite.\n\nChaque barre est pesée et marquée d’un numéro de série unique avant analyse indépendante. Notre installation de Busia produit régulièrement des barres de 99,5–99,7 % de pureté.",
+				"key_facts": [
+					"Fours à induction à 1 100–1 150°C",
+					"Analyse par voie sèche indépendante avant la fusion",
+					"Chaque barre : numéro de série unique, date de coulée, code site, poids certifié",
+					"Pureté minimale : 99,5 % - atteignant 99,5–99,7 % à Busia"
+				],
+				"regulatory_notes": "Accréditation d’analyse : UNBS (Ouganda), KEBS/KS ISO 11426 (Kenya), SANAS (Afrique du Sud)."
+			},
+			{
+				"id": "sale-distribution",
+				"step": 4,
+				"title": "Vente et distribution",
+				"color": "#1C1608",
+				"accent_color": "#C9A84C",
+				"text_color": "#E5C46A",
+				"icon": "sale-distribution",
+				"image": "/media/sale-distribution.png",
+				"short_description": "Les barres d’or finies sont vendues exclusivement à des acheteurs de métaux précieux agréés, avec déclarations complètes de redevances. Le produit est transféré sur le compte d’exploitation dans les 48 heures, et les distributions aux investisseurs sont traitées dans les 10 jours ouvrables suivant la fin du mois.",
+				"long_description": "La vente et la distribution suivent un processus strictement réglementé. En Ouganda, l’or est vendu à des négociants agréés par l’URA. Au Kenya, les ventes se font via des négociants agréés par le KRA.\n\nTous les produits de la vente sont reçus sur un compte conjoint dans les 48 heures. Le P&L mensuel audité est produit dans les 10 jours. Les distributions sont effectuées le 15 de chaque mois.",
+				"key_facts": [
+					"Ventes uniquement à des négociants agréés",
+					"Déclarations de redevances déposées par transaction",
+					"Produits sur le compte d’exploitation dans les 48 heures",
+					"P&L mensuel audité dans les 10 jours",
+					"Distributions aux investisseurs le 15 de chaque mois"
+				],
+				"regulatory_notes": "Ventes reçues par l’URA (Ouganda), KRA (Kenya), TMAA (Tanzanie), SARS (Afrique du Sud), etc."
+			}
+		]
+	},
+	"cta": {
+		"tag": "Participez",
+		"headline": "Investissez dans l’opération derrière les chiffres",
+		"description": "Des visites de site sont disponibles pour les partenaires de niveaux Strategic et Anchor. Planifiez un appel de découverte pour voir le processus par vous-même.",
+		"cta_primary": { "label": "Voir les plans d’investissement", "href": "/invest" },
+		"cta_secondary": { "label": "Planifier une visite de site", "href": "/contact" }
+	}
+}

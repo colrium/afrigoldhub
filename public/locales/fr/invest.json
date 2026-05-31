@@ -1,0 +1,190 @@
+{
+	"hero": {
+		"tag": "Investir",
+		"headline": "Partenariat pour des opportunités de croissance concrètes en Afrique",
+		"description": "Investissez via des opportunités structurées couvrant l’agrégation d’or, l’élevage commercial de chèvres et l’agro-industrie horticole, avec des plans d’exploitation documentés, des rapports aux partenaires et une intégration claire.",
+		"badge": { "text": "Engagement minimum de 3 mois", "status": "active" },
+		"cta_primary": { "label": "Voir les opportunités", "href": "#opportunities" },
+		"cta_secondary": {
+			"label": "Demander la due diligence",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"labels": {
+		"equity_share": "Part du capital",
+		"annual_target": "Objectif annuel",
+		"custom": "Personnalisé"
+	},
+	"opportunities": {
+		"tag": "Opportunités d’investissement",
+		"headline": "Au-delà de l’investissement aurifère",
+		"description": "Le pipeline d’opportunités s’étend désormais de l’agrégation de métaux précieux à la sécurité alimentaire et à l’agro-industrie orientée vers l’exportation. Chaque voie est traitée comme une discussion d’investissement distincte avec son propre modèle opérationnel, son utilisation du capital et son dossier de due diligence.",
+		"labels": {
+			"capital_use": "Utilisation du capital",
+			"investor_fit": "Profil de l’investisseur"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Agrégation d’or à Busia",
+				"category": "Or et négoce",
+				"description": "Fonds de roulement pour l’approvisionnement documenté en or, l’agrégation, le soutien au traitement et la vente conforme via le réseau opérationnel de Busia.",
+				"capital_use": "Liquidités d’achat, logistique d’agrégation, tests, coordination de l’affinage et documentation des transactions.",
+				"investor_fit": "Investisseurs recherchant une opportunité à cycle plus court liée à la chaîne de valeur aurifère existante d’AfriGold Hub.",
+				"highlights": [
+					"Construit autour d’enregistrements d’achat et de vente documentés",
+					"Peut être associé à la structure existante des niveaux d’investissement aurifère",
+					"Conçu pour des rapports fréquents et une rotation disciplinée du capital"
+				],
+				"cta": "Discuter de l’agrégation d’or"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Élevage commercial de chèvres",
+				"category": "Agro-industrie animale",
+				"description": "Voie d’investissement dans l’élevage axée sur la reproduction, l’engraissement, les contrôles vétérinaires, les systèmes d’alimentation et les débouchés structurés.",
+				"capital_use": "Cheptel de reproduction, logement, alimentation, programmes vétérinaires, main-d’œuvre, systèmes d’eau et préparation à la mise sur le marché.",
+				"investor_fit": "Partenaires recherchant une opportunité agro-industrielle adossée à des actifs avec un cycle de production par étapes.",
+				"highlights": [
+					"Accent sur la croissance du cheptel, la santé animale et la préparation à la vente",
+					"Adapté à un déploiement progressif et à des jalons opérationnels",
+					"Soutient l’emploi rural et l’approvisionnement local en protéines"
+				],
+				"cta": "Discuter de l’élevage de chèvres"
+			},
+			{
+				"id": "horticulture",
+				"title": "Agro-industrie horticole",
+				"category": "Production végétale",
+				"description": "Opportunité de production végétale couvrant la préparation des terres, l’irrigation, les intrants, la manutention des récoltes et la distribution liée aux acheteurs.",
+				"capital_use": "Irrigation, semences et plants, préparation du sol, protection des cultures, main-d’œuvre, manutention des récoltes et logistique d’accès au marché.",
+				"investor_fit": "Investisseurs intéressés par la production alimentaire, le potentiel d’exportation et les cycles agricoles récurrents.",
+				"highlights": [
+					"Structuré autour de calendriers culturaux et de jalons mesurables sur le terrain",
+					"Accent sur l’irrigation, le contrôle des intrants et la qualité des récoltes",
+					"Conçu pour répondre à la demande alimentaire locale et régionale"
+				],
+				"cta": "Discuter de l’horticulture"
+			}
+		]
+	},
+	"tiers": {
+		"tag": "Niveaux d’investissement",
+		"headline": "Niveaux de partenariat pour l’agrégation d’or",
+		"description": "Ces niveaux s’appliquent à l’opportunité d’agrégation d’or. Les opportunités agro-industrielles sont définies séparément après la première demande et l’examen de due diligence.",
+		"mostPopular": "Le plus populaire",
+		"projectedRoi": "ROI projeté :",
+		"items": [
+			{
+				"id": "seed-partner",
+				"label": "Seed Partner",
+				"amount": 25000,
+				"currency": "USD",
+				"equity_pct": 5,
+				"roi_annual_pct": 65,
+				"roiPrefix": "Estimé -",
+				"roi": "~65 % par an",
+				"cta": "Commencer",
+				"ctaStyle": "outline",
+				"features": [
+					"5 % des bénéfices nets mensuels",
+					"Rapports financiers trimestriels",
+					"Accès au site deux fois par an",
+					"Accès au tableau de bord numérique",
+					"Engagement minimum de 3 mois"
+				]
+			},
+			{
+				"id": "strategic-partner",
+				"label": "Strategic Partner",
+				"amount": 75000,
+				"currency": "USD",
+				"equity_pct": 18,
+				"roi_annual_pct": 88,
+				"roiPrefix": "Estimé -",
+				"roi": "~88 % par an",
+				"featured": true,
+				"badge": "Le plus populaire",
+				"cta": "Devenir partenaire",
+				"ctaStyle": "primary",
+				"features": [
+					"18 % des bénéfices nets mensuels",
+					"Rapports financiers mensuels",
+					"Accès illimité au site",
+					"Siège consultatif au conseil d’administration",
+					"Documentation d’investissement co-marquée",
+					"Clauses de sortie prioritaires"
+				]
+			},
+			{
+				"id": "anchor-investor",
+				"label": "Anchor Investor",
+				"amount": 189000,
+				"currency": "USD",
+				"equity_pct": 45,
+				"roi_annual_pct": null,
+				"roi": "partenaire principal",
+				"roiPrefix": "Couverture complète des CAPEX -",
+				"cta": "Nous contacter",
+				"ctaStyle": "outline",
+				"features": [
+					"45 % des bénéfices nets mensuels",
+					"Droits complets de gouvernance du projet",
+					"Accès au compte bancaire conjoint",
+					"Nommé sur la documentation du permis minier",
+					"Retour sur capital garanti en 3 mois",
+					"Droits de liquidation préférentiels"
+				]
+			}
+		]
+	},
+	"process": {
+		"tag": "Comment ça fonctionne",
+		"headline": "De la demande aux distributions mensuelles",
+		"description": "Un parcours d’intégration clair pour les partenaires rend le processus d’investissement documenté, vérifiable et prévisible.",
+		"items": [
+			{
+				"step": 1,
+				"title": "Soumettez votre intérêt",
+				"description": "Choisissez un niveau ou demandez le dossier de due diligence afin que notre équipe d’investissement puisse qualifier votre demande."
+			},
+			{
+				"step": 2,
+				"title": "Examinez les documents",
+				"description": "Recevez les copies des licences, les relevés mensuels audités, des exemples d’analyses, les reçus de vente et l’accord de partenariat."
+			},
+			{
+				"step": 3,
+				"title": "Exécutez l’accord",
+				"description": "Complétez le KYC, signez l’accord d’investissement et financez via le virement bancaire convenu."
+			},
+			{
+				"step": 4,
+				"title": "Suivez la performance mensuelle",
+				"description": "Recevez des rapports mensuels et des distributions basés sur le bénéfice net vérifié et votre part du capital contractuelle."
+			}
+		]
+	},
+	"safeguards": {
+		"tag": "Garanties pour les partenaires",
+		"headline": "Conçu pour une due diligence sérieuse",
+		"items": [
+			{
+				"title": "Accord d’investissement formel",
+				"description": "Chaque niveau est régi par un accord de partenariat écrit couvrant la part du capital, les rapports, la durée, la sortie et les modalités de distribution."
+			},
+			{
+				"title": "Dossier de preuves mensuel",
+				"description": "Les partenaires reçoivent les registres de production, les reçus de vente, les certificats d’analyse, les résumés P&L et les calculs de distribution."
+			},
+			{
+				"title": "Accès au site selon le niveau",
+				"description": "Les partenaires Strategic et Anchor bénéficient d’un accès prioritaire au site avec des sessions d’examen par la direction des opérations et les finances."
+			},
+			{
+				"title": "Chaîne de valeur vérifiable",
+				"description": "La documentation de traçabilité suit l’or depuis le ticket de pesée du minerai jusqu’à la vente et la distribution aux investisseurs."
+			}
+		]
+	}
+}

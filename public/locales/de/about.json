@@ -1,0 +1,120 @@
+{
+	"hero": {
+		"tag": "Über AfriGold Hub",
+		"headline": "Eine disziplinierte Goldplattform, im Feld aufgebaut",
+		"description": "AfriGold Hub vereint lizenzierte Bergbauoperationen, chemiefreie Gravitationsaufbereitung, anlegergerechte Berichterstattung und eine gemeinschaftsorientierte Unternehmensführung in einer transparenten Goldproduktionsplattform.",
+		"badge": {
+			"text": "Lizenzierte Betriebe in sieben afrikanischen Märkten",
+			"status": "aktiv"
+		},
+		"cta_primary": { "label": "Betrieb ansehen", "href": "/operations" },
+		"cta_secondary": { "label": "Team kennenlernen", "href": "#team" }
+	},
+	"story": {
+		"tag": "Unsere Geschichte",
+		"headline": "Gebaut für Vertrauen, nicht für Spekulation",
+		"description": "Das Modell von AfriGold Hub wurde durch eine einfache Beobachtung geprägt: Handwerklich gefördertes Gold kann sehr produktiv sein, wird aber erst dann investierbar, wenn der Betrieb lizenziert, dokumentiert und mit Disziplin geführt wird. Wir haben unsere Plattform nach diesem Standard aufgebaut.",
+		"paragraphs": [
+			"Unser Team vereint Betriebsexperten, Finanzfachleute, Compliance-Spezialisten und ESG-Berater, die in den mineralischen Korridoren Ost-, West- und Südafrikas gearbeitet haben.",
+			"Anstatt die Beteiligung an einer vagen Rohstoffchance zu verkaufen, geben wir Partnern Einblick in die tatsächliche Produktionskette: wo Erz gewonnen wird, wie es verarbeitet wird, wie Barren analysiert werden, wie Käufer abrechnen und wie Ausschüttungen berechnet werden."
+		],
+		"stats": [
+			{ "value": "7", "label": "Betriebsländer" },
+			{ "value": "0", "label": "Quecksilber- oder Cyanid-Einsatz" },
+			{ "value": "10+", "label": "Jahre Branchenerfahrung" },
+			{ "value": "30+", "label": "Direkte Arbeitsplätze im Betrieb" }
+		]
+	},
+	"principles": {
+		"tag": "Betriebsgrundsätze",
+		"headline": "Der Standard hinter jedem Standort",
+		"items": [
+			{
+				"title": "Alles dokumentieren",
+				"description": "Jede Phase erzeugt einen Beleg – von Wiegescheinen der Grube über Analysenzertifikate bis hin zu Verkaufsbelegen."
+			},
+			{
+				"title": "Aufbereitung sauber halten",
+				"description": "Unsere Gravitationskreisläufe nutzen Wasser und Dichtetrennung – ohne Quecksilber, Cyanid und giftige Rückstände."
+			},
+			{
+				"title": "Wirtschaftlichen Nutzen teilen",
+				"description": "Partner erhalten monatliche Berichte, die Produktion, Verkäufe, Kosten, Nettogewinn und Ausschüttungsberechnungen verbinden."
+			},
+			{
+				"title": "Die Lizenz schützen",
+				"description": "Compliance, Gemeindevereinbarungen und Umweltkontrollen werden als betriebliche Vermögenswerte behandelt – nicht als Papierkram."
+			}
+		]
+	},
+	"team": {
+		"tag": "Führung",
+		"headline": "Operateure, Finanzexperten und Compliance-Disziplin",
+		"description": "AfriGold Hub wird von einem kompakten Team geführt, das direkt für Produktion, Finanzen, Anlegerbeziehungen und regulatorische Integrität verantwortlich ist.",
+		"items": [
+			{
+				"initials": "JM",
+				"name": "James Mwangi",
+				"role": "CEO & Co-Gründer",
+				"description": "Leitet Investitionspartnerschaften, strategische Expansion und länderbezogene Betriebsbeziehungen auf der gesamten Plattform."
+			},
+			{
+				"initials": "AO",
+				"name": "Amina Ochieng",
+				"role": "COO & Co-Gründerin",
+				"description": "Verantwortlich für Standortbetrieb, Aufbereitungsdisziplin, Sicherheitssysteme und Koordination von Standortbesuchen."
+			},
+			{
+				"initials": "DK",
+				"name": "David Kimani",
+				"role": "Finanzvorstand (CFO)",
+				"description": "Verantwortlich für monatliche Abstimmung, Anlegerberichterstattung, Zahlungskontrollen und finanzielle Partnernachweise."
+			},
+			{
+				"initials": "GN",
+				"name": "Grace Njoroge",
+				"role": "Leiterin Recht & Compliance",
+				"description": "Zuständig für Lizenzregister, KYC/Geldwäscheprozesse, Umweltdokumentation und Partnervereinbarungen."
+			}
+		]
+	},
+	"governance": {
+		"tag": "Governance",
+		"headline": "Kontrollen, die den Betrieb prüfbar machen",
+		"description": "Unser Governance-Modell basiert auf klaren Aufzeichnungen, verantwortlicher Eigentümerschaft und Anlegerzugang zu den relevanten Dokumenten.",
+		"items": [
+			"Monatliche GuV-Prüfung durch die Finanzleitung",
+			"Analysenzertifikate Dritter für erzeugte Barren",
+			"Zentrales Compliance-Register für Lizenzen und Genehmigungen",
+			"Rückverfolgbarkeitsprotokolle von der Förderung bis zum Verkauf",
+			"Strukturierte Partnervereinbarungen mit definierten Rechten",
+			"Standortzugang und Dokumenteneinsicht für qualifizierte Partner"
+		]
+	},
+	"timeline": {
+		"tag": "Meilensteine",
+		"headline": "Eine Plattform, Schritt für Schritt aufgebaut",
+		"items": [
+			{
+				"year": "2013",
+				"title": "Feldforschung beginnt",
+				"description": "Gründungsoperateure beginnen mit der Kartierung handwerklicher Goldkorridore und testen Gravitationsaufbereitungsprozesse."
+			},
+			{
+				"year": "2017",
+				"title": "Sauberes Aufbereitungsmodell bewiesen",
+				"description": "Chemiefreie Aufbereitung wird zum Betriebsstandard für neue Standorte und Partnerberichte."
+			},
+			{
+				"year": "2021",
+				"title": "Länderübergreifende Expansion",
+				"description": "Das Modell expandiert in Betriebsgebiete Ost-, West- und Südafrikas."
+			},
+			{
+				"year": "2025",
+				"title": "Anlegerplattform formalisiert",
+				"description": "AfriGold Hub bündelt Betrieb, Berichterstattung, Compliance und Partner-Onboarding in einer Plattform."
+			}
+		]
+	}
+}

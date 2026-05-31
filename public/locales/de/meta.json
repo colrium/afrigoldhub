@@ -1,0 +1,58 @@
+{
+	"site": {
+		"title": "AfriGold Hub",
+		"tagline": "Afrikas führende Plattform für Investitionen in artisanalen Goldbergbau",
+		"description": "Investieren Sie direkt in artisanalen Goldbergbau auf dem afrikanischen Kontinent. Transparente Renditen, chemiefreie Verarbeitung und voll lizenzierte Betriebe. Werden Sie Teil der Erschließung von Afrikas goldener Chance."
+	},
+	"pages": {
+		"home": {
+			"title": "Startseite",
+			"meta_description": "Erfahren Sie, wie {{site_title}} Investoren mit den produktivsten artisanalen Goldbergbaubetrieben Afrikas verbindet. Transparente Renditen, chemiefreie Verarbeitung und voll lizenzierte Betriebe. Werden Sie Teil der Erschließung von Afrikas goldener Chance."
+		},
+		"about": {
+			"title": "Über uns",
+			"meta_description": "Erfahren Sie mehr über {{site_title}}, unsere Führung, Betriebsgrundsätze, unser Governance-Modell und unsere Mission, afrikanisches artisanal gewonnenes Gold transparent und investierbar zu machen.",
+			"og_image": "/media/og-about.jpg"
+		},
+		"contact": {
+			"page_title": "Kontakt",
+			"meta_description": "Nehmen Sie Kontakt mit dem {{site_title}}-Team auf. Vereinbaren Sie ein Kennenlerngespräch, fordern Sie ein Due-Diligence-Paket an oder erreichen Sie unsere Büros in Busia und Nairobi.",
+			"og_image": "/media/og-contact.jpg"
+		},
+		"invest": {
+			"page_title": "Investieren",
+			"meta_description": "Vergleichen Sie die Investment-Stufen von {{site_title}}, die Partnerschutzmechanismen, die monatliche Berichterstattung und den Prozess für den Einstieg in einen lizenzierten, chemiefreien Goldproduktionsbetrieb.",
+			"og_image": "/media/og-invest.jpg"
+		},
+		"locations": {
+			"page_title": "Standorte",
+			"meta_description": "Entdecken Sie die Minenstandorte, Betriebsstätten, die Google Maps-Abdeckung und die Feldgalerie von AfriGold Hub in ganz Afrika.",
+			"og_image": "/media/og-locations.jpg"
+		},
+		"operations": {
+			"page_title": "Betrieb",
+			"meta_description": "Erfahren Sie mehr über die lizenzierten, chemiefreien Goldproduktionsbetriebe von {{site_title}} und die transparenten Investitionsmöglichkeiten, die sie bieten.",
+			"og_image": "/media/og-operations.jpg"
+		},
+		"value_chain": {
+			"page_title": "Wertschöpfungskette",
+			"meta_description": "Verstehen Sie die gesamte Gold-Wertschöpfungskette von {{site_title}} – von der geologischen Erkundung und Lizenzbeschaffung über Gewinnung, Verarbeitung, Analyse, Verkauf bis zur Investorenausschüttung.",
+			"og_image": "/media/og-value-chain.jpg"
+		},
+		"risk_disclaimer": {
+			"page_title": "Risikohinweis",
+			"meta_description": "Informieren Sie sich über die wichtigsten Risiken einer Investition in die artisanalen Goldbergbaubetriebe von {{site_title}}.",
+			"og_image": "/media/og-risk-disclaimer.jpg"
+		},
+		"privacy_policy": {
+			"page_title": "Datenschutzerklärung",
+			"meta_description": "Erfahren Sie, wie {{site_title}} mit Informationen umgeht, die über unsere Website, Kontaktformulare, Investorenanfragen und Standortbesuchsanfragen übermittelt werden.",
+			"og_image": "/media/og-privacy.jpg"
+		},
+		"terms_of_use": {
+			"page_title": "Nutzungsbedingungen",
+			"meta_description": "Lesen Sie die Nutzungsbedingungen für die Website und Dienste von {{site_title}}.",
+			"og_image": "/media/og-terms.jpg"
+		}
+	}
+}

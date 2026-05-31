@@ -26,22 +26,22 @@ type DirectContact = {
 };
 
 export default function ContactDetailsSection() {
-	const { t } = useTranslation("common");
-	const offices = t("contact.offices.items", { returnObjects: true }) as Office[];
-	const contacts = t("contact.direct_contacts.items", {
+	const { t } = useTranslation([  "contact" ]);
+	const offices = t("contact:offices.items", { returnObjects: true }) as Office[];
+	const contacts = t("contact:direct_contacts.items", {
 		returnObjects: true,
 	}) as DirectContact[];
 
 	return (
 		<>
-			<section className="bg-[#0A0A0A] py-24">
+			<section className=" py-24">
 				<div className="max-w-[1180px] mx-auto px-8">
 					<div className="mb-12">
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-							{t("contact.offices.tag")}
+							{t("contact:offices.tag")}
 						</span>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
-							{t("contact.offices.headline")}
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+							{t("contact:offices.headline")}
 						</h2>
 					</div>
 					<div className="grid md:grid-cols-2 gap-6">
@@ -49,20 +49,20 @@ export default function ContactDetailsSection() {
 							<article
 								key={office.id}
 								id={office.id}
-								className="rounded-lg border border-[rgba(201,168,76,0.14)] bg-[#111111] p-7"
+								className="rounded-lg border border-surface-900/50 bg-surface-900 p-7"
 							>
 								<div className="flex items-start justify-between gap-4 mb-5">
 									<div>
 										<div className="text-xs uppercase tracking-[0.14em] text-primary mb-2">
 											{office.label}
 										</div>
-										<h3 className="font-serif text-2xl text-onSurface-100">
+										<h3 className="text-2xl text-onSurface-100">
 											{office.city}, {office.country}
 										</h3>
 									</div>
 									<PlaceIcon className="text-primary shrink-0" />
 								</div>
-								<div className="text-sm text-[#faf5ec] leading-relaxed">
+								<div className="text-sm text-onSurface-100 leading-relaxed">
 									{office.address_lines.map((line) => (
 										<div key={line}>{line}</div>
 									))}
@@ -82,9 +82,9 @@ export default function ContactDetailsSection() {
 										<PhoneIcon fontSize="small" />
 										{office.phone}
 									</Link>
-									<div className="text-[#faf5ec]">{office.hours}</div>
+									<div className="text-onSurface-100">{office.hours}</div>
 								</div>
-								<p className="mt-5 text-sm text-[#faf5ec] leading-relaxed">
+								<p className="mt-5 text-sm text-onSurface-100 leading-relaxed">
 									{office.note}
 								</p>
 							</article>
@@ -93,21 +93,21 @@ export default function ContactDetailsSection() {
 				</div>
 			</section>
 
-			<section className="bg-[#111111] py-24">
+			<section className="py-24">
 				<div className="max-w-[1180px] mx-auto px-8">
 					<div className="mb-12">
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-							{t("contact.direct_contacts.tag")}
+							{t("contact:direct_contacts.tag")}
 						</span>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
-							{t("contact.direct_contacts.headline")}
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100">
+							{t("contact:direct_contacts.headline")}
 						</h2>
 					</div>
 					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 						{contacts.map((contact) => (
 							<article
 								key={`${contact.department}-${contact.email}`}
-								className="rounded-lg border border-[rgba(201,168,76,0.12)] bg-[#0A0A0A] p-6"
+								className="rounded-lg border border-surface-900/50 bg-surface-900 p-6"
 							>
 								<div className="text-xs uppercase tracking-[0.14em] text-primary mb-4">
 									{contact.department}
@@ -115,8 +115,8 @@ export default function ContactDetailsSection() {
 								<h3 className="text-xl text-onSurface-100 font-medium">
 									{contact.name}
 								</h3>
-								<div className="text-sm text-[#faf5ec] mt-1">{contact.title}</div>
-								<p className="text-sm text-[#faf5ec] leading-relaxed mt-5">
+								<div className="text-sm text-onSurface-100 mt-1">{contact.title}</div>
+								<p className="text-sm text-onSurface-100 leading-relaxed mt-5">
 									{contact.note}
 								</p>
 								<div className="mt-6 grid gap-2 text-sm">

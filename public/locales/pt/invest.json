@@ -1,0 +1,188 @@
+{	
+	"hero": {
+		"tag": "Invest",
+		"headline": "Partner in practical African growth opportunities",
+		"description": "Invest through structured opportunities across gold aggregation, commercial goat farming, and horticulture agribusiness, with documented operating plans, partner reporting, and clear onboarding.",
+		"badge": { "text": "Minimum 3-month commitment", "status": "active" },
+		"cta_primary": { "label": "View Opportunities", "href": "#opportunities" },
+		"cta_secondary": {
+			"label": "Request Due Diligence",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"labels": {
+		"equity_share": "Equity share",
+		"annual_target": "Annual target",
+		"custom": "Custom"
+	},
+	"opportunities": {
+		"tag": "Investment Opportunities",
+		"headline": "More than gold investing",
+		"description": "The opportunity pipeline now extends from precious-metal aggregation into food security and export-oriented agribusiness. Each route is handled as a separate investment discussion with its own operating model, capital use, and due diligence pack.",
+		"labels": {
+			"capital_use": "Capital use",
+			"investor_fit": "Investor fit"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Busia gold aggregation",
+				"category": "Gold and trading",
+				"description": "Working capital for documented gold sourcing, aggregation, processing support, and compliant onward sale through the Busia operating network.",
+				"capital_use": "Purchase liquidity, aggregation logistics, testing, refining coordination, and transaction documentation.",
+				"investor_fit": "Investors seeking a shorter-cycle opportunity linked to AfriGold Hub's existing gold value chain.",
+				"highlights": [
+					"Built around documented purchase and sale records",
+					"Can be paired with the existing gold investment tier structure",
+					"Designed for frequent reporting and disciplined capital rotation"
+				],
+				"cta": "Discuss gold aggregation"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Commercial goat farming",
+				"category": "Livestock agribusiness",
+				"description": "A livestock investment route focused on breeding, fattening, veterinary controls, feed systems, and structured market offtake.",
+				"capital_use": "Breeding stock, housing, feed, veterinary programs, labor, water systems, and market preparation.",
+				"investor_fit": "Partners looking for an asset-backed agribusiness opportunity with a staged production cycle.",
+				"highlights": [
+					"Focus on herd growth, animal health, and sale readiness",
+					"Suitable for phased deployment and operating milestones",
+					"Supports rural employment and local protein supply"
+				],
+				"cta": "Discuss goat farming"
+			},
+			{
+				"id": "horticulture",
+				"title": "Horticulture agribusiness",
+				"category": "Crop production",
+				"description": "A crop-production opportunity covering land preparation, irrigation, inputs, harvest handling, and buyer-linked distribution.",
+				"capital_use": "Irrigation, seed and seedlings, soil preparation, crop protection, labor, harvest handling, and route-to-market logistics.",
+				"investor_fit": "Investors interested in food production, export potential, and recurring agricultural cycles.",
+				"highlights": [
+					"Structured around crop calendars and measurable field milestones",
+					"Emphasis on irrigation, input control, and harvest quality",
+					"Designed to serve local and regional food demand"
+				],
+				"cta": "Discuss horticulture"
+			}
+		]
+	},
+    "tiers": {
+	"tag": "Investment Tiers",
+	"headline": "Gold aggregation partner tiers",
+	"description": "These tiers apply to the gold aggregation opportunity. Agribusiness opportunities are scoped separately after the first enquiry and due diligence review.",
+	"mostPopular": "Most Popular",
+	"projectedRoi": "Projected ROI:",
+	"items": [
+		{
+            "id": "seed-partner",
+			"label": "Seed Partner",
+			"amount": 25000,
+            "currency": "USD",
+			"equity_pct": 5,
+			"roi_annual_pct": 65,
+			"roi": "~65% annually",
+			"cta": "Get Started",
+			"ctaStyle": "outline",
+			"features": [
+				"5% equity stake in monthly net profits",
+				"Quarterly financial reporting",
+				"Site visit access twice yearly",
+				"Digital dashboard access",
+				"3-month minimum commitment"
+			]
+		},
+		{
+			"id": "strategic-partner",
+			"label": "Strategic Partner",
+			"amount": 75000,
+			"currency": "USD",
+			"equity_pct": 18,
+			"roi_annual_pct": 88,
+			"roi": "~88% annually",
+			"featured": true,
+			"badge": "Most Popular",
+			"cta": "Partner With Us",
+			"ctaStyle": "primary",
+			"features": [
+				"18% equity stake in monthly net profits",
+				"Monthly financial reporting",
+				"Unrestricted site access",
+				"Board advisory seat",
+				"Co-branded investor documentation",
+				"Priority exit provisions"
+			]
+		},
+		{
+			"id": "anchor-investor",
+			"label": "Anchor Investor",
+			"amount": 189000,
+			"currency": "USD",
+			"equity_pct": 45,
+			"roi_annual_pct": null,
+			"roi": "primary partner",
+			"roiPrefix": "Full CAPEX coverage -",
+			"cta": "Contact Us",
+			"ctaStyle": "outline",
+			"features": [
+				"45% equity in net monthly profits",
+				"Full project governance rights",
+				"Joint bank account access",
+				"Named on mining licence documentation",
+				"3-month capital payback guaranteed",
+				"Preferred liquidation rights"
+			]
+		}
+	]
+},
+	"process": {
+		"tag": "How It Works",
+		"headline": "From enquiry to monthly distributions",
+		"description": "A clear partner onboarding path keeps the investment process documented, reviewable, and predictable.",
+		"items": [
+			{
+				"step": 1,
+				"title": "Submit your interest",
+				"description": "Choose a tier or request the due diligence pack so our investment team can qualify your enquiry."
+			},
+			{
+				"step": 2,
+				"title": "Review documents",
+				"description": "Receive licence copies, audited monthly statements, assay examples, sales receipts, and the partner agreement."
+			},
+			{
+				"step": 3,
+				"title": "Execute agreement",
+				"description": "Complete KYC, sign the investment agreement, and fund through the agreed bank transfer route."
+			},
+			{
+				"step": 4,
+				"title": "Track monthly performance",
+				"description": "Receive monthly reports and distributions based on verified net profit and your contracted equity share."
+			}
+		]
+	},
+	"safeguards": {
+		"tag": "Partner Safeguards",
+		"headline": "Built for serious due diligence",
+		"items": [
+			{
+				"title": "Formal investment agreement",
+				"description": "Every tier is governed by a written partnership agreement covering equity share, reporting, term, exit, and distribution terms."
+			},
+			{
+				"title": "Monthly evidence pack",
+				"description": "Partners receive production records, sale receipts, assay certificates, P&L summaries, and distribution calculations."
+			},
+			{
+				"title": "Site access by tier",
+				"description": "Strategic and Anchor partners receive priority site access with operations leadership and finance review sessions."
+			},
+			{
+				"title": "Auditable value chain",
+				"description": "Chain-of-custody documentation follows gold from pit weight ticket through sale and investor distribution."
+			}
+		]
+	}
+}

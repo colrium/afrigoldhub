@@ -1,0 +1,18 @@
+{
+	"tag": "Hadithi ya Kuona",
+	"headline": "Kutoka ardhini hadi <gold>dhahabu</gold>",
+	"description": "Muonekano wa ndani ya shughuli zetu za Uwanja wa Dhahabu: uchimbaji, usindikaji wa mvuto, kuyeyusha, na bidhaa iliyokamilika.",
+	"filters": {
+		"all": "Zote",
+		"mining": "Uchimbaji",
+		"processing": "Usindikaji",
+		"smelting": "Kuyeyusha",
+		"product": "Bidhaa ya Mwisho",
+		"video": "▶ Video"
+	},
+	"loadMore": "Pakia Zaidi",
+	"mediaTypes": {
+		"image": "Picha",
+		"video": "Video"
+	}
+}

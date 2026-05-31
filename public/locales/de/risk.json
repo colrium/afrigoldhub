@@ -1,0 +1,64 @@
+{
+	"hero": {
+		"tag": "Risikohinweis",
+		"headline": "Ihre Informationen, unser Engagement",
+		"description": "Wir verpflichten uns, Ihre persönlichen Daten zu schützen und Transparenz darüber zu gewährleisten, wie wir Ihre Daten erfassen, nutzen und schützen.",
+		"badge": { "text": "Mindestlaufzeit 3 Monate", "status": "aktiv" },
+		"cta_primary": { "label": "Stufen vergleichen", "href": "/invest#tiers" },
+		"cta_secondary": {
+			"label": "Due Diligence anfordern",
+			"href": "/contact?reason=due-diligence"
+		}
+	},
+	"contact": {
+		"description": "Fragen zu dieser Seite oder dazu, wie sie auf Ihre Anfrage anzuwenden ist, können an das {{site_title}}-Team gesendet werden.",
+		"link": {
+			"label": "Risikoteam kontaktieren",
+			"href": "/contact?reason=risk"
+		}
+	},
+	"articles": [
+		{
+			"title": "Nur allgemeine Informationen",
+			"content": [
+				"Inhalte auf dieser Website dienen der allgemeinen Information über AfriGold Hub, dessen Betriebsmodell und mögliche Partnerschaftsgespräche. Sie stellen keine finanzielle, rechtliche, steuerliche, buchhalterische, rohstoffhandelsbezogene oder Anlageberatung dar.",
+				"Keine Seite dieser Website ist als öffentliches Angebot, Prospekt, Aufforderung, Garantie oder Empfehlung zum Kauf, Verkauf, Verleih, zur Investition oder zum Eingehen einer finanziellen Vereinbarung zu verstehen."
+			]
+		},
+		{
+			"title": "Betriebs- und Bergbaurisiko",
+			"content": [
+				"Bergbau und Mineralienverarbeitung sind mit Betriebsrisiken verbunden, darunter Änderungen des Erzgehalts, Geräteausfälle, wetterbedingte Unterbrechungen, Verfügbarkeit von Arbeitskräften, Transportverzögerungen, Sicherheitsprobleme, Umweltverpflichtungen und standortspezifische geologische Unsicherheiten.",
+				"Vergangene Produktionszahlen, prognostizierte Förderleistung oder illustrative Margen können sich nicht wiederholen. Die tatsächlichen Ergebnisse können erheblich von den auf der Website gezeigten Schätzungen, Zielen oder Beispielen abweichen."
+			]
+		},
+		{
+			"title": "Markt- und Liquiditätsrisiko",
+			"content": [
+				"Goldpreise schwanken aufgrund globaler Marktbedingungen, Währungsbewegungen, Zinssätze, geopolitischer Ereignisse, Käuferspannen und lokaler Marktliquidität. Änderungen des Spotpreises oder der Käuferkonditionen können Umsatz und Ausschüttungen beeinflussen.",
+				"Jede private Partnerschaft oder standortbezogene Vereinbarung kann illiquide sein. Ausstiegsrechte, Übertragungsbeschränkungen, Sperrfristen und Rückzahlungsbedingungen hängen von der unterzeichneten Vereinbarung ab, nicht von Zusammenfassungen auf der Website."
+			]
+		},
+		{
+			"title": "Regulatorisches und jurisdiktionsbezogenes Risiko",
+			"content": [
+				"Bergbau-, Umwelt-, Steuer-, Export-, Edelmetall- und Investitionsvorschriften können sich ändern. Lizenzverlängerungen, Inspektionen, Abgaben, Zölle, Exportgenehmigungen und Compliance-Verpflichtungen können den Betrieb oder Zeitpläne beeinträchtigen.",
+				"AfriGold Hub ist in mehreren Rechtsgebieten tätig. Potenzielle Partner sollten vor dem Eingehen einer Vereinbarung unabhängige Beratung zu den rechtlichen, steuerlichen, regulatorischen und angemessenheitsbezogenen Auswirkungen in ihrem eigenen Land einholen."
+			]
+		},
+		{
+			"title": "Keine garantierten Renditen",
+			"content": [
+				"Auf der Website gezeigte Renditezahlen, Amortisationszeiträume, Umsatzbeispiele oder Gewinnspannen sind, sofern nicht ausdrücklich in unterzeichneten Transaktionsdokumenten bestätigt, nur illustrativ. Sie unterliegen betrieblichen, marktbezogenen, regulatorischen und kontrahentenbezogenen Risiken.",
+				"Sie sollten eine Beteiligung nur in Betracht ziehen, nachdem Sie die vollständigen Unterlagen geprüft, Fragen gestellt, die Risiken verstanden und festgestellt haben, dass die Vereinbarung für Ihre finanzielle Situation und Risikotoleranz geeignet ist."
+			]
+		},
+		{
+			"title": "Verantwortung für die Due Diligence",
+			"content": [
+				"Potenzielle Partner sind für die Durchführung ihrer eigenen Due Diligence verantwortlich. Dies kann die Prüfung von Lizenzen, Umweltgenehmigungen, Produktionsaufzeichnungen, Analysedokumentationen, Finanzberichten, Käuferaufzeichnungen, Standortzugang und relevanter professioneller Beratung umfassen.",
+				"Website-Inhalte können jederzeit aktualisiert, korrigiert, erweitert oder zurückgezogen werden. Unterzeichnete Vereinbarungen, formelle Offenlegungen und verifizierte Due-Diligence-Unterlagen haben Vorrang vor zusammenfassenden Informationen auf dieser Website."
+			]
+		}
+	]
+}

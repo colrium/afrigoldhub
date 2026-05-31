@@ -19,8 +19,8 @@ const icons = {
 };
 
 export default function WhySection() {
-	const { t } = useTranslation("common");
-	const cards = t("why.cards", { returnObjects: true }) as {
+	const { t } = useTranslation([  "common", "why"]);
+	const cards = t("why:cards", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		description: string;
@@ -31,13 +31,13 @@ export default function WhySection() {
 				<div className="max-w-150 mb-16">
 					<FadeUp delay={0.1}>
 						<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-							{t("why.tag")}
+							{t("why:tag")}
 						</span>
 					</FadeUp>
 					<FadeUp delay={0.1}>
-						<h2 className="font-serif text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
+						<h2 className="text-[clamp(2rem,3.5vw,2.9rem)] tracking-tight text-onSurface-100 mb-5">
 							<Trans
-								i18nKey="why.headline" 
+								i18nKey="why:headline" 
 								defaults="Built on proven ground, <gold>engineered for returns</gold>"
 								components={{
 									gold: <span className="text-primary!" />,
@@ -47,7 +47,7 @@ export default function WhySection() {
 					</FadeUp>
 					<FadeUp delay={0.2}>
 						<p className="text-base text-onSurface-100 leading-[1.75] font-light max-w-[560px]">
-							{t("why.description")}
+							{t("why:description")}
 						</p>
 					</FadeUp>
 				</div>
@@ -55,11 +55,11 @@ export default function WhySection() {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 overflow-hidden items-stretch">
 					{cards.map((card, idx) => (
 						<FadeUp delay={idx * 0.1 + 0.2} key={idx}>
-							<div className="bg-surface-800 p-10 relative transition-colors h-full rounded-lg hover:bg-surface-900">
-								<div className="m-auto text-[64px] text-primary rounded-full flex items-center justify-center text-xl mb-6">
+							<div className="bg-surface-900 p-10 relative  h-full rounded-lg ">
+								<div className="m-auto text-[64px] text-onSurface-500 rounded-full flex items-center justify-center text-xl mb-6">
 									{icons[card.icon]}
 								</div>
-								<h3 className="font-serif text-xl text-onSurface-100 mb-3">
+								<h3 className="text-xl text-onSurface-100 mb-3">
 									{card.title}
 								</h3>
 								<p className="text-sm text-onSurface-100 leading-[1.7] font-light">
