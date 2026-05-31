@@ -41,7 +41,7 @@ export default function ErrorPageSection({
 						<h1 className="text-[clamp(2.5rem,6vw,5rem)] leading-[0.96] tracking-tight text-onSurface-100">
 							{title}
 						</h1>
-						<p className="mt-6 text-base font-light leading-[1.8] text-[#faf5ec] md:text-lg">
+						<p className="mt-6 text-base font-light leading-[1.8] text-onSurface-100 md:text-lg">
 							{description}
 						</p>
 					</div>

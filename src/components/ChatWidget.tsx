@@ -108,7 +108,7 @@ export default function ChatWidget() {
 								className={`px-3 py-1 rounded-full text-xs font-medium transition-all ${
 									mode === m
 										? "bg-primary text-black"
-										: "text-[#faf5ec] bg-transparent"
+										: "text-onSurface-100 bg-transparent"
 								}`}
 							>
 								{m === "ai" ? "AI" : "Human"}

@@ -25,7 +25,7 @@ export default function InvestHero() {
 					<h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
 						{t("invest:hero.headline")}
 					</h1>
-					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[650px]">
+					<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[650px]">
 						{t("invest:hero.description")}
 					</p>
 					<div className="mt-10 flex flex-wrap gap-4">
@@ -65,7 +65,7 @@ export default function InvestHero() {
 											? t(`metrics:strip.${key}.value`)
 											: t(`metrics:stats.${key}.value`)}
 									</div>
-									<div className="text-xs text-[#faf5ec] mt-2">
+									<div className="text-xs text-onSurface-100 mt-2">
 										{key === "goldPerMonth" || key === "paybackPeriod"
 											? t(`metrics:strip.${key}.label`)
 											: t(`metrics:stats.${key}.label`)}

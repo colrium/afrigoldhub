@@ -39,7 +39,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		"contact",
 		"value",
 		"invest",
-		"cta",
+        "cta",
+        "operations"
 	]);
 
 	if (!i18nProps) return { notFound: true };

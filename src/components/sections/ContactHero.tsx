@@ -30,7 +30,7 @@ export default function ContactHero() {
 					<h1 className="text-[clamp(2.7rem,6vw,5.5rem)] leading-[0.95] tracking-tight text-onSurface-100 max-w-[780px]">
 						{t("contact:hero.headline")}
 					</h1>
-					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[650px]">
+					<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[650px]">
 						{t("contact:hero.description")}
 					</p>
 					<div className="mt-10 flex flex-wrap gap-4">
@@ -43,14 +43,14 @@ export default function ContactHero() {
 						</Link>
 						<Link
 							href="mailto:invest@afrigoldhub.com"
-							className="inline-flex items-center text-[0.95rem] text-primary font-light px-7 py-3.5 rounded border border-[rgba(201,168,76,0.18)] hover:border-primary hover:bg-[rgba(201,168,76,0.06)] transition-all"
+							className="inline-flex items-center text-[0.95rem] text-primary font-light px-7 py-3.5 rounded border border-primary/20 hover:border-primary hover:bg-primary] transition-all"
 						>
 							invest@afrigoldhub.com
 						</Link>
 					</div>
 				</div>
 
-				<div className="rounded-lg border border-surface bg-surface/85 p-8 shimmer-y shimmer-subtle">
+				<div className="rounded-lg border border-onSurface-100/20 bg-surface/85 p-8 shimmer-y shimmer-subtle">
 					<div className="flex items-center gap-3 mb-7">
 						<CheckCircleIcon className="text-primary" />
 						<div>

@@ -52,7 +52,7 @@ export default function SiteVisitSection() {
 								<h3 className="text-onSurface-100 font-medium mb-2">
 									{step.title}
 								</h3>
-								<p className="text-sm text-[#faf5ec] leading-relaxed">
+								<p className="text-sm text-onSurface-100 leading-relaxed">
 									{step.description}
 								</p>
 							</div>

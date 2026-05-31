@@ -39,7 +39,7 @@ export default function OperationsHero() {
 					<p className="mt-5 text-lg text-primary font-light leading-[1.7] max-w-[680px]">
 						{t("operations:hero.subheadline")}
 					</p>
-					<p className="mt-5 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[720px]">
+					<p className="mt-5 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[720px]">
 						{t("operations:hero.description")}
 					</p>
 					<div className="mt-10 flex flex-wrap gap-4">
@@ -81,7 +81,7 @@ export default function OperationsHero() {
 									{stat.prefix}
 									{stat.value}
 								</div>
-								<div className="text-xs text-[#faf5ec] mt-2">{stat.label}</div>
+								<div className="text-xs text-onSurface-100 mt-2">{stat.label}</div>
 							</div>
 						))}
 					</div>
