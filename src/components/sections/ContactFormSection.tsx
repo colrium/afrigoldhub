@@ -15,6 +15,7 @@ type Field = {
 
 type ReasonState = {
 	reason: string;
+	opportunity: string;
 	tier: string;
 	sent: boolean;
 };
@@ -28,6 +29,7 @@ export default function ContactFormSection() {
 	const router = useRouter();
 	const [state, setState] = useState<ReasonState>({
 		reason: "",
+		opportunity: "",
 		tier: "",
 		sent: false,
 	});
@@ -39,6 +41,9 @@ export default function ContactFormSection() {
 		string,
 		Field
 	>;
+	const opportunityOptions = t("contact:form.fields.opportunity.options", {
+		returnObjects: true,
+	}) as Option[];
 	const operationCountries = t("operations:locations.countries", {
 		returnObjects: true,
 	}) as string[];
@@ -49,13 +54,16 @@ export default function ContactFormSection() {
 
 	useEffect(() => {
 		const reason = typeof router.query.reason === "string" ? router.query.reason : "";
+		const opportunity =
+			typeof router.query.opportunity === "string" ? router.query.opportunity : "";
 		const tier = typeof router.query.tier === "string" ? router.query.tier : "";
 		setState((current) => ({
 			...current,
-			reason: reason || current.reason,
+			reason: reason === "invest" ? "investment-enquiry" : reason || current.reason,
+			opportunity: opportunity || current.opportunity,
 			tier: tier || current.tier,
 		}));
-	}, [router.query.reason, router.query.tier]);
+	}, [router.query.opportunity, router.query.reason, router.query.tier]);
 
 	const tierOptions = useMemo(() => fields.investor_tier.options ?? [], [fields]);
 
@@ -181,7 +189,35 @@ export default function ContactFormSection() {
 							</select>
 						</label>
 					</div>
-					{state.reason === "investment-enquiry" && (
+					{["investment-enquiry", "due-diligence", "partnership"].includes(
+						state.reason
+					) && (
+						<label className="grid gap-2 text-sm text-onSurface-100">
+							{fields.opportunity.label}
+							<select
+								className={inputClassName()}
+								name="opportunity"
+								value={state.opportunity}
+								onChange={(event) =>
+									setState((current) => ({
+										...current,
+										opportunity: event.target.value,
+									}))
+								}
+							>
+								<option value="" disabled>
+									{fields.opportunity.placeholder}
+								</option>
+								{opportunityOptions.map((opportunity) => (
+									<option key={opportunity.value} value={opportunity.value}>
+										{opportunity.label}
+									</option>
+								))}
+							</select>
+						</label>
+					)}
+					{state.reason === "investment-enquiry" &&
+						state.opportunity === "gold-aggregation" && (
 						<label className="grid gap-2 text-sm text-onSurface-100">
 							{fields.investor_tier.label}
 							<select

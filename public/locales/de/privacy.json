@@ -1,4 +1,14 @@
 {
+	"misc": {
+		"label": "Datenschutz",
+		"title": "Datenschutzerklärung",
+		"description": "Diese Richtlinie erklärt, wie {{site_title}} mit Informationen umgeht, die über unsere Website, Kontaktformulare, Investorenanfragen und Standortbesuchsanfragen übermittelt werden.",
+        "lastUpdatedLabel": "Zuletzt aktualisiert",
+		"lastUpdated": "16. Mai 2026",
+		"contactLabel": "Datenschutzteam kontaktieren",
+		"contactLink": "/contact?reason=privacy",
+        "note": "Diese Seite ist als praktischer Website-Datenschutzhinweis gedacht und sollte vor ihrer Behandlung als endgültige rechtliche Richtlinie mit qualifiziertem Rechtsbeistand auf länderspezifische rechtliche Anforderungen geprüft werden. Fragen zu dieser Seite oder dazu, wie sie auf Ihre Anfrage anzuwenden ist, können an das {{site_title}}-Team gesendet werden."
+	},
 	"hero": {
 		"tag": "Datenschutzerklärung",
 		"headline": "Ihre Informationen, unser Engagement",
@@ -20,27 +30,45 @@
 	"articles": [
 		{
 			"title": "Von uns erfasste Informationen",
-			"content": "Wir erfassen Informationen, die Sie uns freiwillig zur Verfügung stellen, wenn Sie eine Anfrage stellen, Investorenmaterialien anfordern, einen Standortbesuch vereinbaren oder AfriGold Hub kontaktieren. Dazu können Ihr Name, Ihre E-Mail-Adresse, Telefonnummer, Land, Organisation, Ihr Investitionsinteresse und Nachrichtendetails gehören.\n\nWir erfassen möglicherweise auch grundlegende technische Informationen von Ihrem Browser oder Gerät, wie besuchte Seiten, ungefährer Standort, verweisende Links und Nutzungsmuster, um die Zuverlässigkeit der Website zu gewährleisten und das Benutzererlebnis zu verbessern."
+			"content": [
+				"Wir erfassen Informationen, die Sie uns freiwillig zur Verfügung stellen, wenn Sie eine Anfrage stellen, Investorenmaterialien anfordern, einen Standortbesuch vereinbaren oder AfriGold Hub kontaktieren. Dazu können Ihr Name, Ihre E-Mail-Adresse, Telefonnummer, Land, Organisation, Ihr Investitionsinteresse und Nachrichtendetails gehören.",
+				"Wir erfassen möglicherweise auch grundlegende technische Informationen von Ihrem Browser oder Gerät, wie besuchte Seiten, ungefährer Standort, verweisende Links und Nutzungsmuster, um die Zuverlässigkeit der Website zu gewährleisten und das Benutzererlebnis zu verbessern."
+			]
 		},
 		{
 			"title": "Wie wir Ihre Informationen nutzen",
-			"content": "Wir verwenden die übermittelten Informationen, um auf Anfragen zu antworten, relevante Investoren- oder Betriebsinformationen vorzubereiten, Gespräche oder Standortbesuche zu arrangieren und die Kommunikation mit potenziellen Partnern aufrechtzuerhalten.\n\nWir können Website-Nutzungsdaten verwenden, um die Leistung der Website zu überwachen, vor Missbrauch zu schützen, die Nachfrage nach unseren Inhalten zu verstehen und Navigation, Formulare und Seiteninhalte zu verbessern."
+			"content": [
+				"Wir verwenden die übermittelten Informationen, um auf Anfragen zu antworten, relevante Investoren- oder Betriebsinformationen vorzubereiten, Gespräche oder Standortbesuche zu arrangieren und die Kommunikation mit potenziellen Partnern aufrechtzuerhalten.",
+				"Wir können Website-Nutzungsdaten verwenden, um die Leistung der Website zu überwachen, vor Missbrauch zu schützen, die Nachfrage nach unseren Inhalten zu verstehen und Navigation, Formulare und Seiteninhalte zu verbessern."
+			]
 		},
 		{
 			"title": "Weitergabe und Offenlegung",
-			"content": "Wir verkaufen keine personenbezogenen Daten. Wir können Informationen an Dienstleister, professionelle Berater, Compliance-Partner oder Betriebsteammitglieder weitergeben, soweit dies angemessen erforderlich ist, um auf Ihre Anfrage zu reagieren oder die Website zu betreiben.\n\nWir können Informationen offenlegen, wenn dies gesetzlich, durch Verordnung, Gerichtsbeschluss oder eine rechtmäßige Anfrage einer zuständigen Behörde erforderlich ist, oder wenn die Offenlegung notwendig ist, um unsere Rechte, Benutzer, Betriebe oder Partner zu schützen."
+			"content": [
+				"Wir verkaufen keine personenbezogenen Daten. Wir können Informationen an Dienstleister, professionelle Berater, Compliance-Partner oder Betriebsteammitglieder weitergeben, soweit dies angemessen erforderlich ist, um auf Ihre Anfrage zu reagieren oder die Website zu betreiben.",
+				"Wir können Informationen offenlegen, wenn dies gesetzlich, durch Verordnung, Gerichtsbeschluss oder eine rechtmäßige Anfrage einer zuständigen Behörde erforderlich ist, oder wenn die Offenlegung notwendig ist, um unsere Rechte, Benutzer, Betriebe oder Partner zu schützen."
+			]
 		},
 		{
 			"title": "Aufbewahrung und Sicherheit",
-			"content": "Wir bewahren personenbezogene Daten nur so lange auf, wie es für die auf dieser Seite beschriebenen Zwecke angemessen erforderlich ist, einschließlich der Bearbeitung von Anfragen, der Pflege von Investorenbeziehungen, der rechtlichen Compliance, der Vermeidung von Streitigkeiten und der Geschäftsaufzeichnung.\n\nWir verwenden administrative, technische und organisatorische Sicherheitsmaßnahmen, die darauf ausgelegt sind, Informationen zu schützen. Keine Website oder Übermittlungsmethode ist völlig sicher, daher sollten Benutzer es vermeiden, sensible Identitäts-, Finanz- oder vertrauliche Dokumente über allgemeine Website-Formulare zu senden, es sei denn, dies wird ausdrücklich über einen genehmigten Kanal angefordert."
+			"content": [
+				"Wir bewahren personenbezogene Daten nur so lange auf, wie es für die auf dieser Seite beschriebenen Zwecke angemessen erforderlich ist, einschließlich der Bearbeitung von Anfragen, der Pflege von Investorenbeziehungen, der rechtlichen Compliance, der Vermeidung von Streitigkeiten und der Geschäftsaufzeichnung.",
+				"Wir verwenden administrative, technische und organisatorische Sicherheitsmaßnahmen, die darauf ausgelegt sind, Informationen zu schützen. Keine Website oder Übermittlungsmethode ist völlig sicher, daher sollten Benutzer es vermeiden, sensible Identitäts-, Finanz- oder vertrauliche Dokumente über allgemeine Website-Formulare zu senden, es sei denn, dies wird ausdrücklich über einen genehmigten Kanal angefordert."
+			]
 		},
 		{
 			"title": "Ihre Wahlmöglichkeiten und Rechte",
-			"content": "Sie können uns bitten, von Ihnen übermittelte Informationen zu aktualisieren, zu berichtigen oder zu löschen, vorbehaltlich gesetzlicher, regulatorischer, sicherheitsbezogener und legitimer geschäftlicher Aufbewahrungspflichten.\n\nSie können auch den Erhalt von nicht wesentlichen Mitteilungen widersprefen, indem Sie uns kontaktieren. Transaktions-, Compliance- oder anfragebezogene Nachrichten können weiterhin gesendet werden, soweit dies zur Bearbeitung einer aktiven Anfrage erforderlich ist."
+			"content": [
+				"Sie können uns bitten, von Ihnen übermittelte Informationen zu aktualisieren, zu berichtigen oder zu löschen, vorbehaltlich gesetzlicher, regulatorischer, sicherheitsbezogener und legitimer geschäftlicher Aufbewahrungspflichten.",
+				"Sie können auch den Erhalt von nicht wesentlichen Mitteilungen widersprefen, indem Sie uns kontaktieren. Transaktions-, Compliance- oder anfragebezogene Nachrichten können weiterhin gesendet werden, soweit dies zur Bearbeitung einer aktiven Anfrage erforderlich ist."
+			]
 		},
 		{
 			"title": "Internationaler Betrieb",
-			"content": "AfriGold Hub ist in mehreren afrikanischen Rechtsgebieten tätig und bearbeitet möglicherweise Anfragen von Benutzern in anderen Ländern. Informationen können daher in einem anderen Land als Ihrem eigenen verarbeitet werden, vorbehaltlich angemessener betrieblicher und Compliance-Kontrollen.\n\nDiese Seite ist als praktischer Website-Datenschutzhinweis gedacht und sollte vor ihrer Behandlung als endgültige rechtliche Richtlinie mit qualifiziertem Rechtsbeistand auf länderspezifische rechtliche Anforderungen geprüft werden."
+			"content": [
+				"AfriGold Hub ist in mehreren afrikanischen Rechtsgebieten tätig und bearbeitet möglicherweise Anfragen von Benutzern in anderen Ländern. Informationen können daher in einem anderen Land als Ihrem eigenen verarbeitet werden, vorbehaltlich angemessener betrieblicher und Compliance-Kontrollen.",
+				"Diese Seite ist als praktischer Website-Datenschutzhinweis gedacht und sollte vor ihrer Behandlung als endgültige rechtliche Richtlinie mit qualifiziertem Rechtsbeistand auf länderspezifische rechtliche Anforderungen geprüft werden."
+			]
 		}
 	]
 }

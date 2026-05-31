@@ -35,7 +35,7 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
 				/> */}
 				<div className="layout-gradient-bg fixed inset-0"></div>
 				<div
-					className="fixed inset-0"
+					className="fixed z-[-1] inset-0"
 					style={{
 						backgroundImage:
 							"linear-gradient(rgba(201,168,76,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px)",

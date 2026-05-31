@@ -1,4 +1,14 @@
 {
+	"misc": {
+		"label": "Faragha",
+		"title": "Sera ya Faragha",
+		"description": "Sera hii inaelezea jinsi {{site_title}} inavyoshughulikia taarifa zinazowasilishwa kupitia tovuti yetu, fomu za mawasiliano, maswali ya wawekezaji, na maombi ya ziara za tovuti.",
+		"lastUpdated": "Mei 16, 2026",
+        "lastUpdatedLabel": "Imesasishwa mwisho",
+		"contactLabel": "Wasiliana na Timu ya Faragha",
+		"contactLink": "/contact?reason=privacy",
+        "note": "Ukurasa huu unakusudiwa kama notisi ya faragha ya tovuti ya vitendo na unapaswa kupitiwa na mshauri wa kisheria aliyehitimu kwa mahitaji mahususi ya kisheria ya eneo la mamlaka kabla ya kutibiwa kama sera ya mwisho ya kisheria. Maswali kuhusu ukurasa huu au jinsi yanavyohusiana na swali lako yanaweza kutumwa kwa timu ya {{site_title}}."
+	},
 	"hero": {
 		"tag": "Sera ya Faragha",
 		"headline": "Taarifa zako, ahadi yetu",
@@ -20,27 +30,45 @@
 	"articles": [
 		{
 			"title": "Taarifa Tunazokusanya",
-			"content": "Tunakusanya taarifa unazochagua kutoa unapowasilisha swali, kuomba nyenzo za wawekezaji, kupanga ziara ya tovuti, au kuwasiliana na AfriGold Hub. Hii inaweza kujumuisha jina lako, barua pepe, nambari ya simu, nchi, shirika lako, nia yako ya uwekezaji, na maelezo ya ujumbe.\n\nTunaweza pia kukusanya taarifa za kimsingi za kiufundi kutoka kwa kivinjari chako au kifaa chako, kama vile kurasa zilizotembelewa, eneo la takriban, viungo vya kuelekeza, na mifumo ya matumizi, ili kutusaidia kuweka tovuti kuwa ya kutegemeka na kuboresha uzoefu."
+			"content": [
+				"Tunakusanya taarifa unazochagua kutoa unapowasilisha swali, kuomba nyenzo za wawekezaji, kupanga ziara ya tovuti, au kuwasiliana na AfriGold Hub. Hii inaweza kujumuisha jina lako, barua pepe, nambari ya simu, nchi, shirika lako, nia yako ya uwekezaji, na maelezo ya ujumbe.",
+				"Tunaweza pia kukusanya taarifa za kimsingi za kiufundi kutoka kwa kivinjari chako au kifaa chako, kama vile kurasa zilizotembelewa, eneo la takriban, viungo vya kuelekeza, na mifumo ya matumizi, ili kutusaidia kuweka tovuti kuwa ya kutegemeka na kuboresha uzoefu."
+			]
 		},
 		{
 			"title": "Jinsi Tunavyotumia Taarifa Zako",
-			"content": "Tunatumia taarifa zilizowasilishwa kujibu maswali, kuandaa taarifa muhimu za wawekezaji au uendeshaji, kupanga simu au ziara za tovuti, na kudumisha mawasiliano na washirika wanaotarajiwa.\n\nTunaweza kutumia data ya matumizi ya tovuti kufuatilia utendaji wa tovuti, kulinda dhidi ya matumizi mabaya, kuelewa mahitaji ya maudhui yetu, na kuboresha urambazaji, fomu, na maudhui ya kurasa."
+			"content": [
+				"Tunatumia taarifa zilizowasilishwa kujibu maswali, kuandaa taarifa muhimu za wawekezaji au uendeshaji, kupanga simu au ziara za tovuti, na kudumisha mawasiliano na washirika wanaotarajiwa.",
+				"Tunaweza kutumia data ya matumizi ya tovuti kufuatilia utendaji wa tovuti, kulinda dhidi ya matumizi mabaya, kuelewa mahitaji ya maudhui yetu, na kuboresha urambazaji, fomu, na maudhui ya kurasa."
+			]
 		},
 		{
 			"title": "Kushiriki na Kufichua",
-			"content": "Hatutauzi taarifa za kibinafsi. Tunaweza kushiriki taarifa na watoa huduma, washauri wa kitaalamu, washirika wa ufuasi, au wanachama wa timu ya uendeshaji pale ambapo inahitajika kwa kiasi cha kutosha kujibu ombi lako au kuendesha tovuti.\n\nTunaweza kufichua taarifa ikiwa inahitajika na sheria, kanuni, amri ya mahakama, au ombi halali kutoka kwa mamlaka husika, au pale ambapo ufichuaji ni muhimu kulinda haki zetu, watumiaji, shughuli, au washirika wetu."
+			"content": [
+				"Hatutauzi taarifa za kibinafsi. Tunaweza kushiriki taarifa na watoa huduma, washauri wa kitaalamu, washirika wa ufuasi, au wanachama wa timu ya uendeshaji pale ambapo inahitajika kwa kiasi cha kutosha kujibu ombi lako au kuendesha tovuti.",
+				"Tunaweza kufichua taarifa ikiwa inahitajika na sheria, kanuni, amri ya mahakama, au ombi halali kutoka kwa mamlaka husika, au pale ambapo ufichuaji ni muhimu kulinda haki zetu, watumiaji, shughuli, au washirika wetu."
+			]
 		},
 		{
 			"title": "Uhifadhi na Usalama",
-			"content": "Tunahifadhi taarifa za kibinafsi kwa muda mrefu kama inavyohitajika kwa madhumuni yaliyoelezwa kwenye ukurasa huu, ikijumuisha kushughulikia maswali, usimamizi wa mahusiano ya wawekezaji, ufuasi wa kisheria, kuzuia migogoro, na utunzaji wa kumbukumbu za biashara.\n\nTunatumia ulinzi wa kiutawala, kiufundi, na wa kiorganasheni ulioundwa kulinda taarifa. Hakuna tovuti au njia ya utumaji ambayo ni salama kabisa, kwa hivyo watumiaji wanapaswa kuepuka kutuma hati za utambulisho nyeti, kifedha, au za siri kupitia fomu za jumla za tovuti isipokuwa zimeombwa maalum kupitia njia iliyoidhinishwa."
+			"content": [
+				"Tunahifadhi taarifa za kibinafsi kwa muda mrefu kama inavyohitajika kwa madhumuni yaliyoelezwa kwenye ukurasa huu, ikijumuisha kushughulikia maswali, usimamizi wa mahusiano ya wawekezaji, ufuasi wa kisheria, kuzuia migogoro, na utunzaji wa kumbukumbu za biashara.",
+				"Tunatumia ulinzi wa kiutawala, kiufundi, na wa kiorganasheni ulioundwa kulinda taarifa. Hakuna tovuti au njia ya utumaji ambayo ni salama kabisa, kwa hivyo watumiaji wanapaswa kuepuka kutuma hati za utambulisho nyeti, kifedha, au za siri kupitia fomu za jumla za tovuti isipokuwa zimeombwa maalum kupitia njia iliyoidhinishwa."
+			]
 		},
 		{
 			"title": "Chaguo na Haki Zako",
-			"content": "Unaweza kutuomba kusasisha, kusahihisha, au kufuta taarifa ulizowasilisha, kwa kuzingatia mahitaji ya kisheria, udhibiti, usalama, na uhifadhi halali wa biashara.\n\nUnaweza pia kujiondoa kwenye mawasiliano yasiyo ya lazima kwa kuwasiliana nasi. Ujumbe wa kimiamala, wa ufuasi, au unaohusiana na maswali bado unaweza kutumwa pale inapohitajika kushughulikia ombi linaloendelea."
+			"content": [
+				"Unaweza kutuomba kusasisha, kusahihisha, au kufuta taarifa ulizowasilisha, kwa kuzingatia mahitaji ya kisheria, udhibiti, usalama, na uhifadhi halali wa biashara.",
+				"Unaweza pia kujiondoa kwenye mawasiliano yasiyo ya lazima kwa kuwasiliana nasi. Ujumbe wa kimiamala, wa ufuasi, au unaohusiana na maswali bado unaweza kutumwa pale inapohitajika kushughulikia ombi linaloendelea."
+			]
 		},
 		{
 			"title": "Shughuli za Kimataifa",
-			"content": "AfriGold Hub inafanya kazi katika maeneo mbalimbali ya mamlaka ya Afrika na inaweza kushughulikia maswali kutoka kwa watumiaji katika nchi nyingine. Kwa hivyo, taarifa zinaweza kuchakatwa katika nchi tofauti na yako mwenyewe, kwa kuzingatia udhibiti ufaao wa uendeshaji na ufuasi.\n\nUkurasa huu unakusudiwa kama notisi ya faragha ya tovuti ya vitendo na unapaswa kupitiwa na mshauri wa kisheria aliyehitimu kwa mahitaji mahususi ya kisheria ya eneo la mamlaka kabla ya kutibiwa kama sera ya mwisho ya kisheria."
+			"content": [
+				"AfriGold Hub inafanya kazi katika maeneo mbalimbali ya mamlaka ya Afrika na inaweza kushughulikia maswali kutoka kwa watumiaji katika nchi nyingine. Kwa hivyo, taarifa zinaweza kuchakatwa katika nchi tofauti na yako mwenyewe, kwa kuzingatia udhibiti ufaao wa uendeshaji na ufuasi.",
+				"Ukurasa huu unakusudiwa kama notisi ya faragha ya tovuti ya vitendo na unapaswa kupitiwa na mshauri wa kisheria aliyehitimu kwa mahitaji mahususi ya kisheria ya eneo la mamlaka kabla ya kutibiwa kama sera ya mwisho ya kisheria."
+			]
 		}
 	]
 }

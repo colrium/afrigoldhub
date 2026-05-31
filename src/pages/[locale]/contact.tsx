@@ -4,6 +4,7 @@ import {
 	ContactFaqSection,
 	ContactFormSection,
 	ContactHero,
+	ContactOpportunitiesSection,
 	CtaBand,
 	SiteVisitSection,
 	SocialSection,
@@ -20,6 +21,7 @@ const ContactPage: NextPage<PageProps> = () => {
 		<div className="relative">
 			<PageHead pageName="contact" />
 			<ContactHero />
+			<ContactOpportunitiesSection />
 			<ContactFormSection />
 			<ContactDetailsSection />
 			<SiteVisitSection />

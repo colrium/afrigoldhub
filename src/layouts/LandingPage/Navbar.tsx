@@ -42,8 +42,6 @@ export default function Navbar() {
 		label: string;
 		flag: string;
     }[];
-    console.log("Available locales:", locales);
-    console.log("router:", router);
 
     const localeCodes =  locales.map((locale) => locale.code);
     

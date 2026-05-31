@@ -10,7 +10,7 @@ const legalLinks = {
 export default function Footer() {
 	const { t } = useTranslation(["common", "meta"]);
 	return (
-		<footer className="main-footer  pt-16 pb-8">
+		<footer className="main-footer  pt-16 pb-8 z-50">
 			<div className="max-w-295 mx-auto px-8">
 				<div
 					className={`w-full flex flex-col md:grid md:grid-cols-[10fr_30fr] gap-8  pb-12 border-b border-[rgba(201,168,76,0.08)]`}

@@ -4,7 +4,7 @@
 		"headline": "Partner in dokumentierter Goldproduktion",
 		"description": "Wählen Sie eine strukturierte Investment-Stufe, gestützt auf lizenzierte Standorte, chemiefreie Verarbeitung, geprüfte monatliche Berichte und klare Partnerrechte vom ersten Tag an.",
 		"badge": { "text": "Mindestlaufzeit 3 Monate", "status": "aktiv" },
-		"cta_primary": { "label": "Stufen vergleichen", "href": "#tiers" },
+		"cta_primary": { "label": "Möglichkeiten ansehen", "href": "#opportunities" },
 		"cta_secondary": {
 			"label": "Due Diligence anfordern",
 			"href": "/contact?reason=due-diligence"
@@ -15,6 +15,59 @@
 		"annual_target": "Jahresziel",
 		"custom": "Individuell"
 	},
+	"opportunities": {
+		"tag": "Investitionsmöglichkeiten",
+		"headline": "Mehr als Goldinvestments",
+		"description": "Die Pipeline reicht nun von Edelmetall-Aggregation bis zu Ernährungssicherheit und Agribusiness. Jede Route wird als eigenes Investmentgespräch mit Betriebsmodell, Kapitalverwendung und Due-Diligence-Paket behandelt.",
+		"labels": {
+			"capital_use": "Kapitalverwendung",
+			"investor_fit": "Geeignet für"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Busia-Goldaggregation",
+				"category": "Gold und Handel",
+				"description": "Betriebskapital für dokumentierte Goldbeschaffung, Aggregation, Verarbeitungsunterstützung und konformen Weiterverkauf über das Busia-Netzwerk.",
+				"capital_use": "Kauflikuidität, Aggregationslogistik, Prüfung, Raffinationskoordination und Transaktionsdokumentation.",
+				"investor_fit": "Investoren, die eine kürzere Kapitalrotation im bestehenden Gold-Wertschöpfungsnetz suchen.",
+				"highlights": [
+					"Auf dokumentierte Kauf- und Verkaufsunterlagen ausgerichtet",
+					"Kann mit der bestehenden Gold-Investment-Stufenstruktur kombiniert werden",
+					"Für häufiges Reporting und disziplinierte Kapitalrotation konzipiert"
+				],
+				"cta": "Goldaggregation besprechen"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Kommerzielle Ziegenhaltung",
+				"category": "Livestock-Agribusiness",
+				"description": "Eine Viehwirtschaftsroute mit Fokus auf Zucht, Mast, tierärztliche Kontrollen, Fütterungssysteme und strukturierte Abnahme.",
+				"capital_use": "Zuchttiere, Ställe, Futter, Veterinärprogramme, Arbeitskräfte, Wassersysteme und Marktvorbereitung.",
+				"investor_fit": "Partner, die eine sachwertgestützte Agribusiness-Möglichkeit mit gestuftem Produktionszyklus suchen.",
+				"highlights": [
+					"Fokus auf Herdenaufbau, Tiergesundheit und Verkaufsreife",
+					"Geeignet für phasenweise Kapitalbereitstellung und operative Meilensteine",
+					"Unterstützt ländliche Beschäftigung und lokale Proteinversorgung"
+				],
+				"cta": "Ziegenhaltung besprechen"
+			},
+			{
+				"id": "horticulture",
+				"title": "Gartenbau-Agribusiness",
+				"category": "Pflanzenproduktion",
+				"description": "Eine Pflanzenproduktionsroute mit Landvorbereitung, Bewässerung, Betriebsmitteln, Erntehandling und käufergebundener Distribution.",
+				"capital_use": "Bewässerung, Saatgut und Setzlinge, Bodenvorbereitung, Pflanzenschutz, Arbeitskräfte, Erntehandling und Logistik.",
+				"investor_fit": "Investoren mit Interesse an Lebensmittelproduktion, Exportpotenzial und wiederkehrenden Agrarzyklen.",
+				"highlights": [
+					"Anbaukalender und messbare Feldmeilensteine",
+					"Schwerpunkt auf Bewässerung, Inputkontrolle und Erntequalität",
+					"Für lokale und regionale Lebensmittelnachfrage ausgelegt"
+				],
+				"cta": "Gartenbau besprechen"
+			}
+		]
+	},
 	"tiers": {
 		"tag": "Investment-Stufen",
 		"headline": "Wählen Sie Ihre Position",
@@ -23,8 +76,12 @@
 		"projectedRoi": "Prognostizierte Rendite:",
 		"items": [
 			{
-				"tier": "Seed Partner",
-				"amount": "25.000 $",
+				"id": "seed-partner",
+				"label": "Seed Partner",
+				"amount": 25000,
+				"currency": "USD",
+				"equity_pct": 5,
+				"roi_annual_pct": 65,
 				"roi": "~65 % jährlich",
 				"cta": "Loslegen",
 				"ctaStyle": "outline",
@@ -37,10 +94,15 @@
 				]
 			},
 			{
-				"tier": "Strategic Partner",
-				"amount": "75.000 $",
+				"id": "strategic-partner",
+				"label": "Strategic Partner",
+				"amount": 75000,
+				"currency": "USD",
+				"equity_pct": 18,
+				"roi_annual_pct": 88,
 				"roi": "~88 % jährlich",
 				"featured": true,
+				"badge": "Am beliebtesten",
 				"cta": "Partner werden",
 				"ctaStyle": "primary",
 				"features": [
@@ -53,8 +115,12 @@
 				]
 			},
 			{
-				"tier": "Anchor Investor",
-				"amount": "189.000 $",
+				"id": "anchor-investor",
+				"label": "Anchor Investor",
+				"amount": 189000,
+				"currency": "USD",
+				"equity_pct": 45,
+				"roi_annual_pct": null,
 				"roi": "primärer Partner",
 				"roiPrefix": "Volle CAPEX-Abdeckung -",
 				"cta": "Kontaktieren Sie uns",

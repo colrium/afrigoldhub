@@ -5,6 +5,11 @@
 		"description": "Egal, ob Sie unsere Investment-Stufen erkunden, ein Due-Diligence-Paket anfordern oder einen Standortbesuch in unserem Betrieb in Busia planen möchten – unser Team antwortet auf jede ernsthafte Anfrage innerhalb von 24 Stunden.",
 		"badge": { "text": "Antwort innerhalb von 24 Stunden", "status": "aktiv" }
 	},
+	"opportunities": {
+		"tag": "Route wählen",
+		"headline": "Leiten Sie Ihre Anfrage an das richtige Team",
+		"description": "Wählen Sie das passende Investitionsfeld. Das Kontaktformular erfasst Ihr Interessengebiet, damit Investor Relations die richtigen Unterlagen und nächsten Schritte senden kann."
+	},
 	"offices": {
 		"tag": "Unsere Büros",
 		"headline": "Finden Sie uns",
@@ -143,6 +148,19 @@
 				"required": true,
 				"type": "select"
 			},
+			"opportunity": {
+				"label": "Interessantes Investitionsfeld",
+				"placeholder": "Feld auswählen",
+				"required": false,
+				"type": "select",
+				"options": [
+					{ "value": "gold-aggregation", "label": "Busia-Goldaggregation" },
+					{ "value": "goat-farming", "label": "Kommerzielle Ziegenhaltung" },
+					{ "value": "horticulture", "label": "Gartenbau-Agribusiness" },
+					{ "value": "multi-sector", "label": "Mehrere Möglichkeiten" },
+					{ "value": "unsure", "label": "Noch nicht sicher" }
+				]
+			},
 			"investor_tier": {
 				"label": "Investment-Stufe von Interesse",
 				"placeholder": "Wählen Sie eine Stufe",
@@ -150,9 +168,9 @@
 				"type": "select",
 				"show_when": { "field": "reason", "value": "investment-enquiry" },
 				"options": [
-					{ "value": "seed", "label": "Seed Partner - 25.000 $" },
-					{ "value": "strategic", "label": "Strategic Partner - 75.000 $" },
-					{ "value": "anchor", "label": "Anchor Investor - 189.000 $" },
+					{ "value": "seed-partner", "label": "Seed Partner - 25.000 $" },
+					{ "value": "strategic-partner", "label": "Strategic Partner - 75.000 $" },
+					{ "value": "anchor-investor", "label": "Anchor Investor - 189.000 $" },
 					{ "value": "unsure", "label": "Noch unentschlossen" }
 				]
 			},

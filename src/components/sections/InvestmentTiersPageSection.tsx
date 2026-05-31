@@ -5,6 +5,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 type Tier = {
 	id?: string;
 	label?: string;
+	tier?: string;
 	amount: number;
 	currency: string;
 	roi_annual_pct?: number | null;
@@ -57,7 +58,7 @@ export default function InvestmentTiersPageSection() {
 								</div>
 							)}
 							<div className="text-xs tracking-[0.14em] uppercase text-primary mb-5">
-								{tier.label}
+								{tier.label ?? tier.tier}
 							</div>
 							<div className="text-5xl text-onSurface-100 leading-none mb-4">
 								{formatMoney(tier.amount, tier.currency)}
@@ -97,7 +98,7 @@ export default function InvestmentTiersPageSection() {
 								))}
 							</ul>
 							<Link
-								href={`/contact?reason=invest&tier=${tier.id}`}
+								href={`/contact?reason=investment-enquiry&opportunity=gold-aggregation&tier=${tier.id}#contact-form`}
 								className={`block w-full text-center py-3.5 rounded text-[0.95rem] transition-all ${
 									tier.featured
 										? "bg-primary text-black font-medium border border-primary hover:bg-[#E5C46A]"

@@ -2,8 +2,13 @@
 	"hero": {
 		"tag": "Wasiliana Nasi",
 		"headline": "Tuongee kuhusu uwekezaji wako",
-		"description": "Iwe unachunguza viwango vyetu vya uwekezaji, unaomba vifaa vya utafiti wa kina, au unatafuta kuratibu ziara ya tovuti kwa shughuli zetu za Busia, timu yetu inajibu kila swali zito ndani ya saa 24.",
+		"description": "Iwe unachunguza ukusanyaji wa dhahabu, ufugaji wa mbuzi wa kibiashara, kilimo cha bustani, uhakiki wa kina, au ziara ya tovuti, timu yetu hujibu kila swali la dhati ndani ya saa 24.",
 		"badge": { "text": "Jibu ndani ya saa 24", "status": "active" }
+	},
+	"opportunities": {
+		"tag": "Chagua Njia",
+		"headline": "Elekeza ombi lako kwa timu sahihi",
+		"description": "Chagua fursa inayofaa mpango wako. Fomu ya mawasiliano itanasa eneo unalopendelea ili mahusiano ya wawekezaji yatume nyaraka na hatua zinazofaa."
 	},
 	"offices": {
 		"tag": "Ofisi Zetu",
@@ -143,16 +148,29 @@
 				"required": true,
 				"type": "select"
 			},
+			"opportunity": {
+				"label": "Fursa unayopendelea",
+				"placeholder": "Chagua fursa",
+				"required": false,
+				"type": "select",
+				"options": [
+					{ "value": "gold-aggregation", "label": "Ukusanyaji wa dhahabu Busia" },
+					{ "value": "goat-farming", "label": "Ufugaji wa mbuzi wa kibiashara" },
+					{ "value": "horticulture", "label": "Kilimo biashara cha bustani" },
+					{ "value": "multi-sector", "label": "Fursa kadhaa" },
+					{ "value": "unsure", "label": "Bado sina hakika" }
+				]
+			},
 			"investor_tier": {
-				"label": "Kiwango cha uwekezaji kinachovutia",
+				"label": "Daraja la uwekezaji wa dhahabu",
 				"placeholder": "Chagua kiwango",
 				"required": false,
 				"type": "select",
 				"show_when": { "field": "reason", "value": "investment-enquiry" },
 				"options": [
-					{ "value": "seed", "label": "Mshirika wa Mbegu - $25,000" },
-					{ "value": "strategic", "label": "Mshirika wa Kimkakati - $75,000" },
-					{ "value": "anchor", "label": "Mwekezaji Msingi - $189,000" },
+					{ "value": "seed-partner", "label": "Mshirika wa Mbegu - $25,000" },
+					{ "value": "strategic-partner", "label": "Mshirika wa Kimkakati - $75,000" },
+					{ "value": "anchor-investor", "label": "Mwekezaji Msingi - $189,000" },
 					{ "value": "unsure", "label": "Bado sina hakika" }
 				]
 			},

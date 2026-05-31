@@ -1,46 +1,43 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
-import Head from "next/head";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import type { GetServerSideProps, NextPage } from "next";
+import PageHead from "@/components/Head";
 import { LegalPageSection } from "@/components/sections";
 import { useTranslation, Trans } from "next-i18next/pages";
-type Props = {
+import { getI18nProps } from "@/lib/i18n";
+type PageProps = {
 	// Add custom props here
 };
 
-const PrivacyPolicyPage = (
-	_props: InferGetStaticPropsType<typeof getStaticProps>
-) => {
-    const { t } = useTranslation(["common", "privacy"]);
-    const sections = t("privacy.articles", { returnObjects: true }) as {
+const PrivacyPolicyPage: NextPage<PageProps> = () => {
+    const { t } = useTranslation(["common", "privacy", "meta"]);
+    const siteTitle = t("meta:site.title", { defaultValue: "" });
+	const sections = t("privacy:articles", { returnObjects: true, site_title: siteTitle, defaultValue: [] }) as {
 		title: string;
-		content: string;
+		content: string[];
 	}[];
+    console.log("sections", sections)
 	return (
 		<div className="relative">
-			<Head>
-				<title>{t("privacy.meta.page_title")}</title>
-				<meta
-					name="description"
-					content={t("privacy.meta.meta_description")}
-				/>
-			</Head>
+			<PageHead pageName="privacy_policy" />
 			<LegalPageSection
-				label="Privacy"
-				title="Privacy Policy"
-				description="This policy explains how AfriGold Hub handles information submitted through our website, contact forms, investor enquiries, and site-visit requests."
-				lastUpdated="May 16, 2026"
+				label={t("privacy:misc.label", { defaultValue: "Privacy", site_title: siteTitle })}
+				title={t("privacy:misc.title", { defaultValue: "Privacy Policy", site_title: siteTitle })}
+				description={t("privacy:misc.description", { site_title: siteTitle })}
+				lastUpdated={`${t("privacy:misc.lastUpdatedLabel", { site_title: siteTitle })} ${t("privacy:misc.lastUpdated", { site_title: siteTitle })}`}
 				sections={sections}
-				contactHref="/contact?reason=privacy"
-				contactLabel="Contact Privacy Team"
+				contactHref={t("privacy:misc.contactLink", { site_title: siteTitle })}
+                contactLabel={t("privacy:misc.contactLabel", { site_title: siteTitle })}
+                note={t("privacy:misc.note", { site_title: siteTitle })}
 			/>
 		</div>
 	);
 };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common", "privacy"])),
-	},
-});
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, ["common", "meta", "privacy"]);
+
+	if (!i18nProps) return { notFound: true };
+
+	return { props: { ...i18nProps } };
+};
 
 export default PrivacyPolicyPage;

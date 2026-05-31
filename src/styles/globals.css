@@ -59,7 +59,7 @@ html {
 }
 body {
     background: theme("colors.paper");
-        background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #1f1a03ea);
+        /* background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #1f1a03ea); */
         font-size: 14px;
 }
 body::before {
@@ -68,8 +68,8 @@ body::before {
         top: 0;
         bottom: 0;
         width: 100%;
-        z-index: -1;
-        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #fddc21 75%);
+        z-index: -2;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #5e52127c 75%);
 }
 
 h4,

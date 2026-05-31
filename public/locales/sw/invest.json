@@ -1,10 +1,10 @@
 {
 	"hero": {
 		"tag": "Wekeza",
-		"headline": "Shirikiana katika uzalishaji wa dhahabu ulio na kumbukumbu",
-		"description": "Chagua kiwango cha uwekezaji kilichoundwa kinachoungwa mkono na maeneo yenye leseni, usindikaji usio na kemikali, ripoti za kila mwezi zilizokaguliwa, na haki za wazi za washirika tangu siku ya kwanza.",
+		"headline": "Shirikiana nasi katika fursa za ukuaji barani Afrika",
+		"description": "Wekeza kupitia fursa zilizopangwa katika ukusanyaji wa dhahabu, ufugaji wa mbuzi wa kibiashara, na kilimo cha bustani, zikiwa na mipango ya uendeshaji, taarifa kwa washirika, na hatua wazi za kuanza.",
 		"badge": { "text": "Kujitolea kwa muda wa chini wa miezi 3", "status": "active" },
-		"cta_primary": { "label": "Linganisha Viwango", "href": "#tiers" },
+		"cta_primary": { "label": "Tazama Fursa", "href": "#opportunities" },
 		"cta_secondary": {
 			"label": "Omba Utafiti wa Kina",
 			"href": "/contact?reason=due-diligence"
@@ -15,16 +15,73 @@
 		"annual_target": "Lengo la mwaka",
 		"custom": "Maalum"
 	},
+	"opportunities": {
+		"tag": "Fursa za Uwekezaji",
+		"headline": "Zaidi ya kuwekeza kwenye dhahabu",
+		"description": "Mtiririko wa fursa sasa unaunganisha ukusanyaji wa madini ya thamani na usalama wa chakula na kilimo biashara chenye mwelekeo wa masoko. Kila fursa hushughulikiwa kama mazungumzo tofauti ya uwekezaji yenye modeli yake, matumizi ya mtaji, na nyaraka za uhakiki.",
+		"labels": {
+			"capital_use": "Matumizi ya mtaji",
+			"investor_fit": "Mwekezaji anayefaa"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Ukusanyaji wa dhahabu Busia",
+				"category": "Dhahabu na biashara",
+				"description": "Mtaji wa uendeshaji kwa ununuzi, ukusanyaji, usaidizi wa uchakataji, na mauzo ya dhahabu yenye nyaraka kupitia mtandao wa Busia.",
+				"capital_use": "Ukwasi wa ununuzi, usafirishaji wa ukusanyaji, upimaji, uratibu wa usafishaji, na nyaraka za miamala.",
+				"investor_fit": "Wawekezaji wanaotafuta fursa ya mzunguko mfupi inayohusishwa na mnyororo uliopo wa thamani wa dhahabu.",
+				"highlights": [
+					"Imejengwa kwenye rekodi za ununuzi na mauzo",
+					"Inaweza kuunganishwa na mfumo uliopo wa madaraja ya uwekezaji wa dhahabu",
+					"Imepangwa kwa taarifa za mara kwa mara na mzunguko wa mtaji wenye nidhamu"
+				],
+				"cta": "Jadili ukusanyaji wa dhahabu"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Ufugaji wa mbuzi wa kibiashara",
+				"category": "Kilimo biashara cha mifugo",
+				"description": "Fursa ya uwekezaji wa mifugo inayolenga uzalishaji, unenepeshaji, huduma za mifugo, mifumo ya malisho, na soko lililopangwa.",
+				"capital_use": "Mbuzi wa kuzalisha, mabanda, chakula, huduma za mifugo, wafanyakazi, maji, na maandalizi ya soko.",
+				"investor_fit": "Washirika wanaotafuta fursa ya kilimo biashara yenye mali halisi na mzunguko wa uzalishaji kwa hatua.",
+				"highlights": [
+					"Inalenga ukuaji wa kundi, afya ya mifugo, na maandalizi ya mauzo",
+					"Inafaa kwa uwekezaji wa awamu na malengo ya uendeshaji",
+					"Inasaidia ajira vijijini na usambazaji wa protini"
+				],
+				"cta": "Jadili ufugaji wa mbuzi"
+			},
+			{
+				"id": "horticulture",
+				"title": "Kilimo biashara cha bustani",
+				"category": "Uzalishaji wa mazao",
+				"description": "Fursa ya uzalishaji wa mazao inayojumuisha maandalizi ya ardhi, umwagiliaji, pembejeo, utunzaji wa mavuno, na usambazaji uliounganishwa na wanunuzi.",
+				"capital_use": "Umwagiliaji, mbegu na miche, maandalizi ya udongo, ulinzi wa mazao, wafanyakazi, utunzaji wa mavuno, na usafirishaji sokoni.",
+				"investor_fit": "Wawekezaji wanaopenda uzalishaji wa chakula, uwezekano wa kuuza nje, na mizunguko ya kilimo inayojirudia.",
+				"highlights": [
+					"Imepangwa kulingana na kalenda za mazao na hatua zinazopimika shambani",
+					"Inasisitiza umwagiliaji, udhibiti wa pembejeo, na ubora wa mavuno",
+					"Imelenga mahitaji ya chakula ya ndani na kikanda"
+				],
+				"cta": "Jadili kilimo cha bustani"
+			}
+		]
+	},
 	"tiers": {
 		"tag": "Viwango vya Uwekezaji",
-		"headline": "Chagua nafasi yako",
-		"description": "Viwango vyote vinajumuisha mikataba ya ushirikiano iliyoundwa, ripoti za kila mwezi, na mtaji unaolindwa kwa escrow. Kujitolea kwa muda wa chini ni miezi mitatu.",
+		"headline": "Madaraja ya washirika wa ukusanyaji wa dhahabu",
+		"description": "Madaraja haya yanahusu fursa ya ukusanyaji wa dhahabu. Fursa za kilimo biashara hupangwa tofauti baada ya ombi la kwanza na uhakiki.",
 		"mostPopular": "Kinachovuma Zaidi",
 		"projectedRoi": "ROI Inayotarajiwa:",
 		"items": [
 			{
-				"tier": "Mshirika wa Mbegu",
-				"amount": "$25,000",
+				"id": "seed-partner",
+				"label": "Mshirika wa Mbegu",
+				"amount": 25000,
+				"currency": "USD",
+				"equity_pct": 5,
+				"roi_annual_pct": 65,
 				"roi": "~65% kwa mwaka",
 				"cta": "Anza",
 				"ctaStyle": "outline",
@@ -37,10 +94,15 @@
 				]
 			},
 			{
-				"tier": "Mshirika wa Kimkakati",
-				"amount": "$75,000",
+				"id": "strategic-partner",
+				"label": "Mshirika wa Kimkakati",
+				"amount": 75000,
+				"currency": "USD",
+				"equity_pct": 18,
+				"roi_annual_pct": 88,
 				"roi": "~88% kwa mwaka",
 				"featured": true,
+				"badge": "Kinachovuma Zaidi",
 				"cta": "Shirikiana Nasi",
 				"ctaStyle": "primary",
 				"features": [
@@ -53,8 +115,12 @@
 				]
 			},
 			{
-				"tier": "Mwekezaji Msingi",
-				"amount": "$189,000",
+				"id": "anchor-investor",
+				"label": "Mwekezaji Msingi",
+				"amount": 189000,
+				"currency": "USD",
+				"equity_pct": 45,
+				"roi_annual_pct": null,
 				"roi": "mshirika mkuu",
 				"roiPrefix": "Inashughulikia CAPEX kamili -",
 				"cta": "Wasiliana Nasi",

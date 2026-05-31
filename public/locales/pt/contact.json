@@ -7,8 +7,13 @@
 	"hero": {
 		"tag": "Get In Touch",
 		"headline": "Let's talk about your investment",
-		"description": "Whether you're exploring our investment tiers, requesting a due diligence pack, or looking to schedule a site visit to our Busia operations, our team responds to every serious enquiry within 24 hours.",
+		"description": "Whether you're exploring gold aggregation, commercial goat farming, horticulture agribusiness, due diligence, or a site visit, our team responds to every serious enquiry within 24 hours.",
 		"badge": { "text": "Response within 24 hours", "status": "active" }
+	},
+	"opportunities": {
+		"tag": "Choose a Route",
+		"headline": "Route your enquiry to the right team",
+		"description": "Select the opportunity that fits your mandate. The contact form will capture your area of interest so investor relations can send the right documents and next steps."
 	},
 	"offices": {
 		"tag": "Our Offices",
@@ -148,16 +153,29 @@
 				"required": true,
 				"type": "select"
 			},
+			"opportunity": {
+				"label": "Opportunity of interest",
+				"placeholder": "Select an opportunity",
+				"required": false,
+				"type": "select",
+				"options": [
+					{ "value": "gold-aggregation", "label": "Busia gold aggregation" },
+					{ "value": "goat-farming", "label": "Commercial goat farming" },
+					{ "value": "horticulture", "label": "Horticulture agribusiness" },
+					{ "value": "multi-sector", "label": "Multiple opportunities" },
+					{ "value": "unsure", "label": "Not sure yet" }
+				]
+			},
 			"investor_tier": {
-				"label": "Investment tier of interest",
+				"label": "Gold investment tier of interest",
 				"placeholder": "Select a tier",
 				"required": false,
 				"type": "select",
 				"show_when": { "field": "reason", "value": "investment-enquiry" },
 				"options": [
-					{ "value": "seed", "label": "Seed Partner - $25,000" },
-					{ "value": "strategic", "label": "Strategic Partner - $75,000" },
-					{ "value": "anchor", "label": "Anchor Investor - $189,000" },
+					{ "value": "seed-partner", "label": "Seed Partner - $25,000" },
+					{ "value": "strategic-partner", "label": "Strategic Partner - $75,000" },
+					{ "value": "anchor-investor", "label": "Anchor Investor - $189,000" },
 					{ "value": "unsure", "label": "Not sure yet" }
 				]
 			},

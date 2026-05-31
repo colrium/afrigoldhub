@@ -1,10 +1,10 @@
 {	
 	"hero": {
 		"tag": "Invest",
-		"headline": "Partner in documented gold production",
-		"description": "Choose a structured investment tier backed by licensed sites, chemical-free processing, audited monthly reporting, and clear partner rights from day one.",
+		"headline": "Partner in practical African growth opportunities",
+		"description": "Invest through structured opportunities across gold aggregation, commercial goat farming, and horticulture agribusiness, with documented operating plans, partner reporting, and clear onboarding.",
 		"badge": { "text": "Minimum 3-month commitment", "status": "active" },
-		"cta_primary": { "label": "Compare Tiers", "href": "#tiers" },
+		"cta_primary": { "label": "View Opportunities", "href": "#opportunities" },
 		"cta_secondary": {
 			"label": "Request Due Diligence",
 			"href": "/contact?reason=due-diligence"
@@ -15,18 +15,73 @@
 		"annual_target": "Annual target",
 		"custom": "Custom"
 	},
+	"opportunities": {
+		"tag": "Investment Opportunities",
+		"headline": "More than gold investing",
+		"description": "The opportunity pipeline now extends from precious-metal aggregation into food security and export-oriented agribusiness. Each route is handled as a separate investment discussion with its own operating model, capital use, and due diligence pack.",
+		"labels": {
+			"capital_use": "Capital use",
+			"investor_fit": "Investor fit"
+		},
+		"items": [
+			{
+				"id": "gold-aggregation",
+				"title": "Busia gold aggregation",
+				"category": "Gold and trading",
+				"description": "Working capital for documented gold sourcing, aggregation, processing support, and compliant onward sale through the Busia operating network.",
+				"capital_use": "Purchase liquidity, aggregation logistics, testing, refining coordination, and transaction documentation.",
+				"investor_fit": "Investors seeking a shorter-cycle opportunity linked to AfriGold Hub's existing gold value chain.",
+				"highlights": [
+					"Built around documented purchase and sale records",
+					"Can be paired with the existing gold investment tier structure",
+					"Designed for frequent reporting and disciplined capital rotation"
+				],
+				"cta": "Discuss gold aggregation"
+			},
+			{
+				"id": "goat-farming",
+				"title": "Commercial goat farming",
+				"category": "Livestock agribusiness",
+				"description": "A livestock investment route focused on breeding, fattening, veterinary controls, feed systems, and structured market offtake.",
+				"capital_use": "Breeding stock, housing, feed, veterinary programs, labor, water systems, and market preparation.",
+				"investor_fit": "Partners looking for an asset-backed agribusiness opportunity with a staged production cycle.",
+				"highlights": [
+					"Focus on herd growth, animal health, and sale readiness",
+					"Suitable for phased deployment and operating milestones",
+					"Supports rural employment and local protein supply"
+				],
+				"cta": "Discuss goat farming"
+			},
+			{
+				"id": "horticulture",
+				"title": "Horticulture agribusiness",
+				"category": "Crop production",
+				"description": "A crop-production opportunity covering land preparation, irrigation, inputs, harvest handling, and buyer-linked distribution.",
+				"capital_use": "Irrigation, seed and seedlings, soil preparation, crop protection, labor, harvest handling, and route-to-market logistics.",
+				"investor_fit": "Investors interested in food production, export potential, and recurring agricultural cycles.",
+				"highlights": [
+					"Structured around crop calendars and measurable field milestones",
+					"Emphasis on irrigation, input control, and harvest quality",
+					"Designed to serve local and regional food demand"
+				],
+				"cta": "Discuss horticulture"
+			}
+		]
+	},
     "tiers": {
 	"tag": "Investment Tiers",
-	"headline": "Choose your position",
-	"description": "All tiers include structured partnership agreements, monthly reporting, and escrow-protected capital. Minimum commitment is three months.",
+	"headline": "Gold aggregation partner tiers",
+	"description": "These tiers apply to the gold aggregation opportunity. Agribusiness opportunities are scoped separately after the first enquiry and due diligence review.",
 	"mostPopular": "Most Popular",
 	"projectedRoi": "Projected ROI:",
 	"items": [
 		{
             "id": "seed-partner",
-			"tier": "Seed Partner",
+			"label": "Seed Partner",
 			"amount": 25000,
             "currency": "USD",
+			"equity_pct": 5,
+			"roi_annual_pct": 65,
             "roiPrefix": "Estimated -",
 			"roi": "~65% annually",
 			"cta": "Get Started",
@@ -41,13 +96,15 @@
 		},
 		{
 			"id": "strategic-partner",
-
-			"tier": "Strategic Partner",
+			"label": "Strategic Partner",
 			"amount": 75000,
 			"currency": "USD",
+			"equity_pct": 18,
+			"roi_annual_pct": 88,
             "roiPrefix": "Estimated -",
 			"roi": "~88% annually",
 			"featured": true,
+			"badge": "Most Popular",
 			"cta": "Partner With Us",
 			"ctaStyle": "primary",
 			"features": [
@@ -61,10 +118,11 @@
 		},
 		{
 			"id": "anchor-investor",
-
-			"tier": "Anchor Investor",
+			"label": "Anchor Investor",
 			"amount": 189000,
 			"currency": "USD",
+			"equity_pct": 45,
+			"roi_annual_pct": null,
 			"roi": "primary partner",
 			"roiPrefix": "Full CAPEX coverage -",
 			"cta": "Contact Us",

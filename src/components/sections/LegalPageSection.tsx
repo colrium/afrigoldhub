@@ -4,7 +4,7 @@ import GavelIcon from "@mui/icons-material/Gavel";
 
 type LegalSection = {
 	title: string;
-	content: string[];
+	content: string[] | string;
 };
 
 type LegalPageSectionProps = {
@@ -14,6 +14,7 @@ type LegalPageSectionProps = {
 	lastUpdated: string;
 	sections: LegalSection[];
 	contactHref?: string;
+    note?: string;
 	contactLabel?: string;
 };
 
@@ -24,10 +25,11 @@ export default function LegalPageSection({
 	lastUpdated,
 	sections,
 	contactHref = "/contact",
-	contactLabel = "Contact Us",
+    contactLabel = "Contact Us",
+    note = "",
 }: LegalPageSectionProps) {
 	return (
-		<section className="relative overflow-hidden bg-[#050505] pt-24 pb-20 md:pt-32 md:pb-28">
+		<section className="relative overflow-hidden pt-24 pb-20 md:pt-32 md:pb-28">
 			<div
 				className="absolute inset-0 pointer-events-none"
 				style={{
@@ -44,47 +46,51 @@ export default function LegalPageSection({
 					<h1 className="text-[clamp(2.7rem,6vw,5.4rem)] leading-[0.96] tracking-tight text-onSurface-100 max-w-[820px]">
 						{title}
 					</h1>
-					<p className="mt-7 text-base md:text-lg text-[#faf5ec] font-light leading-[1.8] max-w-[740px]">
+					<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[740px]">
 						{description}
 					</p>
 					<div className="mt-7 inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-xs uppercase tracking-[0.12em] text-primary">
-						Last updated: {lastUpdated}
+						{lastUpdated}
 					</div>
 				</div>
 
-				<div className="rounded-lg border border-[rgba(243,189,39,0.16)] bg-[#101010]/90 shimmer-y shimmer-subtle">
+				<div className="rounded-lg border border-surface-900/10 bg-surface-900/90 shimmer-y shimmer-subtle">
 					{sections.map((section, index) => (
 						<article
 							key={section.title}
 							className={`p-6 md:p-8 ${
-								index > 0 ? "border-t border-[rgba(243,189,39,0.1)]" : ""
+								index > 0 ? "border-t border-surface-900/10" : ""
 							}`}
 						>
 							<h2 className="text-2xl md:text-3xl text-onSurface-100">
 								{section.title}
 							</h2>
 							<div className="mt-4 space-y-4">
-								{section.content.map((paragraph) => (
-									<p
-										key={paragraph}
-										className="text-sm md:text-base text-[#faf5ec] font-light leading-[1.8]"
-									>
-										{paragraph}
+								{Array.isArray(section.content) ? (
+									section.content.map((paragraph) => (
+										<p
+											key={paragraph}
+											className="text-sm md:text-base text-onSurface-100 font-light leading-[1.8]"
+										>
+											{paragraph}
 									</p>
-								))}
+								))) : (
+                                    <p className="text-sm md:text-base text-onSurface-100 font-light leading-[1.8]">
+                                        {section.content}
+                                    </p>
+                                )}
 							</div>
 						</article>
 					))}
 				</div>
 
-				<div className="mt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-5 rounded-lg border border-primary/15 bg-[#0b0b0b] p-6">
-					<p className="text-sm text-[#faf5ec] leading-relaxed max-w-[620px]">
-						Questions about this page or how it applies to your enquiry can be
-						sent to the AfriGold Hub team.
+				<div className="mt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-5 rounded-lg border border-primary/20 bg-surface-900 p-6">
+					<p className="text-sm text-onSurface-100 leading-relaxed max-w-[620px]">
+						{note || ""}
 					</p>
 					<Link
 						href={contactHref}
-						className="inline-flex items-center justify-center gap-2 rounded border border-primary bg-primary px-6 py-3 text-sm font-medium text-black hover:bg-[#E5C46A] transition-all"
+						className="inline-flex items-center justify-center gap-2 rounded border border-primary bg-primary px-6 py-3 text-sm font-medium text-black hover:bg-primary transition-all"
 					>
 						{contactLabel}
 						<ArrowOutwardIcon fontSize="small" />

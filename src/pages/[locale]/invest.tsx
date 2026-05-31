@@ -2,6 +2,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import {
 	FaqSection,
 	InvestHero,
+	InvestmentOpportunitiesSection,
 	InvestmentTiersPageSection,
 	InvestorProcessSection,
 	InvestorSafeguardsSection,
@@ -21,6 +22,7 @@ const InvestPage: NextPage<PageProps> = () => {
 		<div className="relative">
 			<PageHead pageName="invest" />
 			<InvestHero />
+			<InvestmentOpportunitiesSection />
 			<InvestmentTiersPageSection />
 			<div className="p-2 md:p-8 bg-[#0A0A0A]">
 				<MetricsSection />
