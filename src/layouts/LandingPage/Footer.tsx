@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next/pages";
 const columnKeys = ["company", "invest", "resources", "contact"] as const;
 const legalLinks = {
 	privacy: "/privacy-policy",
-	terms: "#",
+	terms: "/terms-of-use",
 	risk: "/risk-disclaimer",
 } as const;
 export default function Footer() {

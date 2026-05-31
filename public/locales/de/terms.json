@@ -1,0 +1,76 @@
+{
+	"misc": {
+		"label": "Bedingungen",
+		"title": "Nutzungsbedingungen",
+		"description": "Diese Bedingungen erklären, wie Sie die Website, Inhalte, Kontaktformulare und Investorenanfragen von {{site_title}} nutzen dürfen.",
+		"lastUpdatedLabel": "Zuletzt aktualisiert",
+		"lastUpdated": "31. Mai 2026",
+		"contactLabel": "Kontakt aufnehmen",
+		"contactLink": "/contact?reason=compliance-legal",
+		"note": "Diese Bedingungen sind ein praktischer Website-Hinweis und sollten von qualifizierten Rechtsberatern geprüft werden, bevor sie als endgültige Rechtsbedingungen für eine bestimmte Rechtsordnung behandelt werden."
+	},
+	"articles": [
+		{
+			"title": "Annahme dieser Bedingungen",
+			"content": [
+				"Durch den Zugriff auf diese Website oder deren Nutzung stimmen Sie diesen Nutzungsbedingungen und den auf der Website genannten Richtlinien zu. Wenn Sie nicht einverstanden sind, sollten Sie die Website nicht weiter nutzen.",
+				"AfriGold Hub kann diese Bedingungen von Zeit zu Zeit aktualisieren. Die weitere Nutzung der Website nach einer Aktualisierung gilt als Annahme der geänderten Bedingungen."
+			]
+		},
+		{
+			"title": "Website-Inhalte",
+			"content": [
+				"Die Inhalte dieser Website dienen allgemeinen Informationen über AfriGold Hub, seine Aktivitäten, Investitionsmöglichkeiten und Partnerschaftsgespräche.",
+				"Website-Inhalte können jederzeit aktualisiert, korrigiert, erweitert oder zurückgezogen werden. Sie stellen keine endgültige Vereinbarung, kein öffentliches Angebot, keinen Prospekt, keine Garantie und keine professionelle Beratung dar."
+			]
+		},
+		{
+			"title": "Investitionsanfragen",
+			"content": [
+				"Das Absenden einer Anfrage, die Anforderung von Due-Diligence-Unterlagen oder die Besprechung einer Möglichkeit begründet keine Investorenbeziehung, Partnerschaft, Beratungsbeziehung oder Verpflichtung einer Partei.",
+				"Jede Investition, Partnerschaft, Standortbesichtigung oder kommerzielle Vereinbarung unterliegt Qualifizierung, Due Diligence, KYC- oder Compliance-Prüfungen und unterzeichneten Transaktionsdokumenten."
+			]
+		},
+		{
+			"title": "Zulässige Nutzung",
+			"content": [
+				"Sie dürfen diese Website nur für rechtmäßige Informations- und Anfragezwecke nutzen. Sie dürfen die Website nicht missbrauchen, keinen unbefugten Zugriff versuchen, den Betrieb stören, falsche Informationen übermitteln oder die Website zur Verletzung von Gesetzen nutzen.",
+				"Sie sind dafür verantwortlich, dass Ihre Nutzung der Website und jede Anfrage den für Sie geltenden Gesetzen entspricht."
+			]
+		},
+		{
+			"title": "Geistiges Eigentum",
+			"content": [
+				"Sofern nicht anders angegeben, gehören Texte, Design, Branding, Grafiken, Medien und andere Inhalte dieser Website AfriGold Hub oder werden von AfriGold Hub lizenziert.",
+				"Sie dürfen öffentliche Seiten zu Informationszwecken ansehen und Links teilen, die Inhalte jedoch ohne vorherige schriftliche Genehmigung nicht kopieren, reproduzieren, ändern, verkaufen oder kommerziell verwerten."
+			]
+		},
+		{
+			"title": "Links und Materialien Dritter",
+			"content": [
+				"Die Website kann auf Drittplattformen, Karten, Medien, Dokumente, Dienstleister oder externe Websites verweisen. Diese Hinweise dienen nur der Bequemlichkeit oder dem Kontext.",
+				"AfriGold Hub ist nicht verantwortlich für Inhalte, Verfügbarkeit, Sicherheit, Richtlinien oder Praktiken Dritter."
+			]
+		},
+		{
+			"title": "Keine Gewährleistung",
+			"content": [
+				"Die Website wird wie besehen und nach Verfügbarkeit bereitgestellt. AfriGold Hub garantiert nicht, dass die Website unterbrechungsfrei, fehlerfrei, sicher oder jederzeit aktuell ist.",
+				"Soweit gesetzlich zulässig, schließt AfriGold Hub Gewährleistungen im Zusammenhang mit der Website und dem Vertrauen auf Website-Inhalte aus."
+			]
+		},
+		{
+			"title": "Haftungsbeschränkung",
+			"content": [
+				"Soweit gesetzlich zulässig, haftet AfriGold Hub nicht für indirekte, zufällige, Folge-, Sonder-, Straf- oder entgangene Gewinnschäden, die aus Ihrer Nutzung der Website entstehen.",
+				"Nichts in diesen Bedingungen beschränkt eine Haftung, die rechtlich nicht beschränkt werden darf."
+			]
+		},
+		{
+			"title": "Kontakt",
+			"content": [
+				"Fragen zu diesen Nutzungsbedingungen können über die Kontaktseite mit der Option Compliance oder Rechtliches gesendet werden."
+			]
+		}
+	]
+}

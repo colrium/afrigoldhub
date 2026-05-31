@@ -33,6 +33,11 @@
 			"page_title": "Value Chain ",
 			"meta_description": "Understand the full {{site_title}} gold value chain - from geological survey and licence acquisition through extraction, processing, assay, sale, and investor distribution.",
 			"og_image": "/media/og-value-chain.jpg"
+		},
+		"terms_of_use": {
+			"page_title": "Terms of Use",
+			"meta_description": "Review the terms of use for {{site_title}}'s website and services.",
+			"og_image": "/media/og-terms.jpg"
 		}
 	}
 }

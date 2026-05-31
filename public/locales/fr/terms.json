@@ -1,0 +1,76 @@
+{
+	"misc": {
+		"label": "Conditions",
+		"title": "Conditions d’utilisation",
+		"description": "Ces conditions expliquent comment vous pouvez utiliser le site Web, les contenus, les formulaires de contact et les fonctions de demande investisseur de {{site_title}}.",
+		"lastUpdatedLabel": "Dernière mise à jour",
+		"lastUpdated": "31 mai 2026",
+		"contactLabel": "Nous contacter",
+		"contactLink": "/contact?reason=compliance-legal",
+		"note": "Ces conditions constituent un avis pratique pour le site Web et doivent être examinées par un conseil qualifié avant d’être considérées comme des conditions juridiques définitives pour une juridiction donnée."
+	},
+	"articles": [
+		{
+			"title": "Acceptation des conditions",
+			"content": [
+				"En accédant à ce site Web ou en l’utilisant, vous acceptez les présentes Conditions d’utilisation et toute politique mentionnée sur le site. Si vous n’êtes pas d’accord, vous devez cesser d’utiliser le site.",
+				"AfriGold Hub peut mettre ces conditions à jour périodiquement. La poursuite de l’utilisation du site après une mise à jour vaut acceptation des conditions révisées."
+			]
+		},
+		{
+			"title": "Contenu du site",
+			"content": [
+				"Le contenu de ce site Web est fourni à titre d’information générale sur AfriGold Hub, ses opérations, ses opportunités d’investissement et ses discussions de partenariat.",
+				"Le contenu du site peut être mis à jour, corrigé, étendu ou retiré à tout moment. Il ne doit pas être considéré comme un accord définitif, une offre publique, un prospectus, une garantie ou un conseil professionnel."
+			]
+		},
+		{
+			"title": "Demandes d’investissement",
+			"content": [
+				"L’envoi d’une demande, la demande de documents de due diligence ou la discussion d’une opportunité ne crée aucune relation d’investisseur, partenariat, relation de conseil ou obligation pour l’une ou l’autre partie.",
+				"Tout investissement, partenariat, visite de site ou accord commercial est soumis à une qualification, à une due diligence, à des contrôles KYC ou de conformité et à des documents transactionnels signés."
+			]
+		},
+		{
+			"title": "Utilisation autorisée",
+			"content": [
+				"Vous pouvez utiliser ce site uniquement à des fins légales d’information et de demande. Vous ne devez pas abuser du site, tenter un accès non autorisé, perturber son fonctionnement, soumettre de fausses informations ou utiliser le site pour violer la loi.",
+				"Vous êtes responsable de vous assurer que votre utilisation du site et toute demande soumise respectent les lois qui vous sont applicables."
+			]
+		},
+		{
+			"title": "Propriété intellectuelle",
+			"content": [
+				"Sauf indication contraire, les textes, la conception, la marque, les graphismes, les médias et autres contenus du site appartiennent à AfriGold Hub ou lui sont concédés sous licence.",
+				"Vous pouvez consulter les pages publiques et partager des liens à titre informatif, mais vous ne pouvez pas copier, reproduire, modifier, vendre ou exploiter commercialement le contenu sans autorisation écrite préalable."
+			]
+		},
+		{
+			"title": "Liens et contenus tiers",
+			"content": [
+				"Le site peut référencer des plateformes, cartes, médias, documents, prestataires ou sites externes tiers. Ces références sont fournies uniquement par commodité ou pour contexte.",
+				"AfriGold Hub n’est pas responsable du contenu, de la disponibilité, de la sécurité, des politiques ou des pratiques de tiers."
+			]
+		},
+		{
+			"title": "Absence de garanties",
+			"content": [
+				"Le site est fourni tel quel et selon disponibilité. AfriGold Hub ne garantit pas que le site sera ininterrompu, exempt d’erreurs, sécurisé ou toujours à jour.",
+				"Dans toute la mesure permise par la loi, AfriGold Hub exclut les garanties liées au site et à toute confiance accordée au contenu du site."
+			]
+		},
+		{
+			"title": "Limitation de responsabilité",
+			"content": [
+				"Dans toute la mesure permise par la loi, AfriGold Hub ne sera pas responsable des dommages indirects, accessoires, consécutifs, spéciaux, punitifs ou des pertes de profits résultant de votre utilisation du site.",
+				"Rien dans ces conditions ne limite une responsabilité qui ne peut pas légalement être limitée."
+			]
+		},
+		{
+			"title": "Contact",
+			"content": [
+				"Les questions concernant ces Conditions d’utilisation peuvent être envoyées via la page de contact en choisissant l’option conformité ou juridique."
+			]
+		}
+	]
+}
