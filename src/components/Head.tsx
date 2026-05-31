@@ -24,7 +24,7 @@ export default function Head({ pageName }: HeadProps) {
 
 	return (
 		<NextHead>
-			{title && <title>{title}</title>}
+			{title && <title>{title} | {siteTitle}</title>}
 			{description && <meta name="description" content={description} />}
 			{title && <meta property="og:title" content={title} />}
 			{description && <meta property="og:description" content={description} />}
