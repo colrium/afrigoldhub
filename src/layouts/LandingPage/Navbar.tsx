@@ -138,7 +138,7 @@ const stripLocalePrefix = (path: string) => {
 					<Toolbar disableGutters className={`bg-transparent!`}>
 						<IconButton
 							onClick={handleDrawerToggle}
-							classes={{ root: "md:hidden! mr-4!" }}
+							classes={{ root: "lg:hidden! mr-4!" }}
 							sx={{ color: "inherit" }}
 						>
 							<MenuIcon />
@@ -146,7 +146,7 @@ const stripLocalePrefix = (path: string) => {
 
 						<Link href="/" className="flex items-center gap-2">
 							<Image
-								className="hidden md:flex md:mr-1"
+								className="hidden lg:flex lg:mr-1"
 								src="/img/logo-three-tone.svg"
 								alt="logo"
 								width={32}
@@ -161,7 +161,7 @@ const stripLocalePrefix = (path: string) => {
 							</Typography>
 						</Link>
 
-						<Box className="hidden md:flex flex-1 md:grow md:gap-4 md:items-center md:justify-end">
+						<Box className="hidden lg:flex flex-1 lg:grow lg:gap-4 lg:items-center lg:justify-end">
 							{Array.isArray(navs) &&
 								navs.map(
 									({ label, href, excludeOnMainNav }, i) =>
@@ -180,7 +180,7 @@ const stripLocalePrefix = (path: string) => {
 								)}
 						</Box>
 
-						<Box className="md:hidden grow" />
+						<Box className="lg:hidden grow" />
 						<Box className="flex items-center gap-2">
 							<Avatar
 								onClick={handleLanguageMenuOpen}
@@ -223,7 +223,7 @@ const stripLocalePrefix = (path: string) => {
 			<Drawer
 				anchor="left"
 				open={state.drawerOpen}
-				className="block md:hidden"
+				className="block lg:hidden"
 				onClose={handleDrawerToggle}
 				classes={{
 					paper: "bg-surface-900/70! bg-opacity-90! backdrop-blur-lg! border-b shadow-xl",

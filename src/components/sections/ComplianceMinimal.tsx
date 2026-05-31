@@ -5,10 +5,11 @@ import { SectionTag } from "@/components/SectionTag";
 import { FadeUp } from "@/components/animations/Fade";
 import { Trans, useTranslation } from "next-i18next/pages";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import { Chip } from "@mui/material";
 import Image from "next/image";
+import { ComponentPropsWithoutRef } from "react";
 
-export default function ComplianceMinimal() {
+type ComplianceMinimalProps = ComponentPropsWithoutRef<"section">;
+export default function ComplianceMinimal({ className, ...props }: ComplianceMinimalProps) {
 	const { t } = useTranslation(["common", "compliance"]);
 	const licences = t("compliance:items", { returnObjects: true }) as {
 		icon: string;
@@ -20,7 +21,7 @@ export default function ComplianceMinimal() {
 		country_code: string;
 	}[];
 	return (
-		<section className="bg-black py-24">
+		<section className={` py-24 ${className || ""}`} {...props}>
 			<div className="max-w-6xl mx-auto px-8">
 				<div className="text-center max-w-xl mx-auto mb-16">
 					<SectionTag className="text-primary">{t("compliance:tag")}</SectionTag>
@@ -33,13 +34,15 @@ export default function ComplianceMinimal() {
 							}}
 						/>
 					</h2>
-					<p className="text-sm text-muted font-light">{t("compliance:description")}</p>
+					<p className="text-sm text-onSurface-300 font-light">
+						{t("compliance:description")}
+					</p>
 				</div>
 
 				<div className="flex flex-wrap gap-5">
 					{licences.map((licence, idx) => (
 						<FadeUp key={idx} delay={idx * 0.05}>
-							<div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-2 uppercase py-1.5 text-xs text-onSurface-100">
+							<div className="inline-flex items-center gap-2 bg-transparent border border-primary/10 rounded-full px-2 uppercase py-1.5 text-xs text-onSurface-100">
 								<Image
 									className="rounded-full"
 									width={14}
@@ -55,7 +58,7 @@ export default function ComplianceMinimal() {
 
 				{/* CDA Note */}
 				<FadeUp>
-					<div className="mt-5 bg-surface-700 rounded-xl p-12 flex flex-col md:flex-row items-center justify-center gap-5">
+					<div className="mt-5 bg-surface-900 rounded-xl p-12 flex flex-col md:flex-row items-center justify-center gap-5">
 						<div>
 							<div className="w-33 h-33  bg-surface-800 text-[72px] text-onSurface-100 rounded-full flex items-center justify-center ">
 								<AccountBalanceIcon fontSize="inherit" />

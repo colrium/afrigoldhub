@@ -1,17 +1,23 @@
 import GlobeGl, { GlobeMethods } from "react-globe.gl";
-import {  useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useTranslation } from "next-i18next/pages";
+import { useBreakpoint } from "@/hooks/useWindowSize";
 // import { useMotionValue, useMotionValueEvent, useScroll } from "framer-motion";
 interface GlobeProps {
-	hideRings: boolean;
-	showcase: [string];
 	className?: string;
 }
 
+const sizes = {
+	xs: 360,
+	sm: 420,
+	md: 500,
+	lg: 600,
+	xl: 600,
+};
 
-const Globe = ({ hideRings=false, showcase=["places"], className }: GlobeProps) => {
-    const globeEl = useRef<GlobeMethods | undefined>(undefined);
-    /* const { scrollYProgress } = useScroll();
+const Globe = ({ className }: GlobeProps) => {
+	const globeEl = useRef<GlobeMethods | undefined>(undefined);
+	/* const { scrollYProgress } = useScroll();
     const prevScrollValue = useRef<number>(0);
     useMotionValueEvent(scrollYProgress, "change", (latestValue) => {
         console.log("Current scroll progress: ", latestValue);
@@ -28,49 +34,50 @@ const Globe = ({ hideRings=false, showcase=["places"], className }: GlobeProps) 
             }
         }
       }); */
-    const { t } = useTranslation(["common", "operations"]);
-   
-    
-    const placesData =( t("operations:locations.places", { returnObjects: true }) as {
-		role: string;
-		country: string;
-		flag?: string;
-		site: string;
-		region: string;
-		lat: number;
-		lng: number;
-		place_id: string | null;
-		deposit_type: string[];
-		goldfield: string;
-		geology: string;
-		licence_authority: string;
-		regulatory_body: string;
-		status: string;
-		elevation_m: number;
-		notes: string;
-	}[]).map((place) => ({
+	const { t } = useTranslation(["common", "operations"]);
+	const breakpoint = useBreakpoint();
+
+	const size = sizes[breakpoint];
+
+    console.log('globe size', size)
+	const placesData = (
+		t("operations:locations.places", { returnObjects: true, defaultValue: [] }) as {
+			role: string;
+			country: string;
+			flag?: string;
+			site: string;
+			region: string;
+			lat: number;
+			lng: number;
+			place_id: string | null;
+			deposit_type: string[];
+			goldfield: string;
+			geology: string;
+			licence_authority: string;
+			regulatory_body: string;
+			status: string;
+			elevation_m: number;
+			notes: string;
+		}[]
+	).map((place) => ({
 		...place,
 		maxR: 1,
 		propagationSpeed: 0.5,
 		repeatPeriod: 1,
 	}));
-    
-    const labelsTopOrientation = new Set(["Kenya", "Eswatini", "Malawi"]);
-	
-    useEffect(() => {
-        
-        if (globeEl.current) {
+
+	const labelsTopOrientation = new Set(["Kenya", "Eswatini", "Malawi"]);
+
+	useEffect(() => {
+		if (globeEl.current) {
 			// Auto-rotate
 			globeEl.current.controls().autoRotate = false;
-            globeEl.current.controls().autoRotateSpeed = 0.1;
-            globeEl.current.controls().enableZoom = false;
-        }
-		
-    }, []);
-    
-   
-    
-    return (
+			globeEl.current.controls().autoRotateSpeed = 0.1;
+			globeEl.current.controls().enableZoom = false;
+		}
+	}, []);
+
+	return (
 		<div>
 			<GlobeGl
 				ref={globeEl}
@@ -79,9 +86,9 @@ const Globe = ({ hideRings=false, showcase=["places"], className }: GlobeProps) 
 				backgroundColor="#00000000"
 				atmosphereAltitude={0.05}
 				atmosphereColor="#00000000"
-				globeOffset={[-50, -50]}
-				width={620}
-				height={620}
+				// globeOffset={[-5, -10]}
+				width={size}
+				height={size}
 				showAtmosphere={false}
 				labelsData={placesData}
 				labelColor={() => "#f3bd27"}

@@ -61,7 +61,7 @@
 			{ "label": "Investir", "href": "/invest" },
 			{ "label": "Marché", "href": "/#market", "excludeOnMainNav": true },
 			{ "label": "Galerie", "href": "/#gallery", "excludeOnMainNav": true },
-			{ "label": "FAQ", "href": "/#faq" },
+			{ "label": "FAQ", "href": "/#faq", "excludeOnMainNav": true },
 			{ "label": "Contact", "href": "/contact" },
 			{ "label": "À propos", "href": "/about" }
 		],

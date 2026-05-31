@@ -61,7 +61,7 @@
 			{ "label": "Wekeza", "href": "/invest" },
 			{ "label": "Soko", "href": "/#market", "excludeOnMainNav": true },
 			{ "label": "Nyumba ya sanaa", "href": "/#gallery", "excludeOnMainNav": true },
-			{ "label": "Maswali Yanayoulizwa Sana", "href": "/#faq" },
+			{ "label": "Maswali Yanayoulizwa Sana", "href": "/#faq", "excludeOnMainNav": true },
 			{ "label": "Wasiliana Nasi", "href": "/contact" },
 			{ "label": "Kuhusu", "href": "/about" }
 		],

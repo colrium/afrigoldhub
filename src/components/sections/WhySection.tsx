@@ -55,8 +55,8 @@ export default function WhySection() {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 overflow-hidden items-stretch">
 					{cards.map((card, idx) => (
 						<FadeUp delay={idx * 0.1 + 0.2} key={idx}>
-							<div className="bg-surface-800 p-10 relative transition-colors h-full rounded-lg hover:bg-surface-900">
-								<div className="m-auto text-[64px] text-primary rounded-full flex items-center justify-center text-xl mb-6">
+							<div className="bg-surface-900 p-10 relative  h-full rounded-lg ">
+								<div className="m-auto text-[64px] text-onSurface-500 rounded-full flex items-center justify-center text-xl mb-6">
 									{icons[card.icon]}
 								</div>
 								<h3 className="text-xl text-onSurface-100 mb-3">

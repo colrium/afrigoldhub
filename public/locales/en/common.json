@@ -29,7 +29,7 @@
 		{
 			"label": "English",
 			"code": "en",
-			"flag": "/img/flags/ke.svg"
+			"flag": "/img/flags/gb.svg"
 		},
 		{
 			"label": "French",
@@ -59,9 +59,8 @@
 			{ "label": "Locations", "href": "/locations" },
 			{ "label": "Value Chain", "href": "/value-chain" },
 			{ "label": "Invest", "href": "/invest" },
-			{ "label": "Market", "href": "/#market", "excludeOnMainNav": true },
 			{ "label": "Gallery", "href": "/#gallery", "excludeOnMainNav": true },
-			{ "label": "FAQ", "href": "/#faq" },
+			{ "label": "FAQ", "href": "/#faq", "excludeOnMainNav": true },
 			{ "label": "Contact", "href": "/contact" },
 			{ "label": "About", "href": "/about" }
 		],
