@@ -1,26 +1,23 @@
 {
 	"tag": "Operations Map",
-    "headline": "Seven-country gold operations, mapped site by site.".
-    "description": "Explore AfriGold Hub's active mine locations, regional goldfields,
-    regulatory coverage, and field imagery from extraction through finished
-    gold handling.",
+    "headline": "Seven-country gold operations, mapped site by site.",
+    "description": "Explore AfriGold Hub's active mine locations, regional goldfields, regulatory coverage, and field imagery from extraction through finished gold handling.",
     "viewMap": "View Map",
     "viewGallery": "View Gallery",
     "mineLocations": "Mine Locations",
     "activeSites": "Active sites",
     "zeroChemicalInputs": "Zero chemical inputs",
+    "goldfield": "Goldfield",
     "map": {
         "tag": "Google Map",
         "headline": "Operations and mine locations",
-        "description": "Select a site to refocus the map and review the operating context,
-        mineralisation, and regulatory bodies attached to each location."
+        "description": "Select a site to refocus the map and review the operating context, mineralisation, and regulatory bodies attached to each location."
     },
 	"gallery": {
 		"tag": "Field Gallery",
         "headline": "Inside the production network",
-        "description": "Operational imagery from extraction, gravity processing, smelting,
-        and documented buyer handling.",
-        "ctaPrimary": {"label", "Request Site Visit", "href": "/contact#site-visit"},
+        "description": "Operational imagery from extraction, gravity processing, smelting, and documented buyer handling.",
+        "ctaPrimary": { "label": "Request Site Visit", "href": "/contact#site-visit" },
 		"items": [
 			{
 				"src": "/media/site-extraction.jpeg",

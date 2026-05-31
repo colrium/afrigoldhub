@@ -1,8 +1,13 @@
 import type { GetServerSideProps, NextPage } from "next";
 import PageHead from "@/components/Head";
-import { WhySection, OperationsSection, CtaBand } from "@/components/sections";
-import HistoryTimeline from "@/components/sections/HistoryTimeline";
-import Certifications from "@/components/sections/Certifications";
+import {
+	OperationsCapabilitiesSection,
+	OperationsHero,
+	OperationsNetworkSection,
+	OperationsOverviewSection,
+	OperationsSection,
+	CtaBand,
+} from "@/components/sections";
 import { getI18nProps } from "@/lib/getStatic";
 
 type PageProps = {
@@ -13,12 +18,11 @@ const OperationsPage: NextPage<PageProps> = () => {
 	return (
 		<div className="relative ">
 			<PageHead pageName="operations" />
-
+			<OperationsHero />
+			<OperationsOverviewSection />
+			<OperationsCapabilitiesSection />
 			<OperationsSection />
-			<WhySection />
-			<HistoryTimeline />
-			<Certifications />
-
+			<OperationsNetworkSection />
 			<CtaBand />
 		</div>
 	);

@@ -1,7 +1,6 @@
 
-import { Trans, useTranslation } from "next-i18next/pages";
+import { useTranslation } from "next-i18next/pages";
 import { useRef } from "react";
-import { useScroll } from "framer-motion";
 import StackedCards from "../animations/StackedCards";
 
 export default function OperationsSection() {
@@ -31,22 +30,13 @@ export default function OperationsSection() {
 					startElement={
 						<div className="text-center max-w-2xl mx-auto">
 							<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
-								{t("operations:hero.tag")}
+								{t("operations:steps.tag")}
 							</span>
 							<h2 className="text-4xl lg:text-5xl tracking-tight mb-5 text-on-surface-100">
-								<Trans
-									i18nKey="operations:hero.headline"
-									defaults="From earth to <gold>gold bar</gold>"
-									components={{
-										gold: <span className="text-primary!   font-bold" />,
-									}}
-								/>
+								{t("operations:steps.headline")}
 							</h2>
-                            <h5 className="text-md text-on-surface-200 font-light mb-10">
-                                {t("operations:hero.subheadline")}
-                            </h5>
 							<p className="text-sm text-on-surface-200 leading-relaxed font-light mb-7">
-								{t("operations:hero.description")}
+								{t("operations:steps.description")}
 							</p>
 						</div>
 					}

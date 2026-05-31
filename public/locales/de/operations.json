@@ -191,6 +191,13 @@
 			}
 		]
 	},
+	"network": {
+		"tag": "Betriebsnetzwerk",
+		"headline": "Sieben Länder, ein Betriebsstandard",
+		"description": "Jeder Standort folgt derselben Disziplin bei Dokumentation, Umweltmanagement und Käuferprüfung und wird zugleich an lokale Geologie und Lizenzanforderungen angepasst.",
+		"goldfield_label": "Goldfeld",
+		"cta": { "label": "Alle Standorte erkunden", "href": "/locations" }
+	},
 	"steps": {
 		"tag": "Der Prozess",
 		"headline": "Vier Stufen, null Kompromisse",

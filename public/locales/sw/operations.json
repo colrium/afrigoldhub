@@ -195,6 +195,13 @@
 			}
 		]
 	},
+	"network": {
+		"tag": "Mtandao wa Uendeshaji",
+		"headline": "Nchi saba, kiwango kimoja cha uendeshaji",
+		"description": "Kila tovuti hufuata nidhamu ileile ya nyaraka, mazingira, na uthibitishaji wa wanunuzi huku ikibadilika kulingana na jiolojia na mahitaji ya leseni ya eneo husika.",
+		"goldfield_label": "Eneo la dhahabu",
+		"cta": { "label": "Chunguza Maeneo Yote", "href": "/locations" }
+	},
 	"steps": {
 		"tag": "Mchakato",
 		"headline": "Hatua nne, hakuna mikataba",

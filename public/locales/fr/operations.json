@@ -199,6 +199,13 @@
 			}
 		]
 	},
+	"network": {
+		"tag": "Réseau opérationnel",
+		"headline": "Sept pays, une même norme opérationnelle",
+		"description": "Chaque site applique la même discipline en matière de documentation, d’environnement et de vérification des acheteurs, tout en s’adaptant à la géologie et aux exigences de licence locales.",
+		"goldfield_label": "Champ aurifère",
+		"cta": { "label": "Explorer tous les sites", "href": "/locations" }
+	},
 	"steps": {
 		"tag": "Le processus",
 		"headline": "Quatre étapes, zéro compromis",

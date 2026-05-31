@@ -191,6 +191,13 @@
 			}
 		]
 	},
+	"network": {
+		"tag": "Operating Network",
+		"headline": "Seven countries, one operating standard",
+		"description": "Each site follows the same documentation, environmental, and buyer-verification discipline while adapting to local geology and licensing requirements.",
+		"goldfield_label": "Goldfield",
+		"cta": { "label": "Explore All Locations", "href": "/locations" }
+	},
 	"steps": {
 		"tag": "The Process",
 		"headline": "Four stages, zero compromises",
