@@ -1,18 +1,18 @@
 {
-	"tag": "Visual Story",
-	"headline": "From earth to <gold>gold</gold>",
-	"description": "A look inside our Goldfield operations: extraction, gravity processing, smelting, and the finished product.",
+	"tag": "Récit visuel",
+	"headline": "De la terre à <gold>l’or</gold>",
+	"description": "Un aperçu de nos opérations sur le Goldfield : extraction, traitement gravimétrique, fusion et produit fini.",
 	"filters": {
-		"all": "All",
-		"mining": "Mining",
-		"processing": "Processing",
-		"smelting": "Smelting",
-		"product": "End Product",
-		"video": "▶ Video"
+		"all": "Tout",
+		"mining": "Extraction",
+		"processing": "Traitement",
+		"smelting": "Fusion",
+		"product": "Produit fini",
+		"video": "▶ Vidéo"
 	},
-	"loadMore": "Load More",
+	"loadMore": "Charger plus",
 	"mediaTypes": {
 		"image": "Image",
-		"video": "Video"
+		"video": "Vidéo"
 	}
 }

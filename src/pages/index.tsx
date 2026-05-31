@@ -1,3 +1,9 @@
+import { Redirect } from "@/lib/redirect";
+import { GetServerSideProps } from "next";
+import Page, { getServerSideProps } from "./[locale]/index";
+export default Page
+export { getServerSideProps };
+    
 /* import { getI18nProps } from "@/lib/getStatic";
 import { Redirect } from "@/lib/redirect";
 import { GetServerSideProps } from "next";
@@ -22,6 +28,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	return { props: { ...i18nProps } };
 }; */
 // to keep this root page with the defaultLocale
-import Page, { getServerSideProps } from "./[locale]/index";
+/* import Page, { getServerSideProps } from "./[locale]/index";
 export default Page
-export { getServerSideProps };
+export { getServerSideProps }; */

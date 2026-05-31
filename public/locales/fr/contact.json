@@ -1,47 +1,42 @@
 {
-	"meta": {
-		"page_title": "Contact Us – AfriGold Hub",
-		"meta_description": "Get in touch with the AfriGold Hub team. Schedule a discovery call, request a due diligence pack, or reach our offices in Busia and Nairobi.",
-		"og_image": "/media/og-contact.jpg"
-	},
 	"hero": {
-		"tag": "Get In Touch",
-		"headline": "Let's talk about your investment",
-		"description": "Whether you're exploring gold aggregation, commercial goat farming, horticulture agribusiness, due diligence, or a site visit, our team responds to every serious enquiry within 24 hours.",
-		"badge": { "text": "Response within 24 hours", "status": "active" }
+		"tag": "Contactez-nous",
+		"headline": "Parlons de votre investissement",
+		"description": "Que vous exploriez l’agrégation d’or, l’élevage commercial de chèvres, l’agro-industrie horticole, la due diligence ou une visite de site, notre équipe répond à chaque demande sérieuse dans les 24 heures.",
+		"badge": { "text": "Réponse sous 24 heures", "status": "active" }
 	},
 	"opportunities": {
-		"tag": "Choose a Route",
-		"headline": "Route your enquiry to the right team",
-		"description": "Select the opportunity that fits your mandate. The contact form will capture your area of interest so investor relations can send the right documents and next steps."
+		"tag": "Choisissez une voie",
+		"headline": "Acheminez votre demande vers la bonne équipe",
+		"description": "Sélectionnez l’opportunité qui correspond à votre mandat. Le formulaire de contact enregistrera votre domaine d’intérêt afin que les relations investisseurs puissent vous envoyer les bons documents et les prochaines étapes."
 	},
 	"offices": {
-		"tag": "Our Offices",
-		"headline": "Find us",
+		"tag": "Nos bureaux",
+		"headline": "Où nous trouver",
 		"items": [
 			{
 				"id": "hq-busia",
-				"label": "Headquarters & Primary Site",
+				"label": "Siège social et site principal",
 				"city": "Busia",
-				"country": "Uganda",
+				"country": "Ouganda",
 				"flag": "🇺🇬",
 				"address_lines": [
 					"AfriGold Hub Ltd",
 					"Plot 14, Mining Road",
 					"Busia Town, Busia District",
-					"Eastern Region, Uganda"
+					"Région orientale, Ouganda"
 				],
 				"lat": 0.4664,
 				"lng": 34.0886,
 				"phone": "+256 700 000 001",
 				"email": "busia@afrigoldhub.com",
-				"hours": "Mon–Fri 08:00–17:00 EAT",
+				"hours": "Lun–Ven 08:00–17:00 EAT",
 				"type": "hq",
-				"note": "Primary smelting facility and investor site visit hub. Advance notice required for site access."
+				"note": "Principale installation de fusion et centre de visites pour investisseurs. Un préavis est requis pour l’accès au site."
 			},
 			{
 				"id": "regional-nairobi",
-				"label": "East Africa Regional Office",
+				"label": "Bureau régional Afrique de l’Est",
 				"city": "Nairobi",
 				"country": "Kenya",
 				"flag": "🇰🇪",
@@ -54,13 +49,13 @@
 				"lng": 36.8219,
 				"phone": "+254 700 000 002",
 				"email": "nairobi@afrigoldhub.com",
-				"hours": "Mon–Fri 08:30–17:30 EAT",
+				"hours": "Lun–Ven 08:30–17:30 EAT",
 				"type": "regional",
-				"note": "Investor relations, legal, and financial administration hub for East Africa."
+				"note": "Pôle de relations investisseurs, juridique et administratif financier pour l’Afrique de l’Est."
 			},
 			{
 				"id": "west-africa-freetown",
-				"label": "West Africa Office",
+				"label": "Bureau Afrique de l’Ouest",
 				"city": "Freetown",
 				"country": "Sierra Leone",
 				"flag": "🇸🇱",
@@ -73,252 +68,252 @@
 				"lng": -13.2317,
 				"phone": "+232 76 000 003",
 				"email": "westafrica@afrigoldhub.com",
-				"hours": "Mon–Fri 08:00–17:00 GMT",
+				"hours": "Lun–Ven 08:00–17:00 GMT",
 				"type": "regional",
-				"note": "Manages Sierra Leone operations and West African partner relations."
+				"note": "Gère les opérations en Sierra Leone et les relations avec les partenaires ouest-africains."
 			},
 			{
 				"id": "southern-africa-johannesburg",
-				"label": "Southern Africa Office",
+				"label": "Bureau Afrique australe",
 				"city": "Johannesburg",
-				"country": "South Africa",
+				"country": "Afrique du Sud",
 				"flag": "🇿🇦",
 				"address_lines": [
 					"AfriGold Hub Southern Africa",
 					"Sandton, Johannesburg",
-					"Gauteng, South Africa"
+					"Gauteng, Afrique du Sud"
 				],
 				"lat": -26.1076,
 				"lng": 28.0567,
 				"phone": "+27 11 000 0004",
 				"email": "southernafrica@afrigoldhub.com",
-				"hours": "Mon–Fri 08:00–17:00 SAST",
+				"hours": "Lun–Ven 08:00–17:00 SAST",
 				"type": "regional",
-				"note": "Covers South Africa, Eswatini, and Malawi operations."
+				"note": "Couvre les opérations en Afrique du Sud, à Eswatini et au Malawi."
 			}
 		]
 	},
 	"contact_reasons": {
-		"label": "What can we help with?",
+		"label": "En quoi pouvons-nous vous aider ?",
 		"options": [
-			{ "value": "investment-enquiry", "label": "Investment enquiry" },
-			{ "value": "due-diligence", "label": "Request due diligence pack" },
-			{ "value": "site-visit", "label": "Schedule a site visit" },
-			{ "value": "partnership", "label": "Business / partnership proposal" },
-			{ "value": "press-media", "label": "Press & media enquiry" },
-			{ "value": "compliance-legal", "label": "Compliance / legal" },
-			{ "value": "community", "label": "Community & ESG" },
-			{ "value": "careers", "label": "Careers & employment" },
-			{ "value": "other", "label": "Other" }
+			{ "value": "investment-enquiry", "label": "Demande d’investissement" },
+			{ "value": "due-diligence", "label": "Demander le dossier de due diligence" },
+			{ "value": "site-visit", "label": "Planifier une visite de site" },
+			{ "value": "partnership", "label": "Proposition commerciale / partenariat" },
+			{ "value": "press-media", "label": "Demande presse / médias" },
+			{ "value": "compliance-legal", "label": "Conformité / juridique" },
+			{ "value": "community", "label": "Communauté et ESG" },
+			{ "value": "careers", "label": "Carrières et emploi" },
+			{ "value": "other", "label": "Autre" }
 		]
 	},
 	"form": {
-		"tag": "Send a Message",
-		"headline": "Start the conversation",
-		"description": "Fill in the form and the right member of our team will respond within one business day.",
+		"tag": "Envoyer un message",
+		"headline": "Lancez la conversation",
+		"description": "Remplissez le formulaire et le bon membre de notre équipe vous répondra dans un jour ouvrable.",
 		"fields": {
 			"first_name": {
-				"label": "First name",
+				"label": "Prénom",
 				"placeholder": "James",
 				"required": true,
 				"type": "text"
 			},
 			"last_name": {
-				"label": "Last name",
+				"label": "Nom de famille",
 				"placeholder": "Mwangi",
 				"required": true,
 				"type": "text"
 			},
 			"email": {
-				"label": "Email address",
-				"placeholder": "you@example.com",
+				"label": "Adresse e-mail",
+				"placeholder": "vous@exemple.com",
 				"required": true,
 				"type": "email"
 			},
 			"phone": {
-				"label": "Phone number",
+				"label": "Numéro de téléphone",
 				"placeholder": "+256 700 000 000",
 				"required": false,
 				"type": "tel"
 			},
 			"country": {
-				"label": "Country",
-				"placeholder": "Select your country",
+				"label": "Pays",
+				"placeholder": "Sélectionnez votre pays",
 				"required": true,
 				"type": "select"
 			},
 			"reason": {
-				"label": "Reason for contact",
-				"placeholder": "Select a reason",
+				"label": "Motif du contact",
+				"placeholder": "Sélectionnez un motif",
 				"required": true,
 				"type": "select"
 			},
 			"opportunity": {
-				"label": "Opportunity of interest",
-				"placeholder": "Select an opportunity",
+				"label": "Opportunité qui vous intéresse",
+				"placeholder": "Sélectionnez une opportunité",
 				"required": false,
 				"type": "select",
 				"options": [
-					{ "value": "gold-aggregation", "label": "Busia gold aggregation" },
-					{ "value": "goat-farming", "label": "Commercial goat farming" },
-					{ "value": "horticulture", "label": "Horticulture agribusiness" },
-					{ "value": "multi-sector", "label": "Multiple opportunities" },
-					{ "value": "unsure", "label": "Not sure yet" }
+					{ "value": "gold-aggregation", "label": "Agrégation d’or à Busia" },
+					{ "value": "goat-farming", "label": "Élevage commercial de chèvres" },
+					{ "value": "horticulture", "label": "Agro-industrie horticole" },
+					{ "value": "multi-sector", "label": "Opportunités multiples" },
+					{ "value": "unsure", "label": "Pas encore sûr" }
 				]
 			},
 			"investor_tier": {
-				"label": "Gold investment tier of interest",
-				"placeholder": "Select a tier",
+				"label": "Niveau d’investissement or qui vous intéresse",
+				"placeholder": "Sélectionnez un niveau",
 				"required": false,
 				"type": "select",
 				"show_when": { "field": "reason", "value": "investment-enquiry" },
 				"options": [
-					{ "value": "seed-partner", "label": "Seed Partner - $25,000" },
-					{ "value": "strategic-partner", "label": "Strategic Partner - $75,000" },
-					{ "value": "anchor-investor", "label": "Anchor Investor - $189,000" },
-					{ "value": "unsure", "label": "Not sure yet" }
+					{ "value": "seed-partner", "label": "Seed Partner - 25 000 $" },
+					{ "value": "strategic-partner", "label": "Strategic Partner - 75 000 $" },
+					{ "value": "anchor-investor", "label": "Anchor Investor - 189 000 $" },
+					{ "value": "unsure", "label": "Pas encore sûr" }
 				]
 			},
 			"message": {
 				"label": "Message",
-				"placeholder": "Tell us more about your enquiry…",
+				"placeholder": "Dites-nous en plus sur votre demande…",
 				"required": true,
 				"type": "textarea",
 				"rows": 5
 			},
 			"consent": {
-				"label": "I consent to AfriGold Hub storing and using this data to respond to my enquiry, in line with the Privacy Policy.",
+				"label": "Je consens à ce qu’AfriGold Hub stocke et utilise ces données pour répondre à ma demande, conformément à la politique de confidentialité.",
 				"required": true,
 				"type": "checkbox"
 			},
 			"newsletter": {
-				"label": "Subscribe me to the monthly investor briefing",
+				"label": "M’abonner à la lettre d’information mensuelle destinée aux investisseurs",
 				"required": false,
 				"type": "checkbox"
 			}
 		},
-		"submit_label": "Send Message",
-		"success_heading": "Message received",
-		"success_body": "Thank you for reaching out. A member of our team will respond to your enquiry within one business day.",
-		"error_body": "Something went wrong sending your message. Please try again or email us directly at invest@afrigoldhub.com."
+		"submit_label": "Envoyer le message",
+		"success_heading": "Message reçu",
+		"success_body": "Merci de nous avoir contactés. Un membre de notre équipe répondra à votre demande dans un jour ouvrable.",
+		"error_body": "Une erreur s’est produite lors de l’envoi de votre message. Veuillez réessayer ou nous envoyer un e-mail directement à invest@afrigoldhub.com."
 	},
 	"direct_contacts": {
-		"tag": "Direct Contacts",
-		"headline": "Reach the right person",
+		"tag": "Contacts directs",
+		"headline": "Contactez la bonne personne",
 		"items": [
 			{
-				"department": "Investment & Partnerships",
+				"department": "Investissements et partenariats",
 				"name": "James Mwangi",
-				"title": "CEO & Co-Founder",
+				"title": "PDG et co-fondateur",
 				"email": "invest@afrigoldhub.com",
 				"phone": "+256 700 000 001",
-				"note": "Investment enquiries, partnership proposals, anchor investor discussions."
+				"note": "Demandes d’investissement, propositions de partenariat, discussions avec les investisseurs principaux (anchor)."
 			},
 			{
-				"department": "Investor Relations & Finance",
+				"department": "Relations investisseurs et finance",
 				"name": "David Kimani",
-				"title": "Chief Financial Officer",
+				"title": "Directeur financier",
 				"email": "finance@afrigoldhub.com",
 				"phone": "+256 700 000 005",
-				"note": "Monthly reports, due diligence packs, financial statements, payment queries."
+				"note": "Rapports mensuels, dossiers de due diligence, états financiers, questions relatives aux paiements."
 			},
 			{
-				"department": "Operations & Site Visits",
+				"department": "Opérations et visites de site",
 				"name": "Amina Ochieng",
-				"title": "COO & Co-Founder",
+				"title": "COO et co-fondatrice",
 				"email": "operations@afrigoldhub.com",
 				"phone": "+256 700 000 006",
-				"note": "Site visit coordination, operational updates, processing technical queries."
+				"note": "Coordination des visites de site, mises à jour opérationnelles, questions techniques sur le traitement."
 			},
 			{
-				"department": "Legal & Compliance",
+				"department": "Juridique et conformité",
 				"name": "Grace Njoroge",
-				"title": "Head of Legal & Compliance",
+				"title": "Responsable juridique et conformité",
 				"email": "legal@afrigoldhub.com",
 				"phone": "+254 700 000 007",
-				"note": "Investment agreements, regulatory compliance, KYC/AML documentation."
+				"note": "Accords d’investissement, conformité réglementaire, documentation KYC/AML."
 			},
 			{
-				"department": "Press & Media",
-				"name": "Communications Team",
-				"title": "Media Relations",
+				"department": "Presse et médias",
+				"name": "Équipe communication",
+				"title": "Relations médias",
 				"email": "press@afrigoldhub.com",
 				"phone": "",
-				"note": "Interview requests, press releases, photography and media access."
+				"note": "Demandes d’interview, communiqués de presse, photographies et accès aux médias."
 			},
 			{
-				"department": "Community & ESG",
-				"name": "ESG Team",
-				"title": "Community Development",
+				"department": "Communauté et ESG",
+				"name": "Équipe ESG",
+				"title": "Développement communautaire",
 				"email": "community@afrigoldhub.com",
 				"phone": "",
-				"note": "Community development enquiries, NGO partnerships, environmental reporting."
+				"note": "Demandes liées au développement communautaire, partenariats avec ONG, rapports environnementaux."
 			}
 		]
 	},
 	"site_visit": {
-		"tag": "Site Visits",
-		"headline": "See the operation for yourself",
-		"description": "Strategic and Anchor tier investors are welcome to visit our primary Busia, Uganda facility. Site visits include a full process walkthrough - extraction, gravity concentration, smelting, and assay - plus a meeting with our operations leadership team.",
+		"tag": "Visites de site",
+		"headline": "Voir l’opération par vous-même",
+		"description": "Les investisseurs de niveaux Strategic et Anchor sont invités à visiter notre site principal de Busia, en Ouganda. La visite comprend une présentation complète du processus – extraction, concentration gravimétrique, fusion et analyse – ainsi qu’une réunion avec notre équipe de direction opérationnelle.",
 		"process_steps": [
 			{
 				"step": 1,
-				"title": "Submit a request",
-				"description": "Use the contact form above selecting 'Schedule a site visit'. Include your preferred travel window (minimum 2 weeks' notice required)."
+				"title": "Soumettre une demande",
+				"description": "Utilisez le formulaire de contact ci-dessus en sélectionnant « Planifier une visite de site ». Indiquez votre fenêtre de déplacement souhaitée (préavis minimum de 2 semaines requis)."
 			},
 			{
 				"step": 2,
-				"title": "Pre-visit briefing",
-				"description": "Our operations team will send a site safety briefing document and itinerary 5 business days before your visit."
+				"title": "Briefing préalable",
+				"description": "Notre équipe opérationnelle vous enverra un document de briefing sur la sécurité du site et un itinéraire 5 jours ouvrables avant votre visite."
 			},
 			{
 				"step": 3,
-				"title": "Arrive in Busia",
-				"description": "Busia is a 4–5 hour drive from Entebbe International Airport (EBB), or a 30-minute flight to Tororo Airstrip. Airport transfer can be arranged."
+				"title": "Arrivée à Busia",
+				"description": "Busia se trouve à 4–5 heures de route de l’aéroport international d’Entebbe (EBB), ou à 30 minutes de vol vers la piste d’atterrissage de Tororo. Un transfert depuis l’aéroport peut être organisé."
 			},
 			{
 				"step": 4,
-				"title": "Full site tour",
-				"description": "Half-day guided tour of the extraction pits, processing plant, smelting furnace, and assay station. Full Q&A with site team included."
+				"title": "Visite complète du site",
+				"description": "Visite guidée d’une demi-journée des fosses d’extraction, de l’usine de traitement, du four de fusion et du poste d’analyse. Une séance complète de questions-réponses avec l’équipe du site est incluse."
 			},
 			{
 				"step": 5,
-				"title": "Investor debrief",
-				"description": "Post-tour meeting with the CEO and CFO covering financials, documentation, and next steps for formalising your investment."
+				"title": "Compte rendu aux investisseurs",
+				"description": "Réunion post-visite avec le PDG et le directeur financier couvrant les aspects financiers, la documentation et les prochaines étapes pour formaliser votre investissement."
 			}
 		],
-		"note": "Site visits are available Monday–Friday only. Minimum investment tier for site access: Strategic Partner ($75,000).",
-		"cta": { "label": "Request a Site Visit", "href": "#contact-form" }
+		"note": "Les visites de site sont disponibles du lundi au vendredi uniquement. Niveau d’investissement minimum pour l’accès au site : Strategic Partner (75 000 $).",
+		"cta": { "label": "Demander une visite de site", "href": "#contact-form" }
 	},
 	"faq": {
-		"tag": "Quick Answers",
-		"headline": "Common contact questions",
+		"tag": "Réponses rapides",
+		"headline": "Questions fréquentes sur le contact",
 		"items": [
 			{
-				"question": "How quickly will you respond to my enquiry?",
-				"answer": "All enquiries submitted through the contact form receive a response from the relevant team member within one business day (Monday–Friday, 08:00–17:00 EAT). Investment enquiries are prioritised and typically responded to within 4 hours during business hours."
+				"question": "Dans quels délais répondez-vous à ma demande ?",
+				"answer": "Toutes les demandes soumises via le formulaire de contact reçoivent une réponse du membre concerné de notre équipe dans un jour ouvrable (du lundi au vendredi, 08:00–17:00 EAT). Les demandes d’investissement sont prioritaires et reçoivent généralement une réponse dans les 4 heures pendant les heures ouvrables."
 			},
 			{
-				"question": "What is in the due diligence pack?",
-				"answer": "The AfriGold Hub due diligence pack includes: the last 6 months of audited monthly P&L statements, gold sale receipts and KRA/URA receipts, KEBS/UNBS assay certificates for the last three consignments, current Mining Licence copies, current NEMA/EIA certificate copies, the standard Partnership Investment Agreement, and a site overview presentation. Submitted on request to verified enquiries only."
+				"question": "Que contient le dossier de due diligence ?",
+				"answer": "Le dossier de due diligence d’AfriGold Hub comprend : les 6 derniers mois d’états mensuels des comptes audités, les reçus de vente d’or et reçus KRA/URA, les certificats d’analyse KEBS/UNBS des trois derniers envois, les copies des permis miniers en cours, les copies des certificats NEMA/EIA en cours, l’accord d’investissement partenaire standard et une présentation générale du site. Soumis sur demande uniquement aux demandes vérifiées."
 			},
 			{
-				"question": "Can I visit the site before committing to an investment?",
-				"answer": "Yes. Site visits are available to Strategic and Anchor tier prospects with a minimum 2 weeks' notice. We cover the cost of in-country logistics from Entebbe to Busia for serious investor prospects. International travel is at the visitor's expense."
+				"question": "Puis-je visiter le site avant de m’engager dans un investissement ?",
+				"answer": "Oui. Les visites de site sont disponibles pour les prospects de niveaux Strategic et Anchor avec un préavis minimum de 2 semaines. Nous prenons en charge les frais logistiques internes d’Entebbe à Busia pour les prospects investisseurs sérieux. Les voyages internationaux sont à la charge du visiteur."
 			},
 			{
-				"question": "Are you open to investment from outside Africa?",
-				"answer": "Yes. We have active investment partners from the UAE, Europe, and Asia. International SWIFT transfers (USD) are supported. All partnerships are governed by Ugandan law under a formal investment agreement, with an optional international arbitration clause available on request."
+				"question": "Êtes-vous ouverts aux investissements hors d’Afrique ?",
+				"answer": "Oui. Nous avons des partenaires investisseurs actifs des Émirats arabes unis, d’Europe et d’Asie. Les virements internationaux SWIFT (USD) sont pris en charge. Tous les partenariats sont régis par le droit ougandais dans le cadre d’un accord d’investissement formel, avec une clause d’arbitrage international optionnelle disponible sur demande."
 			},
 			{
-				"question": "I represent a fund / family office. Is there a minimum ticket size above $189K?",
-				"answer": "Yes. We accommodate larger institutional placements above the published Anchor tier on a bespoke basis. Please contact our CEO directly at invest@afrigoldhub.com for a confidential discussion."
+				"question": "Je représente un fonds / un family office. Existe-t-il un ticket d’entrée minimum au-delà de 189 000 $ ?",
+				"answer": "Oui. Nous pouvons accueillir des placements institutionnels plus importants au-delà du niveau Anchor publié, sur une base personnalisée. Veuillez contacter notre PDG directement à invest@afrigoldhub.com pour une discussion confidentielle."
 			}
 		]
 	},
 	"social": {
-		"tag": "Follow Us",
-		"headline": "Stay connected",
+		"tag": "Suivez-nous",
+		"headline": "Restez connectés",
 		"channels": [
 			{
 				"platform": "LinkedIn",

@@ -29,9 +29,9 @@ export default function InvestmentSection() {
 				</div>
 
 				<div className="grid md:grid-cols-3 gap-6">
-					{tiers.map((tier) => (
+					{tiers.map((tier, i) => (
 						<div
-							key={tier.tier}
+							key={`tier-${i}`}
 							className={`relative rounded-2xl p-10 border transition-all
 									hover:-translate-y-1 ${
 										tier.featured
@@ -73,9 +73,9 @@ export default function InvestmentSection() {
 							</div>
 							<div className="h-px bg-surface-900 mb-7" />
 							<ul className="flex flex-col gap-3 mb-8">
-								{tier.features.map((f) => (
+								{tier.features.map((f, j) => (
 									<li
-										key={f}
+										key={`tier-${i}-feature-${j}`}
 										className="flex gap-2.5 items-start text-sm text-onSurface-200 leading-snug"
 									>
 										<span className="text-primary text-[0.5rem] mt-1.5 shrink-0">

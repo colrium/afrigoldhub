@@ -1,38 +1,58 @@
 {
 	"site": {
 		"title": "AfriGold Hub",
-		"tagline": "Africa's Premier Artisanal Gold Investment Platform",
-		"description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+		"tagline": "La première plateforme africaine d’investissement dans l’exploitation minière aurifère artisanale",
+		"description": "Investissez directement dans l’exploitation minière aurifère artisanale sur le continent africain. Rendements transparents, traitement sans produits chimiques et opérations entièrement sous licence. Participez à la concrétisation de l’opportunité aurifère de l’Afrique."
 	},
 	"pages": {
 		"home": {
-			"title": "Home",
-			"meta_description": "Discover how {{site_title}} connects investors with Africa's most productive artisanal gold mining operations. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+			"title": "Accueil",
+			"meta_description": "Découvrez comment {{site_title}} connecte les investisseurs aux exploitations minières aurifères artisanales les plus productives d’Afrique. Rendements transparents, traitement sans produits chimiques et opérations entièrement sous licence. Participez à la concrétisation de l’opportunité aurifère de l’Afrique."
 		},
 		"about": {
-			"title": "About",
-			"meta_description": "Learn about {{site_title}}, our leadership, operating principles, governance model, and mission to make African artisanal gold transparent and investable.",
+			"title": "À propos",
+			"meta_description": "En savoir plus sur {{site_title}}, notre direction, nos principes opérationnels, notre modèle de gouvernance et notre mission : rendre l’or artisanal africain transparent et investissable.",
 			"og_image": "/media/og-about.jpg"
 		},
 		"contact": {
 			"page_title": "Contact",
-			"meta_description": "Get in touch with {{site_title}} to learn more about our artisanal gold investment opportunities or to request more information.",
+			"meta_description": "Entrez en contact avec l’équipe {{site_title}}. Planifiez un appel de découverte, demandez un dossier de due diligence ou contactez nos bureaux de Busia et Nairobi.",
 			"og_image": "/media/og-contact.jpg"
 		},
 		"invest": {
-			"page_title": "Invest",
-			"meta_description": "Compare {{site_title}} investment tiers, partner safeguards, monthly reporting, and the process for joining a licensed chemical-free gold production operation.",
+			"page_title": "Investir",
+			"meta_description": "Comparez les niveaux d’investissement de {{site_title}}, les mécanismes de protection des partenaires, les rapports mensuels et le processus pour rejoindre une opération de production aurifère sous licence et sans produits chimiques.",
 			"og_image": "/media/og-invest.jpg"
 		},
+		"locations": {
+			"page_title": "Sites miniers",
+			"meta_description": "Découvrez les sites miniers, les opérations, la couverture Google Maps et la galerie terrain d’AfriGold Hub à travers l’Afrique.",
+			"og_image": "/media/og-locations.jpg"
+		},
 		"operations": {
-			"page_title": "Operations",
-			"meta_description": "Learn about {{site_title}}'s licensed chemical-free gold production operations and the transparent investment opportunities they offer.",
+			"page_title": "Opérations",
+			"meta_description": "En savoir plus sur les opérations de production aurifère sous licence et sans produits chimiques d’{{site_title}} et sur les opportunités d’investissement transparentes qu’elles offrent.",
 			"og_image": "/media/og-operations.jpg"
 		},
 		"value_chain": {
-			"page_title": "Value Chain ",
-			"meta_description": "Understand the full {{site_title}} gold value chain - from geological survey and licence acquisition through extraction, processing, assay, sale, and investor distribution.",
+			"page_title": "Chaîne de valeur",
+			"meta_description": "Comprenez l’ensemble de la chaîne de valeur aurifère d’{{site_title}} – de l’exploration géologique et de l’octroi de licences à l’extraction, au traitement, à l’analyse, à la vente et aux paiements aux investisseurs.",
 			"og_image": "/media/og-value-chain.jpg"
+		},
+		"risk_disclaimer": {
+			"page_title": "Avertissement sur les risques",
+			"meta_description": "Découvrez les principaux risques liés à l’investissement dans les opérations minières aurifères artisanales d’{{site_title}}.",
+			"og_image": "/media/og-risk-disclaimer.jpg"
+		},
+		"privacy_policy": {
+			"page_title": "Politique de confidentialité",
+			"meta_description": "Découvrez comment {{site_title}} traite les informations soumises via notre site Web, nos formulaires de contact, les demandes d’investisseurs et les demandes de visite de site.",
+			"og_image": "/media/og-privacy.jpg"
+		},
+		"terms_of_use": {
+			"page_title": "Conditions d’utilisation",
+			"meta_description": "Consultez les conditions d’utilisation du site Web et des services d’{{site_title}}.",
+			"og_image": "/media/og-terms.jpg"
 		}
 	}
 }

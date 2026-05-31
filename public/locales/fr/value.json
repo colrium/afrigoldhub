@@ -1,386 +1,390 @@
-{	
+{
 	"hero": {
-		"tag": "Value Chain",
-		"headline": "Every link in the chain",
-		"headline_highlight": "chain",
-		"description": "Transparency is only possible when every stage is documented, audited, and open to partner scrutiny. This is the complete AfriGold Hub value chain - from the geological survey that identifies a viable deposit to the wire transfer that lands in your account.",
-		"badge": { "text": "Full chain-of-custody at every stage", "status": "active" },
-		"cta_primary": { "label": "View Investment Plans", "href": "/invest" }
+		"tag": "Chaîne de valeur",
+		"headline": "Chaque maillon de la chaîne",
+		"headline_highlight": "chaîne",
+		"description": "La transparence n’est possible que lorsque chaque étape est documentée, auditée et ouverte à l’examen des partenaires. Voici la chaîne de valeur complète d’AfriGold Hub - de l’étude géologique qui identifie un gisement viable au virement bancaire qui atterrit sur votre compte.",
+		"badge": { "text": "Traçabilité complète à chaque étape", "status": "active" },
+		"cta_primary": { "label": "Voir les plans d’investissement", "href": "/invest#tiers" }
 	},
 	"overview": {
-		"tag": "Our Model",
-		"headline": "Upstream, midstream, downstream - all in-house",
-		"description": "Unlike many artisanal gold platforms, AfriGold Hub controls the entire value chain in-house - from geological assessment and licence management through extraction, processing, smelting, assay, and direct sale. This vertical integration eliminates intermediary costs, reduces leakage risk, and gives our investment partners maximum visibility into the margin at every stage.",
+		"tag": "Notre modèle",
+		"headline": "Amont, médian, aval - tout en interne",
+		"description": "Contrairement à de nombreuses plateformes aurifères artisanales, AfriGold Hub contrôle l’ensemble de la chaîne de valeur en interne - de l’évaluation géologique et de la gestion des licences à l’extraction, au traitement, à la fusion, à l’analyse et à la vente directe. Cette intégration verticale élimine les coûts intermédiaires, réduit les risques de fuite et offre à nos partenaires d’investissement une visibilité maximale sur la marge à chaque étape.",
 		"pillars": [
 			{
 				"id": "upstream",
-				"label": "Upstream",
+				"label": "Amont",
 				"color": "#664B00",
 				"stages": [
-					"Geological Survey",
-					"Licence Acquisition",
-					"Site Preparation",
-					"Pit Extraction"
+					"Étude géologique",
+					"Obtention des licences",
+					"Préparation du site",
+					"Extraction"
 				]
 			},
 			{
 				"id": "midstream",
-				"label": "Midstream",
+				"label": "Médian",
 				"color": "#4A5C2A",
 				"stages": [
-					"Gravity Concentration",
-					"Concentrate Cleaning",
-					"Smelting",
-					"Independent Assay"
+					"Concentration gravimétrique",
+					"Nettoyage du concentré",
+					"Fusion",
+					"Analyse indépendante"
 				]
 			},
 			{
 				"id": "downstream",
-				"label": "Downstream",
+				"label": "Aval",
 				"color": "#1C1608",
 				"stages": [
-					"Licensed Buyer Sale",
-					"Royalty Declaration",
-					"Revenue Collection",
-					"Investor Distribution"
+					"Vente à un acheteur agréé",
+					"Déclaration des redevances",
+					"Collecte des revenus",
+					"Distribution aux investisseurs"
 				]
 			}
 		]
 	},
 	"stages": {
-		"tag": "Stage by Stage",
-		"headline": "From survey to distribution",
-		"description": "Nine documented stages. Every one tracked, receipted, and reported to investment partners monthly.",
+		"tag": "Étape par étape",
+		"headline": "De l’étude à la distribution",
+		"description": "Neuf étapes documentées. Chacune suivie, reçue et rapportée mensuellement aux partenaires d’investissement.",
 		"items": [
 			{
 				"id": "geological-survey",
 				"stage": 1,
 				"phase": "upstream",
-				"title": "Geological Survey & Reserve Assessment",
+				"title": "Étude géologique et évaluation des réserves",
 				"color": "#3D2400",
 				"icon": "map",
-				"short_description": "Before any pit is opened, our field geologists conduct alluvial and eluvial sampling across the licensed acreage, mapping gold distribution by depth zone and estimating recoverable reserves. Reserve assessments are documented and retained for investor due diligence.",
-				"long_description": "Every new AfriGold Hub operation begins with a structured geological reconnaissance programme. Our geologists, accredited to national standards in each operating country, conduct systematic channel sampling, bulk sampling, and panning surveys across the target acreage. Sample results are mapped spatially to identify the highest-grade zones within the licence boundary.\n\nFor alluvial deposits - the primary type across our East African operations - sampling follows the ancient river channels at depths of 0.5–6m, testing the gold-bearing gravel horizon (the 'pay gravel') above the bedrock contact. For eluvial deposits (slope-washed material, more common in Sierra Leone and South Africa), sampling extends across the hillside weathering profile.\n\nThe output of each geological survey is a Reserve Assessment Report - a documented estimate of gold grade (in grams per tonne), recoverable volume (in cubic metres), and projected monthly output at planned extraction rates. This report forms the basis of the extraction plan and is shared with investment partners as part of the due diligence pack for any new site.",
-				"value_added": "Eliminates speculative risk - all AfriGold Hub sites operate on surveyed, grade-confirmed reserves before the first gram is extracted.",
+				"short_description": "Avant l’ouverture d’une fosse, nos géologues de terrain effectuent un échantillonnage alluvial et éluvial sur la superficie sous licence, cartographient la distribution de l’or par zone de profondeur et estiment les réserves récupérables. Les évaluations des réserves sont documentées et conservées pour la due diligence des investisseurs.",
+				"long_description": "Chaque nouvelle opération d’AfriGold Hub commence par un programme de reconnaissance géologique structuré. Nos géologues, accrédités selon les normes nationales de chaque pays, effectuent un échantillonnage systématique en canal, des prélèvements en vrac et des levés de battée sur la zone ciblée. Les résultats sont cartographiés spatialement pour identifier les zones de plus haute teneur dans les limites du permis.\n\nPour les gisements alluviaux - le type principal sur nos opérations est-africaines - l’échantillonnage suit les anciens chenaux fluviaux à des profondeurs de 0,5 à 6 mètres, testant l’horizon de gravier aurifère (le « gravier payant ») au-dessus du contact avec le socle. Pour les gisements éluviaux (matériaux lessivés sur les pentes, plus courants en Sierra Leone et en Afrique du Sud), l’échantillonnage s’étend sur le profil d’altération de la colline.\n\nLe résultat de chaque étude géologique est un rapport d’évaluation des réserves - une estimation documentée de la teneur en or (en grammes par tonne), du volume récupérable (en mètres cubes) et de la production mensuelle projetée aux taux d’extraction prévus. Ce rapport constitue la base du plan d’extraction et est partagé avec les partenaires d’investissement dans le cadre du dossier de due diligence pour tout nouveau site.",
+				"value_added": "Élimine les risques spéculatifs - tous les sites d’AfriGold Hub opèrent sur la base de réserves étudiées et à la teneur confirmée avant l’extraction du premier gramme.",
 				"outputs": [
-					"Reserve Assessment Report",
-					"Spatial grade map",
-					"Extraction zone designation"
+					"Rapport d’évaluation des réserves",
+					"Carte spatiale des teneurs",
+					"Désignation des zones d’extraction"
 				],
-				"cost_centre": "Pre-production capital expenditure"
+				"cost_centre": "Dépenses d’investissement pré-production"
 			},
 			{
 				"id": "licence-acquisition",
 				"stage": 2,
 				"phase": "upstream",
-				"title": "Licence Acquisition & Regulatory Setup",
+				"title": "Obtention des licences et mise en place réglementaire",
 				"color": "#3D2400",
 				"icon": "file-badge",
-				"short_description": "AfriGold Hub secures and maintains active Mining Licences, Environmental Impact Assessment certificates, water abstraction permits, and revenue authority registrations in every operating jurisdiction before extraction begins. No site operates without a full regulatory stack in place.",
-				"long_description": "Regulatory compliance is not a box-ticking exercise for AfriGold Hub - it is the foundation of our investor proposition. Without credible, documented licences and environmental certificates, our gold cannot be legally sold, and investor capital would be at risk.\n\nOur legal team, led by our Head of Legal & Compliance, manages the full licence lifecycle across all seven operating countries: initial application, environmental impact assessment commissioning, community consultation (where required), licence issuance, annual compliance reporting, and renewal. The team works with local specialist mining lawyers in each jurisdiction.\n\nThe regulatory stack for each site includes: (1) Mining Licence from the national mines authority; (2) Environmental Impact Assessment certificate from the national environmental agency; (3) Water abstraction permit where applicable; (4) Revenue authority registration as a licensed precious metals dealer; and (5) a Community Development Agreement (CDA) filed with the relevant local authority. All documents are maintained in our centralised compliance register and are available to investors on request.",
-				"value_added": "Full regulatory compliance in seven jurisdictions means gold can be sold legally and investor distributions can be transferred internationally without interruption.",
+				"short_description": "AfriGold Hub obtient et maintient des permis miniers actifs, des certificats d’étude d’impact environnemental, des permis de prélèvement d’eau et des enregistrements auprès des autorités fiscales dans chaque juridiction d’exploitation avant le début de l’extraction. Aucun site n’opère sans un ensemble réglementaire complet.",
+				"long_description": "La conformité réglementaire n’est pas une simple formalité pour AfriGold Hub - c’est le fondement de notre proposition aux investisseurs. Sans licences crédibles et documentées, notre or ne peut être vendu légalement, et les capitaux des investisseurs seraient menacés.\n\nNotre équipe juridique, dirigée par notre responsable juridique et de conformité, gère l’ensemble du cycle de vie des licences dans les sept pays d’exploitation : demande initiale, commission de l’étude d’impact environnemental, consultation communautaire (le cas échéant), délivrance de la licence, rapports de conformité annuels et renouvellement. L’équipe travaille avec des avocats spécialisés en droit minier local dans chaque juridiction.\n\nL’ensemble réglementaire pour chaque site comprend : (1) le permis minier délivré par l’autorité minière nationale ; (2) le certificat d’étude d’impact environnemental de l’agence environnementale nationale ; (3) le permis de prélèvement d’eau le cas échéant ; (4) l’enregistrement auprès de l’autorité fiscale en tant que négociant en métaux précieux agréé ; et (5) un accord de développement communautaire déposé auprès de l’autorité locale compétente. Tous les documents sont conservés dans notre registre de conformité centralisé et sont accessibles aux investisseurs sur demande.",
+				"value_added": "Une conformité réglementaire complète dans sept juridictions signifie que l’or peut être vendu légalement et que les distributions aux investisseurs peuvent être transférées internationalement sans interruption.",
 				"outputs": [
-					"Mining Licence (ML)",
-					"EIA Certificate",
-					"Water Permit",
-					"Revenue Authority Registration",
-					"CDA Filing"
+					"Permis minier",
+					"Certificat EIA",
+					"Permis d’eau",
+					"Enregistrement fiscal",
+					"Dépôt de l’accord CDA"
 				],
-				"cost_centre": "Pre-production capital expenditure / ongoing compliance opex"
+				"cost_centre": "Dépenses d’investissement pré-production / dépenses opérationnelles de conformité"
 			},
 			{
 				"id": "site-preparation",
 				"stage": 3,
 				"phase": "upstream",
-				"title": "Site Preparation & Infrastructure",
+				"title": "Préparation du site et infrastructure",
 				"color": "#4A3000",
 				"icon": "hard-hat",
-				"short_description": "Before extraction begins, each site is prepared with access roads, water supply and recycling infrastructure, processing plant installation, site office, assay station setup, and safety systems. Site preparation at Busia took 6 months; subsequent sites have been commissioned in 3–4 months using our standardised plant specification.",
-				"long_description": "Site preparation is the capital-intensive phase that converts a surveyed, licensed zone into a productive operation. AfriGold Hub has developed a standardised site infrastructure specification - refined across seven deployments - that is adapted to local geology and logistics at each location.\n\nCore infrastructure at every site includes: (1) Access road from the nearest public road to the pit and processing plant; (2) Water intake and recycling system - including settling ponds and return pumps to achieve 90%+ water recovery; (3) Primary sluice array - modular stainless steel sluice boxes sized to planned throughput; (4) Spiral concentrator bank; (5) Final cleaning circuit (shaking table or Gemini table); (6) Secure weighing and concentrate storage area; (7) Site office, safety station, and first aid post; and (8) Security fencing and lighting.\n\nAt our Busia facility, we additionally operate an on-site induction smelting furnace, assay sample preparation station, and a dispatch secure room for finished bar storage and handover. Secondary sites without smelting infrastructure transport sealed, weighed concentrate under chain-of-custody to the nearest smelting facility.",
-				"value_added": "Standardised plant specification reduces commissioning time, lowers capex per new site, and ensures consistent throughput and recovery rates across the network.",
+				"short_description": "Avant le début de l’extraction, chaque site est préparé avec des routes d’accès, des infrastructures d’approvisionnement et de recyclage de l’eau, l’installation de l’usine de traitement, un bureau de site, une station d’analyse et des systèmes de sécurité. La préparation du site de Busia a pris 6 mois ; les sites suivants ont été mis en service en 3 à 4 mois en utilisant notre spécification d’usine standardisée.",
+				"long_description": "La préparation du site est la phase à forte intensité de capital qui transforme une zone étudiée et sous licence en une opération productive. AfriGold Hub a développé une spécification d’infrastructure standardisée pour les sites - affinée sur sept déploiements - qui est adaptée à la géologie et à la logistique locales de chaque emplacement.\n\nL’infrastructure de base sur chaque site comprend : (1) une route d’accès depuis la route publique la plus proche jusqu’à la fosse et l’usine de traitement ; (2) un système d’adduction et de recyclage de l’eau - y compris des bassins de décantation et des pompes de retour pour atteindre un taux de récupération d’eau supérieur à 90 % ; (3) un réseau de sluices primaires - des sluices modulaires en acier inoxydable dimensionnés en fonction du débit prévu ; (4) une batterie de concentrateurs à spirale ; (5) un circuit de nettoyage final (table vibrante ou table Gemini) ; (6) une zone de pesée sécurisée et de stockage du concentré ; (7) un bureau de site, un poste de sécurité et un poste de premiers secours ; et (8) une clôture de sécurité et un éclairage.\n\nSur notre site de Busia, nous exploitons en plus un four à induction de fusion sur site, une station de préparation d’échantillons pour analyse et une salle sécurisée d’expédition pour le stockage et la remise des lingots finis. Les sites secondaires sans infrastructure de fusion transportent le concentré pesé et scellé, sous chaîne de traçabilité, vers l’installation de fusion la plus proche.",
+				"value_added": "La spécification standardisée de l’usine réduit les délais de mise en service, diminue les dépenses d’investissement par nouveau site et garantit des débits et des taux de récupération constants sur l’ensemble du réseau.",
 				"outputs": [
-					"Commissioned processing plant",
-					"Water management system",
-					"Site safety certification"
+					"Usine de traitement mise en service",
+					"Système de gestion de l’eau",
+					"Certification de sécurité du site"
 				],
-				"cost_centre": "Capital expenditure (CAPEX)"
+				"cost_centre": "Dépenses d’investissement"
 			},
 			{
 				"id": "extraction",
 				"stage": 4,
 				"phase": "upstream",
-				"title": "Ore Extraction",
+				"title": "Extraction du minerai",
 				"color": "#664B00",
 				"icon": "shovel",
-				"short_description": "Licensed excavation crews extract alluvial and eluvial ore from mapped pit zones under certified Mine Supervisor oversight. Every extraction shift is weighed and logged - the chain of custody begins at the pit. Progressive rehabilitation is carried out as zones are worked out.",
-				"long_description": "See Operations → Site Extraction for full detail. Key value chain points: ore weight at extraction is the opening figure in the chain-of-custody log that runs through concentrate weight, smelted bar weight, and sale weight - any unexplained variance at any stage triggers an immediate reconciliation review.",
-				"value_added": "Pit-level weighing and logging closes the first potential gap in the value chain. There is no stage at which gold can leave the system undocumented.",
+				"short_description": "Des équipes d’excavation sous licence extraient le minerai alluvial et éluvial des fosses cartographiées sous la supervision d’un chef de mine certifié. Chaque équipe est pesée et enregistrée - la traçabilité commence à la fosse. Une réhabilitation progressive est effectuée au fur et à mesure que les zones sont exploitées.",
+				"long_description": "Voir Opérations → Extraction pour plus de détails. Points clés de la chaîne de valeur : le poids du minerai à l’extraction est le chiffre d’ouverture dans le registre de traçabilité qui traverse le poids du concentré, le poids du lingot fondu et le poids de vente - toute variation inexpliquée à n’importe quelle étape déclenche un examen de réconciliation immédiat.",
+				"value_added": "La pesée et l’enregistrement au niveau de la fosse comblent la première lacune potentielle de la chaîne de valeur. Il n’y a aucun stade où l’or peut quitter le système sans être documenté.",
 				"outputs": [
-					"Shift weight tickets",
-					"Chain-of-custody log entry",
-					"Supervisor sign-off"
+					"Bordereaux de pesée par équipe",
+					"Entrée du registre de traçabilité",
+					"Contreseing du superviseur"
 				],
-				"cost_centre": "Operating expenditure (OPEX) - labour, fuel, equipment maintenance"
+				"cost_centre": "Dépenses opérationnelles - main-d’œuvre, carburant, entretien des équipements"
 			},
 			{
 				"id": "gravity-concentration",
 				"stage": 5,
 				"phase": "midstream",
-				"title": "Gravity Concentration",
+				"title": "Concentration gravimétrique",
 				"color": "#4A5C2A",
 				"icon": "waves",
-				"short_description": "Ore-bearing material is fed through primary sluice boxes, spiral concentrators, and shaking tables using only water and gravity. Gold recovery rates of 85–92% are achieved consistently across the network. No chemicals - no mercury, no cyanide, no toxic tailings. The final concentrate is 200–400x richer in gold than the raw feed.",
-				"long_description": "See Operations → Gravity Processing for full detail. Key value chain points: concentrate weight at the end of the gravity stage is the second documented figure in the chain-of-custody log. Concentrate is weighed, sealed in numbered bags, and stored in the secure weighing room. The ratio of feed weight to concentrate weight provides the circuit recovery rate - tracked daily and reported monthly.",
-				"value_added": "Zero chemical input reduces OPEX by $10–14/gram versus chemical leach, directly widening the margin available for investor returns. The environmental compliance advantage also protects the licence from regulatory risk.",
+				"short_description": "Le matériau contenant du minerai est alimenté à travers des sluices primaires, des concentrateurs à spirale et des tables vibrantes en utilisant uniquement de l’eau et la gravité. Des taux de récupération d’or de 85 à 92 % sont constamment atteints sur l’ensemble du réseau. Aucun produit chimique - pas de mercure, pas de cyanure, pas de résidus toxiques. Le concentré final est 200 à 400 fois plus riche en or que l’alimentation brute.",
+				"long_description": "Voir Opérations → Traitement gravimétrique pour plus de détails. Points clés de la chaîne de valeur : le poids du concentré à la fin de l’étape gravimétrique est le deuxième chiffre documenté dans le registre de traçabilité. Le concentré est pesé, scellé dans des sacs numérotés et stocké dans la salle de pesée sécurisée. Le rapport entre le poids d’alimentation et le poids du concentré donne le taux de récupération du circuit - suivi quotidiennement et rapporté mensuellement.",
+				"value_added": "L’absence d’intrants chimiques réduit les dépenses opérationnelles de 10 à 14 dollars par gramme par rapport à la lixiviation chimique, élargissant directement la marge disponible pour les rendements des investisseurs. L’avantage de la conformité environnementale protège également la licence contre les risques réglementaires.",
 				"outputs": [
-					"Weighed, sealed concentrate bags",
-					"Circuit recovery rate log",
-					"Water recycling report"
+					"Sacs de concentré pesés et scellés",
+					"Registre du taux de récupération",
+					"Rapport de recyclage de l’eau"
 				],
-				"cost_centre": "Operating expenditure - water, maintenance, power"
+				"cost_centre": "Dépenses opérationnelles - eau, entretien, énergie"
 			},
 			{
 				"id": "smelting",
 				"stage": 6,
 				"phase": "midstream",
-				"title": "Smelting & Casting",
+				"title": "Fusion et coulée",
 				"color": "#8C4A1A",
 				"icon": "flame",
-				"short_description": "Cleaned gravity concentrate is charged into induction furnaces at 1,100–1,150°C. A flux addition process removes all base metal and sulphide impurities. The refined molten gold is poured into graphite moulds and cast into numbered bars - each marked with serial number, pour date, site code, and gross weight.",
-				"long_description": "See Operations → Smelting & Assay for full detail. Key value chain points: bar serial numbers are the primary identifier that links the production chain-of-custody to the sale receipt and investor report. Every bar number is logged from the moment of casting through assay, sale, and payment - providing an unbroken audit trail from pit to proceeds.",
-				"value_added": "On-site smelting eliminates the cost and chain-of-custody risk of off-site smelting. Every bar is produced, numbered, and assayed under AfriGold Hub control before it leaves our possession.",
-				"outputs": ["Numbered gold bars", "Pour log", "Pre-assay sample dispatch record"],
-				"cost_centre": "Operating expenditure - furnace power, crucibles, flux consumables"
+				"short_description": "Le concentré gravimétrique nettoyé est chargé dans des fours à induction à 1 100–1 150 °C. Un processus d’ajout de flux élimine toutes les impuretés des métaux de base et des sulfures. L’or fondu raffiné est versé dans des moules en graphite et coulé en lingots numérotés - chacun marqué d’un numéro de série, d’une date de coulée, d’un code de site et du poids brut.",
+				"long_description": "Voir Opérations → Fusion et analyse pour plus de détails. Points clés de la chaîne de valeur : les numéros de série des lingots sont l’identifiant principal qui relie la traçabilité de la production au reçu de vente et au rapport aux investisseurs. Chaque numéro de lingot est enregistré depuis le moment de la coulée jusqu’à l’analyse, la vente et le paiement - fournissant une piste d’audit ininterrompue de la fosse aux produits.",
+				"value_added": "La fusion sur site élimine le coût et le risque de rupture de traçabilité de la fusion hors site. Chaque lingot est produit, numéroté et analysé sous le contrôle d’AfriGold Hub avant de quitter notre possession.",
+				"outputs": [
+					"Lingots d’or numérotés",
+					"Registre des coulées",
+					"Enregistrement d’envoi des échantillons pré-analyse"
+				],
+				"cost_centre": "Dépenses opérationnelles - énergie du four, creusets, consommables de flux"
 			},
 			{
 				"id": "independent-assay",
 				"stage": 7,
 				"phase": "midstream",
-				"title": "Independent Assay & Certification",
+				"title": "Analyse et certification indépendantes",
 				"color": "#7A4E2D",
 				"icon": "microscope",
-				"short_description": "Every bar is independently assayed for purity by an accredited third-party laboratory before sale. Assay certificates state the bar's serial number, gross weight, fine weight, and purity percentage. Minimum purity is 99.5% - our Busia facility consistently achieves 99.5–99.7%. Certificates accompany every bar through sale and are included in the monthly investor pack.",
-				"long_description": "Independent assay is the quality gate that validates the smelting output and provides the buyer with the certified purity data necessary for pricing. AfriGold Hub commissions all assays from third-party laboratories with no affiliation to the company - intentionally - to ensure objectivity.\n\nIn Uganda, assays are conducted by UNBS-accredited laboratories in Kampala. In Kenya, to KS ISO 11426 / KEBS accreditation standards. In Tanzania, by TMAA-approved assay facilities. In South Africa, by SANAS-accredited laboratories.\n\nThe assay process for each bar involves fire assaying a representative drill sample from the bar (typically 0.2–0.5g taken from three locations), cupellation of the sample, and spectrometric analysis of the resulting bead. The certificate is issued with the bar's serial number, sample date, gross weight, fine gold weight, and purity in parts per thousand (e.g., 995 = 99.5%). These certificates are retained in our compliance archive and copies are shared with investment partners in the monthly investor pack.\n\nAll bars that fall below the 99.5% threshold (which has not occurred at our Busia facility in three years of operation) are returned to the furnace for re-smelting and reassay before sale.",
-				"value_added": "Third-party assay with no company affiliation provides an independent quality check that protects both the buyer's interests and investor confidence in the reported production figures.",
+				"short_description": "Chaque lingot est analysé indépendamment pour sa pureté par un laboratoire tiers accrédité avant la vente. Les certificats d’analyse indiquent le numéro de série du lingot, son poids brut, son poids fin et son pourcentage de pureté. La pureté minimale est de 99,5 % - notre installation de Busia atteint régulièrement 99,5–99,7 %. Les certificats accompagnent chaque lingot tout au long de la vente et sont inclus dans le dossier mensuel des investisseurs.",
+				"long_description": "L’analyse indépendante est le contrôle qualité qui valide le résultat de la fusion et fournit à l’acheteur les données de pureté certifiées nécessaires à la tarification. AfriGold Hub commande toutes les analyses à des laboratoires tiers sans aucun lien avec l’entreprise - intentionnellement - pour garantir l’objectivité.\n\nEn Ouganda, les analyses sont effectuées par des laboratoires accrédités UNBS à Kampala. Au Kenya, selon les normes d’accréditation KS ISO 11426 / KEBS. En Tanzanie, par des installations d’analyse approuvées par la TMAA. En Afrique du Sud, par des laboratoires accrédités SANAS.\n\nLe processus d’analyse pour chaque lingot implique une analyse par voie sèche d’un échantillon représentatif prélevé par forage sur le lingot (généralement 0,2–0,5 g provenant de trois emplacements), la coupellation de l’échantillon et l’analyse spectrométrique du culot obtenu. Le certificat est émis avec le numéro de série du lingot, la date de l’échantillon, le poids brut, le poids d’or fin et la pureté en millièmes (par exemple, 995 = 99,5 %). Ces certificats sont conservés dans nos archives de conformité et des copies sont partagées avec les partenaires d’investissement dans le dossier mensuel des investisseurs.\n\nTous les lingots dont la pureté est inférieure au seuil de 99,5 % (ce qui ne s’est pas produit sur notre site de Busia depuis trois ans d’exploitation) sont retournés au four pour une refusion et une nouvelle analyse avant la vente.",
+				"value_added": "L’analyse tierce sans lien avec l’entreprise fournit un contrôle qualité indépendant qui protège à la fois les intérêts de l’acheteur et la confiance des investisseurs dans les chiffres de production rapportés.",
 				"outputs": [
-					"UNBS/KEBS/TMAA assay certificate per bar",
-					"Purity log",
-					"Compliance archive record"
+					"Certificat d’analyse UNBS/KEBS/TMAA par lingot",
+					"Registre des puretés",
+					"Enregistrement des archives de conformité"
 				],
-				"cost_centre": "Operating expenditure - assay laboratory fees, ~$25–40 per bar"
+				"cost_centre": "Dépenses opérationnelles - frais de laboratoire d’analyse, environ 25–40 dollars par lingot"
 			},
 			{
 				"id": "sale",
 				"stage": 8,
 				"phase": "downstream",
-				"title": "Gold Sale to Licensed Buyer",
+				"title": "Vente de l’or à un acheteur agréé",
 				"color": "#2A1F05",
 				"icon": "handshake",
-				"short_description": "Assayed bars are sold to government-licensed precious metals buyers in the relevant operating country. Each sale generates a formal sale agreement, KYC-verified buyer receipt, royalty declaration receipt from the national revenue authority, and an export permit where applicable. Sale proceeds are received into the AfriGold Hub operating account within 48 hours of physical delivery.",
-				"long_description": "See Operations → Sale & Distribution for full detail. Key value chain points: the sale price per gram is calculated against the prevailing XAU/USD spot price at the time of transaction, discounted by the buyer's spread (typically 0.5–1.5% below spot for LBMA-grade bars). The confirmed sale proceeds figure - net of royalties - is the gross revenue figure used in the monthly P&L and the basis for investor distributions.",
-				"value_added": "Direct sale to licensed buyers without broker intermediation saves 2–4% in intermediary fees per transaction. KYC-verified buyer relationships also protect the licence from AML compliance risk.",
+				"short_description": "Les lingots analysés sont vendus à des acheteurs de métaux précieux agréés par l’État dans le pays d’exploitation concerné. Chaque vente génère un accord de vente formel, un reçu d’acheteur vérifié KYC, un reçu de déclaration de redevance de l’autorité fiscale nationale et un permis d’exportation le cas échéant. Le produit de la vente est reçu sur le compte d’exploitation d’AfriGold Hub dans les 48 heures suivant la livraison physique.",
+				"long_description": "Voir Opérations → Vente et distribution pour plus de détails. Points clés de la chaîne de valeur : le prix de vente par gramme est calculé par rapport au cours spot XAU/USD en vigueur au moment de la transaction, diminué de la marge de l’acheteur (généralement 0,5 à 1,5 % en dessous du spot pour les lingots de qualité LBMA). Le chiffre confirmé du produit de la vente - net des redevances - est le chiffre du revenu brut utilisé dans le compte de résultat mensuel et la base des distributions aux investisseurs.",
+				"value_added": "La vente directe à des acheteurs agréés sans intermédiation de courtier permet d’économiser 2 à 4 % de frais d’intermédiaire par transaction. Les relations avec des acheteurs vérifiés KYC protègent également la licence contre les risques de non-conformité en matière de lutte contre le blanchiment d’argent.",
 				"outputs": [
-					"Sale agreement",
-					"Buyer receipt",
-					"Royalty declaration (URA/KRA/TMAA/SARS etc.)",
-					"Export permit",
-					"Confirmed proceeds figure"
+					"Accord de vente",
+					"Reçu de l’acheteur",
+					"Déclaration de redevance (URA/KRA/TMAA/SARS, etc.)",
+					"Permis d’exportation",
+					"Chiffre de produit confirmé"
 				],
-				"cost_centre": "Revenue - net of royalties (3% Uganda, 1% Kenya, 3% Tanzania, varies by country)"
+				"cost_centre": "Revenus - nets des redevances (3 % Ouganda, 1 % Kenya, 3 % Tanzanie, variable selon le pays)"
 			},
 			{
 				"id": "investor-distribution",
 				"stage": 9,
 				"phase": "downstream",
-				"title": "Revenue Reconciliation & Investor Distribution",
+				"title": "Réconciliation des revenus et distribution aux investisseurs",
 				"color": "#1C1608",
 				"icon": "banknotes",
-				"short_description": "Monthly revenue from all sites is reconciled by the CFO and an external accountant against production records, assay certificates, and sale receipts. A monthly audited P&L is produced within 10 business days of month-end. Investor distributions are calculated per tier and transferred via SWIFT or mobile money on the 15th of each month - without exception.",
-				"long_description": "The final link in the AfriGold Hub value chain is the transfer of investor returns - and it is the link that our entire operational model is designed to make predictable, documented, and reliable.\n\nMonthly reconciliation begins on the 1st of each month for the prior month's production. Our CFO consolidates all site sale receipts, royalty declarations, and operating cost invoices into a single consolidated P&L. An external accountant - engaged independently of AfriGold Hub management - reviews and stamps the P&L within 5 business days. The final signed P&L is uploaded to the investor portal and distributed by email to all partners.\n\nInvestor distributions are calculated from the net profit figure (gross revenue minus operating costs, royalties, and the 3% community development levy). Each tier receives their contracted equity percentage of net profit. Distributions are initiated via the joint operating account on the 10th of the month and settled to investor accounts (SWIFT USD for international, mobile money for Africa-based) by the 15th.\n\nAll transfers are accompanied by a remittance advice showing the calculation: gross revenue per site, total operating costs, royalties, community levy, net profit, equity percentage, and gross distribution amount. This document, along with the P&L, sale receipts, and assay certificates, forms the monthly investor pack delivered without exception.",
-				"value_added": "Fixed distribution date (15th of each month), external accountant sign-off, and joint account access for Strategic and Anchor partners create the most investor-protective distribution structure available in the artisanal gold sector.",
+				"short_description": "Les revenus mensuels de tous les sites sont rapprochés par le directeur financier et un expert-comptable externe, en fonction des registres de production, des certificats d’analyse et des reçus de vente. Un compte de résultat mensuel audité est produit dans les 10 jours ouvrables suivant la fin du mois. Les distributions aux investisseurs sont calculées par niveau et transférées par SWIFT ou argent mobile le 15 de chaque mois - sans exception.",
+				"long_description": "Le dernier maillon de la chaîne de valeur d’AfriGold Hub est le transfert des rendements aux investisseurs - et c’est le maillon que notre modèle opérationnel vise à rendre prévisible, documenté et fiable.\n\nLa réconciliation mensuelle commence le 1er de chaque mois pour la production du mois précédent. Notre directeur financier consolide tous les reçus de vente des sites, les déclarations de redevances et les factures de coûts opérationnels en un seul compte de résultat consolidé. Un expert-comptable externe - indépendant de la direction d’AfriGold Hub - examine et valide le compte de résultat dans les 5 jours ouvrables. Le compte de résultat final signé est téléchargé sur le portail des investisseurs et distribué par courriel à tous les partenaires.\n\nLes distributions aux investisseurs sont calculées à partir du chiffre de bénéfice net (revenu brut moins les coûts opérationnels, les redevances et la taxe de développement communautaire de 3 %). Chaque niveau reçoit le pourcentage de capital qui lui est contractuellement dû sur le bénéfice net. Les distributions sont initiées via le compte d’exploitation conjoint le 10 du mois et réglées sur les comptes des investisseurs (virement SWIFT en dollars américains pour les internationaux, argent mobile pour les investisseurs basés en Afrique) avant le 15.\n\nTous les transferts sont accompagnés d’un avis de remise indiquant le calcul : revenu brut par site, coûts opérationnels totaux, redevances, taxe communautaire, bénéfice net, pourcentage de capital et montant brut de la distribution. Ce document, avec le compte de résultat, les reçus de vente et les certificats d’analyse, constitue le dossier mensuel des investisseurs distribué sans exception.",
+				"value_added": "Une date de distribution fixe (le 15 de chaque mois), une validation par un expert-comptable externe et un accès au compte conjoint pour les partenaires Strategic et Anchor créent la structure de distribution la plus protectrice pour les investisseurs disponible dans le secteur de l’or artisanal.",
 				"outputs": [
-					"Monthly audited P&L",
-					"Monthly investor pack (PDF)",
-					"SWIFT / mobile money transfer",
-					"Remittance advice"
+					"Compte de résultat mensuel audité",
+					"Dossier mensuel des investisseurs (PDF)",
+					"Virement SWIFT / argent mobile",
+					"Avis de remise"
 				],
-				"cost_centre": "Distribution - 100% of contracted equity share of net monthly profit"
+				"cost_centre": "Distribution - 100 % de la part de capital contractuelle du bénéfice net mensuel"
 			}
 		]
 	},
 	"margin_breakdown": {
-		"tag": "Where the Margin Lives",
-		"headline": "Revenue to investor return",
-		"description": "A transparent breakdown of how $572K gross monthly revenue becomes $504K net profit and, ultimately, investor distributions.",
+		"tag": "Où se trouve la marge",
+		"headline": "Du revenu au rendement pour l’investisseur",
+		"description": "Une analyse transparente de la manière dont 572 000 $ de revenu brut mensuel deviennent 502 200 $ de bénéfice net et, en fin de compte, des distributions aux investisseurs.",
 		"line_items": [
 			{
-				"label": "Gross Revenue (gold sales)",
+				"label": "Revenu brut (ventes d’or)",
 				"value": 572000,
 				"type": "income",
-				"note": "~266 kg refined gold at prevailing XAU/USD spot, less buyer spread"
+				"note": "~266 kg d’or raffiné au cours spot XAU/USD en vigueur, moins la marge de l’acheteur"
 			},
 			{
-				"label": "Operating Labour",
+				"label": "Main-d’œuvre opérationnelle",
 				"value": -18000,
 				"type": "opex",
-				"note": "30+ direct employees across primary site, contracted wages"
+				"note": "30+ employés directs sur le site principal, salaires contractuels"
 			},
 			{
-				"label": "Equipment & Maintenance",
+				"label": "Équipement et entretien",
 				"value": -12000,
 				"type": "opex",
-				"note": "Plant maintenance, consumables, fuel, tools"
+				"note": "Entretien de l’usine, consommables, carburant, outils"
 			},
 			{
-				"label": "Water & Utilities",
+				"label": "Eau et services publics",
 				"value": -4000,
 				"type": "opex",
-				"note": "Power for smelting furnace, water abstraction and recycling"
+				"note": "Énergie pour le four de fusion, prélèvement et recyclage de l’eau"
 			},
 			{
-				"label": "Assay & Certification Fees",
+				"label": "Frais d’analyse et de certification",
 				"value": -2000,
 				"type": "opex",
-				"note": "Third-party assay at ~$30/bar × ~60 bars/month"
+				"note": "Analyse tierce à environ 30 $/lingot × environ 60 lingots/mois"
 			},
 			{
-				"label": "Transport & Logistics",
+				"label": "Transport et logistique",
 				"value": -3000,
 				"type": "opex",
-				"note": "Concentrate transport to smelter (secondary sites), bullion delivery"
+				"note": "Transport du concentré vers la fonderie (sites secondaires), livraison des lingots"
 			},
 			{
-				"label": "Royalties (avg. 3% gross)",
+				"label": "Redevances (moyenne 3 % du brut)",
 				"value": -17000,
 				"type": "regulatory",
-				"note": "Government mineral royalties filed with URA/KRA/TMAA as applicable"
+				"note": "Redevances minières gouvernementales déclarées auprès de l’URA/KRA/TMAA selon le cas"
 			},
 			{
-				"label": "Community Development Levy (3% net)",
+				"label": "Taxe de développement communautaire (3 % du net)",
 				"value": -12000,
 				"type": "cda",
-				"note": "CDA commitment to regional community infrastructure"
+				"note": "Engagement CDA en faveur des infrastructures communautaires régionales"
 			},
 			{
-				"label": "General & Administrative",
+				"label": "Frais généraux et administratifs",
 				"value": -1800,
 				"type": "opex",
-				"note": "Office costs, insurance, legal compliance, accounting"
+				"note": "Frais de bureau, assurance, conformité juridique, comptabilité"
 			},
 			{
-				"label": "Net Profit",
+				"label": "Bénéfice net",
 				"value": 502200,
 				"type": "profit",
-				"note": "Available for investor distribution per contracted equity tiers"
+				"note": "Disponible pour la distribution aux investisseurs selon les niveaux de capital contractuels"
 			}
 		],
-		"note": "Figures represent approximate monthly averages based on 266 kg output at $2,150/troy oz XAU/USD. Actual figures vary with gold spot price and monthly output. See monthly P&L for verified actuals."
+		"note": "Les chiffres représentent des moyennes mensuelles approximatives basées sur une production de 266 kg à 2 150 $/once troy XAU/USD. Les chiffres réels varient en fonction du prix spot de l’or et de la production mensuelle. Voir le compte de résultat mensuel pour les chiffres réels vérifiés."
 	},
 	"transparency": {
-		"tag": "Documentation at Every Stage",
-		"headline": "The paper trail that protects every partner",
-		"description": "Every stage in the value chain generates a specific document - and every document is retained, referenced in the monthly investor pack, and available for investor audit on request.",
+		"tag": "Documentation à chaque étape",
+		"headline": "La piste papier qui protège chaque partenaire",
+		"description": "Chaque étape de la chaîne de valeur génère un document spécifique - et chaque document est conservé, référencé dans le dossier mensuel des investisseurs et disponible pour l’audit des investisseurs sur demande.",
 		"documents": [
 			{
-				"stage": "Geological Survey",
-				"document": "Reserve Assessment Report",
-				"retained_by": "Legal archive",
-				"available_to": "Investor (on request)"
+				"stage": "Étude géologique",
+				"document": "Rapport d’évaluation des réserves",
+				"retained_by": "Archives juridiques",
+				"available_to": "Investisseur (sur demande)"
 			},
 			{
-				"stage": "Licence Acquisition",
-				"document": "Mining Licence, EIA Certificate, CDA",
-				"retained_by": "Legal archive",
-				"available_to": "Investor (on request)"
+				"stage": "Obtention des licences",
+				"document": "Permis minier, certificat EIA, CDA",
+				"retained_by": "Archives juridiques",
+				"available_to": "Investisseur (sur demande)"
 			},
 			{
 				"stage": "Extraction",
-				"document": "Shift weight tickets, pit log",
-				"retained_by": "Operations archive",
-				"available_to": "Investor (on request)"
+				"document": "Bordereaux de pesée par équipe, registre de fosse",
+				"retained_by": "Archives opérationnelles",
+				"available_to": "Investisseur (sur demande)"
 			},
 			{
-				"stage": "Gravity Concentration",
-				"document": "Circuit recovery rate log",
-				"retained_by": "Operations archive",
-				"available_to": "Investor (on request)"
+				"stage": "Concentration gravimétrique",
+				"document": "Registre du taux de récupération",
+				"retained_by": "Archives opérationnelles",
+				"available_to": "Investisseur (sur demande)"
 			},
 			{
-				"stage": "Smelting",
-				"document": "Pour log, bar serial number register",
-				"retained_by": "Operations archive",
-				"available_to": "Investor (monthly pack)"
+				"stage": "Fusion",
+				"document": "Registre des coulées, registre des numéros de série des lingots",
+				"retained_by": "Archives opérationnelles",
+				"available_to": "Investisseur (dossier mensuel)"
 			},
 			{
-				"stage": "Independent Assay",
-				"document": "Assay certificate per bar",
-				"retained_by": "Compliance archive",
-				"available_to": "Investor (monthly pack)"
+				"stage": "Analyse indépendante",
+				"document": "Certificat d’analyse par lingot",
+				"retained_by": "Archives de conformité",
+				"available_to": "Investisseur (dossier mensuel)"
 			},
 			{
-				"stage": "Sale",
-				"document": "Sale agreement, buyer receipt, royalty declaration",
-				"retained_by": "Finance archive",
-				"available_to": "Investor (monthly pack)"
+				"stage": "Vente",
+				"document": "Accord de vente, reçu de l’acheteur, déclaration de redevance",
+				"retained_by": "Archives financières",
+				"available_to": "Investisseur (dossier mensuel)"
 			},
 			{
-				"stage": "Revenue Reconciliation",
-				"document": "Monthly audited P&L",
-				"retained_by": "Finance archive",
-				"available_to": "Investor (monthly pack)"
+				"stage": "Réconciliation des revenus",
+				"document": "Compte de résultat mensuel audité",
+				"retained_by": "Archives financières",
+				"available_to": "Investisseur (dossier mensuel)"
 			},
 			{
-				"stage": "Investor Distribution",
-				"document": "Remittance advice, SWIFT confirmation",
-				"retained_by": "Finance archive",
-				"available_to": "Investor (each payment)"
+				"stage": "Distribution aux investisseurs",
+				"document": "Avis de remise, confirmation SWIFT",
+				"retained_by": "Archives financières",
+				"available_to": "Investisseur (à chaque paiement)"
 			}
 		]
 	},
 	"esg": {
-		"tag": "ESG in the Value Chain",
-		"headline": "Responsibility built in, not bolted on",
-		"description": "Environmental stewardship, community benefit, and fair employment are not add-ons to our value chain - they are structural components of it. Each stage has defined ESG obligations that are monitored, reported, and audited alongside financial performance.",
+		"tag": "ESG dans la chaîne de valeur",
+		"headline": "Une responsabilité intégrée, pas ajoutée",
+		"description": "La gestion environnementale, les avantages communautaires et l’emploi équitable ne sont pas des ajouts à notre chaîne de valeur - ce sont des composantes structurelles de celle-ci. Chaque étape a des obligations ESG définies qui sont surveillées, rapportées et auditées en même temps que la performance financière.",
 		"items": [
 			{
-				"phase": "Upstream",
+				"phase": "Amont",
 				"icon": "leaf",
-				"title": "No site opens without a clean EIA",
-				"description": "Environmental Impact Assessment is completed and certified before any pit is opened. The EIA is a condition precedent, not a formality."
+				"title": "Aucun site n’est ouvert sans une EIA propre",
+				"description": "L’étude d’impact environnemental est réalisée et certifiée avant l’ouverture de toute fosse. L’EIA est une condition préalable, pas une formalité."
 			},
 			{
-				"phase": "Midstream",
+				"phase": "Médian",
 				"icon": "droplets",
-				"title": "Zero chemicals. 92% water recycled.",
-				"description": "Gravity concentration eliminates all mercury and cyanide use. Our closed-loop water system recycles 90–94% of process water at every site - protecting local waterways and reducing freshwater demand."
+				"title": "Zéro produit chimique. 92 % d’eau recyclée.",
+				"description": "La concentration gravimétrique élimine toute utilisation de mercure et de cyanure. Notre système d’eau en boucle fermée recycle 90 à 94 % de l’eau de traitement sur chaque site - protégeant les voies d’eau locales et réduisant la demande en eau douce."
 			},
 			{
-				"phase": "Midstream",
+				"phase": "Médian",
 				"icon": "users",
-				"title": "30+ local jobs, formal contracts",
-				"description": "All operational employees are community residents on formal written contracts with national social security contributions. No child labour. Gender equity policy targeting 40% women in non-extraction roles."
+				"title": "Plus de 30 emplois locaux, contrats formels",
+				"description": "Tous les employés opérationnels sont des résidents de la communauté sous contrat écrit formel avec cotisations nationales de sécurité sociale. Pas de travail des enfants. Politique d’équité de genre visant 40 % de femmes dans les rôles non liés à l’extraction."
 			},
 			{
-				"phase": "Downstream",
+				"phase": "Aval",
 				"icon": "building-community",
-				"title": "3% community levy on every distribution",
-				"description": "A Community Development Agreement mandates 3% of monthly net profit to local infrastructure - water access, school facilities, and vocational training - in every community where we operate."
+				"title": "3 % de taxe communautaire sur chaque distribution",
+				"description": "Un accord de développement communautaire impose 3 % du bénéfice net mensuel pour les infrastructures locales - accès à l’eau, installations scolaires et formation professionnelle - dans chaque communauté où nous opérons."
 			},
 			{
-				"phase": "All phases",
+				"phase": "Toutes les phases",
 				"icon": "file-check",
-				"title": "UNEP Minamata Convention compliance",
-				"description": "AfriGold Hub is a participating operation in UNEP's Minamata Convention mercury elimination programme - the only network-wide chemical-free artisanal gold operation in our operating region."
+				"title": "Conformité avec la Convention de Minamata du PNUE",
+				"description": "AfriGold Hub est une opération participante au programme d’élimination du mercure de la Convention de Minamata du PNUE - la seule opération aurifère artisanale sans produits chimiques à l’échelle du réseau dans notre région d’exploitation."
 			}
 		]
 	},
 	"cta": {
-		"tag": "Invest in the Chain",
-		"headline": "Own a share of every link",
-		"description": "When you invest in AfriGold Hub, you invest in the entire documented value chain - not a commodity bet, but a structured, auditable production business with monthly verified returns.",
-		"cta_primary": { "label": "View Investment Plans", "href": "/invest" },
+		"tag": "Investissez dans la chaîne",
+		"headline": "Possédez une part de chaque maillon",
+		"description": "Lorsque vous investissez dans AfriGold Hub, vous investissez dans l’ensemble de la chaîne de valeur documentée - pas un pari sur une matière première, mais une entreprise de production structurée, vérifiable et offrant des rendements mensuels vérifiés.",
+		"cta_primary": { "label": "Voir les plans d’investissement", "href": "/invest" },
 		"cta_secondary": {
-			"label": "Download Due Diligence Pack",
+			"label": "Télécharger le dossier de due diligence",
 			"href": "/contact?reason=due-diligence"
 		}
 	}

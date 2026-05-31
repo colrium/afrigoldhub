@@ -59,7 +59,7 @@ html {
 }
 body {
     background: theme("colors.paper");
-        /* background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #1f1a03ea); */
+    background: linear-gradient(to bottom, #000000, #000000a8, #000000c7, #000000c2, #1f1a03ea); 
         font-size: 14px;
 }
 body::before {

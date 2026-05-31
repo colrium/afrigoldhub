@@ -1,121 +1,119 @@
 {
-	"meta": {
-		"page_title": "About - AfriGold Hub",
-		"meta_description": "Learn about AfriGold Hub, our leadership, operating principles, governance model, and mission to make African artisanal gold transparent and investable.",
-		"og_image": "/media/og-about.jpg"
-	},
 	"hero": {
-		"tag": "About AfriGold Hub",
-		"headline": "A disciplined gold platform built in the field",
-		"description": "AfriGold Hub brings licensed mining operations, chemical-free gravity processing, investor-grade reporting, and community-first governance into one transparent gold production platform.",
-		"badge": { "text": "Licensed operations across seven African markets", "status": "active" },
-		"cta_primary": { "label": "See Operations", "href": "/operations" },
-		"cta_secondary": { "label": "Meet the Team", "href": "#team" }
+		"tag": "À propos d'AfriGold Hub",
+		"headline": "Une plateforme aurifère rigoureuse, bâtie sur le terrain",
+		"description": "AfriGold Hub réunit des opérations minières sous licence, un traitement gravimétrique sans produits chimiques, des rapports dignes d’investisseurs et une gouvernance axée sur la communauté, le tout sur une seule plateforme transparente de production aurifère.",
+		"badge": {
+			"text": "Opérations sous licence dans sept marchés africains",
+			"status": "active"
+		},
+		"cta_primary": { "label": "Voir les opérations", "href": "/operations" },
+		"cta_secondary": { "label": "Rencontrer l’équipe", "href": "#team" }
 	},
 	"story": {
-		"tag": "Our Story",
-		"headline": "Built for trust, not speculation",
-		"description": "The AfriGold Hub model was shaped by a simple observation: artisanal gold can be highly productive, but it only becomes investable when the operation is licensed, documented, and governed with discipline. We built our platform around that standard.",
+		"tag": "Notre histoire",
+		"headline": "Construit pour la confiance, pas pour la spéculation",
+		"description": "Le modèle d’AfriGold Hub est né d’un constat simple : l’or artisanal peut être très productif, mais il ne devient investissable que lorsque l’exploitation est sous licence, documentée et gouvernée avec rigueur. Nous avons bâti notre plateforme autour de cette exigence.",
 		"paragraphs": [
-			"Our team combines field operators, finance professionals, compliance specialists, and ESG advisors who have worked across East, West, and Southern African mineral corridors.",
-			"Instead of selling exposure to a vague commodity opportunity, we give partners visibility into the actual production chain: where ore is extracted, how it is processed, how bars are assayed, how buyers settle, and how distributions are calculated."
+			"Notre équipe combine des opérateurs de terrain, des professionnels de la finance, des spécialistes de la conformité et des conseillers ESG qui ont travaillé dans les couloirs miniers d’Afrique de l’Est, de l’Ouest et de l’Austral.",
+			"Au lieu de vendre une exposition à une opportunité sur une matière première vague, nous donnons aux partenaires une visibilité sur la chaîne de production réelle : où le minerai est extrait, comment il est traité, comment les lingots sont analysés, comment les acheteurs règlent et comment les distributions sont calculées."
 		],
 		"stats": [
-			{ "value": "7", "label": "Operating countries" },
-			{ "value": "0", "label": "Mercury or cyanide inputs" },
-			{ "value": "10+", "label": "Years sector experience" },
-			{ "value": "30+", "label": "Direct operational jobs" }
+			{ "value": "7", "label": "Pays d’exploitation" },
+			{ "value": "0", "label": "Utilisation de mercure ou de cyanure" },
+			{ "value": "10+", "label": "Années d’expérience sectorielle" },
+			{ "value": "30+", "label": "Emplois opérationnels directs" }
 		]
 	},
 	"principles": {
-		"tag": "Operating Principles",
-		"headline": "The standard behind every site",
+		"tag": "Principes opérationnels",
+		"headline": "La norme derrière chaque site",
 		"items": [
 			{
-				"title": "Document everything",
-				"description": "Every stage produces a record - from pit weight tickets to assay certificates and sale receipts."
+				"title": "Tout documenter",
+				"description": "Chaque étape produit un enregistrement — des bordereaux de pesée du minerai aux certificats d’analyse et reçus de vente."
 			},
 			{
-				"title": "Keep processing clean",
-				"description": "Our gravity concentration circuits use water and density separation, eliminating mercury, cyanide, and toxic tailings."
+				"title": "Un traitement propre",
+				"description": "Nos circuits de concentration gravimétrique utilisent l’eau et la séparation par densité, éliminant mercure, cyanure et résidus toxiques."
 			},
 			{
-				"title": "Share the economics",
-				"description": "Partners receive monthly reporting that connects production, sales, costs, net profit, and distribution calculations."
+				"title": "Partager la valeur économique",
+				"description": "Les partenaires reçoivent un rapport mensuel reliant production, ventes, coûts, bénéfice net et calcul des distributions."
 			},
 			{
-				"title": "Protect the licence",
-				"description": "Compliance, community agreements, and environmental controls are treated as operating assets, not paperwork."
+				"title": "Protéger la licence",
+				"description": "La conformité, les accords communautaires et les contrôles environnementaux sont traités comme des actifs opérationnels, pas comme de la paperasse."
 			}
 		]
 	},
 	"team": {
-		"tag": "Leadership",
-		"headline": "Operators, finance minds, and compliance discipline",
-		"description": "AfriGold Hub is led by a compact team with direct accountability for production, finance, investor relations, and regulatory integrity.",
+		"tag": "Direction",
+		"headline": "Opérateurs, experts financiers et rigueur réglementaire",
+		"description": "AfriGold Hub est dirigé par une équipe restreinte, directement responsable de la production, des finances, des relations investisseurs et de l’intégrité réglementaire.",
 		"items": [
 			{
 				"initials": "JM",
 				"name": "James Mwangi",
-				"role": "CEO & Co-Founder",
-				"description": "Leads investment partnerships, strategic expansion, and country-level operating relationships across the platform."
+				"role": "PDG & Co-fondateur",
+				"description": "Dirige les partenariats d’investissement, l’expansion stratégique et les relations opérationnelles au niveau national sur l’ensemble de la plateforme."
 			},
 			{
 				"initials": "AO",
 				"name": "Amina Ochieng",
-				"role": "COO & Co-Founder",
-				"description": "Oversees site operations, processing discipline, safety systems, and site visit coordination."
+				"role": "COO & Co-fondatrice",
+				"description": "Supervise les opérations sur site, la discipline de traitement, les systèmes de sécurité et la coordination des visites de site."
 			},
 			{
 				"initials": "DK",
 				"name": "David Kimani",
-				"role": "Chief Financial Officer",
-				"description": "Manages monthly reconciliation, investor reporting, payment controls, and partner financial documentation."
+				"role": "Directeur financier",
+				"description": "Gère la réconciliation mensuelle, les rapports aux investisseurs, les contrôles de paiement et la documentation financière des partenaires."
 			},
 			{
 				"initials": "GN",
 				"name": "Grace Njoroge",
-				"role": "Head of Legal & Compliance",
-				"description": "Owns licence registers, KYC/AML workflows, environmental documentation, and partner agreements."
+				"role": "Responsable juridique et conformité",
+				"description": "Détient les registres des licences, les processus KYC/AML, la documentation environnementale et les accords avec les partenaires."
 			}
 		]
 	},
 	"governance": {
-		"tag": "Governance",
-		"headline": "Controls that make the operation auditable",
-		"description": "Our governance model is designed around clear records, accountable ownership, and investor access to the documents that matter.",
+		"tag": "Gouvernance",
+		"headline": "Des contrôles pour une opération vérifiable",
+		"description": "Notre modèle de gouvernance repose sur des enregistrements clairs, une responsabilité définie et un accès des investisseurs aux documents essentiels.",
 		"items": [
-			"Monthly P&L review by finance leadership",
-			"Third-party assay certificates for produced bars",
-			"Central compliance register for licences and permits",
-			"Chain-of-custody logs from extraction through sale",
-			"Structured partner agreements with defined rights",
-			"Site access and document review for qualified partners"
+			"Examen mensuel du P&L par la direction financière",
+			"Certificats d’analyse tiers pour les lingots produits",
+			"Registre central de conformité pour licences et permis",
+			"Registres de traçabilité de l’extraction à la vente",
+			"Accords structurés avec les partenaires et droits définis",
+			"Accès au site et revue documentaire pour les partenaires qualifiés"
 		]
 	},
 	"timeline": {
-		"tag": "Milestones",
-		"headline": "A platform built step by step",
+		"tag": "Étapes clés",
+		"headline": "Une plateforme construite étape par étape",
 		"items": [
 			{
 				"year": "2013",
-				"title": "Field research begins",
-				"description": "Founding operators begin mapping artisanal gold corridors and testing gravity concentration workflows."
+				"title": "Début de la recherche terrain",
+				"description": "Les opérateurs fondateurs commencent à cartographier les corridors aurifères artisanaux et à tester les processus de concentration gravimétrique."
 			},
 			{
 				"year": "2017",
-				"title": "Clean processing model proven",
-				"description": "Chemical-free processing becomes the operating standard for new sites and partner reporting."
+				"title": "Modèle de traitement propre prouvé",
+				"description": "Le traitement sans produits chimiques devient la norme opérationnelle pour les nouveaux sites et les rapports aux partenaires."
 			},
 			{
 				"year": "2021",
-				"title": "Multi-country expansion",
-				"description": "The model expands across East, West, and Southern African operating jurisdictions."
+				"title": "Expansion multi-pays",
+				"description": "Le modèle s’étend aux juridictions d’exploitation d’Afrique de l’Est, de l’Ouest et de l’Austral."
 			},
 			{
 				"year": "2025",
-				"title": "Investor platform formalised",
-				"description": "AfriGold Hub consolidates operations, reporting, compliance, and partner onboarding into one platform."
+				"title": "Formalisation de la plateforme investisseur",
+				"description": "AfriGold Hub regroupe les opérations, les rapports, la conformité et l’intégration des partenaires sur une seule plateforme."
 			}
 		]
 	}
