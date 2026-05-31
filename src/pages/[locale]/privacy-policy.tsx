@@ -1,7 +1,7 @@
 import type { GetServerSideProps, NextPage } from "next";
 import PageHead from "@/components/Head";
 import { LegalPageSection } from "@/components/sections";
-import { useTranslation, Trans } from "next-i18next/pages";
+import { useTranslation } from "next-i18next/pages";
 import { getI18nProps } from "@/lib/i18n";
 type PageProps = {
 	// Add custom props here
@@ -14,7 +14,6 @@ const PrivacyPolicyPage: NextPage<PageProps> = () => {
 		title: string;
 		content: string[];
 	}[];
-    console.log("sections", sections)
 	return (
 		<div className="relative">
 			<PageHead pageName="privacy_policy" />

@@ -67,15 +67,15 @@ export default function LegalPageSection({
 							</h2>
 							<div className="mt-4 space-y-4">
 								{Array.isArray(section.content) ? (
-									section.content.map((paragraph) => (
+									section.content.map((paragraph, j) => (
 										<p
-											key={paragraph}
+											key={`content-${index}-${j}`}
 											className="text-sm md:text-base text-onSurface-100 font-light leading-[1.8]"
 										>
 											{paragraph}
 									</p>
 								))) : (
-                                    <p className="text-sm md:text-base text-onSurface-100 font-light leading-[1.8]">
+                                    <p className="text-sm md:text-base text-onSurface-100 font-light leading-[1.8]" key={`content-${index}`}>
                                         {section.content}
                                     </p>
                                 )}
