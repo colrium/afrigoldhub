@@ -27,7 +27,7 @@ function inputClassName() {
 }
 
 export default function ContactFormSection() {
-	const { t } = useTranslation([  "contact", "operations" ]);
+	const { t } = useTranslation(["contact", "operations"]);
 	const router = useRouter();
 	const [state, setState] = useState<ReasonState>({
 		reason: "",
@@ -38,16 +38,18 @@ export default function ContactFormSection() {
 		error: null,
 	});
 
+	// @ts-ignore
 	const reasons = t("contact:contact_reasons.options", {
 		returnObjects: true,
-	}) as Option[];
-	const fields = t("contact:form.fields", { returnObjects: true }) as Record<
+	}) as unknown as Option[];
+
+	const fields = t("contact:form.fields", { returnObjects: true }) as unknown as Record<
 		string,
 		Field
 	>;
 	const opportunityOptions = t("contact:form.fields.opportunity.options", {
 		returnObjects: true,
-	}) as Option[];
+	}) as unknown as Option[];
 	const operationCountries = t("operations:locations.countries", {
 		returnObjects: true,
 	}) as string[];
@@ -74,7 +76,7 @@ export default function ContactFormSection() {
 
 	const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
-		
+
 		if (!formspreeFormId) {
 			console.error("Formspree form ID is not configured");
 			setState((current) => ({

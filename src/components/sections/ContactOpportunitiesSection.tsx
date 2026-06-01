@@ -14,7 +14,7 @@ export default function ContactOpportunitiesSection() {
 	const { t } = useTranslation(["contact", "invest"]);
 	const opportunities = t("invest:opportunities.items", {
 		returnObjects: true,
-	}) as Opportunity[];
+	}) as unknown as Opportunity[];
 
 	return (
 		<section className="bg-surface-900 py-20">

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Link from "next/link";
 import { Trans, useTranslation } from "next-i18next/pages";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";

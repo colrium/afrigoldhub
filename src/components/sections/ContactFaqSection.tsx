@@ -9,7 +9,7 @@ type ContactFaq = {
 export default function ContactFaqSection() {
 	const { t } = useTranslation([  "contact" ]);
 	const [openIndex, setOpenIndex] = useState<number | null>(0);
-	const items = t("contact:faq.items", { returnObjects: true }) as ContactFaq[];
+	const items = t("contact:faq.items", { returnObjects: true }) as unknown as ContactFaq[];
 
 	return (
 		<section className=" py-24">

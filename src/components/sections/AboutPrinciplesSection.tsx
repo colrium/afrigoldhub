@@ -16,7 +16,7 @@ export default function AboutPrinciplesSection() {
 	const { t } = useTranslation(["about"]);
 	const items = t("about:principles.items", {
 		returnObjects: true,
-	}) as Principle[];
+	}) as unknown as Principle[];
 
 	return (
 		<section className="py-24">

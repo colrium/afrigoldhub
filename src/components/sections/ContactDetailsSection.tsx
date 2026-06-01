@@ -27,10 +27,8 @@ type DirectContact = {
 
 export default function ContactDetailsSection() {
 	const { t } = useTranslation([  "contact" ]);
-	const offices = t("contact:offices.items", { returnObjects: true }) as Office[];
-	const contacts = t("contact:direct_contacts.items", {
-		returnObjects: true,
-	}) as DirectContact[];
+	const offices = t("contact:offices.items", { returnObjects: true }) as unknown as Office[];
+	const contacts = t("contact:direct_contacts.items", { returnObjects: true	}) as unknown as DirectContact[];
 
 	return (
 		<>

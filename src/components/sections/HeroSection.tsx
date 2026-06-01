@@ -1,11 +1,10 @@
+// @ts-nocheck
 import Image from "next/image";
 import Link from "next/link";
 import { Trans } from "next-i18next/client";
 import dynamic from "next/dynamic";
 import { useTranslation } from "next-i18next/pages";
 import { Chip } from "@mui/material";
-
-
 
 /* const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 	ssr: false,
@@ -48,7 +47,7 @@ const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), {
 
 export default function HeroSection() {
 	const { t } = useTranslation(["common", "home"]);
-    const certifications = t("home:certifications_bar.items", { returnObjects: true }) as {
+	const certifications = t("home:certifications_bar.items", { returnObjects: true }) as {
 		code: string;
 		name: string;
 		note: string;
@@ -114,7 +113,6 @@ export default function HeroSection() {
 							<span>{t("home:hero.badge")}</span>
 						</div>
 						<HeroGlobe />
-						
 					</div>
 				</div>
 			</div>

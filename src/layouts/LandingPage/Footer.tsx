@@ -19,7 +19,7 @@ export default function Footer() {
 						<Link href="/" className="flex items-center gap-2.5 mb-5">
 							<Image
 								className="hidden md:flex md:mr-1"
-								src="/img/logo-three-tone.svg"
+								src="/img/logo.svg"
 								alt="logo"
 								width={32}
 								height={32}

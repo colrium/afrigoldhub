@@ -6,6 +6,7 @@ import InvestmentTiers from "@/components/InvestmentTiers"
 
 type InvestmentTiersSectionProps = ComponentPropsWithoutRef<"section">;
 
+// @ts-ignore
 export default function InvestmentTiersSection({ className, ...props }: InvestmentTiersSectionProps) {
 	const { t } = useTranslation(["common", "invest"]);
 

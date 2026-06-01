@@ -147,7 +147,7 @@ const stripLocalePrefix = (path: string) => {
 						<Link href="/" className="flex items-center gap-2">
 							<Image
 								className="hidden lg:flex lg:mr-1"
-								src="/img/logo-three-tone.svg"
+								src="/img/logo.svg"
 								alt="logo"
 								width={32}
 								height={32}
