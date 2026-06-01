@@ -1,7 +1,6 @@
-import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { useTranslation } from "@/hooks";
-import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
 import { ErrorPageSection } from "@/components/sections";
 import { getI18nProps } from "@/lib/i18n";
 

@@ -28,21 +28,25 @@ export const makeStaticProps =
 		props: await getI18nProps(ctx, ns),
 	});
 export function getLocale(params: GetServerSidePropsContext | GetStaticPropsContext) {
-	const locale = params?.locale as string;
+	const routeLocale = params.params?.locale;
 	const validLocales = i18nextConfig.i18n.locales;
 
-	if (!validLocales.includes(locale)) {
+	if (typeof routeLocale === "string" && !validLocales.includes(routeLocale)) {
 		return null; // caller can return notFound()
 	}
 
-	return locale;
+	const locale = typeof routeLocale === "string" ? routeLocale : params.locale;
+
+	return validLocales.includes(locale as string)
+		? (locale as string)
+		: i18nextConfig.i18n.defaultLocale;
 }
 
 export async function getI18nProps(
 	params: GetServerSidePropsContext | GetStaticPropsContext,
 	namespaces: string[]
 ) {
-	const locale = getLocale(params) || i18nextConfig.i18n.defaultLocale;
+	const locale = getLocale(params);
 	if (!locale) return null;
 
 	return {

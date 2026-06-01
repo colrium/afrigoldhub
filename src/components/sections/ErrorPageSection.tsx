@@ -9,6 +9,7 @@ type ErrorPageSectionProps = {
 	description: string;
 	homeLabel: string;
 	contactLabel: string;
+	detail?: string;
 };
 
 export default function ErrorPageSection({
@@ -18,6 +19,7 @@ export default function ErrorPageSection({
 	description,
 	homeLabel,
 	contactLabel,
+	detail,
 }: ErrorPageSectionProps) {
 	return (
 		<section className="relative min-h-[72vh] overflow-hidden bg-[#050505] px-6 py-24 md:px-8 md:py-32">
@@ -44,6 +46,11 @@ export default function ErrorPageSection({
 						<p className="mt-6 text-base font-light leading-[1.8] text-onSurface-100 md:text-lg">
 							{description}
 						</p>
+						{detail ? (
+							<pre className="mt-6 max-h-64 overflow-auto whitespace-pre-wrap rounded border border-primary/20 bg-black/40 p-4 text-xs leading-relaxed text-onSurface-100">
+								{detail}
+							</pre>
+						) : null}
 					</div>
 				</div>
 

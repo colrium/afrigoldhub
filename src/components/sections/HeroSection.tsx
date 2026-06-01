@@ -1,7 +1,7 @@
 // @ts-nocheck
 import Image from "next/image";
 import Link from "next/link";
-import { Trans } from "next-i18next/client";
+import { Trans } from "next-i18next/pages";
 import dynamic from "next/dynamic";
 import { useTranslation } from "@/hooks";
 import { Chip } from "@mui/material";
