@@ -15,7 +15,7 @@
 		"notFound": "Seite nicht gefunden",
 		"serverError": "Interner Serverfehler",
 		"forbidden": "Zugriff verweigert",
-		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"pageTitle": "{{statusCode}} - {{title}}",
 		"statusLabel": "Fehler {{statusCode}}",
 		"notFoundTitle": "Seite nicht gefunden",
 		"notFoundDescription": "Die gesuchte Seite wurde möglicherweise verschoben, entfernt oder hat nie existiert. Kehren Sie zur Startseite zurück oder kontaktieren Sie das AfriGold Hub-Team, wenn Sie Hilfe bei der Suche nach etwas Bestimmtem benötigen.",

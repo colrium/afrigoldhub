@@ -15,7 +15,7 @@
 		"notFound": "Ukurasa haupatikani",
 		"serverError": "Hitilafu ya ndani ya seva",
 		"forbidden": "Ufikiaji umekatazwa",
-		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"pageTitle": "{{statusCode}} - {{title}}",
 		"statusLabel": "Hitilafu {{statusCode}}",
 		"notFoundTitle": "Ukurasa haupatikani",
 		"notFoundDescription": "Ukurasa unaotafuta huenda umehamishwa, kuondolewa, au haukuwepo kamwe. Rudi nyumbani au wasiliana na timu ya AfriGold Hub ikiwa unahitaji msaada wa kupata kitu maalum.",

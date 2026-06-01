@@ -15,7 +15,7 @@
 		"notFound": "Page not found",
 		"serverError": "Internal server error",
 		"forbidden": "Access forbidden",
-		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"pageTitle": "{{statusCode}} - {{title}}",
 		"statusLabel": "Error {{statusCode}}",
 		"notFoundTitle": "Page not found",
 		"notFoundDescription": "The page you are looking for may have moved, been removed, or never existed. Return home or contact the AfriGold Hub team if you need help finding something specific.",
