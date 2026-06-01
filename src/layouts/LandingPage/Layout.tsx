@@ -3,9 +3,10 @@ import type { ReactNode } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Lenis from "lenis";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import ScrollTop from "./ScrollTop";
-import { useMotionValue, animate } from "framer-motion";
+import ChatWidget from "@/components/ChatWidget";
+import FloatingContactButtons from "@/components/FloatingContactButtons";
 
 export default function LandingPageLayout({ children }: { children: ReactNode }) {
     useEffect(() => {
@@ -45,6 +46,8 @@ export default function LandingPageLayout({ children }: { children: ReactNode })
 					}}
 				/>
 				{children}
+				<ChatWidget />
+				<FloatingContactButtons />
 				<ScrollTop querySelector="#back-to-top-anchor" />
 			</main>
 			<Footer />

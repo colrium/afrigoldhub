@@ -141,6 +141,9 @@
 		"switchedToAI": "Zu KI-Assistent gewechselt. Ich kann Fragen zu Investitionen, Betrieb und Renditen sofort beantworten.",
 		"switchedToHuman": "Sie sind jetzt mit unserem menschlichen Support-Team verbunden. Die Antwortzeiten liegen während der Geschäftszeiten (EAT) bei 1–2 Stunden.",
 		"humanFallback": "Vielen Dank für Ihre Nachricht. Ein Mitglied unseres Investmentteams wird innerhalb von 1–2 Geschäftsstunden (Ostafrikanische Zeit) antworten. Bei dringenden Anfragen senden Sie bitte eine E-Mail an invest@afrigoldhub.com.",
-		"aiFallback": "Gute Frage. Für detaillierte Antworten zu den Betriebsabläufen oder Investitionskonditionen von AfriGold Hub senden Sie uns bitte eine E-Mail an invest@afrigoldhub.com oder vereinbaren Sie ein Kennenlerngespräch. Wir antworten innerhalb von 24 Stunden."
+		"aiFallback": "Gute Frage. Für detaillierte Antworten zu den Betriebsabläufen oder Investitionskonditionen von AfriGold Hub senden Sie uns bitte eine E-Mail an invest@afrigoldhub.com oder vereinbaren Sie ein Kennenlerngespräch. Wir antworten innerhalb von 24 Stunden.",
+		"whatsappLabel": "Auf WhatsApp chatten",
+		"whatsappMessage": "Hallo AfriGold Hub, ich moechte mit Ihrem Team sprechen.",
+		"scrollTopLabel": "Zurueck nach oben"
 	}
 }
