@@ -4,6 +4,7 @@ import { appWithTranslation } from "next-i18next/pages";
 import { useEffect, type ReactElement } from "react";
 import { useRouter } from 'next/router';
 import i18n from 'i18next'
+import i18nextConfig from "../../next-i18next.config";
 import theme from "@/theme/theme";
 import { Manrope, Montserrat } from 'next/font/google';
 import type { AppPropsWithLayout } from "@/types/next";
@@ -49,4 +50,4 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
 	);
 }
 
-export default appWithTranslation(App);
+export default appWithTranslation(App, i18nextConfig);
