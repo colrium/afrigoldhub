@@ -140,8 +140,8 @@
 			"Expected returns",
 			"Is it licensed"
 		],
-		"welcomeMessage": "Welcome to AfriGold Hub. Ask me about our investment tiers, operations, or returns.",
-		"switchedToAI": "Switched to AI assistant. I can answer questions instantly about investments, operations, and returns.",
+		"welcomeMessage": "Welcome to AfriGold Hub. Ask me about investment tiers, gold supply, technology partnerships, operations, or returns.",
+		"switchedToAI": "Switched to AI assistant. I can answer questions instantly about investments, technology partnerships, gold supply, operations, and returns.",
 		"switchedToHuman": "You're now connected to our human support team. Response times may be 1–2 hours during business hours (EAT).",
 		"humanFallback": "Thanks for your message. A member of our investment team will respond within 1–2 business hours (East Africa Time). For urgent queries, email invest@afrigoldhub.com.",
 		"aiFallback": "Great question. For detailed answers about AfriGold Hub's operations or investment terms, please email us at invest@afrigoldhub.com or schedule a discovery call. We respond within 24 hours."

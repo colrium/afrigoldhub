@@ -9,8 +9,8 @@
 	},
 	"overview": {
 		"tag": "Our Model",
-		"headline": "Upstream, midstream, downstream - all in-house",
-		"description": "Unlike many artisanal gold platforms, AfriGold Hub controls the entire value chain in-house - from geological assessment and licence management through extraction, processing, smelting, assay, and direct sale. This vertical integration eliminates intermediary costs, reduces leakage risk, and gives our investment partners maximum visibility into the margin at every stage.",
+		"headline": "Upstream, midstream, downstream - from survey to supply",
+		"description": "Unlike many artisanal gold platforms, AfriGold Hub connects the entire value chain - from geological assessment, field sampling, and licence management through extraction, ore hauling, crushing, concentration, smelting support, grading, verification, export documentation, and buyer coordination. This integration reduces leakage risk and gives partners clearer visibility into the margin at every stage.",
 		"pillars": [
 			{
 				"id": "upstream",
@@ -20,7 +20,7 @@
 					"Geological Survey",
 					"Licence Acquisition",
 					"Site Preparation",
-					"Pit Extraction"
+					"Artisanal Extraction"
 				]
 			},
 			{
@@ -29,6 +29,7 @@
 				"color": "#4A5C2A",
 				"stages": [
 					"Gravity Concentration",
+					"Crushing & Milling",
 					"Concentrate Cleaning",
 					"Smelting",
 					"Independent Assay"
@@ -40,6 +41,7 @@
 				"color": "#1C1608",
 				"stages": [
 					"Licensed Buyer Sale",
+					"Export Documentation",
 					"Royalty Declaration",
 					"Revenue Collection",
 					"Investor Distribution"

@@ -2,7 +2,7 @@
 	"hero": {
 		"tag": "Invest",
 		"headline": "Partner in practical African growth opportunities",
-		"description": "Invest through structured opportunities across gold aggregation, commercial goat farming, and horticulture agribusiness, with documented operating plans, partner reporting, and clear onboarding.",
+		"description": "Invest or partner through structured gold aggregation, gold supply, equipment, technology, commercial goat farming, and horticulture agribusiness opportunities, with documented operating plans, partner reporting, and clear onboarding.",
 		"badge": { "text": "Minimum 3-month commitment", "status": "active" },
 		"cta_primary": { "label": "View Opportunities", "href": "#opportunities" },
 		"cta_secondary": {
@@ -17,8 +17,8 @@
 	},
 	"opportunities": {
 		"tag": "Investment Opportunities",
-		"headline": "More than gold investing",
-		"description": "The opportunity pipeline now extends from precious-metal aggregation into food security and export-oriented agribusiness. Each route is handled as a separate investment discussion with its own operating model, capital use, and due diligence pack.",
+		"headline": "Capital, equipment, and operating partnerships",
+		"description": "The opportunity pipeline extends from gold aggregation into strategic equipment partnerships, technology-enabled production growth, food security, and export-oriented agribusiness. Each route is handled as a separate investment discussion with its own operating model, capital use, and due diligence pack.",
 		"labels": {
 			"capital_use": "Capital use",
 			"investor_fit": "Investor fit"
@@ -26,15 +26,15 @@
 		"items": [
 			{
 				"id": "gold-aggregation",
-				"title": "Busia gold aggregation",
-				"category": "Gold and trading",
-				"description": "Working capital for documented gold sourcing, aggregation, processing support, and compliant onward sale through the Busia operating network.",
-				"capital_use": "Purchase liquidity, aggregation logistics, testing, refining coordination, and transaction documentation.",
-				"investor_fit": "Investors seeking a shorter-cycle opportunity linked to AfriGold Hub's existing gold value chain.",
+				"title": "Gold aggregation and supply",
+				"category": "Gold mining and trade",
+				"description": "Working capital for documented gold sourcing, aggregation, processing support, dore preparation, quality verification, and compliant onward sale through AfriGold Hub's regional operating network.",
+				"capital_use": "Purchase liquidity, aggregation logistics, testing, refining coordination, export documentation support, and transaction reporting.",
+				"investor_fit": "Investors seeking a shorter-cycle opportunity linked to exploration, artisanal mining, mineral recovery, and structured gold supply.",
 				"highlights": [
 					"Built around documented purchase and sale records",
-					"Can be paired with the existing gold investment tier structure",
-					"Designed for frequent reporting and disciplined capital rotation"
+					"Supports dore supply, refined-gold partnerships, and approved buyer engagement",
+					"Designed for frequent reporting, traceability, and disciplined capital rotation"
 				],
 				"cta": "Discuss gold aggregation"
 			},
@@ -68,10 +68,35 @@
 			}
 		]
 	},
+	"technology_partnerships": {
+		"tag": "Technology Partnerships",
+		"headline": "Scale production through equipment and operating systems",
+		"description": "AfriGold Hub is inviting investors, mining technology partners, and equipment suppliers to help increase recovery efficiency and production capacity across its gold-producing regions.",
+		"priority_label": "Priority area",
+		"items": [
+			{
+				"title": "Crushing, milling, and recovery systems",
+				"description": "Modern crushing equipment, efficient milling systems, gravity gold recovery systems, processing plant upgrades, and mobile mineral recovery units."
+			},
+			{
+				"title": "Survey and site monitoring technology",
+				"description": "Drone surveying systems, site monitoring tools, CCTV, mine security, and field visibility systems that improve planning and accountability."
+			},
+			{
+				"title": "Inventory, compliance, and reporting systems",
+				"description": "Digital systems for stockpile control, production records, buyer documentation, compliance workflows, and partner reporting."
+			},
+			{
+				"title": "Export logistics and buyer partnerships",
+				"description": "Export logistics partners, refinery partners, and international gold buyers supporting structured supply into East Africa, the Middle East, Dubai, and wider commodity markets."
+			}
+		],
+		"cta": { "label": "Propose a Partnership", "href": "/contact?reason=partnership#contact-form" }
+	},
     "tiers": {
 	"tag": "Investment Tiers",
-	"headline": "Gold aggregation partner tiers",
-	"description": "These tiers apply to the gold aggregation opportunity. Agribusiness opportunities are scoped separately after the first enquiry and due diligence review.",
+	"headline": "Gold partner tiers",
+	"description": "These tiers apply to the gold aggregation and supply opportunity. Equipment, technology, refinery, logistics, and agribusiness opportunities are scoped separately after the first enquiry and due diligence review.",
 	"mostPopular": "Most Popular",
 	"projectedRoi": "Projected ROI:",
 	"items": [

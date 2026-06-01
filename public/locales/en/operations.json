@@ -2,16 +2,16 @@
 	"hero": {
 		"tag": "Operations",
 		"headline": "From earth to <gold>gold bar</gold>",
-		"subheadline": "Across seven African nations, one uncompromising standard",
-		"description": "Headquartered in Busia, Uganda, AfriGold Hub operates chemical-free gravity concentration facilities across Uganda, Kenya, Tanzania, Eswatini, Sierra Leone, South Africa, and Malawi. Every gram produced is chain-of-custody documented from licensed pit to verified buyer - with zero mercury and zero cyanide at every site.",
+		"subheadline": "Across African gold corridors, one uncompromising standard",
+		"description": "Headquartered in Busia, Uganda, AfriGold Hub operates through gold-producing regions including Uganda, Kenya, Tanzania, Eswatini, and Malawi, with wider regional relationships supporting mineral access and growth. Every gram produced is chain-of-custody documented from licensed pit to verified buyer - with zero mercury and zero cyanide at every site.",
 		"cta_primary": { "label": "View Investment Plans", "href": "/invest" },
 		"cta_secondary": { "label": "See Our Locations", "href": "/locations" },
 		"badge": { "text": "7 Countries · 1 Standard", "status": "active" }
 	},
 	"overview": {
 		"tag": "How We Work",
-		"headline": "A proven process, replicated across a continent",
-		"description": "Our operational model is simple, replicable, and profitable. We take alluvial and eluvial ore from licensed pits, run it through our gravity concentration system - sluice boxes, spirals, and shaking tables - and smelt the output into independently assayed gold bars. No chemicals. No shortcuts. Full documentation at every stage.",
+		"headline": "A practical field model, strengthened by survey and processing discipline",
+		"description": "Our operational model brings exploration, artisanal and small-scale mining, mineral processing, and supply coordination into one documented workflow. We identify viable deposits, extract ore through supervised field teams, improve recovery through gravity-led processing, and prepare verified gold for licensed buyers and long-term commercial partners.",
 		"stats": [
 			{ "value": "266kg", "label": "Gold produced monthly", "prefix": "~" },
 			{ "value": "88%", "label": "Net profit margin", "prefix": "" },
@@ -23,37 +23,60 @@
 	},
 	"features": {
 		"tag": "What We Do",
-		"headline": "End-to-end gold production",
+		"headline": "End-to-end gold operations and supply",
 		"items": [
 			{
 				"icon": "pick",
-				"title": "Licensed pit extraction",
-				"description": "All ore extracted from Mining Licence-approved pits across seven countries, under certified mine supervisor oversight and active chain-of-custody logging from the first weight ticket."
+				"title": "Artisanal and small-scale mining",
+				"description": "Field teams combine surface mining, manual excavation, ore hauling, stockpile management, shaft access, tunnel support, ventilation, water management, and safety reinforcement across mineral-rich concessions."
 			},
 			{
 				"icon": "droplets",
-				"title": "Chemical-free gravity concentration",
-				"description": "Sluice boxes, spiral concentrators, and shaking tables separate gold from gangue using only water and gravity. Zero mercury, zero cyanide, zero chemical tailings across the entire network."
+				"title": "Gold processing and recovery",
+				"description": "Processing capabilities include ore crushing and grinding, concentration, recovery systems, purification support, smelting support, dore preparation, mineral grading, and quality-control documentation."
 			},
 			{
 				"icon": "flame",
-				"title": "On-site smelting to 99.5% purity",
-				"description": "Cleaned concentrate is smelted in on-site induction furnaces and cast into numbered gold bars. Every bar is independently assayed before release - minimum 99.5% purity."
+				"title": "Smelting and dore preparation",
+				"description": "Recovered concentrate is prepared for smelting, grading, dore handling, and buyer verification, with quality checks attached to each commercial movement."
 			},
 			{
 				"icon": "file-check",
 				"title": "Chain-of-custody documentation",
-				"description": "Every gram is tracked from pit weight ticket through concentrate grade, assay certificate, and buyer receipt - a full documentary chain available to all investment partners."
+				"description": "Ore, concentrate, dore, and sale documentation are tracked through the value chain so partners can review extraction records, recovery activity, grading, verification, and buyer paperwork."
 			},
 			{
 				"icon": "handshake",
-				"title": "Licensed buyer sales",
-				"description": "Gold sold exclusively through government-licensed precious metals dealers in each operating country, with full royalty declarations and export documentation per transaction."
+				"title": "Gold supply and trade support",
+				"description": "AfriGold Hub supports structured dore supply, refined-gold partnerships, buyer engagement, export documentation support, logistics coordination, traceability, and reporting for approved commercial partners."
 			},
 			{
 				"icon": "landmark",
-				"title": "Multi-country regulatory compliance",
-				"description": "Active mining licences, environmental certificates, and revenue authority registrations in all seven countries - DGSM Uganda, Mines & Geology Kenya, TMAA Tanzania, DMRE South Africa, and equivalents in Sierra Leone, Eswatini, and Malawi."
+				"title": "Regional operating relationships",
+				"description": "Our network is built around experienced local teams, community relationships, mineral-rich corridors, and country-level compliance workflows across East, West, and Southern African markets."
+			}
+		]
+	},
+	"exploration": {
+		"tag": "Exploration & Survey",
+		"headline": "Identifying commercially viable mineral deposits",
+		"description": "Before production scales, AfriGold Hub undertakes exploration and geological survey work to support responsible mining investment and resource development across East Africa and adjacent mineral corridors.",
+		"items": [
+			{
+				"title": "Geological mapping and mineral surveys",
+				"description": "Field teams map mineralised zones, gold-bearing structures, and concession potential before new production activity is prioritised."
+			},
+			{
+				"title": "Gold ore identification and field sampling",
+				"description": "Sampling programmes help validate ore potential, guide extraction planning, and reduce speculative deployment of partner capital."
+			},
+			{
+				"title": "Quartz reef and reserve assessment",
+				"description": "Quartz reef assessment, reserve analysis, and resource estimation support decisions on which zones should move from prospecting into production."
+			},
+			{
+				"title": "Feasibility and mine planning support",
+				"description": "Trenching, drilling support, site feasibility studies, and mine-development planning help convert promising ground into workable field operations."
 			}
 		]
 	},
@@ -63,7 +86,7 @@
 			"Uganda",
 			"Kenya",
 			"Tanzania",
-			"Swaziland",
+			"Eswatini",
 			"Sierra Leone",
 			"South Africa",
 			"Malawi"
@@ -193,15 +216,15 @@
 	},
 	"network": {
 		"tag": "Operating Network",
-		"headline": "Seven countries, one operating standard",
-		"description": "Each site follows the same documentation, environmental, and buyer-verification discipline while adapting to local geology and licensing requirements.",
+		"headline": "Regional gold corridors, one operating standard",
+		"description": "The PDF footprint highlights Kenya, Uganda, Tanzania, Eswatini, and Malawi as core East and Southern African markets. The wider site network also reflects additional operating relationships, with each location adapting the same documentation, local-team, community, and buyer-verification discipline to its geology and licensing context.",
 		"goldfield_label": "Goldfield",
 		"cta": { "label": "Explore All Locations", "href": "/locations" }
 	},
 	"steps": {
 		"tag": "The Process",
 		"headline": "Four stages, zero compromises",
-		"description": "Every site in our seven-country network follows the same documented four-stage process - from extraction to investor payment.",
+		"description": "Every site in our regional network follows the same documented four-stage process - from extraction to investor payment.",
 		"items": [
 			{
 				"id": "site-extraction",

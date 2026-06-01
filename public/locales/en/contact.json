@@ -1,8 +1,8 @@
 {
 	"hero": {
 		"tag": "Get In Touch",
-		"headline": "Let's talk about your investment",
-		"description": "Whether you're exploring gold aggregation, commercial goat farming, horticulture agribusiness, due diligence, or a site visit, our team responds to every serious enquiry within 24 hours.",
+		"headline": "Let's talk about investment, technology, or gold supply",
+		"description": "Whether you're exploring gold aggregation, equipment supply, mining technology, export logistics, refinery partnerships, commercial goat farming, horticulture agribusiness, due diligence, or a site visit, our team responds to every serious enquiry within 24 hours.",
 		"badge": { "text": "Response within 24 hours", "status": "active" }
 	},
 	"opportunities": {
@@ -99,7 +99,9 @@
 			{ "value": "investment-enquiry", "label": "Investment enquiry" },
 			{ "value": "due-diligence", "label": "Request due diligence pack" },
 			{ "value": "site-visit", "label": "Schedule a site visit" },
-			{ "value": "partnership", "label": "Business / partnership proposal" },
+			{ "value": "partnership", "label": "Technology / equipment partnership" },
+			{ "value": "gold-supply", "label": "Gold supply / buyer enquiry" },
+			{ "value": "logistics", "label": "Export / logistics partnership" },
 			{ "value": "press-media", "label": "Press & media enquiry" },
 			{ "value": "compliance-legal", "label": "Compliance / legal" },
 			{ "value": "community", "label": "Community & ESG" },
@@ -154,7 +156,10 @@
 				"required": false,
 				"type": "select",
 				"options": [
-					{ "value": "gold-aggregation", "label": "Busia gold aggregation" },
+					{ "value": "gold-aggregation", "label": "Gold aggregation and supply" },
+					{ "value": "technology-partnership", "label": "Mining technology or equipment" },
+					{ "value": "gold-supply", "label": "Gold supply or refinery partnership" },
+					{ "value": "export-logistics", "label": "Export logistics" },
 					{ "value": "goat-farming", "label": "Commercial goat farming" },
 					{ "value": "horticulture", "label": "Horticulture agribusiness" },
 					{ "value": "multi-sector", "label": "Multiple opportunities" },

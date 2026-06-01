@@ -1,5 +1,3 @@
-import { Redirect } from "@/lib/redirect";
-import { GetServerSideProps } from "next";
 import Page, { getServerSideProps } from "./[locale]/index";
 export default Page
 export { getServerSideProps };
