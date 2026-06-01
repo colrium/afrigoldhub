@@ -1,75 +1,75 @@
 {
 	"misc": {
-		"label": "Terms",
-		"title": "Terms of Use",
-		"description": "These terms explain how you may use the {{site_title}} website, content, contact forms, and investor enquiry features.",
-		"lastUpdatedLabel": "Last Updated",
-		"lastUpdated": "May 31, 2026",
-		"contactLabel": "Contact Us",
+		"label": "Termos",
+		"title": "Termos de Uso",
+		"description": "Estes termos explicam como você pode usar o site da {{site_title}}, seu conteúdo, formulários de contato e recursos de consulta para investidores.",
+		"lastUpdatedLabel": "Última Atualização",
+		"lastUpdated": "31 de maio de 2026",
+		"contactLabel": "Fale Conosco",
 		"contactLink": "/contact?reason=compliance-legal",
-		"note": "These terms are a practical website notice and should be reviewed with qualified counsel before being treated as final legal terms for a specific jurisdiction."
+		"note": "Estes termos são um aviso prático do site e devem ser revisados com aconselhamento jurídico qualificado antes de serem tratados como termos legais finais para uma jurisdição específica."
 	},
 	"articles": [
 		{
-			"title": "Acceptance of These Terms",
+			"title": "Aceitação destes Termos",
 			"content": [
-				"By accessing or using this website, you agree to these Terms of Use and any policies referenced on the site. If you do not agree, you should stop using the website.",
-				"AfriGold Hub may update these terms from time to time. Continued use of the website after an update means you accept the revised terms."
+				"Ao acessar ou usar este site, você concorda com estes Termos de Uso e quaisquer políticas referenciadas no site. Se você não concordar, deve parar de usar o site.",
+				"A AfriGold Hub pode atualizar estes termos periodicamente. O uso continuado do site após uma atualização significa que você aceita os termos revisados."
 			]
 		},
 		{
-			"title": "Website Content",
+			"title": "Conteúdo do Site",
 			"content": [
-				"Content on this website is provided for general information about AfriGold Hub, its operations, investment opportunities, and partnership discussions.",
-				"Website content may be updated, corrected, expanded, or withdrawn at any time. It should not be treated as a final agreement, public offer, prospectus, guarantee, or professional advice."
+				"O conteúdo deste site é fornecido para informações gerais sobre a AfriGold Hub, suas operações, oportunidades de investimento e discussões de parceria.",
+				"O conteúdo do site pode ser atualizado, corrigido, expandido ou retirado a qualquer momento. Não deve ser tratado como um acordo final, oferta pública, prospecto, garantia ou aconselhamento profissional."
 			]
 		},
 		{
-			"title": "Investment Enquiries",
+			"title": "Consultas de Investimento",
 			"content": [
-				"Submitting an enquiry, requesting due diligence materials, or discussing an opportunity does not create an investor relationship, partnership, advisory relationship, or obligation for either party.",
-				"Any investment, partnership, site visit, or commercial arrangement is subject to qualification, due diligence, KYC or compliance checks, and signed transaction documents."
+				"Enviar uma consulta, solicitar materiais de due diligence ou discutir uma oportunidade não cria uma relação de investidor, parceria, relação de consultoria ou obrigação para qualquer uma das partes.",
+				"Qualquer investimento, parceria, visita ao local ou acordo comercial está sujeito a qualificação, due diligence, verificações de KYC ou conformidade e documentos de transação assinados."
 			]
 		},
 		{
-			"title": "Permitted Use",
+			"title": "Uso Permitido",
 			"content": [
-				"You may use this website for lawful informational and enquiry purposes only. You must not misuse the website, attempt unauthorized access, interfere with site operation, submit false information, or use the site to violate any law.",
-				"You are responsible for ensuring that your use of the website and any enquiry you submit complies with laws applicable to you."
+				"Você pode usar este site apenas para fins informativos e de consulta lícitos. Você não deve usar indevidamente o site, tentar acesso não autorizado, interferir na operação do site, enviar informações falsas ou usar o site para violar qualquer lei.",
+				"Você é responsável por garantir que seu uso do site e qualquer consulta que você enviar estejam em conformidade com as leis aplicáveis a você."
 			]
 		},
 		{
-			"title": "Intellectual Property",
+			"title": "Propriedade Intelectual",
 			"content": [
-				"Unless otherwise stated, the text, design, branding, graphics, media, and other content on this website are owned by or licensed to AfriGold Hub.",
-				"You may view and share links to public pages for informational purposes, but you may not copy, reproduce, modify, sell, or commercially exploit website content without prior written permission."
+				"Salvo indicação em contrário, o texto, design, marcas, gráficos, mídia e outros conteúdos deste site são de propriedade da AfriGold Hub ou licenciados a ela.",
+				"Você pode visualizar e compartilhar links para páginas públicas para fins informativos, mas não pode copiar, reproduzir, modificar, vender ou explorar comercialmente o conteúdo do site sem permissão prévia por escrito."
 			]
 		},
 		{
-			"title": "Third-Party Links and Materials",
+			"title": "Links e Materiais de Terceiros",
 			"content": [
-				"The website may reference third-party platforms, maps, media, documents, service providers, or external websites. These are provided for convenience or context only.",
-				"AfriGold Hub is not responsible for third-party content, availability, security, policies, or practices."
+				"O site pode fazer referência a plataformas de terceiros, mapas, mídias, documentos, provedores de serviços ou sites externos. Eles são fornecidos apenas para conveniência ou contexto.",
+				"A AfriGold Hub não é responsável pelo conteúdo, disponibilidade, segurança, políticas ou práticas de terceiros."
 			]
 		},
 		{
-			"title": "No Warranties",
+			"title": "Isenção de Garantias",
 			"content": [
-				"The website is provided on an as-is and as-available basis. AfriGold Hub does not guarantee that the website will be uninterrupted, error-free, secure, or always current.",
-				"To the fullest extent permitted by law, AfriGold Hub disclaims warranties related to the website and any reliance on website content."
+				"O site é fornecido no estado em que se encontra e conforme disponível. A AfriGold Hub não garante que o site será ininterrupto, livre de erros, seguro ou sempre atualizado.",
+				"Na extensão máxima permitida por lei, a AfriGold Hub se isenta de garantias relacionadas ao site e a qualquer confiança no conteúdo do site."
 			]
 		},
 		{
-			"title": "Limitation of Liability",
+			"title": "Limitação de Responsabilidade",
 			"content": [
-				"To the fullest extent permitted by law, AfriGold Hub will not be liable for indirect, incidental, consequential, special, punitive, or lost-profit damages arising from your use of the website.",
-				"Nothing in these terms limits liability that cannot legally be limited."
+				"Na extensão máxima permitida por lei, a AfriGold Hub não será responsável por danos indiretos, incidentais, consequenciais, especiais, punitivos ou por lucros cessantes decorrentes do seu uso do site.",
+				"Nada nestes termos limita a responsabilidade que não pode ser legalmente limitada."
 			]
 		},
 		{
-			"title": "Contact",
+			"title": "Contato",
 			"content": [
-				"Questions about these Terms of Use can be sent through the contact page using the compliance or legal enquiry option."
+				"Dúvidas sobre estes Termos de Uso podem ser enviadas através da página de contato usando a opção de consulta de conformidade ou jurídico."
 			]
 		}
 	]

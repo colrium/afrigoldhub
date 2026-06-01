@@ -1,69 +1,63 @@
 {
-	"meta": {
-		"page_title": "Privacy Policy ",
-		"meta_description": "We are committed to protecting your personal information and ensuring transparency in how we collect, use, and safeguard your data.",
-		"og_image": "/media/og-privacy.jpg"
-	},
+    "misc": {
+        "label": "Privacidade",
+        "title": "Política de Privacidade",
+        "description": "Esta política explica como a {{site_title}} lida com as informações enviadas por meio do nosso site, formulários de contato, consultas de investidores e solicitações de visita ao local.",
+        "lastUpdatedLabel": "Última Atualização",
+        "lastUpdated": "16 de maio de 2026",
+        "contactLabel": "Contatar a Equipe de Privacidade",
+        "contactLink": "/contact?reason=privacy",
+        "note": "Esta página tem a intenção de ser um aviso de privacidade prático do site e deve ser revisada com aconselhamento jurídico qualificado para requisitos legais específicos de cada jurisdição antes de ser tratada como uma política legal final. Dúvidas sobre esta página ou como ela se aplica à sua consulta podem ser enviadas à equipe da {{site_title}}."
+    },   
 	"hero": {
-		"tag": "Privacy Policy",
-		"headline": "Your information, our commitment",
-		"description": "We are committed to protecting your personal information and ensuring transparency in how we collect, use, and safeguard your data.",
-		"badge": { "text": "Minimum 3-month commitment", "status": "active" },
-		"cta_primary": { "label": "Compare Tiers", "href": "#tiers" },
+		"tag": "Política de Privacidade",
+		"headline": "Suas informações, nosso compromisso",
+		"description": "Estamos comprometidos em proteger suas informações pessoais e garantir transparência em como coletamos, usamos e protegemos seus dados.",
+		"badge": { "text": "Compromisso mínimo de 3 meses", "status": "active" },
+		"cta_primary": { "label": "Comparar Níveis", "href": "/invest#tiers" },
 		"cta_secondary": {
-			"label": "Request Due Diligence",
+			"label": "Solicitar Due Diligence",
 			"href": "/contact?reason=due-diligence"
 		}
 	},
     "contact":{
-        "description": "Questions about this page or how it applies to your enquiry can be sent to the AfriGold Hub team.",
+        "description": "Dúvidas sobre esta página ou como ela se aplica à sua consulta podem ser enviadas à equipe da AfriGold Hub.",
         "link": {
-            "label": "Contact Privacy Team",
+            "label": "Contatar a Equipe de Privacidade",
             "href": "/contact?reason=privacy"
         }
     },
     "articles": [
         {
-            "title": "Information We Collect",
-            "content": [
-				"We collect information you choose to provide when you submit an enquiry, request investor materials, schedule a site visit, or contact AfriGold Hub. This may include your name, email address, phone number, country, organisation, investment interest, and message details.",
-				"We may also collect basic technical information from your browser or device, such as pages visited, approximate location, referring links, and usage patterns, to help us keep the website reliable and improve the experience."
-			]
+            "title": "Informações que Coletamos",
+            "content": ["Coletamos informações que você opta por fornecer ao enviar uma consulta, solicitar materiais de investimento, agendar uma visita ao local ou entrar em contato com a AfriGold Hub. Isso pode incluir seu nome, endereço de e-mail, número de telefone, país, organização, interesse de investimento e detalhes da mensagem.",
+
+            "Também podemos coletar informações técnicas básicas do seu navegador ou dispositivo, como páginas visitadas, localização aproximada, links de referência e padrões de uso, para nos ajudar a manter o site confiável e melhorar a experiência."]
         },
         {
-            "title": "How We Use Your Information",
-            "content": [
-				"We use submitted information to respond to enquiries, prepare relevant investor or operations information, arrange calls or site visits, and maintain communication with prospective partners.",
-				"We may use website usage data to monitor site performance, protect against abuse, understand demand for our content, and improve navigation, forms, and page content."
-			]
+            "title": "Como Usamos Suas Informações",
+            "content": ["Usamos as informações enviadas para responder a consultas, preparar informações relevantes para investidores ou operações, organizar chamadas ou visitas ao local e manter a comunicação com parceiros em potencial.",
+            "Podemos usar dados de uso do site para monitorar o desempenho do site, proteger contra abusos, entender a demanda por nosso conteúdo e melhorar a navegação, formulários e conteúdo das páginas."]
         },
         {
-            "title": "Sharing and disclosure",
-            "content": [
-				"We do not sell personal information. We may share information with service providers, professional advisers, compliance partners, or operational team members where this is reasonably needed to respond to your request or operate the website.",
-				"We may disclose information if required by law, regulation, court order, or a legitimate request from a competent authority, or where disclosure is necessary to protect our rights, users, operations, or partners."
-			]
+            "title": "Compartilhamento e Divulgação",
+            "content": ["Não vendemos informações pessoais. Podemos compartilhar informações com provedores de serviços, consultores profissionais, parceiros de conformidade ou membros da equipe operacional quando isso for razoavelmente necessário para responder à sua solicitação ou operar o site.",
+            "Podemos divulgar informações se exigido por lei, regulamento, ordem judicial ou solicitação legítima de uma autoridade competente, ou quando a divulgação for necessária para proteger nossos direitos, usuários, operações ou parceiros."]
         },
         {
-            "title": "Retention and security",
-            "content": [
-				"We retain personal information only for as long as reasonably necessary for the purposes described on this page, including enquiry handling, investor relationship management, legal compliance, dispute prevention, and business record keeping.",
-				"We use administrative, technical, and organisational safeguards designed to protect information. No website or transmission method is completely secure, so users should avoid sending sensitive identity, financial, or confidential documents through general website forms unless specifically requested through an approved channel."
-			]
+            "title": "Retenção e Segurança",
+            "content": ["Retemos informações pessoais apenas pelo tempo razoavelmente necessário para os fins descritos nesta página, incluindo tratamento de consultas, gerenciamento de relacionamento com investidores, conformidade legal, prevenção de disputas e manutenção de registros comerciais.",
+            "Usamos salvaguardas administrativas, técnicas e organizacionais projetadas para proteger as informações. Nenhum site ou método de transmissão é completamente seguro; portanto, os usuários devem evitar enviar documentos confidenciais de identificação, financeiros ou sigilosos por meio de formulários gerais do site, a menos que especificamente solicitado por meio de um canal aprovado."]
         },
         {
-            "title": "Your choices and rights",
-            "content": [
-				"You may ask us to update, correct, or delete information you have submitted, subject to legal, regulatory, security, and legitimate business retention requirements.",
-				"You may also opt out of non-essential communications by contacting us. Transactional, compliance, or enquiry-related messages may still be sent where necessary to handle an active request."
-			]
+            "title": "Suas Escolhas e Direitos",
+            "content": ["Você pode nos solicitar para atualizar, corrigir ou excluir as informações que enviou, sujeito a requisitos legais, regulatórios, de segurança e de retenção comercial legítima.",
+            "Você também pode cancelar a assinatura de comunicações não essenciais entrando em contato conosco. Mensagens transacionais, de conformidade ou relacionadas a consultas ainda podem ser enviadas quando necessário para lidar com uma solicitação ativa."]
         },
         {
-            "title": "International operations",
-            "content": [
-				"AfriGold Hub operates across multiple African jurisdictions and may handle enquiries from users in other countries. Information may therefore be processed in a country different from your own, subject to appropriate operational and compliance controls.",
-				"This page is intended as a practical website privacy notice and should be reviewed with qualified counsel for jurisdiction-specific legal requirements before being treated as a final legal policy."
-			]
+            "title": "Operações Internacionais",
+            "content": ["A AfriGold Hub opera em múltiplas jurisdições africanas e pode lidar com consultas de usuários em outros países. Portanto, as informações podem ser processadas em um país diferente do seu, sujeitas a controles operacionais e de conformidade apropriados.",
+            "Esta página tem a intenção de ser um aviso de privacidade prático do site e deve ser revisada com aconselhamento jurídico qualificado para requisitos legais específicos de cada jurisdição antes de ser tratada como uma política legal final."]
         }
     ]
 }

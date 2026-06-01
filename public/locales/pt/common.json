@@ -1,50 +1,58 @@
 {
-	"welcome": "Welcome",
-	"loading": "Loading...",
-	"changeLanguage": "Change Language",
-	"goHome": "Go Home",
-	"active": "Active",
+    "misc": {
+		"welcome": "Bem-vindo",
+		"loading": "Carregando...",
+		"changeLanguage": "Alterar idioma",
+		"goHome": "Ir para a página inicial",
+		"active": "Ativo"        
+	},
+	"form": {
+		"submissionError": "Falha no envio. Tente novamente mais tarde ou entre em contato com o suporte.",
+		"sending": "Enviando..."
+	},
 	"errors": {
-		"notFound": "Page not found",
-		"serverError": "Internal server error",
-		"forbidden": "Access forbidden",
+        "error": "Erro",
+		"notFound": "Página não encontrada",
+		"serverError": "Erro interno do servidor",
+		"forbidden": "Acesso negado",
 		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
-		"statusLabel": "Error {{statusCode}}",
-		"notFoundTitle": "Page not found",
-		"notFoundDescription": "The page you are looking for may have moved, been removed, or never existed. Return home or contact the AfriGold Hub team if you need help finding something specific.",
-		"serverErrorTitle": "Something went wrong",
-		"serverErrorDescription": "The site could not complete this request. Our team has been notified where possible, and you can try again shortly or contact us directly.",
-		"genericTitle": "Unexpected error",
-		"genericDescription": "An unexpected error interrupted this request. Please try again, return home, or contact the AfriGold Hub team for support.",
+		"statusLabel": "Erro {{statusCode}}",
+		"notFoundTitle": "Página não encontrada",
+		"notFoundDescription": "A página que você está procurando pode ter sido movida, removida ou nunca ter existido. Volte para a página inicial ou entre em contato com a equipe da AfriGold Hub se precisar de ajuda para encontrar algo específico.",
+		"serverErrorTitle": "Algo deu errado",
+		"serverErrorDescription": "O site não conseguiu concluir esta solicitação. Nossa equipe foi notificada sempre que possível. Tente novamente em breve ou entre em contato conosco diretamente.",
+		"genericTitle": "Erro inesperado",
+		"genericDescription": "Um erro inesperado interrompeu esta solicitação. Tente novamente, volte para a página inicial ou entre em contato com a equipe da AfriGold Hub para obter suporte.",
+        
 		"actions": {
-			"home": "Return Home",
-			"contact": "Contact Support"
+			"home": "Voltar para o início",
+			"contact": "Contatar o suporte"
 		}
 	},
 	
 	"locales": [
 		{
-			"label": "English",
+			"label": "Inglês",
 			"code": "en",
-			"flag": "/img/flags/en.svg"
+			"flag": "/img/flags/gb.svg"
 		},
 		{
-			"label": "French",
+			"label": "Francês",
 			"code": "fr",
 			"flag": "/img/flags/fr.svg"
 		},
 		{
-			"label": "Swahili",
+			"label": "Suaíli",
 			"code": "sw",
 			"flag": "/img/flags/tz.svg"
 		},
 		{
-			"label": "Portuguese",
+			"label": "Português",
 			"code": "pt",
 			"flag": "/img/flags/pt.svg"
 		},
 		{
-			"label": "German",
+			"label": "Alemão",
 			"code": "de",
 			"flag": "/img/flags/de.svg"
 		}
@@ -52,91 +60,90 @@
 	"nav": {
 		"logo_alt": "AfriGold Hub",
 		"links": [
-			{ "label": "Operations", "href": "/operations" },
-			{ "label": "Locations", "href": "/locations" },
-			{ "label": "Value Chain", "href": "/value-chain" },
-			{ "label": "Invest", "href": "/invest" },
-			{ "label": "Market", "href": "/#market", "excludeOnMainNav": true },
-			{ "label": "Gallery", "href": "/#gallery", "excludeOnMainNav": true },
-			{ "label": "FAQ", "href": "/#faq" },
-			{ "label": "Contact", "href": "/contact" },
-			{ "label": "About", "href": "/about" }
+			{ "label": "Operações", "href": "/operations" },
+			{ "label": "Localizações", "href": "/locations" },
+			{ "label": "Cadeia de Valor", "href": "/value-chain" },
+			{ "label": "Invista", "href": "/invest" },
+			{ "label": "Galeria", "href": "/#gallery", "excludeOnMainNav": true },
+			{ "label": "FAQ", "href": "/#faq", "excludeOnMainNav": true },
+			{ "label": "Contato", "href": "/contact" },
+			{ "label": "Sobre", "href": "/about" }
 		],
-		"cta_ghost": { "label": "Learn More", "href": "/#faq" },
-		"cta_primary": { "label": "Partner With Us", "href": "/invest" }
+		"cta_ghost": { "label": "Saiba mais", "href": "/#faq" },
+		"cta_primary": { "label": "Seja nosso parceiro", "href": "/invest" }
 	},
 	"footer": {
-		"description": "This is a non-page component that requires its own namespace",
+		"description": "A principal plataforma de investimento em ouro artesanal da África",
 		"columns": {
 			"company": {
-				"heading": "Company",
+				"heading": "Empresa",
 				"links": [
-					{ "label": "About Us", "href": "/about" },
-					{ "label": "Our Team", "href": "/about#team" },
-					{ "label": "Operations", "href": "/operations" },
-					{ "label": "Newsroom", "href": "/news" }
+					{ "label": "Sobre nós", "href": "/about" },
+					{ "label": "Nossa equipe", "href": "/about#team" },
+					{ "label": "Operações", "href": "/operations" },
+					{ "label": "Sala de imprensa", "href": "/news" }
 				]
 			},
 			"invest": {
-				"heading": "Invest",
+				"heading": "Invista",
 				"links": [
-					{ "label": "Investment Tiers", "href": "/invest" },
-					{ "label": "Value Chain", "href": "/value-chain" },
-					{ "label": "Partner Agreement", "href": "/invest#agreement" },
-					{ "label": "Risk Disclosure", "href": "/invest#risk" },
-					{ "label": "Financial Reports", "href": "/invest#reports" }
+					{ "label": "Níveis de investimento", "href": "/invest" },
+					{ "label": "Cadeia de valor", "href": "/value-chain" },
+					{ "label": "Acordo com parceiro", "href": "/invest#agreement" },
+					{ "label": "Divulgação de riscos", "href": "/invest#risk" },
+					{ "label": "Relatórios financeiros", "href": "/invest#reports" }
 				]
 			},
 			"resources": {
-				"heading": "Resources",
+				"heading": "Recursos",
 				"links": [
-					{ "label": "Gallery", "href": "/#gallery" },
-					{ "label": "Gold Market", "href": "/#market" },
-					{ "label": "Mine Locations", "href": "/locations" },
-					{ "label": "Certifications", "href": "/about#certifications" }
+					{ "label": "Galeria", "href": "/#gallery" },
+					{ "label": "Mercado do ouro", "href": "/#market" },
+					{ "label": "Localizações das minas", "href": "/locations" },
+					{ "label": "Certificações", "href": "/about#certifications" }
 				]
 			},
 			"contact": {
-				"heading": "Contact",
+				"heading": "Contato",
 				"links": [
 					{
 						"label": "invest@afrigoldhub.com",
 						"href": "mailto:invest@afrigoldhub.com"
 					},
-					{ "label": "Busia HQ Office", "href": "/contact#hq-busia" },
+					{ "label": "Escritório central em Busia", "href": "/contact#hq-busia" },
 					{
-						"label": "Nairobi Regional Office",
+						"label": "Escritório regional em Nairóbi",
 						"href": "/contact#regional-nairobi"
 					},
-					{ "label": "Schedule a Call", "href": "/contact" }
+					{ "label": "Agendar uma ligação", "href": "/contact" }
 				]
 			}
 		},
-		"copyright": "© {{year}} {{organization}} All rights reserved.",
+		"copyright": "© {{year}} {{organization}} Todos os direitos reservados.",
 		"legal": {
-			"privacy": "Privacy Policy",
-			"terms": "Terms of Use",
-			"risk": "Risk Disclaimer"
+			"privacy": "Política de privacidade",
+			"terms": "Termos de uso",
+			"risk": "Aviso de riscos"
 		}
 	},
 	
 	"chat": {
-		"agentNameAI": "AfriGold AI",
-		"agentNameHuman": "Support Team",
+		"agentNameAI": "IA AfriGold",
+		"agentNameHuman": "Equipe de Suporte",
 		"online": "Online",
-		"modeAI": "AI",
-		"modeHuman": "Human",
-		"placeholder": "Ask a question...",
+		"modeAI": "IA",
+		"modeHuman": "Humano",
+		"placeholder": "Faça uma pergunta...",
 		"quickReplies": [
-			"Investment options",
-			"How it works",
-			"Expected returns",
-			"Is it licensed"
+			"Opções de investimento",
+			"Como funciona",
+			"Retornos esperados",
+			"É licenciado"
 		],
-		"welcomeMessage": "Welcome to AfriGold Hub. Ask me about our investment tiers, operations, or returns.",
-		"switchedToAI": "Switched to AI assistant. I can answer questions instantly about investments, operations, and returns.",
-		"switchedToHuman": "You're now connected to our human support team. Response times may be 1–2 hours during business hours (EAT).",
-		"humanFallback": "Thanks for your message. A member of our investment team will respond within 1–2 business hours (East Africa Time). For urgent queries, email invest@afrigoldhub.com.",
-		"aiFallback": "Great question. For detailed answers about AfriGold Hub's operations or investment terms, please email us at invest@afrigoldhub.com or schedule a discovery call. We respond within 24 hours."
+		"welcomeMessage": "Bem-vindo à AfriGold Hub. Pergunte-me sobre nossos níveis de investimento, operações ou retornos.",
+		"switchedToAI": "Assistente de IA ativado. Posso responder instantaneamente a perguntas sobre investimentos, operações e retornos.",
+		"switchedToHuman": "Agora você está conectado à nossa equipe de suporte humano. O tempo de resposta pode ser de 1 a 2 horas durante o horário comercial (EAT).",
+		"humanFallback": "Agradecemos sua mensagem. Um membro da nossa equipe de investimentos responderá dentro de 1 a 2 horas úteis (horário da África Oriental). Para perguntas urgentes, envie um e-mail para invest@afrigoldhub.com.",
+		"aiFallback": "Ótima pergunta. Para respostas detalhadas sobre as operações ou os termos de investimento da AfriGold Hub, envie um e-mail para invest@afrigoldhub.com ou agende uma reunião inicial. Respondemos em até 24 horas."
 	}
 }

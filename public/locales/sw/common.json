@@ -6,8 +6,12 @@
 		"goHome": "Nenda Nyumbani",
 		"active": "Inatumika"
 	},
-        
+	"form": {
+		"submissionError": "Uwasilishaji umeshindwa. Tafadhali jaribu tena baadaye au wasiliana na msaada.",
+		"sending": "Inatuma..."
+	},
 	"errors": {
+		"error": "Hitilafu",
 		"notFound": "Ukurasa haupatikani",
 		"serverError": "Hitilafu ya ndani ya seva",
 		"forbidden": "Ufikiaji umekatazwa",
@@ -24,7 +28,6 @@
 			"contact": "Wasiliana na Msaada"
 		}
 	},
-
 	"locales": [
 		{
 			"label": "Kiingereza",
@@ -59,8 +62,7 @@
 			{ "label": "Maeneo", "href": "/locations" },
 			{ "label": "Msururu wa Thamani", "href": "/value-chain" },
 			{ "label": "Wekeza", "href": "/invest" },
-			{ "label": "Soko", "href": "/#market", "excludeOnMainNav": true },
-			{ "label": "Nyumba ya sanaa", "href": "/#gallery", "excludeOnMainNav": true },
+			{ "label": "Nyumba ya Sanaa", "href": "/#gallery", "excludeOnMainNav": true },
 			{ "label": "Maswali Yanayoulizwa Sana", "href": "/#faq", "excludeOnMainNav": true },
 			{ "label": "Wasiliana Nasi", "href": "/contact" },
 			{ "label": "Kuhusu", "href": "/about" }
@@ -69,7 +71,7 @@
 		"cta_primary": { "label": "Shirikiana Nasi", "href": "/invest" }
 	},
 	"footer": {
-		"description": "Hiki ni kipengele kisicho cha ukurasa kinachohitaji nafasi yake ya majina",
+		"description": "Jukwaa Kuu la Uwekezaji la Dhahabu ya Usanii Barani Afrika",
 		"columns": {
 			"company": {
 				"heading": "Kampuni",
@@ -93,7 +95,7 @@
 			"resources": {
 				"heading": "Nyenzo",
 				"links": [
-					{ "label": "Nyumba ya sanaa", "href": "/#gallery" },
+					{ "label": "Nyumba ya Sanaa", "href": "/#gallery" },
 					{ "label": "Soko la Dhahabu", "href": "/#market" },
 					{ "label": "Maeneo ya Mgodi", "href": "/locations" },
 					{ "label": "Vyeti", "href": "/about#certifications" }
@@ -122,7 +124,6 @@
 			"risk": "Kanusho la Hatari"
 		}
 	},
-
 	"chat": {
 		"agentNameAI": "AfriGold AI",
 		"agentNameHuman": "Timu ya Msaada",

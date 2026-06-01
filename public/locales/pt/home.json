@@ -1,59 +1,59 @@
 {
 	"hero": {
-		"badge": "Goldfield, Africa",
-		"headline": "Unlock Africa's <gold>Golden Opportunity</gold>",
-		"description": "AfriGold Hub connects serious investors with one of Africa's most productive artisanal gold mining operations. Proven technology. Licensed land. Transparent returns.",
-		"unlock": "Unlock",
-		"africa": "Africa's",
-		"goldenOpportunity": "Golden Opportunity",
-		"ctaPrimary": "View Investment Plans",
-		"ctaOutline": "See How It Works",
-		"certifiedBy": "Certified by"
+		"badge": "Goldfield, África",
+		"headline": "Desbloqueie a <gold>Oportunidade de Ouro</gold> da África",
+		"description": "A AfriGold Hub conecta investidores sérios a uma das operações de mineração de ouro artesanal mais produtivas da África. Tecnologia comprovada. Terra licenciada. Retornos transparentes.",
+		"unlock": "Desbloqueie a",
+		"africa": "da África",
+		"goldenOpportunity": "Oportunidade de Ouro",
+		"ctaPrimary": "Ver Planos de Investimento",
+		"ctaOutline": "Veja Como Funciona",
+		"certifiedBy": "Certificado por"
 	},
 	"certifications_bar": {
-		"label": "Certified & Compliant",
-		"status_label": "All Active",
-		"audit_note": "Last audit: 2024",
+		"label": "Certificado e em Conformidade",
+		"status_label": "Todos Ativos",
+		"audit_note": "Última auditoria: 2024",
 		"items": [
 			{
 				"code": "NEMA",
-				"name": "National Environment Management Authority",
-				"note": "EIA Certificate · Active"
+				"name": "Autoridade Nacional de Gestão Ambiental",
+				"note": "Certificado EIA · Ativo"
 			},
 			{
 				"code": "KRA",
-				"name": "Kenya Revenue Authority",
-				"note": "Precious Metals Dealer"
+				"name": "Autoridade Fiscal do Quênia",
+				"note": "Comerciante de Metais Preciosos"
 			},
 			{
 				"code": "MINES & GEOLOGY",
-				"name": "Mines & Geology Department",
-				"note": "Mining Licence · ML Active"
+				"name": "Departamento de Minas e Geologia",
+				"note": "Licença de Mineração · ML Ativa"
 			},
 			{
 				"code": "KEBS",
-				"name": "Kenya Bureau of Standards",
-				"note": "Assay Lab Certified"
+				"name": "Gabinete de Normas do Quênia",
+				"note": "Laboratório de Ensaios Certificado"
 			},
 			{
 				"code": "WRA",
-				"name": "Water Resources Authority",
-				"note": "Water Permit · Active"
+				"name": "Autoridade de Recursos Hídricos",
+				"note": "Permissão de Água · Ativa"
 			},
 			{
 				"code": "NITA",
-				"name": "National Industrial Training Authority",
-				"note": "Skills Training Certified"
+				"name": "Autoridade Nacional de Treinamento Industrial",
+				"note": "Treinamento de Habilidades Certificado"
 			},
 			{
 				"code": "DGSM",
-				"name": "Directorate of Geological Survey and Mines",
-				"note": "Uganda ML Registered"
+				"name": "Diretoria de Levantamento Geológico e Minas",
+				"note": "ML Uganda Registrada"
 			},
 			{
 				"code": "UNBS",
-				"name": "Uganda National Bureau of Standards",
-				"note": "Assay Accreditation · Uganda"
+				"name": "Gabinete de Normas de Uganda",
+				"note": "Acreditação de Ensaios · Uganda"
 			}
 		]
 	}

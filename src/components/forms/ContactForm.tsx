@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import { useTranslation, useSetState } from "@/hooks";
 import SendIcon from "@mui/icons-material/Send";
 import { useForm, ValidationError } from "@formspree/react";
-import { div } from "three/src/nodes/math/OperatorNode.js";
 
 type Option = { value: string; label: string };
 type Field = {
@@ -31,7 +30,7 @@ const inputClassName = "w-full rounded bg-surface border border-primary/15 px-4 
 type ContactFormProps = ComponentPropsWithoutRef<"form">;
 
 export default function ContactForm({ className = "", ...props }: ContactFormProps) {
-	const { t, tObject } = useTranslation(["contact", "operations"]);
+	const { t, tObject } = useTranslation(["contact", "operations", "common"]);
     const router = useRouter();
     const formspreeFormId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID;
     const [formspree, handleFormspreeSubmit] = useForm(formspreeFormId);
@@ -100,8 +99,12 @@ export default function ContactForm({ className = "", ...props }: ContactFormPro
 			)}
 			{formspree.result && !formspree.succeeded && (
 				<div className="mt-8 rounded-lg border border-red-500/30 bg-red-500/10 p-5">
-					<div className="text-red-800 font-medium">Error</div>
-					<p className="text-sm text-onSurface-100 mt-2 leading-relaxed">Submission failed. Please try again.</p>
+					<div className="text-red-900 font-medium">
+						{t("common:errors.error")}
+					</div>
+					<p className="text-sm text-onSurface-100 mt-2 leading-relaxed">
+						{t("common:form.submissionError")}
+					</p>
 				</div>
 			)}
 			<div className=" p-6 md:p-8 grid gap-5">
@@ -271,7 +274,9 @@ export default function ContactForm({ className = "", ...props }: ContactFormPro
 					disabled={formspree.submitting}
 					className="inline-flex items-center justify-center gap-2 bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
 				>
-					{formspree.submitting ? "Sending..." : t("contact:form.submit_label")}
+					{formspree.submitting
+						? t("common:form.sending")
+						: t("contact:form.submit_label")}
 					<SendIcon fontSize="small" />
 				</button>
 			</div>

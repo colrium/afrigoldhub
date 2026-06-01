@@ -1,24 +1,24 @@
 {
-	"tag": "Partner Stories",
-	"headline": "Trusted by investors across Africa and beyond",
+	"tag": "Histórias de Parceiros",
+	"headline": "Confiado por investidores em toda a África e além",
 	"items": [
 		{
 			"initials": "KM",
 			"name": "Kwame Mensah",
-			"title": "Private Investor, Accra",
-			"text": "The transparency of the operation impressed me most. Monthly reports are detailed, payments are consistent, and the team is genuinely accessible."
+			"title": "Investidor Privado, Acra",
+			"text": "O que mais me impressionou foi a transparência da operação. Os relatórios mensais são detalhados, os pagamentos são consistentes e a equipe é genuinamente acessível."
 		},
 		{
 			"initials": "SN",
 			"name": "Sanjeev Nair",
-			"title": "Commodities Fund Manager, Dubai",
-			"text": "In 18 months of partnership, we have received consistent returns above the projected rates. The Lupa Goldfield is as productive as advertised."
+			"title": "Gerente de Fundo de Commodities, Dubai",
+			"text": "Em 18 meses de parceria, recebemos retornos consistentes acima das taxas projetadas. O Campo de Ouro Lupa é tão produtivo quanto anunciado."
 		},
 		{
 			"initials": "AL",
 			"name": "Amara Lavigne",
-			"title": "Impact Investor, Paris",
-			"text": "The chemical-free process sealed it for me. I wanted a mining investment with a clean ESG profile - AfriGold Hub delivers exactly that."
+			"title": "Investidora de Impacto, Paris",
+			"text": "O processo livre de produtos químicos foi o que me convenceu. Eu queria um investimento em mineração com um perfil ESG limpo - a AfriGold Hub entrega exatamente isso."
 		}
 	]
 }

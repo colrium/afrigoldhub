@@ -1,37 +1,37 @@
 {
-	"tag": "Why AfriGold Hub",
-	"headline": "Built on proven ground, <gold>engineered for returns</gold>",
-	"description": "Our operation sits on the historic Lupa Goldfield in Chunya, Mbeya - one of Africa's most prolific mineral belts, with a track record stretching back to 1922.",
+	"tag": "Por que a AfriGold Hub?",
+	"headline": "Construída em terreno comprovado, <gold>projetada para retornos</gold>",
+	"description": "Nossa operação está situada no histórico Lupa Goldfield em Chunya, Mbeya - um dos cinturões minerais mais prolíficos da África, com um histórico que remonta a 1922.",
 	"cards": [
 		{
 			"icon": "anchor",
-			"title": "Gravity Concentration Technology",
-			"description": "Our chemical-free gravity process is environmentally compliant and cost-efficient, recovering gold without mercury or cyanide - fully NEMC certified."
+			"title": "Tecnologia de Concentração por Gravidade",
+			"description": "Nosso processo por gravidade livre de produtos químicos é ambientalmente compatível e economicamente eficiente, recuperando ouro sem mercúrio ou cianeto - totalmente certificado pela NEMC."
 		},
 		{
 			"icon": "license",
-			"title": "Fully Licensed Operations",
-			"description": "Active Primary Mining Licence (PML) and secured mining title. All regulatory approvals in place under Africa's Mining Act 2010 and subsequent amendments."
+			"title": "Operações Totalmente Licenciadas",
+			"description": "Licença Primária de Mineração (PML) ativa e título minerário garantido. Todas as aprovações regulatórias em vigor sob a Lei de Mineração da África de 2010 e alterações subsequentes."
 		},
 		{
 			"icon": "finance",
-			"title": "Transparent Financial Model",
-			"description": "Monthly projections of $504K net profit on $572K gross revenue, with a clear three-month capital payback pathway and quarterly investor reporting."
+			"title": "Modelo Financeiro Transparente",
+			"description": "Projeções mensais de US$ 504 mil de lucro líquido sobre uma receita bruta de US$ 572 mil, com um caminho claro de retorno do capital em três meses e relatórios trimestrais para investidores."
 		},
 		{
 			"icon": "globe",
-			"title": "African Heritage, Global Standards",
-			"description": "Rooted in Tanzanian community employment, we maintain international best-practice safety and environmental standards across our Chunya site operations."
+			"title": "Herança Africana, Padrões Globais",
+			"description": "Enraizada no emprego comunitário na Tanzânia, mantemos as melhores práticas internacionais de segurança e padrões ambientais em nossas operações no local de Chunya."
 		},
 		{
 			"icon": "investor",
-			"title": "Investor-First Governance",
-			"description": "Structured partnership agreements with defined equity positions, escrow protections, and monthly financial reporting to all strategic investors."
+			"title": "Governança Centrada no Investidor",
+			"description": "Acordos de parceria estruturados com posições de capital definidas, proteções de caução e relatórios financeiros mensais para todos os investidores estratégicos."
 		},
 		{
 			"icon": "science",
-			"title": "Scientifically Verified Reserves",
-			"description": "Ground-truth surveys and geological assessments confirm viable, workable gold concentrations across our licensed acreage in the Lupa Goldfield basin."
+			"title": "Reservas Cientificamente Verificadas",
+			"description": "Levantamentos de campo e avaliações geológicas confirmam concentrações de ouro viáveis e trabalháveis em toda a nossa área licenciada na bacia do Lupa Goldfield."
 		}
 	]
 }

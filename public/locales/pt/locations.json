@@ -1,52 +1,52 @@
 {
-	"tag": "Operations Map",
-    "headline": "Seven-country gold operations, mapped site by site.",
-    "description": "Explore AfriGold Hub's active mine locations, regional goldfields, regulatory coverage, and field imagery from extraction through finished gold handling.",
-    "viewMap": "View Map",
-    "viewGallery": "View Gallery",
-    "mineLocations": "Mine Locations",
-    "activeSites": "Active sites",
-    "zeroChemicalInputs": "Zero chemical inputs",
-    "goldfield": "Goldfield",
-    "map": {
-        "tag": "Google Map",
-        "headline": "Operations and mine locations",
-        "description": "Select a site to refocus the map and review the operating context, mineralisation, and regulatory bodies attached to each location."
-    },
+	"tag": "Mapa das Operações",
+	"headline": "Operações de ouro em sete países, mapeadas local a local.",
+	"description": "Explore as localizações ativas das minas da AfriGold Hub, as regiões auríferas, a cobertura regulatória e as imagens de campo, da extração ao manuseio do ouro acabado.",
+	"viewMap": "Ver Mapa",
+	"viewGallery": "Ver Galeria",
+	"mineLocations": "Localizações das Minas",
+	"activeSites": "Locais ativos",
+	"zeroChemicalInputs": "Zero insumos químicos",
+	"goldfield": "Campo Aurífero",
+	"map": {
+		"tag": "Mapa do Google",
+		"headline": "Operações e localizações das minas",
+		"description": "Selecione um local para reorientar o mapa e revisar o contexto operacional, a mineralização e os órgãos reguladores associados a cada local."
+	},
 	"gallery": {
-		"tag": "Field Gallery",
-        "headline": "Inside the production network",
-        "description": "Operational imagery from extraction, gravity processing, smelting, and documented buyer handling.",
-        "ctaPrimary": { "label": "Request Site Visit", "href": "/contact#site-visit" },
+		"tag": "Galeria de Campo",
+		"headline": "Dentro da rede de produção",
+		"description": "Imagens operacionais da extração, processamento por gravidade, fundição e manuseio documentado junto ao comprador.",
+		"ctaPrimary": { "label": "Solicitar Visita ao Local", "href": "/contact#site-visit" },
 		"items": [
 			{
 				"src": "/media/site-extraction.jpeg",
-				"title": "Licensed pit extraction",
-				"label": "Mining",
+				"title": "Extração em mina licenciada",
+				"label": "Mineração",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
 				"src": "/media/gravity-processing.jpeg",
-				"title": "Gravity processing circuit",
-				"label": "Processing",
+				"title": "Circuito de processamento por gravidade",
+				"label": "Processamento",
 				"className": ""
 			},
 			{
 				"src": "/media/smelting.jpeg",
-				"title": "On-site smelting",
-				"label": "Smelting",
+				"title": "Fundição no local",
+				"label": "Fundição",
 				"className": ""
 			},
 			{
 				"src": "/media/14.jpeg",
-				"title": "Field operations",
-				"label": "Site work",
+				"title": "Operações de campo",
+				"label": "Trabalho de campo",
 				"className": ""
 			},
 			{
 				"src": "/media/sale-distribution.jpeg",
-				"title": "Documented distribution",
-				"label": "Sales",
+				"title": "Distribuição documentada",
+				"label": "Vendas",
 				"className": ""
 			}
 		]
