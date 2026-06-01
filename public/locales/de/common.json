@@ -1,17 +1,21 @@
 {
-    "misc": {
+	"misc": {
 		"welcome": "Willkommen",
 		"loading": "Laden...",
 		"changeLanguage": "Sprache ändern",
 		"goHome": "Zur Startseite",
 		"active": "Aktiv"
 	},
-	
+	"form": {
+		"submissionError": "Übermittlung fehlgeschlagen. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Support.",
+		"sending": "Wird gesendet..."
+	},
 	"errors": {
+		"error": "Fehler",
 		"notFound": "Seite nicht gefunden",
 		"serverError": "Interner Serverfehler",
 		"forbidden": "Zugriff verweigert",
-		"pageTitle": "{{statusCode}} - {{title}} | AfriGold Hub",
+		"pageTitle": "{{statusCode}} - {{title}}",
 		"statusLabel": "Fehler {{statusCode}}",
 		"notFoundTitle": "Seite nicht gefunden",
 		"notFoundDescription": "Die gesuchte Seite wurde möglicherweise verschoben, entfernt oder hat nie existiert. Kehren Sie zur Startseite zurück oder kontaktieren Sie das AfriGold Hub-Team, wenn Sie Hilfe bei der Suche nach etwas Bestimmtem benötigen.",
@@ -24,7 +28,6 @@
 			"contact": "Support kontaktieren"
 		}
 	},
-	
 	"locales": [
 		{
 			"label": "Englisch",
@@ -59,7 +62,6 @@
 			{ "label": "Standorte", "href": "/locations" },
 			{ "label": "Wertschöpfungskette", "href": "/value-chain" },
 			{ "label": "Investieren", "href": "/invest" },
-			{ "label": "Markt", "href": "/#market", "excludeOnMainNav": true },
 			{ "label": "Galerie", "href": "/#gallery", "excludeOnMainNav": true },
 			{ "label": "FAQ", "href": "/#faq", "excludeOnMainNav": true },
 			{ "label": "Kontakt", "href": "/contact" },
@@ -69,7 +71,7 @@
 		"cta_primary": { "label": "Partner werden", "href": "/invest" }
 	},
 	"footer": {
-		"description": "Dies ist eine seitenunabhängige Komponente, die einen eigenen Namensraum benötigt",
+		"description": "Afrikas führende Plattform für Investitionen in artisanalen Goldbergbau",
 		"columns": {
 			"company": {
 				"heading": "Unternehmen",
@@ -122,7 +124,6 @@
 			"risk": "Risikohaftungsausschluss"
 		}
 	},
-	
 	"chat": {
 		"agentNameAI": "AfriGold KI",
 		"agentNameHuman": "Support-Team",

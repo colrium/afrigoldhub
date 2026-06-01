@@ -3,13 +3,13 @@ import Link from "next/link";
 import { useTranslation } from "@/hooks";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import VerifiedIcon from "@mui/icons-material/Verified";
+import { Trans } from "next-i18next/pages";
 
 export default function InvestHero() {
 	const { t } = useTranslation(["invest", "meta", "metrics"]);
 
 	return (
 		<section className="relative overflow-hidden bg-[#0A0A0A] pt-24 pb-20 md:pt-32 md:pb-28">
-			
 			<div
 				className="absolute inset-0 pointer-events-none"
 				style={{
@@ -22,8 +22,18 @@ export default function InvestHero() {
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-4">
 						{t("invest:hero.tag")}
 					</span>
-					<h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
-						{t("invest:hero.headline")}
+
+                    <h1 className="text-[clamp(2.6rem,6vw,5.2rem)] leading-[0.98] tracking-tight text-onSurface-100 max-w-[820px]">
+                        
+						<Trans
+                            // @ts-ignore
+							i18nKey={["invest:hero.headline"]}
+							defaults="Partner in practical African growth opportunities" 
+							components={{
+								italic: <i />,
+								gold: <span className="text-primary" />,
+							}}
+						/>
 					</h1>
 					<p className="mt-7 text-base md:text-lg text-onSurface-100 font-light leading-[1.8] max-w-[650px]">
 						{t("invest:hero.description")}
@@ -57,22 +67,27 @@ export default function InvestHero() {
 						</div>
 					</div>
 					<div className="grid grid-cols-2 gap-4">
-						{(["investmentAsk", "profitMargin", "goldPerMonth", "paybackPeriod"] as const).map(
-							(key) => (
-								<div key={key} className="border-t border-[rgba(201,168,76,0.09)] pt-5">
-									<div className="text-3xl text-primary leading-none">
-										{key === "goldPerMonth" || key === "paybackPeriod"
-											? t(`metrics:strip.${key}.value`)
-											: t(`metrics:stats.${key}.value`)}
-									</div>
-									<div className="text-xs text-onSurface-100 mt-2">
-										{key === "goldPerMonth" || key === "paybackPeriod"
-											? t(`metrics:strip.${key}.label`)
-											: t(`metrics:stats.${key}.label`)}
-									</div>
+						{(
+							[
+								"investmentAsk",
+								"profitMargin",
+								"goldPerMonth",
+								"paybackPeriod",
+							] as const
+						).map((key) => (
+							<div key={key} className="border-t border-[rgba(201,168,76,0.09)] pt-5">
+								<div className="text-3xl text-primary leading-none">
+									{key === "goldPerMonth" || key === "paybackPeriod"
+										? t(`metrics:strip.${key}.value`)
+										: t(`metrics:stats.${key}.value`)}
 								</div>
-							)
-						)}
+								<div className="text-xs text-onSurface-100 mt-2">
+									{key === "goldPerMonth" || key === "paybackPeriod"
+										? t(`metrics:strip.${key}.label`)
+										: t(`metrics:stats.${key}.label`)}
+								</div>
+							</div>
+						))}
 					</div>
 				</div>
 			</div>

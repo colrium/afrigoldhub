@@ -9,35 +9,36 @@ type PageProps = {
 };
 
 const ServerErrorPage: NextPage<PageProps> = () => {
-	const { t } = useTranslation("common");
-	const title = t("errors.serverErrorTitle");
-	const description = t("errors.serverErrorDescription");
+	const { t } = useTranslation(["common", "meta"]);
+	const siteTitle = t("meta:site.title", { defaultValue: "" });
+	const title = t("common:errors.serverErrorTitle");
+	const description = t("common:errors.serverErrorDescription");
 
 	return (
 		<div className="relative">
 			<Head>
 				<title>
-					{t("errors.pageTitle", {
+					{t("common:errors.pageTitle", {
 						statusCode: 500,
 						title,
-					})}
+					})} | {siteTitle}
 				</title>
 				<meta name="description" content={description} />
 			</Head>
 			<ErrorPageSection
 				statusCode={500}
-				statusLabel={t("errors.statusLabel", { statusCode: 500 })}
+				statusLabel={t("common:errors.statusLabel", { statusCode: 500 })}
 				title={title}
 				description={description}
-				homeLabel={t("errors.actions.home")}
-				contactLabel={t("errors.actions.contact")}
+				homeLabel={t("common:errors.actions.home")}
+				contactLabel={t("common:errors.actions.contact")}
 			/>
 		</div>
 	);
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-	const i18nProps = await getI18nProps(context, ["common"]);
+	const i18nProps = await getI18nProps(context, ["common", "meta"]);
 	return { props: { ...i18nProps } };
 };
 

@@ -1,48 +1,48 @@
 {
-	"sectionLabel": "Live Performance Overview",
+	"header": "Visão Geral do Desempenho ao Vivo",
 	"stats": {
 		"grossRevenue": {
 			"value": "$572K",
-			"label": "Monthly Gross Revenue"
+			"label": "Receita Bruta Mensal"
 		},
 		"profitMargin": {
 			"value": "88%",
-			"label": "Net Profit Margin"
+			"label": "Margem de Lucro Líquido"
 		},
 		"experience": {
-			"value": "10yr",
-			"label": "Industry Experience"
+			"value": "10 anos",
+			"label": "Experiência no Setor"
 		},
 		"investmentAsk": {
 			"value": "$189K",
-			"label": "Total Investment Ask"
+			"label": "Aporte Total de Investimento"
 		}
 	},
 	"bars": {
-		"goldOutput": "Gold Output",
-		"efficiency": "Efficiency",
-		"roiTarget": "ROI Target"
+		"goldOutput": "Produção de Ouro",
+		"efficiency": "Eficiência",
+		"roiTarget": "Meta de ROI"
 	},
 	"strip": {
 		"monthlyRevenue": {
 			"value": "$572K",
-			"label": "Monthly Revenue"
+			"label": "Receita Mensal"
 		},
 		"goldPerMonth": {
 			"value": "~266kg",
-			"label": "Gold Per Month"
+			"label": "Ouro por Mês"
 		},
 		"yearsInSector": {
 			"value": "10+",
-			"label": "Years in Sector"
+			"label": "Anos no Setor"
 		},
 		"chemicalInputs": {
 			"value": "0",
-			"label": "Chemical Inputs"
+			"label": "Insumos Químicos"
 		},
 		"paybackPeriod": {
-			"value": "3mo",
-			"label": "Payback Period"
+			"value": "3 meses",
+			"label": "Período de Retorno"
 		}
 	}
 }

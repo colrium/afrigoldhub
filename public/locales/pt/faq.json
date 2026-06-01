@@ -1,26 +1,26 @@
 {
 	"tag": "FAQ",
-	"headline": "Common investor questions",
+	"headline": "Perguntas comuns dos investidores",
 	"items": [
 		{
-			"q": "Is AfriGold Hub a licensed mining operation?",
-			"a": "Yes. We operate under a valid Primary Mining Licence (PML) issued under Africa's Mining Act 2010. All environmental and safety certifications are current and available for investor review upon request."
+			"q": "A AfriGold Hub é uma operação de mineração licenciada?",
+			"a": "Sim. Operamos sob uma Licença Primária de Mineração (PML) válida, emitida de acordo com a Lei de Mineração da África de 2010. Todas as certificações ambientais e de segurança estão atualizadas e disponíveis para análise dos investidores mediante solicitação."
 		},
 		{
-			"q": "How are investor returns calculated and distributed?",
-			"a": "Returns are calculated monthly based on verified gold sales receipts. Net profit after operational costs is distributed to investors in proportion to their equity tier. Payments are made via bank transfer within 10 business days of month-end reconciliation."
+			"q": "Como os retornos dos investidores são calculados e distribuídos?",
+			"a": "Os retornos são calculados mensalmente com base em recibos verificados de venda de ouro. O lucro líquido após os custos operacionais é distribuído aos investidores na proporção de seu nível de participação. Os pagamentos são feitos por transferência bancária em até 10 dias úteis após a conciliação do final do mês."
 		},
 		{
-			"q": "What protections do investors have?",
-			"a": "All partnerships are governed by a formal investment agreement. Capital is held in an escrow-style joint account. Strategic and Anchor partners have direct visibility into the bank account. Monthly audited reports are provided without exception."
+			"q": "Quais proteções os investidores têm?",
+			"a": "Todas as parcerias são regidas por um contrato formal de investimento. O capital é mantido em uma conta conjunta do tipo caução. Parceiros Estratégicos e Âncora têm visibilidade direta da conta bancária. Relatórios mensais auditados são fornecidos sem exceção."
 		},
 		{
-			"q": "Why is gravity concentration better than chemical processing?",
-			"a": "Gravity concentration uses no mercury or cyanide, significantly lowering operational costs and eliminating environmental liability. It is fully NEMC-compliant and aligns with Africa's move to phase out mercury in artisanal mining."
+			"q": "Por que a concentração por gravidade é melhor do que o processamento químico?",
+			"a": "A concentração por gravidade não utiliza mercúrio nem cianeto, reduzindo significativamente os custos operacionais e eliminando o passivo ambiental. É totalmente compatível com as normas da NEMC e está alinhada com o movimento da África para eliminar o mercúrio na mineração artesanal."
 		},
 		{
-			"q": "What is the minimum investment commitment period?",
-			"a": "The minimum commitment is three months, which also aligns with the projected capital payback window. After the initial term, partners may roll over, exit, or renegotiate their tier with 30 days' notice."
+			"q": "Qual é o período mínimo de comprometimento do investimento?",
+			"a": "O compromisso mínimo é de três meses, que também coincide com o período projetado de retorno do capital. Após o prazo inicial, os parceiros podem renovar, sair ou renegociar seu nível com 30 dias de antecedência."
 		}
 	]
 }

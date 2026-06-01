@@ -1,42 +1,57 @@
 {
 	"site": {
 		"title": "AfriGold Hub",
-		"tagline": "Africa's Premier Artisanal Gold Investment Platform",
-		"description": "Invest directly in artisanal gold mining operations on the African continent. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+		"tagline": "Plataforma líder da África para investimento em mineração de ouro artesanal",
+		"description": "Invista diretamente na mineração de ouro artesanal no continente africano. Retornos transparentes, processamento sem produtos químicos e operações totalmente licenciadas. Faça parte do desbloqueio da oportunidade de ouro da África."
 	},
 	"pages": {
 		"home": {
-			"title": "Home",
-			"meta_description": "Discover how {{site_title}} connects investors with Africa's most productive artisanal gold mining operations. Transparent returns, chemical-free processing, and fully licensed operations. Join us in unlocking Africa's golden opportunity."
+			"title": "Início",
+			"meta_description": "Saiba como a {{site_title}} conecta investidores a operações de mineração de ouro artesanal mais produtivas da África. Retornos transparentes, processamento sem produtos químicos e operações totalmente licenciadas. Faça parte do desbloqueio da oportunidade de ouro da África."
 		},
 		"about": {
-			"title": "About",
-			"meta_description": "Learn about {{site_title}}, our leadership, operating principles, governance model, and mission to make African artisanal gold transparent and investable.",
+			"title": "Sobre Nós",
+			"meta_description": "Saiba mais sobre a {{site_title}}, nossa liderança, princípios operacionais, modelo de governança e nossa missão de tornar o ouro artesanal africano transparente e passível de investimento.",
 			"og_image": "/media/og-about.jpg"
 		},
 		"contact": {
-			"page_title": "Contact",
-			"meta_description": "Get in touch with {{site_title}} to learn more about our artisanal gold investment opportunities or to request more information.",
+			"page_title": "Contato",
+			"meta_description": "Entre em contato com a equipe da {{site_title}}. Agende uma chamada introdutória, solicite um pacote de due diligence ou entre em contato com nossos escritórios em Busia e Nairóbi.",
 			"og_image": "/media/og-contact.jpg"
 		},
 		"invest": {
-			"page_title": "Invest",
-			"meta_description": "Compare {{site_title}} investment tiers, partner safeguards, monthly reporting, and the process for joining a licensed chemical-free gold production operation.",
+			"page_title": "Invista",
+			"meta_description": "Compare os níveis de investimento da {{site_title}}, os mecanismos de proteção ao parceiro, os relatórios mensais e o processo para aderir a uma operação de produção de ouro licenciada e sem produtos químicos.",
 			"og_image": "/media/og-invest.jpg"
 		},
+		"locations": {
+			"page_title": "Localizações",
+			"meta_description": "Descubra os locais das minas, as operações, a cobertura do Google Maps e a galeria de campo da AfriGold Hub em toda a África.",
+			"og_image": "/media/og-locations.jpg"
+		},
 		"operations": {
-			"page_title": "Operations",
-			"meta_description": "Learn about {{site_title}}'s licensed chemical-free gold production operations and the transparent investment opportunities they offer.",
+			"page_title": "Operações",
+			"meta_description": "Saiba mais sobre as operações de produção de ouro licenciadas e sem produtos químicos da {{site_title}} e as oportunidades de investimento transparentes que elas oferecem.",
 			"og_image": "/media/og-operations.jpg"
 		},
 		"value_chain": {
-			"page_title": "Value Chain ",
-			"meta_description": "Understand the full {{site_title}} gold value chain - from geological survey and licence acquisition through extraction, processing, assay, sale, and investor distribution.",
+			"page_title": "Cadeia de Valor",
+			"meta_description": "Entenda toda a cadeia de valor do ouro da {{site_title}} – desde a exploração geológica e licenciamento até a extração, processamento, análise, vendas e pagamentos aos investidores.",
 			"og_image": "/media/og-value-chain.jpg"
 		},
+		"risk_disclaimer": {
+			"page_title": "Aviso de Riscos",
+			"meta_description": "Conheça os principais riscos de investir nas operações de mineração de ouro artesanal da {{site_title}}.",
+			"og_image": "/media/og-risk-disclaimer.jpg"
+		},
+		"privacy_policy": {
+			"page_title": "Política de Privacidade",
+			"meta_description": "Saiba como a {{site_title}} lida com as informações enviadas por meio do nosso site, formulários de contato, consultas de investidores e solicitações de visita ao local.",
+			"og_image": "/media/og-privacy.jpg"
+		},
 		"terms_of_use": {
-			"page_title": "Terms of Use",
-			"meta_description": "Review the terms of use for {{site_title}}'s website and services.",
+			"page_title": "Termos de Uso",
+			"meta_description": "Revise os termos de uso do site e serviços da {{site_title}}.",
 			"og_image": "/media/og-terms.jpg"
 		}
 	}
