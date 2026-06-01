@@ -1,6 +1,7 @@
 // @ts-nocheck
 import Link from "next/link";
-import { Trans, useTranslation } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import VerifiedIcon from "@mui/icons-material/Verified";
 

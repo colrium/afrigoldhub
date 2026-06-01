@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";

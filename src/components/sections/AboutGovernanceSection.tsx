@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { FadeUp } from "@/components/animations/Fade";
 

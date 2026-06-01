@@ -1,6 +1,6 @@
 "use client";
 import { ComponentPropsWithoutRef, useState } from "react";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 type FaqItem = { q: string; a: string };
 
 // @ts-ignore

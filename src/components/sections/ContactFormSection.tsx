@@ -1,6 +1,6 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/router";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import SendIcon from "@mui/icons-material/Send";
 
 type Option = { value: string; label: string };

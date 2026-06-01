@@ -1,5 +1,5 @@
 
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { ComponentPropsWithoutRef } from "react";
 import InvestmentTiers from "@/components/InvestmentTiers"
 

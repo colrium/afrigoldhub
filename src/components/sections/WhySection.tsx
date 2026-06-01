@@ -1,5 +1,6 @@
 // @ts-nocheck
-import { useTranslation, Trans } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import AnchorIcon from "@mui/icons-material/Anchor";
 import LicenseIcon from "@mui/icons-material/LocalPolice";
 import RequestQuoteIcon from "@mui/icons-material/RequestQuote";

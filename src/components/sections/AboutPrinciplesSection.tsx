@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import QueryStatsIcon from "@mui/icons-material/QueryStats";

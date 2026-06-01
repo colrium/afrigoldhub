@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 
 type LineItem = {
 	label: string;

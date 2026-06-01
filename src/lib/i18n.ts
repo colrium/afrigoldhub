@@ -24,10 +24,10 @@ export const getStaticPaths = () => ({
 
 export const makeStaticProps =
 	(ns: string[] = ["common"]) =>
-	async (ctx: GetStaticPropsContext) => ({
+	async (ctx: GetServerSidePropsContext) => ({
 		props: await getI18nProps(ctx, ns),
 	});
-export function getLocale(params: GetStaticPropsContext) {
+export function getLocale(params: GetServerSidePropsContext) {
 	const locale = params?.locale as string;
 	const validLocales = i18nextConfig.i18n.locales;
 

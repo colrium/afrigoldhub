@@ -13,7 +13,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuItem from "@mui/material/MenuItem";
 import Drawer from "@mui/material/Drawer";
 import CloseIcon from "@mui/icons-material/Close";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 
 import { useRouter } from "next/router";
 import useSetState from "@/hooks/useSetState";

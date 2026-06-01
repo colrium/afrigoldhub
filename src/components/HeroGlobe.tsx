@@ -1,7 +1,7 @@
 // @ts-nocheck
 import GlobeGl, { GlobeMethods } from "react-globe.gl";
 import { useEffect, useRef } from "react";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { useBreakpoint } from "@/hooks/useWindowSize";
 // import { useMotionValue, useMotionValueEvent, useScroll } from "framer-motion";
 interface GlobeProps {

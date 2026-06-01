@@ -3,7 +3,8 @@
 
 import { SectionTag } from "@/components/SectionTag";
 import { FadeUp } from "@/components/animations/Fade";
-import { Trans, useTranslation } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 export default function Certifications() {

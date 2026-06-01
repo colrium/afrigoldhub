@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import PlaceIcon from "@mui/icons-material/Place";

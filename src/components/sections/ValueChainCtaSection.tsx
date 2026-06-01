@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 
 export default function ValueChainCtaSection() {
 	const { t } = useTranslation([  "value" ]);

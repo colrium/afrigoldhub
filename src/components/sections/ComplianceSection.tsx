@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 export default function ComplianceSection() {
 	const { t } = useTranslation([ "common", "compliance" ]);
 	const licences = t("compliance:items", { returnObjects: true }) as {

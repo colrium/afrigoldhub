@@ -1,16 +1,15 @@
-import type { GetStaticProps, InferGetStaticPropsType } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
 import { ErrorPageSection } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
 
-type Props = {
+type PageProps = {
 	// Add custom props here
 };
 
-const ServerErrorPage = (
-	_props: InferGetStaticPropsType<typeof getStaticProps>
-) => {
+const ServerErrorPage: NextPage<PageProps> = () => {
 	const { t } = useTranslation("common");
 	const title = t("errors.serverErrorTitle");
 	const description = t("errors.serverErrorDescription");
@@ -38,10 +37,10 @@ const ServerErrorPage = (
 	);
 };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
-	props: {
-		...(await serverSideTranslations(locale ?? "en", ["common"])),
-	},
-});
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const i18nProps = await getI18nProps(context, ["common"]);
+	return { props: { ...i18nProps } };
+};
 
 export default ServerErrorPage;

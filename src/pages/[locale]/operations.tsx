@@ -8,7 +8,7 @@ import {
 	OperationsSection,
 	CtaBand,
 } from "@/components/sections";
-import { getI18nProps } from "@/lib/getStatic";
+import { getI18nProps } from "@/lib/i18n";
 
 type PageProps = {
 	// Add custom props here

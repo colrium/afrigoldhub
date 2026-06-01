@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 const columnKeys = ["company", "invest", "resources", "contact"] as const;
 const legalLinks = {
 	privacy: "/privacy-policy",

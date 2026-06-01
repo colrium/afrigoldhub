@@ -1,6 +1,8 @@
 // @ts-nocheck
 import Link from "next/link";
-import { useTranslation, Trans } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
+
 export default function CtaBand() {
 	const { t } = useTranslation(["cta"]);
 	return (
