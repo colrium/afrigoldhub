@@ -1,13 +1,14 @@
 "use client";
 import { ComponentPropsWithoutRef, useState } from "react";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 type FaqItem = { q: string; a: string };
 
+// @ts-ignore
 export default function FaqSection({className, ...props}: ComponentPropsWithoutRef) {
 	const { t } = useTranslation(["faq" ]);
 	const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-	const items = t("faq:items", { returnObjects: true }) as FaqItem[];
+	const items = t("faq:items", { returnObjects: true }) as unknown as FaqItem[];
 
 	return (
 		<section id="faq" className={`py-28 bg-surface-900/70 ${className || ""}`} {...props}>

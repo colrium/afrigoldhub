@@ -102,7 +102,7 @@ The default app shell is applied in `src/pages/_app.tsx` through `src/layouts/La
 Static assets are stored under `public/` and can be referenced from the app with root-relative paths, for example:
 
 ```tsx
-<Image src="/img/logo-three-tone.svg" alt="AfriGold Hub" width={32} height={32} />
+<Image src="/img/logo.svg" alt="AfriGold Hub" width={32} height={32} />
 ```
 
 Images, videos, logos, flags, and earth textures are already organized under `public/img` and `public/media`.

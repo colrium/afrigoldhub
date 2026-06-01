@@ -1,7 +1,45 @@
-/* import { Redirect } from "@/lib/redirect";
-export default Redirect; */
+import type { GetStaticProps, NextPage } from "next";
+import Head from "next/head";
+import { useTranslation } from "@/hooks";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
+import { ErrorPageSection } from "@/components/sections";
+import { getI18nProps } from "@/lib/i18n";
 
-// to keep this root page with the defaultLocale
-import Page, { getStaticProps } from "./[locale]/404";
-export default Page;
-export { getStaticProps };
+type PageProps = {
+	// Add custom props here
+};
+
+const NotFoundPage: NextPage<PageProps> = () => {
+	const { t } = useTranslation("common");
+	const title = t("errors.notFoundTitle");
+	const description = t("errors.notFoundDescription");
+
+	return (
+		<div className="relative">
+			<Head>
+				<title>
+					{t("errors.pageTitle", {
+						statusCode: 404,
+						title,
+					})}
+				</title>
+				<meta name="description" content={description} />
+			</Head>
+			<ErrorPageSection
+				statusCode={404}
+				statusLabel={t("errors.statusLabel", { statusCode: 404 })}
+				title={title}
+				description={description}
+				homeLabel={t("errors.actions.home")}
+				contactLabel={t("errors.actions.contact")}
+			/>
+		</div>
+	);
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
+	const i18nProps = await getI18nProps(context, ["common"]);
+	return { props: { ...i18nProps } };
+};
+
+export default NotFoundPage;

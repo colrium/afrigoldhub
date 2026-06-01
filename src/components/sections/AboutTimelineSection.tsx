@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { FadeUp } from "@/components/animations/Fade";
 
 type TimelineItem = {
@@ -11,7 +11,7 @@ export default function AboutTimelineSection() {
 	const { t } = useTranslation(["about"]);
 	const items = t("about:timeline.items", {
 		returnObjects: true,
-	}) as TimelineItem[];
+	}) as unknown as TimelineItem[];
 
 	return (
 		<section className=" py-24">

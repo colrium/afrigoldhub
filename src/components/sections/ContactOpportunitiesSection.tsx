@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 type Opportunity = {
@@ -11,10 +11,10 @@ type Opportunity = {
 };
 
 export default function ContactOpportunitiesSection() {
-	const { t } = useTranslation(["contact", "invest"]);
-	const opportunities = t("invest:opportunities.items", {
+	const { t, tObject } = useTranslation(["contact", "invest"]);
+	const opportunities = tObject<Opportunity[]>("invest:opportunities.items", {
 		returnObjects: true,
-	}) as Opportunity[];
+	});
 
 	return (
 		<section className="bg-surface-900 py-20">

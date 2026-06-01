@@ -4,7 +4,7 @@ import Page, { getServerSideProps } from "./[locale]/index";
 export default Page
 export { getServerSideProps };
     
-/* import { getI18nProps } from "@/lib/getStatic";
+/*
 import { Redirect } from "@/lib/redirect";
 import { GetServerSideProps } from "next";
 export default Redirect;

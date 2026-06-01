@@ -9,7 +9,7 @@ import Container from "@mui/material/Container";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Fade from "@mui/material/Fade";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 
 interface Props {
 	/**
@@ -45,8 +45,8 @@ const ScrollTop = (props: Props) => {
 
 	return (
 		<Fade in={trigger}>
-			<Box role="presentation" sx={{ position: "fixed", bottom: 16, right: 16 }}>
-				<Fab onClick={handleClick} size="small" aria-label="scroll back to top">
+			<Box onClick={handleClick} role="presentation" sx={{ position: "fixed", bottom: 16, right: 16 }}>
+				<Fab size="small" aria-label="scroll back to top">
 					<KeyboardArrowUpIcon />
 				</Fab>
 				{children}

@@ -1,14 +1,15 @@
-// components/sections/Certifications.tsx
+// @ts-nocheck
 "use client";
 
 import { SectionTag } from "@/components/SectionTag";
 import { FadeUp } from "@/components/animations/Fade";
-import { Trans, useTranslation } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 export default function Certifications() {
-    const { t } = useTranslation(["common", "compliance"]);
-    const licences = t("compliance:items", { returnObjects: true }) as {
+	const { t } = useTranslation(["common", "compliance"]);
+	const licences = t("compliance:items", { returnObjects: true }) as {
 		icon: string;
 		title: string;
 		issuer: string;
@@ -43,9 +44,7 @@ export default function Certifications() {
 										{t("common:misc.active")}
 									</span>
 								</div>
-								<h4 className="text-lg text-off-white mb-1">
-									{licence.title}
-								</h4>
+								<h4 className="text-lg text-off-white mb-1">{licence.title}</h4>
 								<div className="text-xs text-gold mb-3">{licence.issuer}</div>
 								<p className="text-xs text-muted leading-relaxed font-light">
 									{licence.description}

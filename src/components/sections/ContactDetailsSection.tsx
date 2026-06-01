@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import PlaceIcon from "@mui/icons-material/Place";
@@ -27,10 +27,8 @@ type DirectContact = {
 
 export default function ContactDetailsSection() {
 	const { t } = useTranslation([  "contact" ]);
-	const offices = t("contact:offices.items", { returnObjects: true }) as Office[];
-	const contacts = t("contact:direct_contacts.items", {
-		returnObjects: true,
-	}) as DirectContact[];
+	const offices = t("contact:offices.items", { returnObjects: true }) as unknown as Office[];
+	const contacts = t("contact:direct_contacts.items", { returnObjects: true	}) as unknown as DirectContact[];
 
 	return (
 		<>

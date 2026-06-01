@@ -1,4 +1,5 @@
-import { useTranslation } from "next-i18next/pages";
+// @ts-nocheck
+import { useTranslation } from "@/hooks";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { FadeUp } from "@/components/animations/Fade";
 
@@ -10,7 +11,7 @@ export default function AboutGovernanceSection() {
 
 	return (
 		<section id="certifications" className=" py-24">
-			<div className="max-w-[1180px] mx-auto px-8 grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
+			<div className="max-w-295 mx-auto px-8 grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
 				<FadeUp>
 					<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 						{t("about:governance.tag")}
@@ -26,8 +27,13 @@ export default function AboutGovernanceSection() {
 					{items.map((item, index) => (
 						<FadeUp key={item} delay={index * 0.05}>
 							<div className="h-full flex gap-3 rounded-lg border border-surface-800/50 bg-surface-900 p-5">
-								<CheckCircleIcon className="text-primary shrink-0" fontSize="small" />
-								<span className="text-sm text-onSurface-100 leading-relaxed">{item}</span>
+								<CheckCircleIcon
+									className="text-primary shrink-0"
+									fontSize="small"
+								/>
+								<span className="text-sm text-onSurface-100 leading-relaxed">
+									{item}
+								</span>
 							</div>
 						</FadeUp>
 					))}

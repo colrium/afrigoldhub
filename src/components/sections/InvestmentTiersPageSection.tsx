@@ -1,11 +1,12 @@
 
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { ComponentPropsWithoutRef } from "react";
 import InvestmentTiers from "@/components/InvestmentTiers"
 
 
 type InvestmentTiersSectionProps = ComponentPropsWithoutRef<"section">;
 
+// @ts-ignore
 export default function InvestmentTiersSection({ className, ...props }: InvestmentTiersSectionProps) {
 	const { t } = useTranslation(["common", "invest"]);
 

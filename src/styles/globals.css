@@ -99,6 +99,21 @@ select option {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
+/* Targets the actual dropdown wrapper popover list */
+::picker(select) {
+    background-color: var(--color-surface-900);
+    border-radius: 8px;
+    color: var(--color-onSurface-100);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+select option {
+    margin: 40px;
+    /* background: var(--color-surface-900);
+    color: var(--color-onSurface-100);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); */
+}
+
 h4,
 h5,
 h6,

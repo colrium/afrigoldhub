@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import PinDropIcon from "@mui/icons-material/PinDrop";
 

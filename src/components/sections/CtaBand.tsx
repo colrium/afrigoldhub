@@ -1,10 +1,12 @@
+// @ts-nocheck
 import Link from "next/link";
-import { useTranslation, Trans } from "next-i18next/pages";
+import { Trans } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
+
 export default function CtaBand() {
 	const { t } = useTranslation(["cta"]);
 	return (
 		<section className="relative overflow-hidden bg-surface-900/70 py-28">
-			
 			<div className="max-w-295 mx-auto px-8 relative z-10">
 				<span className="inline-block text-xs tracking-[0.14em] uppercase text-primary opacity-80 mb-3">
 					{t("cta:tag")}

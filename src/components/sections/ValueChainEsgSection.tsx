@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import EnergySavingsLeafIcon from "@mui/icons-material/EnergySavingsLeaf";
 
 type EsgItem = {

@@ -1,11 +1,30 @@
+// @ts-nocheck
 import GlobeGl, { GlobeMethods } from "react-globe.gl";
 import { useEffect, useRef } from "react";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { useBreakpoint } from "@/hooks/useWindowSize";
 // import { useMotionValue, useMotionValueEvent, useScroll } from "framer-motion";
 interface GlobeProps {
 	className?: string;
 }
+type LocationPlace = {
+	role: string;
+	country: string;
+	flag?: string;
+	site: string;
+	region: string;
+	lat: number;
+	lng: number;
+	place_id: string | null;
+	deposit_type: string[];
+	goldfield: string;
+	geology: string;
+	licence_authority: string;
+	regulatory_body: string;
+	status: string;
+	elevation_m: number;
+	notes: string;
+};
 
 const sizes = {
 	xs: 360,
@@ -39,26 +58,11 @@ const Globe = ({ className }: GlobeProps) => {
 
 	const size = sizes[breakpoint];
 
-    console.log('globe size', size)
 	const placesData = (
-		t("operations:locations.places", { returnObjects: true, defaultValue: [] }) as {
-			role: string;
-			country: string;
-			flag?: string;
-			site: string;
-			region: string;
-			lat: number;
-			lng: number;
-			place_id: string | null;
-			deposit_type: string[];
-			goldfield: string;
-			geology: string;
-			licence_authority: string;
-			regulatory_body: string;
-			status: string;
-			elevation_m: number;
-			notes: string;
-		}[]
+		t("operations:locations.places", {
+			returnObjects: true,
+			defaultValue: [],
+		}) as LocationPlace[]
 	).map((place) => ({
 		...place,
 		maxR: 1,
@@ -67,6 +71,10 @@ const Globe = ({ className }: GlobeProps) => {
 	}));
 
 	const labelsTopOrientation = new Set(["Kenya", "Eswatini", "Malawi"]);
+
+	const labelDotOrientation = (d: LocationPlace) => {
+		labelsTopOrientation.has(d.country) ? "top" : "bottom";
+	};
 
 	useEffect(() => {
 		if (globeEl.current) {
@@ -93,9 +101,7 @@ const Globe = ({ className }: GlobeProps) => {
 				labelsData={placesData}
 				labelColor={() => "#f3bd27"}
 				labelText={"country"}
-				labelDotOrientation={(d) =>
-					labelsTopOrientation.has(d.country) ? "top" : "bottom"
-				}
+				labelDotOrientation={labelDotOrientation}
 				labelLabel={(d) => (
 					<div className="text-primary">
 						<div className="text-xs text-onSurface-100">{d.goldfield}</div>

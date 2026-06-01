@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { FadeUp } from "@/components/animations/Fade";
 
 type TeamMember = {

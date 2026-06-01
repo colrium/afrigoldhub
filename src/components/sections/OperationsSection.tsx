@@ -1,5 +1,5 @@
 
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { useRef } from "react";
 import StackedCards from "../animations/StackedCards";
 

@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import FactoryIcon from "@mui/icons-material/Factory";
 import LandscapeIcon from "@mui/icons-material/Landscape";

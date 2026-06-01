@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 const columnKeys = ["company", "invest", "resources", "contact"] as const;
 const legalLinks = {
 	privacy: "/privacy-policy",
@@ -19,7 +19,7 @@ export default function Footer() {
 						<Link href="/" className="flex items-center gap-2.5 mb-5">
 							<Image
 								className="hidden md:flex md:mr-1"
-								src="/img/logo-three-tone.svg"
+								src="/img/logo.svg"
 								alt="logo"
 								width={32}
 								height={32}

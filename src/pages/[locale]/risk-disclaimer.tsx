@@ -1,7 +1,7 @@
 import type { GetServerSideProps, NextPage } from "next";
 import PageHead from "@/components/Head";
 import { LegalPageSection } from "@/components/sections";
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import { getI18nProps } from "@/lib/i18n";
 
 type PageProps = {

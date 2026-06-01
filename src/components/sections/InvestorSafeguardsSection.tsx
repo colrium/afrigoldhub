@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next/pages";
+import { useTranslation } from "@/hooks";
 import ShieldIcon from "@mui/icons-material/Shield";
 
 type Safeguard = {
