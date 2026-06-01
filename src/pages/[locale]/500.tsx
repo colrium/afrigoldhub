@@ -1,4 +1,4 @@
-import type { GetServerSideProps, NextPage } from "next";
+import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { useTranslation } from "@/hooks";
 import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
@@ -37,8 +37,7 @@ const ServerErrorPage: NextPage<PageProps> = () => {
 	);
 };
 
-
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticProps: GetStaticProps = async (context) => {
 	const i18nProps = await getI18nProps(context, ["common"]);
 	return { props: { ...i18nProps } };
 };

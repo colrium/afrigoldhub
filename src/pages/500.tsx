@@ -1,3 +1,3 @@
-import Page, { getServerSideProps } from "./[locale]/500";
+import Page, { getStaticProps } from "./[locale]/500";
 export default Page;
-export { getServerSideProps };
+export { getStaticProps };

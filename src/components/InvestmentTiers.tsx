@@ -29,10 +29,10 @@ type InvestmentTiersProps = ComponentPropsWithoutRef<"div"> & {
 	tag?: string | number | ReactElement;
 };
 
-// @ts-ignore
+
 export default function InvestmentTiers({ className, ...props }: InvestmentTiersProps) {
-	const { t } = useTranslation(["common", "invest"]);
-	const tiers = t("invest:tiers.items", { returnObjects: true }) as unknown as Tier[];
+	const { t, tObject } = useTranslation(["common", "invest"]);
+	const tiers = tObject<Tier[]>("invest:tiers.items", { returnObjects: true });
 
 	return (
 		<div className={`grid lg:grid-cols-3 gap-6 ${className || ""}`} {...props}>

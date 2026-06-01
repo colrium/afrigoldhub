@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useReducer, useRef } from "react";
 
-type SetStateAction<S> = Partial<S> | ((prevState: S) => Partial<S>);
+type SetStateActionFunc<S> = (prevState: S) => Partial<S>;
+type SetStateAction<S> = Partial<S> | SetStateActionFunc<S>;
 type SetStateCallback = () => void;
 
 type ReducerState<S> = S extends object ? S : Record<string, unknown>;
@@ -16,7 +17,6 @@ function useSetState<S extends object>(initialState: S) {
 		if (!callbackRef.current) {
 			return;
 		}
-
 		const callback = callbackRef.current;
 		callbackRef.current = undefined;
 		callback();
