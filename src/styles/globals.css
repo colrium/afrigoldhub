@@ -99,6 +99,12 @@ select option {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
+select option:disabled {
+    margin: 40px;
+    background: var(--color-surface-900);
+    color: var(----color-muted);
+}
+
 /* Targets the actual dropdown wrapper popover list */
 ::picker(select) {
     background-color: var(--color-surface-900);

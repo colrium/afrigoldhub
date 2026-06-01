@@ -141,6 +141,9 @@
 		"switchedToAI": "Umebadilishwa kwa msaidizi wa AI. Ninaweza kujibu maswali mara moja kuhusu uwekezaji, shughuli, na mapato.",
 		"switchedToHuman": "Sasa umeunganishwa na timu yetu ya msaada ya binadamu. Muda wa kujibu unaweza kuwa saa 1–2 wakati wa saa za kazi (EAT).",
 		"humanFallback": "Asante kwa ujumbe wako. Mwanachama wa timu yetu ya uwekezaji atajibu ndani ya saa 1–2 za biashara (Saa za Afrika Mashariki). Kwa maswali ya haraka, tuna barua pepe invest@afrigoldhub.com.",
-		"aiFallback": "Swali zuri. Kwa majibu ya kina kuhusu shughuli za AfriGold Hub au masharti ya uwekezaji, tafadhali tutumie barua pepe invest@afrigoldhub.com au panga simu ya utambuzi. Tunajibu ndani ya saa 24."
+		"aiFallback": "Swali zuri. Kwa majibu ya kina kuhusu shughuli za AfriGold Hub au masharti ya uwekezaji, tafadhali tutumie barua pepe invest@afrigoldhub.com au panga simu ya utambuzi. Tunajibu ndani ya saa 24.",
+		"whatsappLabel": "Ongea kwenye WhatsApp",
+		"whatsappMessage": "Habari AfriGold Hub, ningependa kuzungumza na timu yenu.",
+		"scrollTopLabel": "Rudi juu"
 	}
 }

@@ -1,11 +1,6 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import CssBaseline from "@mui/material/CssBaseline";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Fade from "@mui/material/Fade";
@@ -23,7 +18,7 @@ interface Props {
 
 const ScrollTop = (props: Props) => {
 	const { children, window, querySelector = "#back-to-top-anchor" } = props;
-	const { t, i18n } = useTranslation("common");
+	const { t } = useTranslation("common");
 	const trigger = useScrollTrigger({
 		target: window ? window() : undefined,
 		disableHysteresis: true,
@@ -45,8 +40,22 @@ const ScrollTop = (props: Props) => {
 
 	return (
 		<Fade in={trigger}>
-			<Box onClick={handleClick} role="presentation" sx={{ position: "fixed", bottom: 16, right: 16 }}>
-				<Fab size="small" aria-label="scroll back to top">
+			<Box
+				onClick={handleClick}
+				role="presentation"
+				sx={{
+					position: "fixed",
+					bottom: 16,
+					right: 16,
+					zIndex: (theme) => theme.zIndex.speedDial,
+				}}
+			>
+				<Fab
+					size="small"
+					aria-label={t("common:chat.scrollTopLabel", {
+						defaultValue: "Scroll back to top",
+					})}
+				>
 					<KeyboardArrowUpIcon />
 				</Fab>
 				{children}

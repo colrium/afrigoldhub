@@ -144,6 +144,9 @@
 		"switchedToAI": "Passé à l'assistant IA. Je peux répondre instantanément aux questions sur les investissements, les opérations et les rendements.",
 		"switchedToHuman": "Vous êtes maintenant connecté à notre équipe de support humain. Les délais de réponse sont de 1 à 2 heures pendant les heures ouvrables (EAT).",
 		"humanFallback": "Merci pour votre message. Un membre de notre équipe d'investissement vous répondra sous 1 à 2 heures ouvrables (heure d'Afrique de l'Est). Pour toute question urgente, écrivez à invest@afrigoldhub.com.",
-		"aiFallback": "Excellente question. Pour des réponses détaillées sur les opérations ou les conditions d'investissement d'AfriGold Hub, veuillez nous écrire à invest@afrigoldhub.com ou planifier un appel de découverte. Nous répondons sous 24 heures."
+		"aiFallback": "Excellente question. Pour des réponses détaillées sur les opérations ou les conditions d'investissement d'AfriGold Hub, veuillez nous écrire à invest@afrigoldhub.com ou planifier un appel de découverte. Nous répondons sous 24 heures.",
+		"whatsappLabel": "Discuter sur WhatsApp",
+		"whatsappMessage": "Bonjour AfriGold Hub, je souhaite parler avec votre equipe.",
+		"scrollTopLabel": "Retour en haut"
 	}
 }
