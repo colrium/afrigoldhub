@@ -2,19 +2,19 @@
 	
 	"hero": {
 		"tag": "About AfriGold Hub",
-		"headline": "A disciplined gold platform built in the field",
-		"description": "AfriGold Hub brings licensed mining operations, chemical-free gravity processing, investor-grade reporting, and community-first governance into one transparent gold production platform.",
+		"headline": "A field-built gold platform for exploration, mining, processing, and supply",
+		"description": "AfriGold Hub is a growing gold exploration, artisanal mining, mineral processing, and mineral supply company operating through experienced local teams, mineral-rich concessions, community relationships, and partner-ready reporting.",
 		"badge": { "text": "Licensed operations across seven African markets", "status": "active" },
 		"cta_primary": { "label": "See Operations", "href": "/operations" },
 		"cta_secondary": { "label": "Meet the Team", "href": "#team" }
 	},
 	"story": {
 		"tag": "Our Story",
-		"headline": "Built for trust, not speculation",
-		"description": "The AfriGold Hub model was shaped by a simple observation: artisanal gold can be highly productive, but it only becomes investable when the operation is licensed, documented, and governed with discipline. We built our platform around that standard.",
+		"headline": "Built from local mining knowledge into regional supply",
+		"description": "The AfriGold Hub model was shaped by a simple observation: artisanal and small-scale gold can be highly productive, but it only becomes investable when exploration, extraction, processing, buyer engagement, and reporting are handled with discipline. We built our platform around that standard.",
 		"paragraphs": [
-			"Our team combines field operators, finance professionals, compliance specialists, and ESG advisors who have worked across East, West, and Southern African mineral corridors.",
-			"Instead of selling exposure to a vague commodity opportunity, we give partners visibility into the actual production chain: where ore is extracted, how it is processed, how bars are assayed, how buyers settle, and how distributions are calculated."
+			"Our team combines field operators, local mining networks, finance professionals, compliance specialists, and ESG advisors who have worked across East, West, and Southern African mineral corridors.",
+			"Instead of selling exposure to a vague commodity opportunity, we give partners visibility into the actual production chain: where deposits are assessed, how ore is extracted, how recovery systems perform, how dore or refined gold is verified, how buyers settle, and how distributions are calculated."
 		],
 		"stats": [
 			{ "value": "7", "label": "Operating countries" },

@@ -21,6 +21,18 @@
 		{
 			"q": "What is the minimum investment commitment period?",
 			"a": "The minimum commitment is three months, which also aligns with the projected capital payback window. After the initial term, partners may roll over, exit, or renegotiate their tier with 30 days' notice."
+		},
+		{
+			"q": "Can equipment suppliers or mining technology companies partner with AfriGold Hub?",
+			"a": "Yes. AfriGold Hub is actively seeking partners for crushing equipment, milling systems, gravity recovery systems, mobile recovery units, drone surveying, site monitoring, CCTV, security, inventory, compliance, and export logistics systems."
+		},
+		{
+			"q": "Does AfriGold Hub support gold supply for approved buyers?",
+			"a": "Yes. AfriGold Hub supports structured dore supply, refined-gold partnerships, quality verification, export documentation support, logistics coordination, buyer engagement, traceability, and reporting for approved commercial partners."
+		},
+		{
+			"q": "What exploration work happens before production scales?",
+			"a": "Exploration work can include geological mapping, mineral surveys, gold ore identification, field sampling, quartz reef assessment, trenching and drilling support, reserve analysis, feasibility studies, and mine planning support."
 		}
 	]
 }

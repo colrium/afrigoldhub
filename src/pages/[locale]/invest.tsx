@@ -7,6 +7,7 @@ import {
 	InvestorProcessSection,
 	InvestorSafeguardsSection,
 	MetricsSection,
+	TechnologyPartnershipSection,
 	TestimonialsSection,
 	ValueChainCtaSection,
 } from "@/components/sections";
@@ -23,6 +24,7 @@ const InvestPage: NextPage<PageProps> = () => {
 			<PageHead pageName="invest" />
 			<InvestHero />
 			<InvestmentOpportunitiesSection />
+			<TechnologyPartnershipSection />
 			<InvestmentTiersPageSection />
 			<div className="p-2 md:p-8 bg-[#0A0A0A]">
 				<MetricsSection />

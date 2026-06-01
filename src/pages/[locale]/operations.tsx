@@ -2,6 +2,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import PageHead from "@/components/Head";
 import {
 	OperationsCapabilitiesSection,
+	OperationsExplorationSection,
 	OperationsHero,
 	OperationsNetworkSection,
 	OperationsOverviewSection,
@@ -20,6 +21,7 @@ const OperationsPage: NextPage<PageProps> = () => {
 			<PageHead pageName="operations" />
 			<OperationsHero />
 			<OperationsOverviewSection />
+			<OperationsExplorationSection />
 			<OperationsCapabilitiesSection />
 			<OperationsSection />
 			<OperationsNetworkSection />
