@@ -50,6 +50,6 @@ export async function getI18nProps(
 	if (!locale) return null;
 
 	return {
-		...(await serverSideTranslations(locale, namespaces)),
+		...(await serverSideTranslations(locale, namespaces, i18nextConfig)),
 	};
 }
