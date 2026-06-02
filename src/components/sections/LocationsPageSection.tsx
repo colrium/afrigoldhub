@@ -52,7 +52,7 @@ const galleryItems = [
 		className: "",
 	},
 	{
-		src: "/media/sale-distribution.jpeg",
+		src: "/media/sale-distribution.png",
 		title: "Documented distribution",
 		label: "Sales",
 		className: "",
