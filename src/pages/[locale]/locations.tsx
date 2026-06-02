@@ -23,6 +23,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		"meta",
 		"operations",
         "locations",
+		"gallery",
 		"metrics",
 		"why",
 		"history",

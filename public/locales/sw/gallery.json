@@ -1,18 +1,87 @@
 {
-	"tag": "Hadithi ya Kuona",
-	"headline": "Kutoka ardhini hadi <gold>dhahabu</gold>",
-	"description": "Muonekano wa ndani ya shughuli zetu za Uwanja wa Dhahabu: uchimbaji, usindikaji wa mvuto, kuyeyusha, na bidhaa iliyokamilika.",
-	"filters": {
-		"all": "Zote",
-		"mining": "Uchimbaji",
-		"processing": "Usindikaji",
-		"smelting": "Kuyeyusha",
-		"product": "Bidhaa ya Mwisho",
-		"video": "▶ Video"
+	"tag": "Visual Story",
+	"headline": "From earth to <gold>gold</gold>",
+	"description": "A look inside our Goldfield operations: extraction, gravity processing, smelting, and the finished product.",
+	"categoryOverview": "Category description",
+	"items": "items",
+	"mutedNotice": "Videos start muted. Use the player controls to unmute.",
+	"sections": {
+		"locations": {
+			"tag": "Field Gallery",
+			"headline": "Locations in view",
+			"description": "Organized imagery from licensed sites, extraction areas, and geological survey material across the AfriGold Hub network.",
+			"allDescription": "Review site context, extraction zones, and geological evidence in one organized location gallery."
+		},
+		"operations": {
+			"tag": "Operations Gallery",
+			"headline": "Field activity, equipment, and recovery",
+			"description": "A media view of artisanal mining coordination, processing equipment, smelting, assay work, and supporting operational assets.",
+			"allDescription": "Browse the operational chain from field activity through processing, equipment, smelting, and assay handling."
+		},
+		"valueChain": {
+			"tag": "Value Chain Gallery",
+			"headline": "Processing to market-ready gold",
+			"description": "Visual checkpoints across processing, smelting and assay, sale distribution, and finished nugget handling.",
+			"allDescription": "Follow the visual evidence trail from recovery and assay work through documented distribution and finished gold."
+		}
 	},
-	"loadMore": "Pakia Zaidi",
-	"mediaTypes": {
-		"image": "Picha",
+	"categories": {
+		"site": {
+			"label": "Site",
+			"description": "General field imagery showing active locations, access conditions, surrounding terrain, and the operating environment."
+		},
+		"site-extraction": {
+			"label": "Site Extraction",
+			"description": "Extraction-focused media from licensed pits, working faces, field crews, and early material handling points."
+		},
+		"geological-survey": {
+			"label": "Geological Survey",
+			"description": "Survey and geological reference material used to communicate deposit context and field assessment work."
+		},
+		"artisanal-mining": {
+			"label": "Artisanal Mining",
+			"description": "Field media showing artisanal mining activity, local working methods, and production realities on the ground."
+		},
+		"processing": {
+			"label": "Processing",
+			"description": "Gravity recovery, processing checkpoints, and material preparation imagery from the operational flow."
+		},
+		"equipment": {
+			"label": "Equipment",
+			"description": "Operational equipment, tools, and site assets that support safer recovery, handling, and documentation."
+		},
+		"smelting-and-assay": {
+			"label": "Smelting and Assay",
+			"description": "Smelting, assay, and verification media showing the transition from recovered material to tested gold output."
+		},
+		"sale-distribution": {
+			"label": "Sale Distribution",
+			"description": "Buyer handling, distribution, and documentation media connected to the commercial side of the value chain."
+		},
+		"nuggets": {
+			"label": "Nuggets",
+			"description": "Finished gold and nugget imagery used to show physical product quality and market-ready output."
+		}
+	},
+	"filters": {
+		"all": "All",
+		"allDescription": "Show every category in this gallery.",
+		"mining": "Mining",
+		"processing": "Processing",
+		"smelting": "Smelting",
+		"product": "End Product",
 		"video": "Video"
-	}
+	},
+	"actions": {
+		"close": "Close",
+		"next": "Next",
+		"previous": "Previous",
+		"playVideo": "Play video",
+		"viewImage": "View image"
+	},
+	"mediaTypes": {
+		"image": "Image",
+		"video": "Video"
+	},
+	"loadMore": "Load More"
 }

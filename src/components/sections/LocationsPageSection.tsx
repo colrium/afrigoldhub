@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { GallerySection } from "@/components/gallery";
 import { useTranslation } from "@/hooks";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import FactoryIcon from "@mui/icons-material/Factory";
@@ -25,39 +26,6 @@ type MineLocation = {
 	elevation_m?: number;
 	notes?: string;
 };
-
-const galleryItems = [
-	{
-		src: "/media/site-extraction.jpeg",
-		title: "Licensed pit extraction",
-		label: "Mining",
-		className: "md:col-span-2 md:row-span-2",
-	},
-	{
-		src: "/media/gravity-processing.jpeg",
-		title: "Gravity processing circuit",
-		label: "Processing",
-		className: "",
-	},
-	{
-		src: "/media/smelting.jpeg",
-		title: "On-site smelting",
-		label: "Smelting",
-		className: "",
-	},
-	{
-		src: "/media/14.jpeg",
-		title: "Field operations",
-		label: "Site work",
-		className: "",
-	},
-	{
-		src: "/media/sale-distribution.png",
-		title: "Documented distribution",
-		label: "Sales",
-		className: "",
-	},
-];
 
 function googleMapSrc(location: MineLocation) {
 	const query = encodeURIComponent(`${location.lat},${location.lng}`);
@@ -279,55 +247,10 @@ export default function LocationsPageSection() {
 				</div>
 			</section>
 
-			<section id="gallery" className="py-16 md:py-24 bg-[#080808]">
-				<div className="max-w-[1180px] mx-auto px-6 md:px-8">
-					<div className="mb-9 flex flex-col md:flex-row md:items-end md:justify-between gap-5">
-						<div className="max-w-[720px]">
-							<span className="inline-block text-xs uppercase text-primary mb-3">
-								Field Gallery
-							</span>
-							<h2 className="text-4xl md:text-5xl text-onSurface-100">
-								Inside the production network
-							</h2>
-							<p className="mt-4 text-onSurface-100 leading-[1.75] font-light">
-								Operational imagery from extraction, gravity processing, smelting,
-								and documented buyer handling.
-							</p>
-						</div>
-						<Link
-							href="/contact?reason=site-visit"
-							className="inline-flex items-center justify-center gap-2 text-[0.95rem] bg-primary text-black font-medium px-7 py-3.5 rounded border border-primary hover:bg-[#E5C46A] transition-all"
-						>
-							Request Site Visit
-							<ArrowOutwardIcon fontSize="small" />
-						</Link>
-					</div>
-
-					<div className="grid md:grid-cols-4 auto-rows-[250px] gap-4">
-						{galleryItems.map((item) => (
-							<article
-								key={item.src}
-								className={`group relative overflow-hidden rounded-lg border border-primary/15 bg-[#111111] ${item.className}`}
-							>
-								<Image
-									src={item.src}
-									alt={item.title}
-									fill
-									sizes="(min-width: 768px) 25vw, 100vw"
-									className="object-cover transition-transform duration-500 group-hover:scale-105"
-								/>
-								<div className="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent" />
-								<div className="absolute left-4 right-4 bottom-4">
-									<div className="text-xs uppercase text-primary mb-1">
-										{item.label}
-									</div>
-									<h3 className="text-onSurface-100 font-medium">{item.title}</h3>
-								</div>
-							</article>
-						))}
-					</div>
-				</div>
-			</section>
+			<GallerySection
+				categoryIds={["site", "site-extraction", "geological-survey"]}
+				sectionKey="locations"
+			/>
 		</div>
 	);
 }
