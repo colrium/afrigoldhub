@@ -20,19 +20,19 @@
 		"ctaPrimary": { "label": "Standortbesuch anfragen", "href": "/contact#site-visit" },
 		"items": [
 			{
-				"src": "/media/site-extraction.jpeg",
+				"src": "/media/artisanal-mining/artisanal-mining-6.png",
 				"title": "Lizenzierte Grubenförderung",
 				"label": "Bergbau",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
-				"src": "/media/gravity-processing.jpeg",
+				"src": "/media/processing/processing-1.png",
 				"title": "Gravitationsaufbereitungskreislauf",
 				"label": "Verarbeitung",
 				"className": ""
 			},
 			{
-				"src": "/media/smelting.jpeg",
+				"src": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"title": "Schmelzen vor Ort",
 				"label": "Schmelzen",
 				"className": ""
@@ -44,7 +44,7 @@
 				"className": ""
 			},
 			{
-				"src": "/media/sale-distribution.png",
+				"src": "/media/sale-distribution/sale-distribution-4.png",
 				"title": "Dokumentierte Verteilung",
 				"label": "Vertrieb",
 				"className": ""

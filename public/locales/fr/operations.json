@@ -219,7 +219,7 @@
 				"accent_color": "#A0763D",
 				"text_color": "#E8D9A0",
 				"icon": "site-extraction",
-				"image": "/media/site-extraction.jpeg",
+				"image": "/media/artisanal-mining/artisanal-mining-6.png",
 				"short_description": "Nos équipes d’excavation sous licence travaillent les zones de minerai alluvial et éluvial sur notre réseau de sept pays, sous des permis miniers actifs et une supervision rigoureuse. Chaque fosse est cartographiée, documentée et exploitée dans les limites certifiées par l’autorité nationale des mines.",
 				"long_description": "L’extraction chez AfriGold Hub commence bien avant qu’une pelle ne touche le sol. Chaque zone fait l’objet d’une évaluation géologique formelle pour cartographier la distribution de l’or alluvial et identifier les zones les plus productives. Nos géologues de terrain préparent des plans d’extraction qui équilibrent l’optimisation du rendement avec les exigences de réhabilitation du site.\n\nÀ Busia, en Ouganda, l’excavation suit l’ancien corridor alluvial de la rivière Malaba. Au Kenya et en Tanzanie, les formations alluviales similaires le long du bassin du lac Victoria produisent des teneurs constantes. En Sierra Leone et en Afrique du Sud, nos équipes travaillent les gisements éluviaux.\n\nToute l’extraction est effectuée par des équipes formées sous la supervision directe d’un chef de mine certifié. La production est pesée et enregistrée à la fosse, et un registre de traçabilité est initié au moment de l’extraction.\n\nAprès l’extraction, toutes les zones sont progressivement réhabilitées.",
 				"key_facts": [
@@ -239,7 +239,7 @@
 				"accent_color": "#7A9440",
 				"text_color": "#D4E8A0",
 				"icon": "gravity-processing",
-				"image": "/media/gravity-processing.jpeg",
+				"image": "/media/processing/processing-1.png",
 				"short_description": "Au cœur de l’engagement environnemental d’AfriGold Hub se trouve notre système de concentration gravimétrique sans produits chimiques. Utilisant uniquement l’eau, le mouvement et la différence de densité naturelle entre l’or et la gangue, nos systèmes séparent l’or sans mercure, sans cyanure et sans résidus toxiques.",
 				"long_description": "La concentration gravimétrique est à la fois la méthode la plus ancienne et la plus propre de récupération de l’or. AfriGold Hub a investi dans la modernisation de cette technique sur nos sept sites, déployant un système à étapes qui atteint des taux de récupération de 85 à 92 % sans aucun intrant chimique.\n\nLe processus commence par le sluice primaire. Le concentré primaire passe ensuite dans des concentrateurs à spirale, puis sur une table vibrante.\n\nL’eau utilisée dans le processus est recyclée via un système de bassins de décantation fermés, avec un taux de recyclage de 90 à 94 %. L’absence de mercure et de cyanure réduit notre coût de traitement à environ 8,40 $ par gramme.",
 				"key_facts": [
@@ -259,7 +259,7 @@
 				"accent_color": "#C8722A",
 				"text_color": "#F0C898",
 				"icon": "smelting",
-				"image": "/media/smelting.jpeg",
+				"image": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"short_description": "Nos fours de fusion sur site transforment le concentré gravimétrique nettoyé en barres d’or coulées. Chaque barre produite est analysée indépendamment pour sa pureté avant sa libération. Notre installation principale de Busia produit régulièrement des barres d’une pureté de 99,5 % ou plus.",
 				"long_description": "La fusion transforme le concentré en barre d’or. Le concentré est d’abord pesé et échantillonné. Le concentré en vrac est chargé dans un creuset en graphite placé dans un four à induction. Les impuretés sont éliminées par un flux. Le métal liquide raffiné est coulé dans des moules en graphite.\n\nChaque barre est pesée et marquée d’un numéro de série unique avant analyse indépendante. Notre installation de Busia produit régulièrement des barres de 99,5–99,7 % de pureté.",
 				"key_facts": [
@@ -278,7 +278,7 @@
 				"accent_color": "#C9A84C",
 				"text_color": "#E5C46A",
 				"icon": "sale-distribution",
-				"image": "/media/sale-distribution.png",
+				"image": "/media/sale-distribution/sale-distribution-4.png",
 				"short_description": "Les barres d’or finies sont vendues exclusivement à des acheteurs de métaux précieux agréés, avec déclarations complètes de redevances. Le produit est transféré sur le compte d’exploitation dans les 48 heures, et les distributions aux investisseurs sont traitées dans les 10 jours ouvrables suivant la fin du mois.",
 				"long_description": "La vente et la distribution suivent un processus strictement réglementé. En Ouganda, l’or est vendu à des négociants agréés par l’URA. Au Kenya, les ventes se font via des négociants agréés par le KRA.\n\nTous les produits de la vente sont reçus sur un compte conjoint dans les 48 heures. Le P&L mensuel audité est produit dans les 10 jours. Les distributions sont effectuées le 15 de chaque mois.",
 				"key_facts": [

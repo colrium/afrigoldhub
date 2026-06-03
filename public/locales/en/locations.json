@@ -20,19 +20,19 @@
         "ctaPrimary": { "label": "Request Site Visit", "href": "/contact#site-visit" },
 		"items": [
 			{
-				"src": "/media/site-extraction.jpeg",
+				"src": "/media/artisanal-mining/artisanal-mining-6.png",
 				"title": "Licensed pit extraction",
 				"label": "Mining",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
-				"src": "/media/gravity-processing.jpeg",
+				"src": "/media/processing/processing-1.png",
 				"title": "Gravity processing circuit",
 				"label": "Processing",
 				"className": ""
 			},
 			{
-				"src": "/media/smelting.jpeg",
+				"src": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"title": "On-site smelting",
 				"label": "Smelting",
 				"className": ""
@@ -44,7 +44,7 @@
 				"className": ""
 			},
 			{
-				"src": "/media/sale-distribution.png",
+				"src": "/media/sale-distribution/sale-distribution-4.png",
 				"title": "Documented distribution",
 				"label": "Sales",
 				"className": ""
