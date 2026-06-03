@@ -9,6 +9,7 @@ import {
 	OperationsSection,
 	CtaBand,
 } from "@/components/sections";
+import { GallerySection } from "@/components/gallery";
 import { getI18nProps } from "@/lib/i18n";
 
 type PageProps = {
@@ -24,6 +25,15 @@ const OperationsPage: NextPage<PageProps> = () => {
 			<OperationsExplorationSection />
 			<OperationsCapabilitiesSection />
 			<OperationsSection />
+			<GallerySection
+				categoryIds={[
+					"artisanal-mining",
+					"processing",
+					"equipment",
+					"smelting-and-assay",
+				]}
+				sectionKey="operations"
+			/>
 			<OperationsNetworkSection />
 			<CtaBand />
 		</div>
@@ -35,6 +45,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		"common",
 		"meta",
 		"operations",
+		"gallery",
 		"metrics",
 		"why",
 		"history",

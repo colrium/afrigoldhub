@@ -20,19 +20,19 @@
 		"ctaPrimary": { "label": "Solicitar Visita ao Local", "href": "/contact#site-visit" },
 		"items": [
 			{
-				"src": "/media/site-extraction.jpeg",
+				"src": "/media/artisanal-mining/artisanal-mining-6.png",
 				"title": "Extração em mina licenciada",
 				"label": "Mineração",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
-				"src": "/media/gravity-processing.jpeg",
+				"src": "/media/processing/processing-1.png",
 				"title": "Circuito de processamento por gravidade",
 				"label": "Processamento",
 				"className": ""
 			},
 			{
-				"src": "/media/smelting.jpeg",
+				"src": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"title": "Fundição no local",
 				"label": "Fundição",
 				"className": ""
@@ -44,7 +44,7 @@
 				"className": ""
 			},
 			{
-				"src": "/media/sale-distribution.png",
+				"src": "/media/sale-distribution/sale-distribution-4.png",
 				"title": "Distribuição documentada",
 				"label": "Vendas",
 				"className": ""

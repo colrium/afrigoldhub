@@ -9,6 +9,7 @@ import {
 	ValueChainStagesSection,
 	ValueChainTransparencySection,
 } from "@/components/sections";
+import { GallerySection } from "@/components/gallery";
 import { getI18nProps } from "@/lib/i18n";
 
 type PageProps = {
@@ -24,6 +25,10 @@ const ValueChainPage: NextPage<PageProps> = () => {
 			<ValueChainStagesSection />
 			<ValueChainMarginSection />
 			<ValueChainTransparencySection />
+			<GallerySection
+				categoryIds={["processing", "smelting-and-assay", "sale-distribution", "nuggets"]}
+				sectionKey="valueChain"
+			/>
 			<ValueChainEsgSection />
 			<ValueChainCtaSection />
 		</div>
@@ -35,6 +40,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		"common",
 		"meta",
 		"operations",
+		"gallery",
 		"metrics",
 		"why",
 		"history",

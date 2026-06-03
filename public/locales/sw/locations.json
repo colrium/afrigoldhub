@@ -20,19 +20,19 @@
 		"ctaPrimary": { "label": "Omba Ziara ya Tovuti", "href": "/contact#site-visit" },
 		"items": [
 			{
-				"src": "/media/site-extraction.jpeg",
+				"src": "/media/artisanal-mining/artisanal-mining-6.png",
 				"title": "Uchimbaji wa shimo lenye leseni",
 				"label": "Uchimbaji",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
-				"src": "/media/gravity-processing.jpeg",
+				"src": "/media/processing/processing-1.png",
 				"title": "Mzunguko wa usindikaji wa mvuto",
 				"label": "Usindikaji",
 				"className": ""
 			},
 			{
-				"src": "/media/smelting.jpeg",
+				"src": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"title": "Kuyeyusha kwenye tovuti",
 				"label": "Kuyeyusha",
 				"className": ""
@@ -44,7 +44,7 @@
 				"className": ""
 			},
 			{
-				"src": "/media/sale-distribution.png",
+				"src": "/media/sale-distribution/sale-distribution-4.png",
 				"title": "Usambazaji wenye kumbukumbu",
 				"label": "Mauzo",
 				"className": ""

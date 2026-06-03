@@ -20,19 +20,19 @@
 		"ctaPrimary": { "label": "Demander une visite de site", "href": "/contact#site-visit" },
 		"items": [
 			{
-				"src": "/media/site-extraction.jpeg",
+				"src": "/media/artisanal-mining/artisanal-mining-6.png",
 				"title": "Extraction sous licence",
 				"label": "Extraction",
 				"className": "md:col-span-2 md:row-span-2"
 			},
 			{
-				"src": "/media/gravity-processing.jpeg",
+				"src": "/media/processing/processing-1.png",
 				"title": "Circuit de traitement gravimétrique",
 				"label": "Traitement",
 				"className": ""
 			},
 			{
-				"src": "/media/smelting.jpeg",
+				"src": "/media/smelting-and-assay/smelting-and-assay-1.png",
 				"title": "Fusion sur site",
 				"label": "Fusion",
 				"className": ""
@@ -44,7 +44,7 @@
 				"className": ""
 			},
 			{
-				"src": "/media/sale-distribution.png",
+				"src": "/media/sale-distribution/sale-distribution-4.png",
 				"title": "Distribution documentée",
 				"label": "Ventes",
 				"className": ""
